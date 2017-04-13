@@ -1,5 +1,5 @@
 <bingoals>
-  <version version="2"></version>
+  <version version="4"></version>
   <info title="viceci"
                    description="Probably need to establish some concrete rules for less vagueness. Here's some I can think of:
         
@@ -7,7 +7,15 @@
 * If your game crashes during an objective (eg. while collecting packages) you must start over. So if you collected 14 out of 20 packages, then crash, you must collect those 14 packages again, rather than just the remaining 6. (I think, people please confirm this rule) -- I agree
 * Also you aren't allowed to reset the game to do objectives you lock yourself out (like mhmd did to do Drive Misty for me with a dodo), unless you reset your whole bingo card.
 
-Length:
+"></info>
+  <bools>
+    <bool name="glitchonly"
+                   description="This goal requires glitching the game to complete"
+                   type="bool"></bool>
+  </bools>
+
+
+  <!-- Length:
 0 = Can be done before An Old Friend and don't take too long (5-10 minutes max, roughly, with time spent driving to the objective not weighing as heavily. (Robberies will cost way less than the all robberies WR if properly routed within all the other objectives).
 1 = Can either be done before An Old Friend, but take a while to complete (10+ minutes), or can be done fairly early on (~before guardian angels) and don't take too long (5-10 min), again not weighing driving time as heavily.
 2 = Doable after Phnom Penh, and short. Or moderately long goals from the start. 
@@ -19,14 +27,11 @@ Difficulty:
 0 = Anyone who has ever completed a VC any% run/playthrough can do this without prior experience doing it
 1 = Takes some game knowledge to execute well but not too hard
 2 = Moderately hard but not frustratingly so
-3 = Designed to be difficult, even 100% runners struggle with this
-        
-        "></info>
-  <bools>
-    <bool name="glitchonly"
-                   description="This goal requires glitching the game to complete"
-                   type="bool"></bool>
-  </bools>
+3 = Designed to be difficult, even 100% runners struggle with this -->
+
+
+
+
 
   <goals>
     <!-- collectibles -->
@@ -129,11 +134,20 @@ Difficulty:
                    description="Complete Test Track"
                    difficulty="1"
                    length="0"></goal>
+    <goal name="Black Sanchez"
+                   description="Acquire a black sanchez by doing Trial by Dirt 3 times"
+                   difficulty="1"
+                   length="1"></goal>
 
     <goal name="PCJ Playground"
                    description="Complete PCJ Playground"
                    difficulty="2"
                    length="0"></goal>
+    <goal name="Cone Crazy Any%"
+                   description="Get a new Personal Best in Cone Crazy 9 times."
+                   difficulty="1"
+                   length="1"></goal>
+
     <goal name="Hotring"
                    description="Win the Hotring Stadium event"
                    difficulty="3"
@@ -181,6 +195,15 @@ Difficulty:
                    description="Complete Vigilante level 12"
                    difficulty="3"
                    length="3"></goal>
+    <goal name="Vigilante level 24"
+                     description="Complete Vigilante level 24"
+                     difficulty="3"
+                     length="3"></goal>
+    <goal name="Vigilante level 18"
+                   description="Complete Vigilante level 18"
+                   difficulty="3"
+                   length="3"></goal>
+
     <goal name="Paramedic level 6"
                    description="Complete paramedic level 6"
                    difficulty="0"
@@ -328,6 +351,10 @@ Difficulty:
                    description="Do what Ken tells you to do and smash up the 'Jury Fury' cars with the hammer"
                    difficulty="0"
                    length="1"></goal>
+    <goal name="RIOT!"
+                   description="Get the Spand Express uniform during 'Riot' and then kill all the rioters with your fists, or have them kill each other."
+                   difficulty="2"
+                   length="1"></goal>
 
     <!-- Property purchasing -->
     <goal name="Skumole Shack"
@@ -438,6 +465,10 @@ Difficulty:
                    description="Win all 6 different streetraces from Sunshine Autos"
                    difficulty="1"
                    length="4"></goal>
+    <goal name="No Pitstops allowed"
+                   description="Finish all 6 different Sunshine Autos races in a single vehicle without repairing it during"
+                   difficulty="3"
+                   length="4"></goal>
     <goal name="1 import list"
                    description="Complete the first of the car import lists at Sunshine Autos"
                    difficulty="0"
@@ -541,68 +572,11 @@ Difficulty:
                    description="Lose a 4 star wanted level just by picking up cop bribes"
                    difficulty="2"
                    length="0"></goal>
-
-    <!-- Misc stuff -->
-    <goal name="Backstabber"
-                   description="Kill Lance 3 times with a screwdriver"
-                   difficulty="0"
-                   length="1"></goal>
-    <goal name="Roundboat trip"
-                   description="Circumvent Vice City by boat"
-                   difficulty="0"
-                   length="1"></goal>
-    <goal name="Ugly car disposal"
-                   description="Destroy the Infernus in North Point Mall without using weapons"
-                   difficulty="0"
-                   length="0"></goal>
-    <goal name="Malibu Murder"
-                   description="Kill all dancers and guards in the Malibu including guards upstairs. (Police officers coming to hunt you down not required, except for the one on stage)"
-                   difficulty="2"
-                   length="0"></goal>
-    <goal name="Apache"
-                   description="Fly in a hunter"
-                   difficulty="3"
-                   length="4"></goal>
-    <goal name="Minigun fun"
-                   description="Acquire a minigun"
-                   difficulty="2"
-                   length="4"></goal>
-    <goal name="Landstalker roll"
-                   description="Do 10 rolls on the ground in a row with a Landstalker"
-                   difficulty="3"
-                   length="0"></goal>
-    <goal name="Get laid"
-                   description="Get laid and have your health go to 125 (or 175 if pizzaboy has been passed)"
-                   difficulty="0"
-                   length="0"></goal>
-    <goal name="25 Beachball bounces"
-                   description="Do 25 bounces in a row with a beach ball"
-                   difficulty="3"
-                   length="0"></goal>
-    <goal name="Firetruck Vs Caddy"
-                   description="Smash into a driving golf cart headon with a firetruck"
+    <goal name="6 Star Mission"
+                   description="Do an entire mission that changes the savefile name with a 6* wanted level (must be acquired before starting the mission, and kept all the way until mission passed"
                    difficulty="3"
                    length="3"></goal>
-    <goal name="Bus Driver"
-                   description="Make 50 dollars by doing the bus driver minigame"
-                   difficulty="1"
-                   length="0"></goal>
-    <goal name="Bird Buster"
-                   description="Kill a seagull"
-                   difficulty="0"
-                   length="0"></goal>
-    <goal name="2 seconds - 2 wheels"
-                   description="Do a Two Wheels Double Bonus for 2 seconds"
-                   difficulty="2"
-                   length="0"></goal>
-    <goal name="15 second Wheelie"
-                   description="Do a Wheelie for 15 seconds"
-                   difficulty="3"
-                   length="0"></goal>
-    <goal name="Nice Pants"
-                   description="Acquire the Golfer Outfit"
-                   difficulty="0"
-                   length="2"></goal>
+
 
     <!-- Never do X challenges -->
     <goal name="Never save"
@@ -622,7 +596,7 @@ Difficulty:
                    difficulty="3"
                    length="0"></goal>
     <goal name="No Helicopters"
-                   description="Don't use Helicopters. 'Demolition Man' and RC Raider Pickup excluded."
+                   description="Don't use Helicopters. 'Demolition Man', Chopper Checkpoint and RC Raider Pickup excluded."
                    difficulty="1"
                    length="0"></goal>
     <goal name="Mission Failer"
@@ -637,6 +611,17 @@ Difficulty:
                    description="Do not put your vehicle in reverse"
                    difficulty="3"
                    length="0"></goal>
+    <goal name="No PCJ"
+                   description="Driving the PCJ is prohibited (Except to do PCJ Playground)"
+                   difficulty="1"
+                   length="0"></goal>
+    <goal name="No parked vehicle spawns"
+                   description="It is not allowed to take parked vehicles. Only vehicles that have previously had a driver during gameplay may be driven (this includes mission vehicles of which the driver got out, like Ken's white Admiral in the intro, or the sanchezes in Guardian Angels). 
+Previously stolen vehicles may be entered again, and parked vehicles REQUIRED for mission progression (such as Lance's Infernus on Back Alley Brawl or the boat on The Fastest Boat, but not the Mall Shootout PCJs) are excepted. 
+Includes vehicles for PCJ Playground etc, these must be stolen off the road first. (Except for Top Fun vans)"
+                   difficulty="2"
+                   length="0"></goal>
+
 
     <!-- Easter Eggs -->
     <goal name="Gorbatchegg"
@@ -674,11 +659,56 @@ Difficulty:
                    difficulty="2"
                    length="0"></goal>
 
-    <!-- New Goals by S.-->
-    <goal name="Vigilante level 24"
-                   description="Complete Vigilante level 24"
+
+    <!-- Misc stuff -->
+    <goal name="Backstabber"
+                   description="Kill Lance 3 times with a screwdriver"
+                   difficulty="0"
+                   length="1"></goal>
+    <goal name="Melee Master"
+                   description="Kill someone with all 10 melee weapons in the game, as well as with the brass knuckles"
+                   difficulty="0"
+                  length="0"></goal>
+    <goal name="Roundboat trip"
+                   description="Circumvent Vice City by boat"
+                   difficulty="0"
+                   length="1"></goal>
+    <goal name="Boat Hopper"
+                   description="Jump onto a moving boat, then from that boat onto another moving boat."
                    difficulty="3"
-                   length="3"></goal>
+                   length="0"></goal>
+    <goal name="Boat Flip"
+                   description="Flip a boat upside down"
+                   difficulty="1"
+                   length="0"></goal>
+    <goal name="Ugly car disposal"
+                   description="Destroy the Infernus in North Point Mall without using weapons"
+                   difficulty="0"
+                   length="0"></goal>
+    <goal name="Malibu Murder"
+                   description="Kill all dancers and guards in the Malibu including guards upstairs. (Police officers coming to hunt you down not required, except for the one on stage)"
+                   difficulty="2"
+                   length="0"></goal>
+    <goal name="Apache"
+                   description="Fly in a hunter"
+                   difficulty="3"
+                   length="4"></goal>
+    <goal name="Minigun fun"
+                   description="Acquire a minigun"
+                   difficulty="2"
+                   length="4"></goal>
+    <goal name="Landstalker roll"
+                   description="Do 10 rolls on the ground in a row with a Landstalker"
+                   difficulty="3"
+                   length="0"></goal>
+    <goal name="Get laid"
+                   description="Get laid and have your health go to 125 (or 175 if pizzaboy has been passed)"
+                   difficulty="0"
+                   length="0"></goal>
+    <goal name="25 Beachball bounces"
+                   description="Do 25 bounces in a row with a beach ball"
+                   difficulty="3"
+                   length="0"></goal>
     <goal name="Boatball"
                    description="Bounce a beachball on your head while standing on a boat"
                    difficulty="3"
@@ -687,21 +717,37 @@ Difficulty:
                    description="Find a beachball on the beach, then bounce it on your head 5 times"
                    difficulty="1"
                    length="0"></goal>
-    <goal name="No Pitstops allowed"
-                   description="Finish all 6 different Sunshine Autos races in a single vehicle without repairing it during"
+    <goal name="Firetruck Vs Caddy"
+                   description="Smash into a driving golf cart headon with a firetruck"
                    difficulty="3"
-                   length="4"></goal>
-    <goal name="RIOT!"
-                   description="Get the Spand Express uniform during 'Riot' and then kill all the rioters with your fists, or have them kill each other."
+                   length="3"></goal>
+    <goal name="Bus Driver"
+                   description="Make 50 dollars by doing the bus driver minigame"
+                   difficulty="1"
+                   length="0"></goal>
+    <goal name="Bird Buster"
+                   description="Kill a seagull"
+                   difficulty="0"
+                   length="0"></goal>
+    <goal name="2 seconds - 2 wheels"
+                   description="Do a Two Wheels Double Bonus for 2 seconds"
                    difficulty="2"
-                   length="1"></goal>
+                   length="0"></goal>
+    <goal name="15 second Wheelie"
+                   description="Do a Wheelie for 15 seconds"
+                   difficulty="3"
+                   length="0"></goal>
+    <goal name="Free Wheelie"
+                   description="Get a wheelie award of at least 5 seconds with the Freeway or Angel"
+                   difficulty="0"
+                   length="0"></goal>
+    <goal name="Nice Pants"
+                   description="Acquire the Golfer Outfit"
+                   difficulty="0"
+                   length="2"></goal>
     <goal name="It shone, pale as bone"
                    description="Change the size of the moon"
                    difficulty="0"
-                   length="0"></goal>
-    <goal name="No parked vehicle spawns"
-                   description="It is not allowed to take parked vehicles. Only vehicles that have previously had a driver during gameplay may be driven. Previously stolen vehicles may be entered again, and parked vehicles required for missions (such as Lance's Infernus on Back Alley Brawl or the boat on The Fastest Boat) are excepted. Includes vehicles for PCJ Playground etc, these must be stolen off the road first. (Except for Top Fun vans)"
-                   difficulty="2"
                    length="0"></goal>
     <goal name="Admiral meets Mansion"
                    description="Drive Ken's White Admiral from the intro inside Diaz's/Tommy's mansion on Starfish Island"
@@ -723,18 +769,21 @@ Difficulty:
                    description="Earn $500 total via Good Citizen / Nice Guy bonuses"
                    difficulty="0"
                    length="1"></goal>
-    <goal name="Boat Hopper"
-                   description="Jump onto a moving boat, then from that boat onto another moving boat."
-                   difficulty="3"
-                   length="0"></goal>
-    <goal name="6 Star Mission"
-                   description="Do an entire mission that changes the savefile name with a 6* wanted level (must be acquired before starting the mission, and kept all the way until mission passed"
-                   difficulty="3"
-                   length="3"></goal>
-    <goal name="Melee Master"
-                   description="Kill someone with all 10 melee weapons in the game, as well as with the brass knuckles"
+    <goal name="Not so Nice Guy"
+                   description="Help a criminal on the run by eliminating the cop who is chasing him"
                    difficulty="0"
-                  length="0"></goal>
+                   length="0"></goal>
+    <goal name="Power Saver"
+                   description="Smash all the lamp posts on Links Bridge at least once"
+                   difficulty="0"
+                   length="0"></goal>
+
+
+
+
+
+
+
 
 
   </goals>

@@ -1,6 +1,6 @@
 <bingoals>
 <version version="1"></version>	
-  <info title="Test Bingo Goals" description="This is a file using for testing the bingo tool" premade="true"></info>
+  <info title="Test Bingo Goals" description="This is a file using for testing the bingo tool" premade="false"></info>
   <goals>
     <veryhardgoals>
       <goal name="Easy goal 1" description="AA" difficulty="0" length="5"></goal>

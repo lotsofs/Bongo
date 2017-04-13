@@ -1,10 +1,79 @@
 <bingoals>
   <version version="1"></version>
   <info title="GTA Marathon 2017 Bingo Board for GTA _"
-                   description="Add a short description about the bingo board here. Some rules (not allowed to do SSU, for example, if that's a rule you want.)
-                   Multi line is supported apparently. Also this is XML, so no ampersands.
-        " premade="false"></info>
+                   description="
+Add a short description about the bingo board here. Some rules (not allowed to do SSU, for example, if that's a rule you want.)
+Multi line is supported apparently. Also this is XML, so no ampersands.
+        " premade="true"></info>
 
+  
+  
+  
+  
+  <!-- These lines intentionally left blank -->
+
+
+  <!-- NO CHEATING -->
+
+
+  <!-- These lines intentionally left blank -->
+
+
+
+  <!-- These lines intentionally left blank -->
+
+
+  <!-- NO CHEATING -->
+
+
+  <!-- NO CHEATING -->
+
+
+
+
+  <!-- These lines intentionally left blank -->
+
+
+
+
+  <!-- NO CHEATING -->
+
+
+
+  <!-- These lines intentionally left blank -->
+
+
+
+  <!-- NO CHEATING -->
+
+  <!-- These lines intentionally left blank -->
+
+
+
+
+  <!-- These lines intentionally left blank -->
+
+
+
+
+  <!-- NO CHEATING -->
+
+
+
+  <!-- These lines intentionally left blank -->
+
+
+
+  <!-- NO CHEATING -->
+
+  <!-- These lines intentionally left blank -->
+
+  <!-- NO CHEATING -->
+
+  <!-- These lines intentionally left blank -->
+  
+  
+  
   <goals>
     <!-- top row -->
     <goal name="Top left goal"
