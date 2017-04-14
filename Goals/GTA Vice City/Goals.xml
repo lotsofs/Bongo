@@ -1,5 +1,5 @@
 <bingoals>
-  <version version="4"></version>
+  <version version="5"></version>
   <info title="viceci"
                    description="Probably need to establish some concrete rules for less vagueness. Here's some I can think of:
         
@@ -395,6 +395,10 @@ Difficulty:
                    description="Complete 'Cabmageddon'"
                    difficulty="0"
                    length="4"></goal>
+    <goal name="Private Lap Dance"
+                   description="Watch the special lap dance given as a reward for completing Pole Position"
+                   difficulty="0"
+                   length="3"></goal>
     <goal name="Lap Dance"
                    description="Spend $300 on the Pole Position Lap Dance and complete the asset"
                    difficulty="0"
@@ -636,8 +640,16 @@ Includes vehicles for PCJ Playground etc, these must be stolen off the road firs
                    description="Find a bathroom with blood all over and a chainsaw"
                    difficulty="0"
                    length="0"></goal>
+    <goal name="Drowned Eggs"
+		   description="Find a guy swimming with concrete shoes"
+                   difficulty="0"
+                   length="0"></goal>
+    <goal name="Fertilizer for Eggs"
+		   description="Find a hidden phallus of hotel windows"
+                   difficulty="0"
+                   length="0"></goal>
     <goal name="So Many Eggs"
-                   description="Find Mikhail Gorbachev, a real Easter Egg, and a bathroom with blood all over"
+                   description="Find Mikhail Gorbachev, a real Easter Egg, a guy with concrete shoes, a hotel window phallus, and a bathroom with blood all over"
                    difficulty="0"
                    length="0"></goal>
 
