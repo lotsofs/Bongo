@@ -1,0 +1,66 @@
+<bingoals>
+<version version="1"></version>	
+  <info title="Test Bingo Goals" description="This is a file using for testing the bingo tool" premade="false"></info>
+  <goals>
+    <veryhardgoals>
+      <goal name="Easy goal 1" description="A4632462346A" difficulty="0" length="5"></goal>
+      <goal name="Easy goal 2" description="AA" difficulty="0" length="1"></goal>
+      <goal name="Easy goal 3" description="AA" difficulty="0" length="2"></goal>
+      <goal name="Easy goal 4" description="A32643642346324623A" difficulty="0" length="3"></goal>
+      <goal name="Easy goal 5" description="A2346A" difficulty="0" length="1"></goal>
+      <goal name="Easy goal 6" description="A324632463A" difficulty="0" length="2"></goal>
+      <goal name="Easy goal 7" description="AA" difficulty="0" length="3"></goal>
+      <goal name="Easy goal 8" description="A64326A" difficulty="0" length="3"></goal>
+      <goal name="Easy goal 9" description="246324632AA" difficulty="0" length="3"></goal>
+      <goal name="Easy goal A" description="AghdfhjdA" difficulty="0" length="3"></goal>
+      <goal name="Easy goal B" description="A3246A" difficulty="0" length="3"></goal>
+      <goal name="Easy goal C" description="AA" difficulty="0" length="3"></goal>
+      <goal name="A goal with no description set" difficulty="3" length="3"></goal>
+      <goal name="Easy goal D" description="Aqwrqwerqwe534A" difficulty="0" length="3"></goal>
+      <goal name="Easy goal E" description="AA" difficulty="0" length="3"></goal>
+      <goal name="Easy goal F" description="53245AA" difficulty="0" length="2"></goal>
+      <goal name="Easy goal G" description="324532AA" difficulty="0" length="2"></goal>
+      <goal name="Easy goal H" description="A56326A" difficulty="0" length="2"></goal>
+      <goal name="Easy goal I" description="A326324632463246A" difficulty="0" length="1"></goal>
+      <goal name="Easy goal J" description="AA" difficulty="0" length="1"></goal>
+      <goal name="Easy goal K" description="A q q A" difficulty="0" length="4"></goal>
+      <goal name="Easy goal L" description="AA" difficulty="0" length="5"></goal>
+      <goal name="A goal with length greater than 5" description="AA" difficulty="0" length="6"></goal>
+      <goal name="Easy goal N" description="erwqr qewAA" difficulty="0" length="3"></goal>
+      <goal name="Easy goal O" description="qwerwqAA" difficulty="0" length="4"></goal>
+      <goal name="Easy goal P" description="AqwerwqerA" difficulty="0" length="1"></goal>
+      <goal name="Easy goal Q" description="AsdfsfwqretA" difficulty="0" length="1"></goal>
+      <goal name="Easy goal R" description="fsdfasfdAA" difficulty="0" length="1"></goal>
+      <goal name="Easy goal S" description="AA" difficulty="0" length="0"></goal>
+      <goal name="Easy goal T" description="AA" difficulty="0" length="0"></goal>
+      <goal name="Easy goal U" description="AA" difficulty="0" length="0"></goal>
+      <goal name="Medium goal 1" description="AefwaesfggfwaefA" difficulty="1" length="3"></goal>
+      <goal name="Medium goal 2" description="AefwaesgsgfwaefA" difficulty="1" length="3"></goal>
+      <goal name="Medium goal 3" description="AefwaeffgsdgwaefA" difficulty="1" length="3"></goal>
+      <goal name="Medium goal 4" description="s" difficulty="1" length="3"></goal>
+      <goal name="Medium goal 5" description="AefwaefwaefA" difficulty="1" length="3"></goal>
+      <goal name="Medium goal 6" description="gdsfgsdfgsd" difficulty="1" length="3"></goal>
+      <goal name="Medium goal 7" description="AefwaefwaefA" difficulty="1" length="3"></goal>
+      <goal name="Medium goal 8" description="AefsdfgsdfgwaefwaefA" difficulty="1" length="3"></goal>
+      <goal name="Medium goal 9" description="AefwaefwaefgdfgdA" difficulty="1" length="3"></goal>
+      <goal name="Medium goal A" description="gsdfg" difficulty="1" length="3"></goal>
+      <goal name="Medium goal B" description="AefwaefwaefA" difficulty="1" length="3"></goal>
+      <goal name="Medium goal C" description="AefwaefwaefA" difficulty="1" length="3"></goal>
+      <goal name="Medium goal D" description="AefwafhsdfgefdfghdfgwaefA" difficulty="1" length="1"></goal>
+      <goal name="Medium goal E" description="sdfgfdsg" difficulty="1" length="1"></goal>
+      <goal name="Medium goal F" description="AefwaefwaefA" difficulty="1" length="1"></goal>
+      <goal name="Medium goal G" description="sdfgsdf" difficulty="1" length="1"></goal>
+      <goal name="Hard goal 1" description="AfasdfasdfasfaA" difficulty="2" length="3"></goal>
+      <goal name="Hard goal 2" description="AfasdfaghshsdhsdsdfasfaA" difficulty="2" length="3"></goal>
+      <goal name="Hard goal 3" description="AfasdffdgjdfgjdfasdfasfaA" difficulty="2" length="3"></goal>
+      <goal name="Unproperly configured goal" description="asjdfgjdfasdfasdfAA" difficulty="NaN" length="3"></goal>
+      <goal name="Hard goal 4" description="AfasdfasdfasfaA" difficulty="2" length="3"></goal>
+      <goal name="Hard goal 5" description="AfasdfgfdgfdjasdfasfaA" difficulty="2" length="3"></goal>
+      <goal name="Very hard goal 1" description="AASADasdfasFSDFSD" difficulty="3" length="3"></goal>
+      <goal name="Very hard goal 2" description="AASADfffFSDFSD" difficulty="3" length="3"></goal>
+      <goal name="A goal with an extremely long name (yes, really long) and now it's even longer" description="AASADFSDFSD" difficulty="3" length="3"></goal>
+      <goal name="Another poorly configured goal" description="AAFFFDFSDF" length="3"></goal>
+      <goal name="A golal with difficulty greater than 3" description="AAFFFDFSDF" length="3" difficulty="5"></goal>
+    </veryhardgoals>
+  </goals>
+</bingoals>

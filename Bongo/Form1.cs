@@ -340,6 +340,7 @@ namespace Bongo {
 			}
 			unhideButton.Visible = toHide;
 			unhideButtonSpectate.Visible = toHide;
+			labelGoalVersion.Visible = toHide;
 		}
 
 		private void generateUID() {
@@ -412,14 +413,17 @@ namespace Bongo {
 			}
 			else {
 				boardInfoBox.Text = "Goals title: " + node.Attributes["title"].InnerText + Environment.NewLine + Environment.NewLine + "Goals description & rules:" + Environment.NewLine + node.Attributes["description"].InnerText;
+				labelGoalVersion.Text = node.Attributes["title"].InnerText;
 			}
 			// Print version on top of that
 			node = docGoals.DocumentElement.SelectSingleNode("version");
 			if (node.Attributes["version"] == null) {
 				boardInfoBox.Text = "Unknown goals version" + Environment.NewLine + boardInfoBox.Text;
+				labelGoalVersion.Text = "Unknown goals version";
 			}
 			else {
 				boardInfoBox.Text = "Goals version: " + node.Attributes["version"].InnerText + Environment.NewLine + boardInfoBox.Text;
+				labelGoalVersion.Text = labelGoalVersion.Text + Environment.NewLine + "Goals version: " + node.Attributes["version"].InnerText;
 			}
 			// Put all that into the goal info box too
 			goalInfoBox.Text = boardInfoBox.Text;
@@ -728,7 +732,7 @@ namespace Bongo {
 
 			// I should make all these regions separate functions so it'll look better
 			//Shuffle the tiles 1-25 in a random order
-			List<int> bingoBoardTiles = new List<int>(Enumerable.Range(0, 24));
+			List<int> bingoBoardTiles = new List<int>(Enumerable.Range(0, 25));
 			Random bingoBoardRandomizer = new Random(seed);
 			List<int> bingoBoardShuffledTiles = new List<int>();
 
