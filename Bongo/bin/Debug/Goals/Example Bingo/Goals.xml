@@ -1,6 +1,8 @@
 <bingoals>
 <version version="1"></version>	
-  <info title="Test Bingo Goals" description="This is a file using for testing the bingo tool" premade="false"></info>
+  <info title="Test Bingo Goals" description="This is a file using for testing the bingo tool.
+
+The tool does not come with goals by default as these get outdated quickly. Goals may be hosted at https://github.com/lotsofs/Bongo/tree/master/Goals" premade="false"></info>
   <goals>
     <veryhardgoals>
       <goal name="Easy goal 1" description="A4632462346A" difficulty="0" length="5"></goal>

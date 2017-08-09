@@ -1,0 +1,169 @@
+<bingoals>
+  <version version="1"></version>
+  <info title="GTA Marathon 2017 Bingo Board for GTA VC"
+                   description="
+Welcome RoK, Squaky and Zekori. You are kickstarting the marathon with an awesome race of Vice City bingo! Provided to you has been the bingo board! The first to complete two rows, wins. This can be horizontal, diagonal, or vertical!
+
+Feel free to Google whatever you need to know about the game. Glitches are required for some of these goals. I won't tell you which glitches though. Default speedrun rules apply. No cheating! These goals were specifically made for you. Please enjoy. Oh, and don't all pick the same lines, please. It'd be a shame to see 60% of these goals go to waste. Yes I am really quite proud of some of these goals.
+
+Okay, the marathon is probably about to start. So have at it! If you have any questions, I will be there.
+
+  -S.
+        " premade="true"></info>
+
+  
+  
+  
+  
+  <!-- These lines intentionally left blank -->
+
+  <!-- NO SCROLLING DOWN UNTIL AFTER THE RACE HAS STARTED. YOU SHOULDNT HAVE OPENED THIS FILE. JUST PUT IT IN THE CORRECT FOLDER.-->
+  <!-- NO CHEATING -->
+
+
+  <!-- These lines intentionally left blank -->
+
+  <!-- NO SCROLLING DOWN UNTIL AFTER THE RACE HAS STARTED. YOU SHOULDNT HAVE OPENED THIS FILE. JUST PUT IT IN THE CORRECT FOLDER.-->
+
+  <!-- These lines intentionally left blank -->
+
+
+  <!-- NO CHEATING -->
+  <!-- NO SCROLLING DOWN UNTIL AFTER THE RACE HAS STARTED. YOU SHOULDNT HAVE OPENED THIS FILE. JUST PUT IT IN THE CORRECT FOLDER.-->
+
+  <!-- NO CHEATING -->
+
+  <!-- NO SCROLLING DOWN UNTIL AFTER THE RACE HAS STARTED. YOU SHOULDNT HAVE OPENED THIS FILE. JUST PUT IT IN THE CORRECT FOLDER.-->
+
+
+  <!-- These lines intentionally left blank -->
+
+
+  <!-- NO SCROLLING DOWN UNTIL AFTER THE RACE HAS STARTED. YOU SHOULDNT HAVE OPENED THIS FILE. JUST PUT IT IN THE CORRECT FOLDER.-->
+
+  <!-- NO CHEATING -->
+
+  <!-- NO SCROLLING DOWN UNTIL AFTER THE RACE HAS STARTED. YOU SHOULDNT HAVE OPENED THIS FILE. JUST PUT IT IN THE CORRECT FOLDER.-->
+
+  <!-- These lines intentionally left blank -->
+
+
+
+  <!-- NO CHEATING -->
+
+  <!-- These lines intentionally left blank -->
+
+
+
+
+  <!-- These lines intentionally left blank -->
+
+
+
+
+  <!-- NO CHEATING -->
+
+
+
+  <!-- These lines intentionally left blank -->
+
+
+
+  <!-- NO CHEATING -->
+
+  <!-- These lines intentionally left blank -->
+
+  <!-- NO CHEATING -->
+
+  <!-- These lines intentionally left blank -->
+  
+  
+  
+  <goals>
+    <!-- top row -->
+    <goal name="Fly like a Phoenix"
+                  description="Complete 5 USJ in a Phoenix"
+                  ></goal>
+    <goal name="Army Slaughter"
+                  description="Kill 10 soldiers in the army base, climb all three towers, and escape back to Little Havana with your life."
+                  ></goal>
+    <goal name="Death Comet"
+                  description="Steal one of the Death Row Comets"
+                  ></goal>
+    <goal name="Cuba Crisis"
+                  description="Pass Dirty Lickin's and Naval Engagement using only a Rocket Launcher for those two missions"
+                  ></goal>
+    <goal name="Radio Announcement"
+                  description="Listen to the Bridges Have Reopened radio announcement"
+                  ></goal>
+
+    <!-- second row -->
+    <goal name="American Titties"
+                  description="Do G-Spotlight using a Freeway or Angel"
+                  ></goal>
+    <goal name="Frog"
+                  description="Jump between all the lily pads without touching the water"
+                  ></goal>
+    <goal name="Pyrotechnic"
+                  description="Acquire a 6 star wanted level using only a flamethrower and molotov cocktails"
+                  ></goal>
+    <goal name="Intended RPG Rampage"
+                  description="Do the RPG Rampage on the broken floating house without leaving that house"
+                  ></goal>
+    <goal name="I'll keep driving black until something darker comes along"
+                  description="Put a completely and uniquely black vehicle in your garage"
+                  ></goal>
+
+    <!-- third/middle row -->
+    <goal name="Packer Donut"
+                  description="Spin in a circle 42 times in a packer, making a lovely donut"
+                  ></goal>
+    <goal name="Beach Patrol"
+                  description="The Street Shark's leader from The Chase hates people who are sunbathing, so partner up with him and take him and his BF Injection to kill one Sunbather in each of the three areas (Vice Point, Ocean Beach, Washington Beach)"
+                  ></goal>
+    <goal name="Pole-blicity Tour"
+                  description="Smash 42 different poles (or more) before the bomb is disarmed on Publicity Tour"
+                  ></goal>
+    <goal name="Burrito Butcher"
+                  description="Destroy a Gang Burrito with an RC vehicle"
+                  ></goal>
+    <goal name="Addict"
+                  description="Pick up all 16 Adrenaline Pills in the game"
+                  ></goal>
+
+    <!-- fourth row -->
+    <goal name="?? Hidden Packages"
+                  description="How many guns are framed on the walls inside Phil's trailer? Collect this many packages."
+                  ></goal>
+    <goal name="Grafenburg Spot"
+                  description="Put a bike on top of the building at which the spotlight is pointed in G-Spotlight. It doesn't have to be on the very top, placing it on top of the building entry hall/lobby/atrium will suffice."
+                  ></goal>
+    <goal name="Black Tracksuit"
+                  description="Wear the black tracksuit"
+                  ></goal>
+    <goal name="42 Vigilante Kills"
+                  description="Kill 42 suspects on vigilante, doesn't need to be in one go."
+                  ></goal>
+    <goal name="Pizza Temporaneo"
+                  description="Have Cam Jones give Hillary King a lecture about Pizza on The Job, then have Hillary experience first hand that all will pass or end."
+                  ></goal>
+
+    <!-- bottom row -->
+    <goal name="Predator/Prey"
+                  description="Steal a Predator that comes out to kill you, then use it to destroy another Predator"
+                  ></goal>
+    <goal name="Mini Taxi Driver"
+                  description="Do 3 taxi fares in each of the four different taxi vehicles"
+                  ></goal>
+    <goal name="Beachketball"
+                  description="Make a beachball collide with a basketball net"
+                  ></goal>
+    <goal name="PCJ Prohibited"
+                  description="Not allowed to drive a PCJ, ever"
+                  ></goal>
+    <goal name="Barely Road Kill"
+                  description="Do Road Kill in a Perennial"
+                  ></goal>
+    
+  </goals>
+</bingoals>

@@ -237,8 +237,9 @@ namespace Bongo {
 			comboT.DisplayMember = "Key";
 			comboT.ValueMember = "Value";
 			#endregion	
-			configXMLRead();
+			ConfigXMLRead();
 			hotkeys.RegisterHotkeys((uint)comboT.SelectedValue, modifierT);
+			checkBox2_CheckedChanged(null, null);
 			//Put all 25 labels in the array
 			int labelIndex = 0;
 			foreach (Label label in tableLayoutPanel1.Controls) {
@@ -272,7 +273,7 @@ namespace Bongo {
 			}
 		}
 
-		private void configXMLRead() {
+		private void ConfigXMLRead() {
 			// Load config
 			XmlDocument docConfig = new XmlDocument();
 			docConfig.Load(@"BingoConfig.xml");
@@ -280,6 +281,8 @@ namespace Bongo {
 			XmlNode node = docConfig.DocumentElement.SelectSingleNode("lastgame");
 			comboBox1.SelectedItem = node.InnerText;
 			// Restore hotkeys
+			XmlNode node4 = docConfig.DocumentElement.SelectSingleNode("hotkeysenabled");
+			checkBox2.Checked = node4.InnerText == "true";
 			XmlNode node2 = docConfig.DocumentElement.SelectSingleNode("hotkeys");
 			comboU.SelectedValue = UInt32.Parse(node2.Attributes["U"].InnerText);
 			comboD.SelectedValue = UInt32.Parse(node2.Attributes["D"].InnerText);
@@ -289,6 +292,15 @@ namespace Bongo {
 			comboN.SelectedValue = UInt32.Parse(node2.Attributes["N"].InnerText);
 			comboH.SelectedValue = UInt32.Parse(node2.Attributes["H"].InnerText);
 			comboT.SelectedValue = UInt32.Parse(node2.Attributes["T"].InnerText);
+			// Check to see if restored properly
+			if (comboU.SelectedIndex == -1) comboU.SelectedIndex = 0;
+			if (comboD.SelectedIndex == -1) comboD.SelectedIndex = 0;
+			if (comboL.SelectedIndex == -1) comboL.SelectedIndex = 0;
+			if (comboR.SelectedIndex == -1) comboR.SelectedIndex = 0;
+			if (comboP.SelectedIndex == -1) comboP.SelectedIndex = 0;
+			if (comboN.SelectedIndex == -1) comboN.SelectedIndex = 0;
+			if (comboH.SelectedIndex == -1) comboH.SelectedIndex = 0;
+			if (comboT.SelectedIndex == -1) comboT.SelectedIndex = 0;
 			// Restore modifiers
 			XmlNode node3 = docConfig.DocumentElement.SelectSingleNode("modifiers");
 
@@ -1187,14 +1199,14 @@ namespace Bongo {
 			node.Attributes["H"].InnerText = comboH.SelectedValue.ToString();
 			node.Attributes["T"].InnerText = comboT.SelectedValue.ToString();
 			XmlNode node2 = doc.DocumentElement.SelectSingleNode("modifiers");
-			node.Attributes["U"].InnerText = (Convert.ToUInt32(ctrlU.Checked) * 2 + Convert.ToUInt32(altU.Checked) + Convert.ToUInt32(shiftU.Checked) * 4 + Convert.ToUInt32(winU.Checked) * 8).ToString();
-			node.Attributes["D"].InnerText = (Convert.ToUInt32(ctrlD.Checked) * 2 + Convert.ToUInt32(altD.Checked) + Convert.ToUInt32(shiftD.Checked) * 4 + Convert.ToUInt32(winD.Checked) * 8).ToString();
-			node.Attributes["L"].InnerText = (Convert.ToUInt32(ctrlL.Checked) * 2 + Convert.ToUInt32(altL.Checked) + Convert.ToUInt32(shiftL.Checked) * 4 + Convert.ToUInt32(winL.Checked) * 8).ToString();
-			node.Attributes["R"].InnerText = (Convert.ToUInt32(ctrlR.Checked) * 2 + Convert.ToUInt32(altR.Checked) + Convert.ToUInt32(shiftR.Checked) * 4 + Convert.ToUInt32(winR.Checked) * 8).ToString();
-			node.Attributes["P"].InnerText = (Convert.ToUInt32(ctrlP.Checked) * 2 + Convert.ToUInt32(altP.Checked) + Convert.ToUInt32(shiftP.Checked) * 4 + Convert.ToUInt32(winP.Checked) * 8).ToString();
-			node.Attributes["N"].InnerText = (Convert.ToUInt32(ctrlN.Checked) * 2 + Convert.ToUInt32(altN.Checked) + Convert.ToUInt32(shiftN.Checked) * 4 + Convert.ToUInt32(winN.Checked) * 8).ToString();
-			node.Attributes["H"].InnerText = (Convert.ToUInt32(ctrlH.Checked) * 2 + Convert.ToUInt32(altH.Checked) + Convert.ToUInt32(shiftH.Checked) * 4 + Convert.ToUInt32(winH.Checked) * 8).ToString();
-			node.Attributes["T"].InnerText = (Convert.ToUInt32(ctrlT.Checked) * 2 + Convert.ToUInt32(altT.Checked) + Convert.ToUInt32(shiftT.Checked) * 4 + Convert.ToUInt32(winT.Checked) * 8).ToString();
+			node2.Attributes["U"].InnerText = (Convert.ToUInt32(ctrlU.Checked) * 2 + Convert.ToUInt32(altU.Checked) + Convert.ToUInt32(shiftU.Checked) * 4 + Convert.ToUInt32(winU.Checked) * 8).ToString();
+			node2.Attributes["D"].InnerText = (Convert.ToUInt32(ctrlD.Checked) * 2 + Convert.ToUInt32(altD.Checked) + Convert.ToUInt32(shiftD.Checked) * 4 + Convert.ToUInt32(winD.Checked) * 8).ToString();
+			node2.Attributes["L"].InnerText = (Convert.ToUInt32(ctrlL.Checked) * 2 + Convert.ToUInt32(altL.Checked) + Convert.ToUInt32(shiftL.Checked) * 4 + Convert.ToUInt32(winL.Checked) * 8).ToString();
+			node2.Attributes["R"].InnerText = (Convert.ToUInt32(ctrlR.Checked) * 2 + Convert.ToUInt32(altR.Checked) + Convert.ToUInt32(shiftR.Checked) * 4 + Convert.ToUInt32(winR.Checked) * 8).ToString();
+			node2.Attributes["P"].InnerText = (Convert.ToUInt32(ctrlP.Checked) * 2 + Convert.ToUInt32(altP.Checked) + Convert.ToUInt32(shiftP.Checked) * 4 + Convert.ToUInt32(winP.Checked) * 8).ToString();
+			node2.Attributes["N"].InnerText = (Convert.ToUInt32(ctrlN.Checked) * 2 + Convert.ToUInt32(altN.Checked) + Convert.ToUInt32(shiftN.Checked) * 4 + Convert.ToUInt32(winN.Checked) * 8).ToString();
+			node2.Attributes["H"].InnerText = (Convert.ToUInt32(ctrlH.Checked) * 2 + Convert.ToUInt32(altH.Checked) + Convert.ToUInt32(shiftH.Checked) * 4 + Convert.ToUInt32(winH.Checked) * 8).ToString();
+			node2.Attributes["T"].InnerText = (Convert.ToUInt32(ctrlT.Checked) * 2 + Convert.ToUInt32(altT.Checked) + Convert.ToUInt32(shiftT.Checked) * 4 + Convert.ToUInt32(winT.Checked) * 8).ToString();
 			doc.Save(@"BingoConfig.xml");
 		}
 
