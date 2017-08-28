@@ -1,0 +1,642 @@
+<bingoals>
+	<version version="1"></version>
+	<info title="IV"
+                   description="this is an info">
+				   
+	</info>
+	
+	<!-- 	length: 						difficulty:
+			0 = ~1 min						0 = rook-friendly
+			1 = ~2 min 						1 = easy
+			2 = ~5 min						2 = medium
+			3 = ~10 min 					3 = hard
+			4 = ~15 min
+			5 = ~20 min -->	
+
+	
+	<goals>
+	
+    <!-- cba to properly organise by category -->
+    <goal name="True Love"
+                   description="Show Michelle your sweatshirt"
+                   difficulty="1"
+                   length="2"></goal>
+				   
+    <goal name="Meme Goal Name"
+                   description="Win a full game of bowling against Roman"
+                   difficulty="2"
+                   length="2"></goal>
+				   
+    <goal name="Deep Lore"
+                   description="Watch the entire introductory cutscene"
+                   difficulty="0"
+                   length="2"></goal>
+				   
+    <goal name="Loremaster"
+                   description="Watch any five entire cutscenes"
+                   difficulty="0"
+                   length="3"></goal>
+
+    <goal name="Kyle's Willies"
+                   description="Eat 25 hot dogs in total"
+                   difficulty="0"
+                   length="1"></goal>
+				   
+    <goal name="Sightseer"
+                   description="Enjoy a full heli tour"
+                   difficulty="0"
+                   length="2"></goal>
+ 
+    <goal name="A Man Reborn"
+                   description="Complete Brian's third encounter"
+                   difficulty="0"
+                   length="2"></goal>
+				   
+    <goal name="Spittin' Straight Fire"
+                   description="Light Pathos on fire and extinguish him with a fire truck"
+                   difficulty="1"
+                   length="2"></goal>
+
+    <goal name="Anti-Vigilante"
+                   description="Have the police arrest five pedestrians"
+                   difficulty="0"
+                   length="2"></goal>
+				   
+    <goal name="Package Purged"
+                   description="Kill Packie with a packer in Purgatory"
+                   difficulty="1"
+                   length="2"></goal>
+				   
+    <goal name="Cousinicide"
+                   description="Execute Roman in the abandoned warehouse"
+                   difficulty="0"
+                   length="2"></goal>
+				   
+    <goal name="Taxi Driver"
+                   description="Complete 10 fares for Roman"
+                   difficulty="0"
+                   length="3"></goal>
+				   
+    <goal name="Jolzi's Taxi Services"
+                   description="Flip every one of Roman's Taxis you drive at least once"
+                   difficulty="1"
+                   length="2"></goal>
+				   
+    <goal name="Man Overboard"
+                   description="Drown without using a vehicle"
+                   difficulty="0"
+                   length="1"></goal>
+				   
+    <goal name="Your Car, My Car"
+                   description="Save three different cars owned by mission givers"
+                   difficulty="0"
+                   length="2"></goal>
+				   
+    <goal name="Professional Photographer"
+                   description="Take a picture of every NPC with you on a mission"
+                   difficulty="1"
+                   length="1"></goal>
+				   
+    <goal name="King of QUB3D"
+                   description="Beat the QUB3D high score (10950)"
+                   difficulty="3"
+                   length="3"></goal>
+	   
+    <goal name="Pool Hustler"
+                   description="Win a game of pool"
+                   difficulty="3"
+                   length="3"></goal>
+
+    <goal name="Taxi Enthusiast"
+                   description="Spend $2000 on taxi fares"
+                   difficulty="1"
+                   length="2"></goal>
+				   			   
+    <goal name="The Liberty City Massacre"
+                   description="Kill at least 500 people"
+                   difficulty="2"
+                   length="2"></goal>
+				   
+    <goal name="Respect+"
+                   description="Have a friend that is not Roman respect you 100%"
+                   difficulty="0"
+                   length="2"></goal>
+				   
+    <goal name="Rookie"
+                   description="Fail each mission you attempt at least once"
+                   difficulty="1"
+                   length="3"></goal>
+				   
+   <goal name="Not a Dirty Boy"
+                   description="Wash your car on three different missions"
+                   difficulty="0"
+                   length="2"></goal>
+				   
+    <goal name="Under the Radar"
+                   description="Fly under all 14 bridges of Liberty City"
+                   difficulty="2"
+                   length="3"></goal>
+				   
+    <goal name="Basically Classic"
+                   description="Chapter 1, no taxis"
+                   difficulty="2"
+                   length="4"></goal>
+
+    <goal name="The Cinematic Experience"
+                   description="Use only the cinematic camera during daytime"
+                   difficulty="3"
+                   length="3"></goal>
+
+    <goal name="OCD"
+                   description="Exit and re-enter every car you drive"
+                   difficulty="2"
+                   length="1"></goal>
+
+    <goal name="Close Encounters"
+                   description="Drive only using the hood camera"
+                   difficulty="3"
+                   length="2"></goal>
+
+    <goal name="Game of Phones"
+                   description="Don't skip or hang up any calls (cancelling is allowed)"
+                   difficulty="2"
+                   length="3"></goal>
+
+    <goal name="Genetically Different"
+                   description="Show Brucie the inside of a power plant's cooling tower"
+                   difficulty="1"
+                   length="2"></goal>
+				   
+    <goal name="Coffee Break"
+                   description="Enjoy a full stand-up routine"
+                   difficulty="0"
+                   length="2"></goal>
+	
+    <goal name="Sub-optimal Route"
+                   description="Follow only the GPS route on driving missions"
+                   difficulty="1"
+                   length="3"></goal>
+	
+    <goal name="Between the Lines"
+                   description="Drive only on the street (or driveways); no grass, dirt or pavement allowed"
+                   difficulty="3"
+                   length="3"></goal>   
+				   
+    <goal name="Exotic Exporter"
+                   description="Steal three vehicles for Brucie"
+                   difficulty="1"
+                   length="2"></goal>    
+				   
+	<goal name="Perfectionist"
+                   description="Don't get busted or wasted (loading saves allowed)"
+                   difficulty="3"
+                   length="1"></goal>
+
+	<goal name="Law Evader"
+                   description="Evade 30 wanted stars in total (stars lost by dying and saving are not counted)"
+                   difficulty="2"
+                   length="1"></goal>
+
+	<goal name="Drug Mule"
+                   description="Deliver five packages for Little Jacob"
+                   difficulty="2"
+                   length="2"></goal>
+
+	<goal name="Internet Addict"
+                   description="Spend three minutes browsing the internet"
+                   difficulty="0"
+                   length="2"></goal>
+
+    <goal name="Sharpshooter"
+                   description="Have an accuracy over 80% at the end"
+                   difficulty="2"
+                   length="0"></goal>	
+				   
+    <goal name="Smooth Talker"
+                   description="Unlock a girlfriend's special ability"
+                   difficulty="1"
+                   length="2"></goal>				
+				   
+    <goal name="No Ragrets"
+                   description="Do not load any save (crashes exempt)"
+                   difficulty="1"
+                   length="1"></goal>							   
+
+    <goal name="Impolite"
+                   description="Smash at least one pole on every mission during which you must drive a vehicle"
+                   difficulty="1"
+                   length="1"></goal>
+
+    <goal name="Six Darter"
+                   description="Finish a game of darts throwing only six darts"
+                   difficulty="1"
+                   length="2"></goal>
+				   
+    <goal name="Speedy Spender"
+                   description="Never own more than $9999"
+                   difficulty="3"
+                   length="3"></goal>
+				   
+    <goal name="Master at Arms"
+                   description="Have at least one kill with every weapon"
+                   difficulty="1"
+                   length="2"></goal>				   
+				   
+    <goal name="Tired of Tyres"
+                   description="Pop all four tyres by extended burnout"
+                   difficulty="0"
+                   length="0"></goal> 
+
+					
+    <!-- stunts and pigeons -->
+    <goal name="25 Flying Rats"
+                   description="Exterminate 25 flying rats"
+                   difficulty="3"
+                   length="4"></goal>
+
+    <goal name="Vive la félicité"
+                   description="Liberate Happiness Island of its flying rat (6) occupation"
+                   difficulty="1"
+                   length="2"></goal>
+		   
+    <goal name="A Trifling Trick"
+                   description="Complete a stunt jump with a forklift (hint: Algonquin)"
+                   difficulty="1"
+                   length="3"></goal>
+
+    <goal name="Stuntin' Cousins"
+                   description="Complete 5 stunt jumps with Roman"
+                   difficulty="2"
+                   length="2"></goal>
+				   
+    <goal name="20 Stunt Jumps"
+                   description="Complete 20 stunt jumps in total"
+                   difficulty="2"
+                   length="3"></goal>
+			
+    <goal name="Ahoy, Ahoy"
+                   description="Complete the two boat stunt jumps"
+                   difficulty="1"
+                   length="2"></goal>
+			
+    <goal name="Flippity Flip"
+                   description="Do over twenty flips in one vehicle"
+                   difficulty="1"
+                   length="2"></goal>				   
+				   
+	<goal name="One-Wheeled Legend"
+                   description="Perform a wheelie of at least 1000ft"
+                   difficulty="1"
+                   length="2"></goal>
+
+				   
+				   
+	<!-- vehicle specific -->								   
+   <goal name="Distribution"
+                   description="Get busted in a Mr Tasty"
+                   difficulty="0"
+                   length="1"></goal>
+				   
+	<goal name="Disappeared Without a Trace"
+                   description="Lose a four star wanted level driving a phantom"
+                   difficulty="2"
+                   length="2"></goal>	
+				   
+	<goal name="Woodstalker"
+                   description="Drive through all districts ending in -wood with a landstalker (Beechwood, Northwood, Leftwood)"
+                   difficulty="2"
+                   length="2"></goal>
+					   
+	<goal name="Insecure"
+                   description="Explode a securicar without using weapons or explosions"
+                   difficulty="1"
+                   length="2"></goal>
+					   
+	<goal name="Annihilated"
+                   description="Fly and crash an annihilator"
+                   difficulty="1"
+                   length="1"></goal>
+				   
+    <goal name="Platytug"
+                   description="Crash a tug into the Platypus"
+                   difficulty="1"
+                   length="2"></goal>
+				   							   
+    <goal name="Tug-tug"
+                   description="Have the airtug and tug meet"
+                   difficulty="1"
+                   length="2"></goal>	
+				   
+    <goal name="From A to B"
+                   description="Drive a bus from Acter, Alderney to Beachgate, Broker"
+                   difficulty="1"
+                   length="2"></goal>	
+				   
+    <goal name="Riding with the Sheriff"
+                   description="Drive every type of police vehicle (Patrol, Cruiser, Stockade, Predator, Maverick)"
+                   difficulty="1"
+                   length="3"></goal>	
+				   
+				   
+	<!-- vehicle specific (safe house) -->
+	<goal name="Founding Father"
+                   description="Park a presidente and a washington at a safe house"
+                   difficulty="0"
+                   length="2"></goal>
+
+	<goal name="Petting Zoo"
+                   description="Park a two of the following vehicles at a safe house: stallion, pony, mule, steed"
+                   difficulty="0"
+                   length="2"></goal>
+				   
+   <goal name="A Pirate's Life"
+                   description="Park a bucanneer and an admiral at a safe house"
+                   difficulty="0"
+                   length="2"></goal>
+
+	<goal name="My Little Car Show"
+                   description="Park a sultan RS and futo GT at a safe house"
+                   difficulty="0"
+                   length="2"></goal>
+				   
+	<goal name="Mexican Restaurant"
+                   description="Park a burrito and a habanero at a safe house"
+                   difficulty="0"
+                   length="2"></goal>	
+				   
+	<goal name="God Bless America"
+                   description="Park a patriot and a yankee at a safe house"
+                   difficulty="0"
+                   length="2"></goal>	
+				   
+	<goal name="Interstellar"
+                   description="Park a two of the following vehicles at a safe house: uranus, solair, comet, moonbeam"
+                   difficulty="0"
+                   length="2"></goal>	
+
+				   
+	<!-- location specific -->		
+	 <goal name="Child's Play"
+                   description="Visit three children's playgrounds"
+                   difficulty="0"
+                   length="2"></goal>				   
+ 				   
+	<goal name="Sir Park-a-lot"
+                   description="Visit four different car parks"
+                   difficulty="0"
+                   length="2"></goal>		
+				   
+    <goal name="Sk8erboy"
+                   description="Visit all four skate parks on a faggio (3 Algonquin, 1 Dukes)"
+                   difficulty="0"
+                   length="2"></goal>
+				   
+    <goal name="Hippy Gathering"
+                   description="Visit all five parks in any type of van (Outlook, Meadows, Middle, City Hall, Acter)"
+                   difficulty="0"
+                   length="2"></goal>		
+				   
+    <goal name="Press F"
+                   description="Visit all three graveyards"
+                   difficulty="0"
+                   length="2"></goal>
+				   
+	<goal name="Double Dribbled"
+                   description="Visit ten different basketball courts"
+                   difficulty="0"
+                   length="2"></goal>
+
+	<goal name="Pumped"
+                   description="Visit five different gas stations in the same vehicle"
+                   difficulty="0"
+                   length="2"></goal>					   
+				   
+	<goal name="Till Inspector"
+                   description="Rob five different establishments by emptying their cash registers"
+                   difficulty="1"
+                   length="2"></goal>
+						   
+    <goal name="Adrenalin Junkie"
+                   description="Ride the entire roller coaster track on a bike"
+                   difficulty="0"
+                   length="1"></goal>
+				   
+    <goal name="Get Lost"
+                   description="Take Badman to the Alderney State Correctional Facility on a zombie and kill him"
+                   difficulty="1"
+                   length="2"></goal>
+				   
+    <goal name="You have been gambling!"
+                   description="Take Roman to the Alderney Casino in a fortune"
+                   difficulty="0"
+                   length="2"></goal>
+				   				   
+    <goal name="Giant Meteor 2020"
+                   description="Drive a comet into the Monoglobe"
+                   difficulty="1"
+                   length="1"></goal>
+
+    <goal name="Golf (not a percent)"
+                   description="Bring a pool cue ball to a golf course"
+                   difficulty="0"
+                   length="2"></goal>
+				   
+    <goal name="Man of Faith"
+                   description="Visit all four churches in Liberty City in an oracle"
+                   difficulty="1"
+                   length="2"></goal>
+				   
+    <goal name="Man of Science"
+                   description="Kill both soapboxers (preacher, conspiracy theorist) with an ambulance"
+                   difficulty="1"
+                   length="2"></goal>				   				   
+				   
+    <goal name="GalaxyBlue"
+                   description="Deliver a randomly found, non-sprayed galaxy blue futo to Auto Eroticar"
+                   difficulty="1"
+                   length="1"></goal>
+				   
+    <goal name="Ain't No Fountain Dry Enough"
+                   description="Touch down a helicopter in three different fountains"
+                   difficulty="1"
+                   length="2"></goal>	
+
+	<goal name="Go Strip Club"
+					description="Enjoy a full dance from a hooker"
+					difficulty="0"
+					length="1"></goal>
+
+	<goal name="Croquette"
+					description="Blow up a coquette inside a Burger Shot"
+					difficulty="0"
+					length="1"></goal>
+
+	<goal name="Boat Bros."
+					description="Drive a boat from the Platypus to the Octopus or vice versa"
+					difficulty="0"
+					length="2"></goal>
+					
+					
+	<!-- location specific (easter eggs) -->						   
+    <goal name="Art Connoisseur"
+                   description="Visit the statue outside the National Union of Contemporary Arts and Le Knobeliske"
+                   difficulty="0"
+                   length="1"></goal>	  
+				   
+    <goal name="I &lt;3 Liberty"
+                   description="Visit the Heart of Liberty"
+                   difficulty="1"
+                   length="2"></goal> 	
+				   
+    <goal name="Rock On"
+                   description="Visit three different places with a Rockstar logo"
+                   difficulty="1"
+                   length="2"></goal> 							 
+				   
+    <goal name="Universal Chauffeur"
+                   description="Visit Mr Wong's Laundrette in a dark-coloured sentinel"
+                   difficulty="1"
+                   length="1"></goal> 	
+				   
+    <goal name="Down with the Pigs"
+                   description="Stop both instances of policemen beating up civilians"
+                   difficulty="1"
+                   length="2"></goal> 					   
+
+				   
+	<!-- mission specific -->		
+    <goal name="Vlad the Imploder"
+                   description="Execute Vlad with a rocket launcher"
+                   difficulty="2"
+                   length="2"></goal>
+				   
+ 	<goal name="Roman's Borough"
+                   description="Drive Roman through all 7 districts of Bohan during Roman's Sorrow"
+                   difficulty="0"
+                   length="2"></goal>					   
+
+	<goal name="Mule in a China Shop"
+                   description="Break the windows in Bull in a China Shop using a mule"
+                   difficulty="0"
+                   length="2"></goal>
+
+    <goal name="Chase Me, Chase Me"
+                   description="Chase Dardan, Ivan, Jason (No Love Lost) and Mikhail the entire way before killing them"
+                   difficulty="1"
+                   length="3"></goal>
+
+    <goal name="Jamaican Cheat"
+                   description="Complete Jamaican Heat without using any weapon"
+                   difficulty="2"
+                   length="2"></goal>
+				   
+    <goal name="MTV Cribs"
+                   description="Visit Playboy X's penthouse with Playboy X" 
+                   difficulty="1"
+                   length="2"></goal>
+				   
+    <goal name="Riding in Style"
+                   description="Complete Puerto Rican Connection driving only a patriot"
+                   difficulty="1"
+                   length="1"></goal>
+				   
+    <goal name="A Dish Served Early"
+                   description="Kill Dimitri inside of the Platypus"
+                   difficulty="1"
+                   length="1"></goal>
+				   				   
+    <goal name="Less Master, More Molotov"
+                   description="Complete The Master and the Molotov using only molotovs"
+                   difficulty="1"
+                   length="1"></goal>   
+				   
+    <goal name="LCPDFR???"
+                   description="Obey every traffic light you pass during Crime &#038; Punishment"
+                   difficulty="0"
+                   length="1"></goal>		
+				   
+    <goal name="Meat Sweeper"
+                   description="Kill the targets during Street Sweeper using only a trashmaster"
+                   difficulty="2"
+                   length="1"></goal>
+				   
+    <goal name="In Memoriam"
+                   description="Have at least 100 pedestrians run down before finishing It's Your Call"
+                   difficulty="1"
+                   length="2"></goal>
+				   		   
+    <goal name="Dirty Laundry"
+                   description="Rob all three laundromats in a laundromat"
+                   difficulty="1"
+                   length="3"></goal>				   
+
+				   
+	<!-- Most Wanted, Vigilante -->
+    <goal name="A Bridge Too Far"
+                   description="Kill Most Wanted target Frederick Harrison and friends using only grenades"
+                   difficulty="1"
+                   length="2"></goal>				      
+		   
+    <goal name="Moderately Wanted"
+                   description="Rid Broker, Dukes and Bohan of its Most Wanted criminals"
+                   difficulty="2"
+                   length="2"></goal>
+				   
+    <goal name="Modestly Wanted"
+                   description="Rid Algonquin of its Most Wanted criminals"
+                   difficulty="2"
+                   length="2"></goal>
+				   
+    <goal name="Mostly Wanted"
+                   description="Rid Alderney of its Most Wanted criminals"
+                   difficulty="3"
+                   length="3"></goal>		   
+				   
+    <goal name="Cleaned the Mean Streets"
+                   description="Complete 20 vigilante side-missions"
+                   difficulty="3"
+                   length="4"></goal>
+
+				   
+	<!-- races -->		
+    <goal name="Genetically Superior"
+                   description="Win a race for Brucie using a heavy-weight vehicle"
+                   difficulty="2"
+                   length="3"></goal>
+				   
+    <goal name="Moped Maniac"
+                   description="Win a race for Brucie using a faggio"
+                   difficulty="2"
+                   length="3"></goal>
+	
+	
+	<!-- backwards driving -->		
+    <goal name="It's Your Fall"
+                   description="Complete It's Your Call whilst only driving backwards; no pressing W in a vehicle"
+                   difficulty="2"
+                   length="2"></goal>  
+			
+    <goal name="Queasy Fare"
+                   description="Complete Easy Fare whilst only driving backwards; no pressing W in a vehicle"
+                   difficulty="3"
+                   length="3"></goal>  
+				   
+	<goal name="Easy This Can't Be"
+                   description="Complete Easy As Can Be whilst only driving backwards; no pressing W in a vehicle"
+                   difficulty="1"
+                   length="2"></goal>	
+				   
+	<goal name="Escuela of the Discrete"
+                   description="Complete Escuela of the Streets whilst only driving backwards; no pressing W in a vehicle"
+                   difficulty="1"
+                   length="2"></goal>
+				   
+    <goal name="Never Look Back"
+                   description="Never drive backwards; no pressing S in a vehicle"
+                   difficulty="3"
+                   length="1"></goal>  
+			
+
+
+	</goals>
+</bingoals>
