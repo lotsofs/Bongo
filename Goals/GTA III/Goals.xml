@@ -1,0 +1,599 @@
+<bingoals>
+  <version version="1"></version>
+  <info title="iii"
+                   description="Probably need to establish some concrete rules for less vagueness. Here's some I can think of:
+        
+* If your game crashes after finishing an objective it will still count as completed and you don't have to redo.
+* If your game crashes during an objective (eg. while collecting packages) you must start over. So if you collected 14 out of 20 packages, then crash, you must collect those 14 packages again, rather than just the remaining 6. (I think, people please confirm this rule) -- I agree
+* Also you aren't allowed to reset the game to do objectives you lock yourself out (like mhmd did to do Drive Misty for me with a dodo), unless you reset your whole bingo card.
+"></info>
+  <bools>
+    <bool name="glitchonly"
+                   description="This goal requires glitching the game to complete"
+                   type="bool"></bool>
+  </bools>
+  
+    <!--	Difficulty:
+	0 = Literally everyone can do this
+	1 = Takes some game knowledge to execute well but not too hard
+	2 = Moderately hard but not frustratingly so
+	3 = Designed to be difficult, even 100% runners struggle with this	-->
+	
+	<goals>
+	<!-- random shit -->
+		<goal name="Mr. Whoopee"
+			description="Park a Mr. Whoopee in any of the safehouse garages"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Tank Time"
+			description="Steal a tank and leave it at a safehouse"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Great Escape"
+			description="Get a 4* wanted level at SSV safehouse and get to the portland safehouse"
+			difficulty="1"
+			></goal>
+			
+		<goal name="Dodo Disciple"
+			description="Do a Portland mission using a Dodo"
+			difficulty="1"
+			></goal>	
+			
+		<goal name="Pilot to Trust"
+			description="Give Misty a ride to Joey's with the dodo"
+			difficulty="1"
+			></goal>
+			
+		<goal name="Extra Stuff"
+			description="Do all of Luigi's and Joey's missions"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Overpowered"
+			description="Obtain an M16 before unlocking the second island"
+			difficulty="1"
+			></goal>
+			
+		<goal name="Stall Smasher"
+			description="Complete Espresso 2 Go without using any weapons"
+			difficulty="0"
+			></goal>
+			
+		<goal name="RIP in Peaches"
+			description="Kill Catalina"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Boat S.A.M."
+			description="Do S.A.M. the intended way"
+			difficulty="0"
+			></goal>
+			
+			
+		<!-- collectible shit -->	
+		<goal name="5 Rampages"
+			description="Complete 5 rampages"
+			difficulty="0"
+			></goal>
+			
+		<goal name="10 Rampages"
+			description="Complete 10 rampages"
+			difficulty="0"
+			></goal>	
+			
+		<goal name="15 Rampages"
+			description="Complete 15 rampages"
+			difficulty="0"
+			></goal>
+			
+		<goal name="20 Rampages"
+			description="Complete 20 rampages"
+			difficulty="0"
+			></goal>
+			
+		<goal name="5 Stunt Jumps"
+			description="Complete 5 Unique Stunt Jumps"
+			difficulty="0"></goal>
+			
+		<goal name="10 Stunt Jumps"
+			description="Complete 10 Unique Stunt Jumps"
+			difficulty="0"
+			></goal>
+			
+		<goal name="15 Stunt Jumps"
+                description="Complete 15 Unique Stunt Jumps"
+                difficulty="0">
+                </goal>
+				   
+		<goal name="20 Stunt Jumps"
+                description="Complete 20 Unique Stunt Jumps"
+                difficulty="0">
+                </goal>
+				   
+		<goal name="Fly Stunt"
+                description="Fly over a unique stunt slow motion trigger with a Dodo"
+                difficulty="2">
+                </goal>
+						   
+		<goal name="Nice House"
+                description="Fly to Kenji's house and walk around it"
+                difficulty="1">
+                </goal>
+				
+		<!-- sidemission shit -->		   
+		<goal name="2 Toyz"
+                description="Complete 2 Different Toyz challenges"
+                difficulty="0">
+                </goal>
+						
+		<goal name="4 Toyz"
+			description="Complete 4 Different Toyz challenges"
+			difficulty="0">
+			</goal>
+			
+		<goal name="Vigilante    3"
+			description="Unlock 3 bribe stars without using the escape glitch"
+			difficulty="1"
+			></goal>
+			
+		<goal name="Vigilante    6"
+			description="Unlock 6 bribe stars without using the escape glitch"
+			difficulty="1"
+			></goal>
+			
+		<goal name="Paramedic    6"
+			description="Complete Paramedic level 6"
+			difficulty="1"
+			></goal>	
+			
+		<goal name="Paramedic   12"
+			description="Complete Paramedic level 12"
+			difficulty="1"
+			></goal>
+			
+		<goal name="Firefighter  1"
+			description="Extinguish 20 fires on any one island without using the replay glitch"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Firefighter  2"
+			description="Extinguish 20 fires on any two islands without using the replay glitch"
+			difficulty="1"
+			></goal>
+			
+		<goal name="Firefighter  3"
+			description="Extinguish 20 fires on each island without using the replay glitch"
+			difficulty="0"
+			></goal>
+			
+		<goal name="15 fares"
+			description="Do 15 fares during Taxi Driver without glitching"
+			difficulty="0"
+			></goal>
+			
+		<goal name="33 fares"
+			description="Do 33 fares during Taxi Driver without glitching"
+			difficulty="0"
+			></goal>
+			
+		<goal name="67 fares"
+			description="Do 67 fares during Taxi Driver without glitching"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Taxi Driver"
+			description="Complete Taxi Driver without glitching"
+			difficulty="0"
+			></goal>
+
+			
+		<!-- misssion shit -->	
+		<goal name="Big N Veiny"
+			description="Complete 'Big N Veiny'"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Suicide Men"
+			description="Complete 'Kingdom Come'"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Luigi"
+			description="Complete 'The Fuzz Ball'"
+			difficulty="0"
+			></goal>
+			
+		<goal name="GTA"
+			description="Complete 'Grand Theft Auto'"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Skunk"
+                description="Complete 'Dead Skunk In The Trunk'"
+                difficulty="0"
+                ></goal>
+				   
+		<goal name="Wheelman"
+                description="Complete 'Two-Faced Tanner' without using guns"
+                difficulty="0"
+                ></goal>
+				   
+		<goal name="Kenji"
+                description="Complete 'Smack Down'"
+                difficulty="0"
+                ></goal>
+				   
+		<goal name="Ray Machowski"
+                description="Complete 'Marked Man'"
+                difficulty="0"
+                ></goal>
+				   
+		<goal name="Rigged to Blow"
+                description="Complete 'Rigged To Blow'"
+                difficulty="1"
+                ></goal>
+
+		<goal name="Escort"
+			description="Complete 'Escort Service'"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Joey Leone"
+			description="Complete 'The Getaway'"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Bitch'n Dog"
+			description="Complete all of 'Marty Chonks (Bitch'n' Dog Food)' payphone missions"
+			difficulty="0"
+			></goal>
+			
+		<goal name="GTAero"
+			description="Complete 'Grand Theft Aero'"
+			difficulty="0"
+			></goal>	
+			
+		<goal name="Evidence Dash"
+			description="Complete 'Evidence Dash'"
+			difficulty="0"
+			></goal>
+			
+		<goal name="All out of Love"
+			description="Watch the cutscene for 'Love's Disappearence'"
+			difficulty="0"
+			></goal>
+			
+		<goal name="BBS"
+			description="Complete 'Bling Bling Scramble'"
+			difficulty="0"
+			></goal>
+			
+		<goal name="The Exchange"
+			description="Complete 'The Exchange'"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Hard Turismo"
+			description="Complete 'Turismo' AFTER 'Sayonara Salvatore'"
+			difficulty="2"
+			></goal>
+			
+			
+		<!-- random mission shit -->	
+		<goal name="Hit N Run"
+			description="Chase The guy on 'PapaRazi Purge' With a Speeder"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Maria VIP"
+			description="Drive Maria around Portland during 'Chaperone'"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Easy Ride"
+			description="Drive a Manana Around Saint Marks after Killing Salvatore for 3 minutes"
+			difficulty="2"
+			></goal>	
+			
+		<goal name="Pick up the Bat"
+			description="Kill the dealer on 'Dont SPANK Ma Bitch Up' with the bat"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Dump Maria"
+			description="Take Maria to the Harwood crusher during 'Chaperone'"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Afraid Of Heights"
+			description="DRIVE the Dodo back from Grand Theft Aero - don't fly it"
+			difficulty="1"></goal>
+			
+		<goal name="Follow Curly"
+			description="Follow Curly Bob's taxi to the harbor on 'Cutting the Grass'"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Over the Fence"
+                description="Enter Cartel compound without using a Cartel Cruiser on 'Liberator'"
+                difficulty="1">
+                </goal>
+				   
+		<goal name="Car Bomb"
+                description="Complete a mission using a car bomb (IScream/MikeLips/Blowfish excluded)"
+                difficulty="1">
+                </goal>
+				   
+		<goal name="Spare the Mob"
+                description="Don't kill any Mafia guards during 'Sayonara Salvatore'"
+                difficulty="0">
+                </goal>
+				   
+		<goal name="Pacifist Ship"
+                description="Complete 'Bomb da Base: Part II' without killing any Colombians"
+                difficulty="2">
+                </goal>
+				   
+		<goal name="Yolo Marked Man"
+                description="Take the bridge on 'Marked Man'"
+                difficulty="3">
+                </goal>
+						
+		<goal name="Hippocrites"
+			description="Use an Ambulance to kill Leon McAffrey on 'Plaster Blaster'"
+			difficulty="0">
+			</goal>
+			
+		<goal name="Walk Misty"
+			description="Take Misty to Joey's on foot on 'Drive Misty For Me'"
+			difficulty="0"
+			></goal>
+			
+			
+		<!-- vehicle shit -->	
+		<goal name="Enforcer Saver"
+			description="Put a Enforcer in your garage"
+			difficulty="1"
+			></goal>
+			
+		<goal name="Ghost Missing"
+			description="Drive the Ghost Missing boat around Portland"
+			difficulty="1"
+			></goal>	
+			
+		<goal name="FBI Kuruma"
+			description="Put an FBI Kuruma in your garage"
+			difficulty="1"
+			></goal>
+			
+		<goal name="Manana FTW"
+			description="Fill all the garages with Mananas."
+			difficulty="2"
+			></goal>
+			
+		<goal name="Barracks OL"
+			description="Put a Barracks OL in your garage"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Cheetah OP"
+			description="Put a Cheetah from 'Turismo' in your garage"
+			difficulty="3"
+			></goal>
+			
+		<goal name="Dead Man(ana)"
+			description="Put a Manana from 'Dead Skunk in the Trunk' in your garage"
+			difficulty="2"
+			></goal>
+			
+		<goal name="Car Collector"
+			description="Deliver all emergency vehicles to the Emergency Vehicles crane in Portland"
+			difficulty="1"
+			></goal>
+			
+		<goal name="VanHeist Act II"
+			description="Deliver 5 Securicars to the Van Heist garage"
+			difficulty="2"
+			></goal>
+			
+		<goal name="Secure All Cars"
+			description="Deliver 10 Securicars to the Van Heist garage"
+			difficulty="2"
+			></goal>	
+			
+		<goal name="For a Rhiny Day"
+			description="Push the Rhino from 'Arms Shortage' into your garage"
+			difficulty="3"
+			></goal>
+			
+		<goal name="BF"
+			description="Put a BF Injection in your garage"
+			difficulty="0"
+			></goal>
+			
+			
+		<!-- money shit -->	
+		<goal name="$2.500.000"
+			description="Have at least $2.500.000 at the end of the run"
+			difficulty="0"
+			></goal>
+			
+		<goal name="$5.000.000"
+			description="Have at least $5.000.000 at the end of the run"
+			difficulty="0"
+			></goal>
+			
+		<goal name="$20.000.000"
+                description="Have at least $20.000.000 at the end of the run"
+                difficulty="0"
+                ></goal>
+				   
+		<goal name="$30.000.000"
+                description="Have at least $30.000.000 at the end of the run"
+                difficulty="0"
+                ></goal>
+				
+		<!-- random shit 2 -->		   
+		<goal name="Hike SM > RF"
+                description="Walk from Salvatore's Mansion to Rockford Hospital"
+                difficulty="0"
+                ></goal>
+				   
+		<goal name="Hike CM > RD"
+                description="Walk from Catalina's Mansion to the Red Light District safehouse"
+                difficulty="0"
+                ></goal>
+				   
+		<goal name="Hike RD > CM"
+                description="Walk from the Red Light District safehouse to Catalina's Mansion"
+                difficulty="1"
+                ></goal>
+
+		<goal name="Dodo Roundabout"
+			description="Fly around all of Liberty in a Dodo and land back at Francis INTL"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Ghost Town"
+			description="Fly to the Ghost Town"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Ugly Car Disp."
+			description="Destroy the Banshee in Capital Autos in Harwood without using weapons."
+			difficulty="1"
+			></goal>
+			
+		<goal name="Burn"
+			description="Acquire a flamethrower"
+			difficulty="1"
+			></goal>	
+			
+		<goal name="Bribe away 6*"
+			description="Lose a 6* wanted level just by picking up cop bribes"
+			difficulty="1"
+			></goal>
+			
+		<goal name="Bribe away 5*"
+			description="Lose a 5* wanted level just by picking up cop bribes"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Bribe away 4*"
+			description="Lose a 4* wanted level just by picking up cop bribes"
+			difficulty="1"
+			></goal>
+			
+		<goal name="Get Laid"
+			description="Get laid and have your health go to 125"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Firetruck VS Police"
+			description="Kill Catalina"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Broken Wings"
+			description="Don't fly the Dodo"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Budget Driver"
+			description="Don't drive Banshee, Yakuza Stinger, Stinger, Infernus or Cheetah unless forced by mission"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Fuck and Dump"
+			description="Don't enter the same car twice unless forced by mission"
+			difficulty="0"
+			></goal>	
+			
+		<goal name="Reverse Dodo"
+			description="Drive a Dodo from Shoreside to Portland through tunnels"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Flipstalker"
+			description="Roll a Landstalker 10 times without exiting it"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Big Cojones"
+			description="Punch an Army Soldier to death"
+			difficulty="0"></goal>
+			
+		<goal name="Subway%"
+			description="Travel between islands only using subway trains unless forced by mission"
+			difficulty="0"
+			></goal>
+			
+			
+		<!-- off-road mission shit -->	
+		<goal name="Gripped!"
+                description="Complete Gripped!"
+                difficulty="1">
+                </goal>
+				   
+		<goal name="Patriot Playground"
+                description="Complete Patriot Playground"
+                difficulty="1">
+                </goal>
+				   
+		<goal name="Multistorey Mayhem"
+                description="Complete Multistory Mayhem"
+                difficulty="2">
+                </goal>
+				   
+		<goal name="Ride In The Park"
+                description="Complete A Ride In The Park"
+                difficulty="1">
+                </goal>
+				
+				
+		<!-- saving shit -->		   
+		<goal name="Never Save"
+                description="Never save - not even to advance time."
+                difficulty="0">
+                </goal>
+						
+		<goal name="Never Load"
+			description="Never load (saving to advance time is allowed)"
+			difficulty="0">
+			</goal>
+			
+		<goal name="Always Save"
+			description="Save the game after completing each mission."
+			difficulty="0"
+			></goal>
+			
+		<!-- radio shit -->	
+		<goal name="Hot Tonight"
+			description="Stop movement and listen to entire 'I'm Hot Tonight' on Flashback"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Joyride"
+			description="Stop movement and listen to entire 'Grand Theft Auto' by Da Shootaz on Lips106"
+			difficulty="0"
+			></goal>	
+			
+		<goal name="She's On Fire"
+			description="Stop movement and listen to entire 'She's On Fire' on Flashback"
+			difficulty="1"
+			></goal>
+			
+		<goal name="Stripe Summer"
+			description="Stop movement and listen to entire 'Stripe Summer' on Head Radio"
+			difficulty="0"
+			></goal>
+			
+		<goal name="Wakey Wakey"
+			description="Stop movement and listen to entire 'Shiver by Deep Time' on RiseFM"
+			difficulty="0"
+			></goal>
+			
+			</goals>
+	</bingoals>
