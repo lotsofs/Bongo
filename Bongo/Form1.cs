@@ -11,6 +11,8 @@ using System.Diagnostics;
 using System.Xml;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Net;
+using System.Net.Sockets;
 
 namespace Bongo {
 	public partial class Form1 : Form {
@@ -193,6 +195,14 @@ namespace Bongo {
 			{"'",0xDE },
 
 		};
+
+		// online stuff
+		// https://www.youtube.com/watch?v=AN5AtcD2Hdc
+		TcpClient client;
+		public StreamReader streamReader;
+		public StreamWriter streamWriter;
+		public string textToReceive;
+		public String textToSend;
 
 
 
@@ -1023,6 +1033,8 @@ namespace Bongo {
 		}
 		#endregion
 
+		#region hotkeys
+
 		// Reads for global hotkey presses.
 		protected override void WndProc(ref Message keyPressed) {
 			if (keyPressed.Msg == 0x0312) {
@@ -1061,6 +1073,71 @@ namespace Bongo {
 			}
 			base.WndProc(ref keyPressed);
 		}
+
+		// Upon clicking the apply button, make the hotkeys work, and update the config file.
+		private void button2_Click(object sender, EventArgs e) {
+			hotkeys.UnregisterHotkeys(true);
+			hotkeys.RegisterHotkeys((uint)comboU.SelectedValue, (uint)comboD.SelectedValue, (uint)comboL.SelectedValue, (uint)comboR.SelectedValue, (uint)comboP.SelectedValue, (uint)comboN.SelectedValue, (uint)comboH.SelectedValue, (uint)comboT.SelectedValue, modifierU, modifierD, modifierL, modifierR, modifierP, modifierN, modifierH, modifierT);
+
+			XmlDocument doc = new XmlDocument();
+			doc.Load(@"BingoConfig.xml");
+			XmlNode node = doc.DocumentElement.SelectSingleNode("hotkeys");
+			node.Attributes["U"].InnerText = comboU.SelectedValue.ToString();
+			node.Attributes["D"].InnerText = comboD.SelectedValue.ToString();
+			node.Attributes["L"].InnerText = comboL.SelectedValue.ToString();
+			node.Attributes["R"].InnerText = comboR.SelectedValue.ToString();
+			node.Attributes["P"].InnerText = comboP.SelectedValue.ToString();
+			node.Attributes["N"].InnerText = comboN.SelectedValue.ToString();
+			node.Attributes["H"].InnerText = comboH.SelectedValue.ToString();
+			node.Attributes["T"].InnerText = comboT.SelectedValue.ToString();
+			XmlNode node2 = doc.DocumentElement.SelectSingleNode("modifiers");
+			node2.Attributes["U"].InnerText = (Convert.ToUInt32(ctrlU.Checked) * 2 + Convert.ToUInt32(altU.Checked) + Convert.ToUInt32(shiftU.Checked) * 4 + Convert.ToUInt32(winU.Checked) * 8).ToString();
+			node2.Attributes["D"].InnerText = (Convert.ToUInt32(ctrlD.Checked) * 2 + Convert.ToUInt32(altD.Checked) + Convert.ToUInt32(shiftD.Checked) * 4 + Convert.ToUInt32(winD.Checked) * 8).ToString();
+			node2.Attributes["L"].InnerText = (Convert.ToUInt32(ctrlL.Checked) * 2 + Convert.ToUInt32(altL.Checked) + Convert.ToUInt32(shiftL.Checked) * 4 + Convert.ToUInt32(winL.Checked) * 8).ToString();
+			node2.Attributes["R"].InnerText = (Convert.ToUInt32(ctrlR.Checked) * 2 + Convert.ToUInt32(altR.Checked) + Convert.ToUInt32(shiftR.Checked) * 4 + Convert.ToUInt32(winR.Checked) * 8).ToString();
+			node2.Attributes["P"].InnerText = (Convert.ToUInt32(ctrlP.Checked) * 2 + Convert.ToUInt32(altP.Checked) + Convert.ToUInt32(shiftP.Checked) * 4 + Convert.ToUInt32(winP.Checked) * 8).ToString();
+			node2.Attributes["N"].InnerText = (Convert.ToUInt32(ctrlN.Checked) * 2 + Convert.ToUInt32(altN.Checked) + Convert.ToUInt32(shiftN.Checked) * 4 + Convert.ToUInt32(winN.Checked) * 8).ToString();
+			node2.Attributes["H"].InnerText = (Convert.ToUInt32(ctrlH.Checked) * 2 + Convert.ToUInt32(altH.Checked) + Convert.ToUInt32(shiftH.Checked) * 4 + Convert.ToUInt32(winH.Checked) * 8).ToString();
+			node2.Attributes["T"].InnerText = (Convert.ToUInt32(ctrlT.Checked) * 2 + Convert.ToUInt32(altT.Checked) + Convert.ToUInt32(shiftT.Checked) * 4 + Convert.ToUInt32(winT.Checked) * 8).ToString();
+			doc.Save(@"BingoConfig.xml");
+		}
+
+		#region modifiercheckboxes
+		private void ctrlU_CheckedChanged(object sender, EventArgs e) {
+			modifierU = Convert.ToUInt32(ctrlU.Checked) * 2 + Convert.ToUInt32(altU.Checked) + Convert.ToUInt32(shiftU.Checked) * 4 + Convert.ToUInt32(winU.Checked) * 8;
+		}
+
+		private void ctrlD_CheckedChanged(object sender, EventArgs e) {
+			modifierD = Convert.ToUInt32(ctrlD.Checked) * 2 + Convert.ToUInt32(altD.Checked) + Convert.ToUInt32(shiftD.Checked) * 4 + Convert.ToUInt32(winD.Checked) * 8;
+		}
+
+		private void ctrlL_CheckedChanged(object sender, EventArgs e) {
+			modifierL = Convert.ToUInt32(ctrlL.Checked) * 2 + Convert.ToUInt32(altL.Checked) + Convert.ToUInt32(shiftL.Checked) * 4 + Convert.ToUInt32(winL.Checked) * 8;
+		}
+
+		private void ctrlR_CheckedChanged(object sender, EventArgs e) {
+			modifierR = Convert.ToUInt32(ctrlR.Checked) * 2 + Convert.ToUInt32(altR.Checked) + Convert.ToUInt32(shiftR.Checked) * 4 + Convert.ToUInt32(winR.Checked) * 8;
+		}
+
+		private void ctrlP_CheckedChanged(object sender, EventArgs e) {
+			modifierP = Convert.ToUInt32(ctrlP.Checked) * 2 + Convert.ToUInt32(altP.Checked) + Convert.ToUInt32(shiftP.Checked) * 4 + Convert.ToUInt32(winP.Checked) * 8;
+		}
+
+		private void ctrlN_CheckedChanged(object sender, EventArgs e) {
+			modifierN = Convert.ToUInt32(ctrlN.Checked) * 2 + Convert.ToUInt32(altN.Checked) + Convert.ToUInt32(shiftN.Checked) * 4 + Convert.ToUInt32(winN.Checked) * 8;
+		}
+
+		private void ctrlH_CheckedChanged(object sender, EventArgs e) {
+			modifierH = Convert.ToUInt32(ctrlH.Checked) * 2 + Convert.ToUInt32(altH.Checked) + Convert.ToUInt32(shiftH.Checked) * 4 + Convert.ToUInt32(winH.Checked) * 8;
+		}
+
+		private void ctrlT_CheckedChanged(object sender, EventArgs e) {
+			modifierT = Convert.ToUInt32(ctrlT.Checked) * 2 + Convert.ToUInt32(altT.Checked) + Convert.ToUInt32(shiftT.Checked) * 4 + Convert.ToUInt32(winT.Checked) * 8;
+		}
+		#endregion
+
+		#endregion
+
 
 		#region clicking on stuff on the form etc
 		#region tile click
@@ -1146,70 +1223,86 @@ namespace Bongo {
 				labelHKNotifier.Text = "";
 			}
 		}
+
+
+
+
+
 		#endregion
 
-		#region modifiercheckboxes
-		private void ctrlU_CheckedChanged(object sender, EventArgs e) {
-			modifierU = Convert.ToUInt32(ctrlU.Checked) * 2 + Convert.ToUInt32(altU.Checked) + Convert.ToUInt32(shiftU.Checked) * 4 + Convert.ToUInt32(winU.Checked) * 8;
+		#region online stuff
+		private void buttonStartServer_Click(object sender, EventArgs e) {
+			/*ipaddress[] localip = dns.gethostaddresses(dns.gethostname());          // get my ip
+			foreach (ipaddress address in localip) {
+				if (address.addressfamily == addressfamily.internetwork) {
+					textboxserverip.text = address.tostring();
+				}
+			}*/
+
+			TcpListener listener = new TcpListener(IPAddress.Any, int.Parse(textBoxServerPort.Text));
+			listener.Start();
+			client = listener.AcceptTcpClient();
+			streamReader = new StreamReader(client.GetStream());
+			streamWriter = new StreamWriter(client.GetStream());
+			streamWriter.AutoFlush = true;
+
+			backgroundWorkerReceive.RunWorkerAsync();
+			backgroundWorkerSend.WorkerSupportsCancellation = true;
 		}
 
-		private void ctrlD_CheckedChanged(object sender, EventArgs e) {
-			modifierD = Convert.ToUInt32(ctrlD.Checked) * 2 + Convert.ToUInt32(altD.Checked) + Convert.ToUInt32(shiftD.Checked) * 4 + Convert.ToUInt32(winD.Checked) * 8;
+		private void buttonClientConnect_Click(object sender, EventArgs e) {
+			client = new TcpClient();
+			IPEndPoint ip_End = new IPEndPoint(IPAddress.Parse(textBoxClientIP.Text), int.Parse(textBoxClientPort.Text));
+
+			try {
+				client.Connect(ip_End);
+				if (client.Connected) {
+					textBoxMessages.AppendText("Connected to server \n");
+					streamReader = new StreamReader(client.GetStream());
+					streamWriter = new StreamWriter(client.GetStream());
+					streamWriter.AutoFlush = true;
+
+					backgroundWorkerReceive.RunWorkerAsync();
+					backgroundWorkerSend.WorkerSupportsCancellation = true;
+				}
+			}
+			catch (Exception exc) {
+				MessageBox.Show(exc.Message.ToString());
+			}
 		}
 
-		private void ctrlL_CheckedChanged(object sender, EventArgs e) {
-			modifierL = Convert.ToUInt32(ctrlL.Checked) * 2 + Convert.ToUInt32(altL.Checked) + Convert.ToUInt32(shiftL.Checked) * 4 + Convert.ToUInt32(winL.Checked) * 8;
+		private void buttonSend_Click(object sender, EventArgs e) {
+			if (textBoxSend.Text != "") {
+				textToSend = textBoxSend.Text;
+				backgroundWorkerSend.RunWorkerAsync();
+			}
+			textBoxSend.Text = "";
 		}
 
-		private void ctrlR_CheckedChanged(object sender, EventArgs e) {
-			modifierR = Convert.ToUInt32(ctrlR.Checked) * 2 + Convert.ToUInt32(altR.Checked) + Convert.ToUInt32(shiftR.Checked) * 4 + Convert.ToUInt32(winR.Checked) * 8;
+		private void backgroundWorkerReceive_DoWork(object sender, DoWorkEventArgs e) {
+			while (client.Connected) {
+				try {
+					textToReceive = streamReader.ReadLine();
+					textBoxMessages.Invoke(new MethodInvoker(delegate () { textBoxMessages.AppendText("Them: " + textToReceive + "\n"); }));
+				}
+				catch (Exception exc) {
+					MessageBox.Show(exc.Message.ToString());
+				}
+			}
 		}
 
-		private void ctrlP_CheckedChanged(object sender, EventArgs e) {
-			modifierP = Convert.ToUInt32(ctrlP.Checked) * 2 + Convert.ToUInt32(altP.Checked) + Convert.ToUInt32(shiftP.Checked) * 4 + Convert.ToUInt32(winP.Checked) * 8;
+		private void backgroundWorkerSend_DoWork(object sender, DoWorkEventArgs e) {
+			if (client.Connected) {
+				streamWriter.WriteLine(textToSend);
+				textBoxMessages.Invoke(new MethodInvoker(delegate () { textBoxMessages.AppendText("You: " + textToSend + "\n"); }));
+			}
+			else {
+				MessageBox.Show("Send Failed");
+			}
+			backgroundWorkerSend.CancelAsync();
 		}
 
-		private void ctrlN_CheckedChanged(object sender, EventArgs e) {
-			modifierN = Convert.ToUInt32(ctrlN.Checked) * 2 + Convert.ToUInt32(altN.Checked) + Convert.ToUInt32(shiftN.Checked) * 4 + Convert.ToUInt32(winN.Checked) * 8;
-		}
-
-		private void ctrlH_CheckedChanged(object sender, EventArgs e) {
-			modifierH = Convert.ToUInt32(ctrlH.Checked) * 2 + Convert.ToUInt32(altH.Checked) + Convert.ToUInt32(shiftH.Checked) * 4 + Convert.ToUInt32(winH.Checked) * 8;
-		}
-
-		private void ctrlT_CheckedChanged(object sender, EventArgs e) {
-			modifierT = Convert.ToUInt32(ctrlT.Checked) * 2 + Convert.ToUInt32(altT.Checked) + Convert.ToUInt32(shiftT.Checked) * 4 + Convert.ToUInt32(winT.Checked) * 8;
-		}
 		#endregion
-
-		// Upon clicking the apply button, make the hotkeys work, and update the config file.
-		private void button2_Click(object sender, EventArgs e) {
-			hotkeys.UnregisterHotkeys(true);
-			hotkeys.RegisterHotkeys((uint)comboU.SelectedValue, (uint)comboD.SelectedValue, (uint)comboL.SelectedValue, (uint)comboR.SelectedValue, (uint)comboP.SelectedValue, (uint)comboN.SelectedValue, (uint)comboH.SelectedValue, (uint)comboT.SelectedValue, modifierU, modifierD, modifierL, modifierR, modifierP, modifierN, modifierH, modifierT);
-
-			XmlDocument doc = new XmlDocument();
-			doc.Load(@"BingoConfig.xml");
-			XmlNode node = doc.DocumentElement.SelectSingleNode("hotkeys");
-			node.Attributes["U"].InnerText = comboU.SelectedValue.ToString();
-			node.Attributes["D"].InnerText = comboD.SelectedValue.ToString();
-			node.Attributes["L"].InnerText = comboL.SelectedValue.ToString();
-			node.Attributes["R"].InnerText = comboR.SelectedValue.ToString();
-			node.Attributes["P"].InnerText = comboP.SelectedValue.ToString();
-			node.Attributes["N"].InnerText = comboN.SelectedValue.ToString();
-			node.Attributes["H"].InnerText = comboH.SelectedValue.ToString();
-			node.Attributes["T"].InnerText = comboT.SelectedValue.ToString();
-			XmlNode node2 = doc.DocumentElement.SelectSingleNode("modifiers");
-			node2.Attributes["U"].InnerText = (Convert.ToUInt32(ctrlU.Checked) * 2 + Convert.ToUInt32(altU.Checked) + Convert.ToUInt32(shiftU.Checked) * 4 + Convert.ToUInt32(winU.Checked) * 8).ToString();
-			node2.Attributes["D"].InnerText = (Convert.ToUInt32(ctrlD.Checked) * 2 + Convert.ToUInt32(altD.Checked) + Convert.ToUInt32(shiftD.Checked) * 4 + Convert.ToUInt32(winD.Checked) * 8).ToString();
-			node2.Attributes["L"].InnerText = (Convert.ToUInt32(ctrlL.Checked) * 2 + Convert.ToUInt32(altL.Checked) + Convert.ToUInt32(shiftL.Checked) * 4 + Convert.ToUInt32(winL.Checked) * 8).ToString();
-			node2.Attributes["R"].InnerText = (Convert.ToUInt32(ctrlR.Checked) * 2 + Convert.ToUInt32(altR.Checked) + Convert.ToUInt32(shiftR.Checked) * 4 + Convert.ToUInt32(winR.Checked) * 8).ToString();
-			node2.Attributes["P"].InnerText = (Convert.ToUInt32(ctrlP.Checked) * 2 + Convert.ToUInt32(altP.Checked) + Convert.ToUInt32(shiftP.Checked) * 4 + Convert.ToUInt32(winP.Checked) * 8).ToString();
-			node2.Attributes["N"].InnerText = (Convert.ToUInt32(ctrlN.Checked) * 2 + Convert.ToUInt32(altN.Checked) + Convert.ToUInt32(shiftN.Checked) * 4 + Convert.ToUInt32(winN.Checked) * 8).ToString();
-			node2.Attributes["H"].InnerText = (Convert.ToUInt32(ctrlH.Checked) * 2 + Convert.ToUInt32(altH.Checked) + Convert.ToUInt32(shiftH.Checked) * 4 + Convert.ToUInt32(winH.Checked) * 8).ToString();
-			node2.Attributes["T"].InnerText = (Convert.ToUInt32(ctrlT.Checked) * 2 + Convert.ToUInt32(altT.Checked) + Convert.ToUInt32(shiftT.Checked) * 4 + Convert.ToUInt32(winT.Checked) * 8).ToString();
-			doc.Save(@"BingoConfig.xml");
-		}
-
 
 	}
 }

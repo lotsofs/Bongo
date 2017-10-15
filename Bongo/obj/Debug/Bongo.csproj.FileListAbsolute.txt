@@ -24,17 +24,13 @@ D:\Repositories\Bongo\Bongo\bin\Debug\Bongo.exe.config
 D:\Repositories\Bongo\Bongo\obj\Debug\Bongo.exe
 D:\Repositories\Bongo\Bongo\obj\Debug\Bongo.pdb
 D:\Repositories\Bongo\Bongo\bin\Debug\BingoConfig.xml
-D:\Repositories\Bongo\Bongo\bin\Debug\Goals\GTA Vice City\Goals.xml
-D:\Repositories\Bongo\Bongo\bin\Debug\Goals\Sample Marathon Bingo\Goals.xml
 D:\Repositories\Bongo\Bongo\bin\Debug\Bongo.exe
 D:\Repositories\Bongo\Bongo\bin\Debug\Bongo.pdb
 D:\Repositories\Bongo\Bongo\obj\Debug\Bongo.csprojResolveAssemblyReference.cache
 D:\Repositories\Bongo\Bongo\obj\Debug\Bongo.Form1.resources
 D:\Repositories\Bongo\Bongo\obj\Debug\Bongo.Properties.Resources.resources
 D:\Repositories\Bongo\Bongo\obj\Debug\Bongo.csproj.GenerateResource.Cache
-D:\Repositories\Bongo\Bongo\bin\Debug\Goals\GTA San Andreas\Goals.xml
 D:\Repositories\Bongo\Bongo\bin\Debug\Goals\Example Bingo\Goals.xml
-D:\Repositories\Bongo\Bongo\bin\Debug\Goals\Sample Marathon Bingo - Copy\Goals.xml
 D:\Repositories\Bongo\Bongo\bin\Debug\Bongo.exe.manifest
 D:\Repositories\Bongo\Bongo\bin\Debug\Bongo.application
 D:\Repositories\Bongo\Bongo\obj\Debug\Bongo.exe.manifest

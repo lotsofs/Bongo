@@ -136,4 +136,13 @@ Anyway, enjoy this shitty UI</value>
 * If someone else has already generated a board, then have them send the Unique Board ID to you.
 * Make sure your goals files match.</value>
   </data>
+  <data name="label166.Text" xml:space="preserve">
+    <value>Beta two player mode available. To play, player 1 must start a server (don't forget to forward ports). Player 2 must connect to the server below. Note: Upon starting the server, the program will hang until player 2 has connected (Because this is in beta.)</value>
+  </data>
+  <metadata name="backgroundWorkerReceive.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="backgroundWorkerSend.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>181, 17</value>
+  </metadata>
 </root>

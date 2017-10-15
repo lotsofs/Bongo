@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bongo.exe" size="114176">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bongo.exe" size="120320">
       <assemblyIdentity name="Bongo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>oO3ChPQCWMZVTqheuxHRu6q65WbKkit/7950m7p4lYY=</dsig:DigestValue>
+        <dsig:DigestValue>99ZcE+dgUi9hlAdxgIHCdqIvcn45Ovn3/2hkTO+PR18=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -78,42 +78,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>1M1FqJ9Ovrj3Y7nh5oIjZAOrSfAy/hqWaZArry+rQtQ=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Goals\GTA San Andreas\Goals.xml" size="30947" writeableType="applicationData">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Ye3QR1le/40Z7TvVIkr3JaZkgCjvlx9TFrFJvVHGdzk=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Goals\GTA Vice City\Goals.xml" size="35920" writeableType="applicationData">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>/TWAwTbO4pbJx1m2GE5ROrgrRuAQDkrW2XPyGfwYWXQ=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Goals\Sample Marathon Bingo - Copy\Goals.xml" size="6932" writeableType="applicationData">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>YMPEJplBjTzjQK4MHAob8kHY9h65wHbWlVv3cpHN6/s=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Goals\Sample Marathon Bingo\Goals.xml" size="3898" writeableType="applicationData">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>7v/YjH959R0diI6a+cGgzbuHXpZLh3pWP336S1niB+Q=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
