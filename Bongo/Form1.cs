@@ -1289,9 +1289,16 @@ namespace Bongo {
 			}
 
 			byte[] recBuf = new byte[received];
-			Array.Copy(buffer, recBuf, received);
-			string text = Encoding.ASCII.GetString(recBuf);
-			this.BeginInvoke(new MethodInvoker(()=> { textBoxMessages.AppendText("Received: " + text + " \n"); }));
+			if (recBuf[0] == 2) {       // text chat message
+				Array.Copy(buffer, recBuf, received);
+				string text = Encoding.ASCII.GetString(recBuf);
+				text.Remove(0, 1);
+				this.BeginInvoke(new MethodInvoker(() => { textBoxMessages.AppendText("Received: " + text + " \n"); }));
+			}
+			else if (recBuf[0] == 1) {  // bingo board colors
+				///// do something
+			}
+
 			// relay message to other lcients
 			foreach (Socket socket in clientSockets) {
 				if (socket != current) {
@@ -1359,11 +1366,20 @@ namespace Bongo {
 		}
 	}*/
 
+		// buffer prefixes:
+		// 1 = full bingo board colors
+		// 2 = text chat message
+
 		// send message
 		private void buttonSend_Click(object sender, EventArgs e) {
 			if (textBoxSend.Text != "") {
 				if (clientSocket.Connected) {
-					byte[] buffer = Encoding.ASCII.GetBytes(textBoxSend.Text);
+					// convert the typed text to bytes, and add a byte in front of it to denote it is text
+					byte[] bufferWorking = Encoding.ASCII.GetBytes(textBoxSend.Text);
+					byte[] buffer = new byte[bufferWorking.Length + 1];
+					buffer[0] = 2;
+					Array.Copy(bufferWorking, 0, buffer, 1, bufferWorking.Length);
+					// send the bytes
 					clientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
 					textBoxMessages.AppendText("Sent: " + textBoxSend.Text + " \n");
 					textBoxSend.Text = "";
@@ -1377,6 +1393,21 @@ namespace Bongo {
 					textBoxMessages.AppendText("Sent: " + textBoxSend.Text + " \n");
 					textBoxSend.Text = "";
 				}
+			}
+			if (clientSocket.Connected) {
+				// take the colors of the bingo board
+				int[] colorsInt = new int[25];
+				for (int i = 0; i < 25; i++) {
+					colorsInt[i] = Array.FindIndex(colors, item => item == labels[i].BackColor);
+				}
+				// convert array of colors to byte with one byte to denote that it is a list of colors
+				byte[] buffer = new byte[colorsInt.Length * 4 + 1];
+				for(int i = 0; i < 25; i++) {
+					Array.Copy(BitConverter.GetBytes(colorsInt[i]), 0, buffer, i * 4 + 1, 4);
+					buffer[0] = 1;
+				}
+				// transmit data
+				clientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
 			}
 		}
 			/*if (textBoxSend.Text != "") {
@@ -1430,6 +1461,7 @@ namespace Bongo {
 		}
 
 		#endregion
+
 
 	}
 }

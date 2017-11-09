@@ -130,19 +130,23 @@ Anyway, enjoy this shitty UI</value>
   <data name="label164.Text" xml:space="preserve">
     <value>If the board was premade by someone specifically, and not randomly generated, they will have sent you an XML. Place this in the same location just like any other XML goals file. Then simply hit Generate, no configuration required.</value>
   </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>If someone else has already generated a board, simply type or paste their unique board ID (5-8 digits) in here, and hit 'Generate' at the bottom. You do not need to configure any settings. This information is stored in the unique board ID.
+</value>
+  </data>
   <data name="label30.Text" xml:space="preserve">
     <value>* Select the goals file at the bottom. 
 * Configure the settings above, then hit generate at the bottom. Send the Unique Board ID to the other participants. 
-* If someone else has already generated a board, then have them send the Unique Board ID to you.
+* If someone else has already generated a board, then have them send the Unique Board ID to you and use the Load Board tab instead.
 * Make sure your goals files match.</value>
-  </data>
-  <data name="label166.Text" xml:space="preserve">
-    <value>Beta two player mode available. To play, player 1 must start a server (don't forget to forward ports). Player 2 must connect to the server below. Note: Upon starting the server, the program will hang until player 2 has connected (Because this is in beta.)</value>
   </data>
   <metadata name="backgroundWorkerReceive.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="backgroundWorkerSend.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>181, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
   </metadata>
 </root>

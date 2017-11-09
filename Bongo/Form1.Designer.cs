@@ -285,6 +285,27 @@
 			this.label25 = new System.Windows.Forms.Label();
 			this.tabControl1 = new System.Windows.Forms.TabControl();
 			this.tabPage8 = new System.Windows.Forms.TabPage();
+			this.groupBox12 = new System.Windows.Forms.GroupBox();
+			this.comboBox7 = new System.Windows.Forms.ComboBox();
+			this.comboBox8 = new System.Windows.Forms.ComboBox();
+			this.comboBox5 = new System.Windows.Forms.ComboBox();
+			this.comboBox6 = new System.Windows.Forms.ComboBox();
+			this.comboBox4 = new System.Windows.Forms.ComboBox();
+			this.comboBox3 = new System.Windows.Forms.ComboBox();
+			this.textBox6 = new System.Windows.Forms.TextBox();
+			this.label177 = new System.Windows.Forms.Label();
+			this.textBox5 = new System.Windows.Forms.TextBox();
+			this.label176 = new System.Windows.Forms.Label();
+			this.textBox4 = new System.Windows.Forms.TextBox();
+			this.label175 = new System.Windows.Forms.Label();
+			this.textBox3 = new System.Windows.Forms.TextBox();
+			this.label174 = new System.Windows.Forms.Label();
+			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.label172 = new System.Windows.Forms.Label();
+			this.comboBox2 = new System.Windows.Forms.ComboBox();
+			this.textBoxName = new System.Windows.Forms.TextBox();
+			this.label171 = new System.Windows.Forms.Label();
+			this.label173 = new System.Windows.Forms.Label();
 			this.groupBox11 = new System.Windows.Forms.GroupBox();
 			this.buttonSend = new System.Windows.Forms.Button();
 			this.textBoxSend = new System.Windows.Forms.TextBox();
@@ -332,6 +353,7 @@
 			this.tableLayoutPanel1.SuspendLayout();
 			this.tabControl1.SuspendLayout();
 			this.tabPage8.SuspendLayout();
+			this.groupBox12.SuspendLayout();
 			this.groupBox11.SuspendLayout();
 			this.groupBox10.SuspendLayout();
 			this.groupBox9.SuspendLayout();
@@ -828,9 +850,9 @@
 			this.tabPage7.Controls.Add(this.goalInfoSpectateBox);
 			this.tabPage7.Controls.Add(this.tabControl2);
 			this.tabPage7.ForeColor = System.Drawing.Color.White;
-			this.tabPage7.Location = new System.Drawing.Point(4, 40);
+			this.tabPage7.Location = new System.Drawing.Point(4, 22);
 			this.tabPage7.Name = "tabPage7";
-			this.tabPage7.Size = new System.Drawing.Size(561, 718);
+			this.tabPage7.Size = new System.Drawing.Size(561, 736);
 			this.tabPage7.TabIndex = 6;
 			this.tabPage7.Text = "Spectator Mode";
 			// 
@@ -839,7 +861,7 @@
 			this.unhideButtonSpectate.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.unhideButtonSpectate.BackColor = System.Drawing.Color.White;
 			this.unhideButtonSpectate.ForeColor = System.Drawing.Color.Black;
-			this.unhideButtonSpectate.Location = new System.Drawing.Point(174, 617);
+			this.unhideButtonSpectate.Location = new System.Drawing.Point(174, 626);
 			this.unhideButtonSpectate.Name = "unhideButtonSpectate";
 			this.unhideButtonSpectate.Size = new System.Drawing.Size(172, 59);
 			this.unhideButtonSpectate.TabIndex = 51;
@@ -856,7 +878,7 @@
 			this.goalInfoSpectateBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.goalInfoSpectateBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.goalInfoSpectateBox.ForeColor = System.Drawing.Color.White;
-			this.goalInfoSpectateBox.Location = new System.Drawing.Point(3, 564);
+			this.goalInfoSpectateBox.Location = new System.Drawing.Point(3, 582);
 			this.goalInfoSpectateBox.Multiline = true;
 			this.goalInfoSpectateBox.Name = "goalInfoSpectateBox";
 			this.goalInfoSpectateBox.ReadOnly = true;
@@ -877,7 +899,7 @@
 			this.tabControl2.Location = new System.Drawing.Point(3, 3);
 			this.tabControl2.Name = "tabControl2";
 			this.tabControl2.SelectedIndex = 0;
-			this.tabControl2.Size = new System.Drawing.Size(554, 555);
+			this.tabControl2.Size = new System.Drawing.Size(554, 573);
 			this.tabControl2.TabIndex = 0;
 			// 
 			// playerGreen
@@ -887,7 +909,7 @@
 			this.playerGreen.Location = new System.Drawing.Point(4, 22);
 			this.playerGreen.Name = "playerGreen";
 			this.playerGreen.Padding = new System.Windows.Forms.Padding(3);
-			this.playerGreen.Size = new System.Drawing.Size(546, 529);
+			this.playerGreen.Size = new System.Drawing.Size(546, 547);
 			this.playerGreen.TabIndex = 0;
 			this.playerGreen.Text = "Player Green";
 			// 
@@ -938,7 +960,7 @@
 			this.tableLayoutPanelGreen.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanelGreen.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanelGreen.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelGreen.Size = new System.Drawing.Size(540, 522);
+			this.tableLayoutPanelGreen.Size = new System.Drawing.Size(540, 540);
 			this.tableLayoutPanelGreen.TabIndex = 52;
 			// 
 			// label39
@@ -953,7 +975,7 @@
 			this.label39.Margin = new System.Windows.Forms.Padding(5);
 			this.label39.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label39.Name = "label39";
-			this.label39.Size = new System.Drawing.Size(98, 94);
+			this.label39.Size = new System.Drawing.Size(98, 98);
 			this.label39.TabIndex = 19;
 			this.label39.Text = "Bingo Tile 1";
 			this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -972,7 +994,7 @@
 			this.label40.Margin = new System.Windows.Forms.Padding(5);
 			this.label40.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label40.Name = "label40";
-			this.label40.Size = new System.Drawing.Size(98, 94);
+			this.label40.Size = new System.Drawing.Size(98, 98);
 			this.label40.TabIndex = 20;
 			this.label40.Text = "Bingo Tile 2";
 			this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -991,7 +1013,7 @@
 			this.label41.Margin = new System.Windows.Forms.Padding(5);
 			this.label41.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label41.Name = "label41";
-			this.label41.Size = new System.Drawing.Size(98, 94);
+			this.label41.Size = new System.Drawing.Size(98, 98);
 			this.label41.TabIndex = 21;
 			this.label41.Text = "Bingo Tile 3";
 			this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1010,7 +1032,7 @@
 			this.label42.Margin = new System.Windows.Forms.Padding(5);
 			this.label42.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label42.Name = "label42";
-			this.label42.Size = new System.Drawing.Size(98, 94);
+			this.label42.Size = new System.Drawing.Size(98, 98);
 			this.label42.TabIndex = 22;
 			this.label42.Text = "Bingo Tile 4";
 			this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1029,7 +1051,7 @@
 			this.label43.Margin = new System.Windows.Forms.Padding(5);
 			this.label43.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label43.Name = "label43";
-			this.label43.Size = new System.Drawing.Size(98, 94);
+			this.label43.Size = new System.Drawing.Size(98, 98);
 			this.label43.TabIndex = 23;
 			this.label43.Text = "Bingo Tile 5";
 			this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1044,11 +1066,11 @@
 			this.label44.BackColor = System.Drawing.Color.LightGray;
 			this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label44.ForeColor = System.Drawing.Color.Black;
-			this.label44.Location = new System.Drawing.Point(5, 109);
+			this.label44.Location = new System.Drawing.Point(5, 113);
 			this.label44.Margin = new System.Windows.Forms.Padding(5);
 			this.label44.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label44.Name = "label44";
-			this.label44.Size = new System.Drawing.Size(98, 94);
+			this.label44.Size = new System.Drawing.Size(98, 98);
 			this.label44.TabIndex = 24;
 			this.label44.Text = "Bingo Tile 6";
 			this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1063,11 +1085,11 @@
 			this.label45.BackColor = System.Drawing.Color.LightGray;
 			this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label45.ForeColor = System.Drawing.Color.Black;
-			this.label45.Location = new System.Drawing.Point(113, 109);
+			this.label45.Location = new System.Drawing.Point(113, 113);
 			this.label45.Margin = new System.Windows.Forms.Padding(5);
 			this.label45.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label45.Name = "label45";
-			this.label45.Size = new System.Drawing.Size(98, 94);
+			this.label45.Size = new System.Drawing.Size(98, 98);
 			this.label45.TabIndex = 25;
 			this.label45.Text = "Bingo Tile 7";
 			this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1082,11 +1104,11 @@
 			this.label46.BackColor = System.Drawing.Color.LightGray;
 			this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label46.ForeColor = System.Drawing.Color.Black;
-			this.label46.Location = new System.Drawing.Point(221, 109);
+			this.label46.Location = new System.Drawing.Point(221, 113);
 			this.label46.Margin = new System.Windows.Forms.Padding(5);
 			this.label46.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label46.Name = "label46";
-			this.label46.Size = new System.Drawing.Size(98, 94);
+			this.label46.Size = new System.Drawing.Size(98, 98);
 			this.label46.TabIndex = 26;
 			this.label46.Text = "Bingo Tile 8";
 			this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1101,11 +1123,11 @@
 			this.label47.BackColor = System.Drawing.Color.LightGray;
 			this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label47.ForeColor = System.Drawing.Color.Black;
-			this.label47.Location = new System.Drawing.Point(329, 109);
+			this.label47.Location = new System.Drawing.Point(329, 113);
 			this.label47.Margin = new System.Windows.Forms.Padding(5);
 			this.label47.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label47.Name = "label47";
-			this.label47.Size = new System.Drawing.Size(98, 94);
+			this.label47.Size = new System.Drawing.Size(98, 98);
 			this.label47.TabIndex = 27;
 			this.label47.Text = "Bingo Tile 9";
 			this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1120,11 +1142,11 @@
 			this.label48.BackColor = System.Drawing.Color.LightGray;
 			this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label48.ForeColor = System.Drawing.Color.Black;
-			this.label48.Location = new System.Drawing.Point(437, 109);
+			this.label48.Location = new System.Drawing.Point(437, 113);
 			this.label48.Margin = new System.Windows.Forms.Padding(5);
 			this.label48.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label48.Name = "label48";
-			this.label48.Size = new System.Drawing.Size(98, 94);
+			this.label48.Size = new System.Drawing.Size(98, 98);
 			this.label48.TabIndex = 28;
 			this.label48.Text = "Bingo Tile 10";
 			this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1139,11 +1161,11 @@
 			this.label49.BackColor = System.Drawing.Color.LightGray;
 			this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label49.ForeColor = System.Drawing.Color.Black;
-			this.label49.Location = new System.Drawing.Point(5, 213);
+			this.label49.Location = new System.Drawing.Point(5, 221);
 			this.label49.Margin = new System.Windows.Forms.Padding(5);
 			this.label49.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label49.Name = "label49";
-			this.label49.Size = new System.Drawing.Size(98, 94);
+			this.label49.Size = new System.Drawing.Size(98, 98);
 			this.label49.TabIndex = 29;
 			this.label49.Text = "Bingo Tile 11";
 			this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1158,11 +1180,11 @@
 			this.label50.BackColor = System.Drawing.Color.LightGray;
 			this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label50.ForeColor = System.Drawing.Color.Black;
-			this.label50.Location = new System.Drawing.Point(113, 213);
+			this.label50.Location = new System.Drawing.Point(113, 221);
 			this.label50.Margin = new System.Windows.Forms.Padding(5);
 			this.label50.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label50.Name = "label50";
-			this.label50.Size = new System.Drawing.Size(98, 94);
+			this.label50.Size = new System.Drawing.Size(98, 98);
 			this.label50.TabIndex = 30;
 			this.label50.Text = "Bingo Tile 12";
 			this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1177,11 +1199,11 @@
 			this.label51.BackColor = System.Drawing.Color.LightGray;
 			this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label51.ForeColor = System.Drawing.Color.Black;
-			this.label51.Location = new System.Drawing.Point(221, 213);
+			this.label51.Location = new System.Drawing.Point(221, 221);
 			this.label51.Margin = new System.Windows.Forms.Padding(5);
 			this.label51.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label51.Name = "label51";
-			this.label51.Size = new System.Drawing.Size(98, 94);
+			this.label51.Size = new System.Drawing.Size(98, 98);
 			this.label51.TabIndex = 31;
 			this.label51.Text = "Bingo Tile 13";
 			this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1196,11 +1218,11 @@
 			this.label52.BackColor = System.Drawing.Color.LightGray;
 			this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label52.ForeColor = System.Drawing.Color.Black;
-			this.label52.Location = new System.Drawing.Point(329, 213);
+			this.label52.Location = new System.Drawing.Point(329, 221);
 			this.label52.Margin = new System.Windows.Forms.Padding(5);
 			this.label52.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label52.Name = "label52";
-			this.label52.Size = new System.Drawing.Size(98, 94);
+			this.label52.Size = new System.Drawing.Size(98, 98);
 			this.label52.TabIndex = 32;
 			this.label52.Text = "Bingo Tile 14";
 			this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1215,11 +1237,11 @@
 			this.label53.BackColor = System.Drawing.Color.LightGray;
 			this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label53.ForeColor = System.Drawing.Color.Black;
-			this.label53.Location = new System.Drawing.Point(437, 213);
+			this.label53.Location = new System.Drawing.Point(437, 221);
 			this.label53.Margin = new System.Windows.Forms.Padding(5);
 			this.label53.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label53.Name = "label53";
-			this.label53.Size = new System.Drawing.Size(98, 94);
+			this.label53.Size = new System.Drawing.Size(98, 98);
 			this.label53.TabIndex = 33;
 			this.label53.Text = "Bingo Tile 15";
 			this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1234,11 +1256,11 @@
 			this.label54.BackColor = System.Drawing.Color.LightGray;
 			this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label54.ForeColor = System.Drawing.Color.Black;
-			this.label54.Location = new System.Drawing.Point(5, 317);
+			this.label54.Location = new System.Drawing.Point(5, 329);
 			this.label54.Margin = new System.Windows.Forms.Padding(5);
 			this.label54.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label54.Name = "label54";
-			this.label54.Size = new System.Drawing.Size(98, 94);
+			this.label54.Size = new System.Drawing.Size(98, 98);
 			this.label54.TabIndex = 34;
 			this.label54.Text = "Bingo Tile 16";
 			this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1253,11 +1275,11 @@
 			this.label55.BackColor = System.Drawing.Color.LightGray;
 			this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label55.ForeColor = System.Drawing.Color.Black;
-			this.label55.Location = new System.Drawing.Point(113, 317);
+			this.label55.Location = new System.Drawing.Point(113, 329);
 			this.label55.Margin = new System.Windows.Forms.Padding(5);
 			this.label55.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label55.Name = "label55";
-			this.label55.Size = new System.Drawing.Size(98, 94);
+			this.label55.Size = new System.Drawing.Size(98, 98);
 			this.label55.TabIndex = 35;
 			this.label55.Text = "Bingo Tile 17";
 			this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1272,11 +1294,11 @@
 			this.label56.BackColor = System.Drawing.Color.LightGray;
 			this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label56.ForeColor = System.Drawing.Color.Black;
-			this.label56.Location = new System.Drawing.Point(221, 317);
+			this.label56.Location = new System.Drawing.Point(221, 329);
 			this.label56.Margin = new System.Windows.Forms.Padding(5);
 			this.label56.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label56.Name = "label56";
-			this.label56.Size = new System.Drawing.Size(98, 94);
+			this.label56.Size = new System.Drawing.Size(98, 98);
 			this.label56.TabIndex = 36;
 			this.label56.Text = "Bingo Tile 18";
 			this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1291,11 +1313,11 @@
 			this.label57.BackColor = System.Drawing.Color.LightGray;
 			this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label57.ForeColor = System.Drawing.Color.Black;
-			this.label57.Location = new System.Drawing.Point(329, 317);
+			this.label57.Location = new System.Drawing.Point(329, 329);
 			this.label57.Margin = new System.Windows.Forms.Padding(5);
 			this.label57.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label57.Name = "label57";
-			this.label57.Size = new System.Drawing.Size(98, 94);
+			this.label57.Size = new System.Drawing.Size(98, 98);
 			this.label57.TabIndex = 37;
 			this.label57.Text = "Bingo Tile 19";
 			this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1310,11 +1332,11 @@
 			this.label58.BackColor = System.Drawing.Color.LightGray;
 			this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label58.ForeColor = System.Drawing.Color.Black;
-			this.label58.Location = new System.Drawing.Point(437, 317);
+			this.label58.Location = new System.Drawing.Point(437, 329);
 			this.label58.Margin = new System.Windows.Forms.Padding(5);
 			this.label58.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label58.Name = "label58";
-			this.label58.Size = new System.Drawing.Size(98, 94);
+			this.label58.Size = new System.Drawing.Size(98, 98);
 			this.label58.TabIndex = 38;
 			this.label58.Text = "Bingo Tile 20";
 			this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1329,11 +1351,11 @@
 			this.label59.BackColor = System.Drawing.Color.LightGray;
 			this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label59.ForeColor = System.Drawing.Color.Black;
-			this.label59.Location = new System.Drawing.Point(5, 421);
+			this.label59.Location = new System.Drawing.Point(5, 437);
 			this.label59.Margin = new System.Windows.Forms.Padding(5);
 			this.label59.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label59.Name = "label59";
-			this.label59.Size = new System.Drawing.Size(98, 96);
+			this.label59.Size = new System.Drawing.Size(98, 98);
 			this.label59.TabIndex = 39;
 			this.label59.Text = "Bingo Tile 21";
 			this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1348,11 +1370,11 @@
 			this.label60.BackColor = System.Drawing.Color.LightGray;
 			this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label60.ForeColor = System.Drawing.Color.Black;
-			this.label60.Location = new System.Drawing.Point(113, 421);
+			this.label60.Location = new System.Drawing.Point(113, 437);
 			this.label60.Margin = new System.Windows.Forms.Padding(5);
 			this.label60.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label60.Name = "label60";
-			this.label60.Size = new System.Drawing.Size(98, 96);
+			this.label60.Size = new System.Drawing.Size(98, 98);
 			this.label60.TabIndex = 40;
 			this.label60.Text = "Bingo Tile 22";
 			this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1367,11 +1389,11 @@
 			this.label61.BackColor = System.Drawing.Color.LightGray;
 			this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label61.ForeColor = System.Drawing.Color.Black;
-			this.label61.Location = new System.Drawing.Point(221, 421);
+			this.label61.Location = new System.Drawing.Point(221, 437);
 			this.label61.Margin = new System.Windows.Forms.Padding(5);
 			this.label61.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label61.Name = "label61";
-			this.label61.Size = new System.Drawing.Size(98, 96);
+			this.label61.Size = new System.Drawing.Size(98, 98);
 			this.label61.TabIndex = 41;
 			this.label61.Text = "Bingo Tile 23";
 			this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1386,11 +1408,11 @@
 			this.label62.BackColor = System.Drawing.Color.LightGray;
 			this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label62.ForeColor = System.Drawing.Color.Black;
-			this.label62.Location = new System.Drawing.Point(329, 421);
+			this.label62.Location = new System.Drawing.Point(329, 437);
 			this.label62.Margin = new System.Windows.Forms.Padding(5);
 			this.label62.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label62.Name = "label62";
-			this.label62.Size = new System.Drawing.Size(98, 96);
+			this.label62.Size = new System.Drawing.Size(98, 98);
 			this.label62.TabIndex = 42;
 			this.label62.Text = "Bingo Tile 24";
 			this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1405,11 +1427,11 @@
 			this.label63.BackColor = System.Drawing.Color.LightGray;
 			this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label63.ForeColor = System.Drawing.Color.Black;
-			this.label63.Location = new System.Drawing.Point(437, 421);
+			this.label63.Location = new System.Drawing.Point(437, 437);
 			this.label63.Margin = new System.Windows.Forms.Padding(5);
 			this.label63.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label63.Name = "label63";
-			this.label63.Size = new System.Drawing.Size(98, 96);
+			this.label63.Size = new System.Drawing.Size(98, 98);
 			this.label63.TabIndex = 43;
 			this.label63.Text = "Bingo Tile 25";
 			this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1423,7 +1445,7 @@
 			this.playerYellow.Location = new System.Drawing.Point(4, 22);
 			this.playerYellow.Name = "playerYellow";
 			this.playerYellow.Padding = new System.Windows.Forms.Padding(3);
-			this.playerYellow.Size = new System.Drawing.Size(546, 529);
+			this.playerYellow.Size = new System.Drawing.Size(546, 547);
 			this.playerYellow.TabIndex = 1;
 			this.playerYellow.Text = "Player Yellow";
 			// 
@@ -1474,7 +1496,7 @@
 			this.tableLayoutPanelYellow.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanelYellow.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanelYellow.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelYellow.Size = new System.Drawing.Size(540, 522);
+			this.tableLayoutPanelYellow.Size = new System.Drawing.Size(540, 540);
 			this.tableLayoutPanelYellow.TabIndex = 53;
 			// 
 			// label64
@@ -1489,7 +1511,7 @@
 			this.label64.Margin = new System.Windows.Forms.Padding(5);
 			this.label64.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label64.Name = "label64";
-			this.label64.Size = new System.Drawing.Size(98, 94);
+			this.label64.Size = new System.Drawing.Size(98, 98);
 			this.label64.TabIndex = 19;
 			this.label64.Text = "Bingo Tile 1";
 			this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1508,7 +1530,7 @@
 			this.label65.Margin = new System.Windows.Forms.Padding(5);
 			this.label65.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label65.Name = "label65";
-			this.label65.Size = new System.Drawing.Size(98, 94);
+			this.label65.Size = new System.Drawing.Size(98, 98);
 			this.label65.TabIndex = 20;
 			this.label65.Text = "Bingo Tile 2";
 			this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1527,7 +1549,7 @@
 			this.label66.Margin = new System.Windows.Forms.Padding(5);
 			this.label66.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label66.Name = "label66";
-			this.label66.Size = new System.Drawing.Size(98, 94);
+			this.label66.Size = new System.Drawing.Size(98, 98);
 			this.label66.TabIndex = 21;
 			this.label66.Text = "Bingo Tile 3";
 			this.label66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1546,7 +1568,7 @@
 			this.label67.Margin = new System.Windows.Forms.Padding(5);
 			this.label67.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label67.Name = "label67";
-			this.label67.Size = new System.Drawing.Size(98, 94);
+			this.label67.Size = new System.Drawing.Size(98, 98);
 			this.label67.TabIndex = 22;
 			this.label67.Text = "Bingo Tile 4";
 			this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1565,7 +1587,7 @@
 			this.label68.Margin = new System.Windows.Forms.Padding(5);
 			this.label68.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label68.Name = "label68";
-			this.label68.Size = new System.Drawing.Size(98, 94);
+			this.label68.Size = new System.Drawing.Size(98, 98);
 			this.label68.TabIndex = 23;
 			this.label68.Text = "Bingo Tile 5";
 			this.label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1580,11 +1602,11 @@
 			this.label69.BackColor = System.Drawing.Color.LightGray;
 			this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label69.ForeColor = System.Drawing.Color.Black;
-			this.label69.Location = new System.Drawing.Point(5, 109);
+			this.label69.Location = new System.Drawing.Point(5, 113);
 			this.label69.Margin = new System.Windows.Forms.Padding(5);
 			this.label69.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label69.Name = "label69";
-			this.label69.Size = new System.Drawing.Size(98, 94);
+			this.label69.Size = new System.Drawing.Size(98, 98);
 			this.label69.TabIndex = 24;
 			this.label69.Text = "Bingo Tile 6";
 			this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1599,11 +1621,11 @@
 			this.label70.BackColor = System.Drawing.Color.LightGray;
 			this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label70.ForeColor = System.Drawing.Color.Black;
-			this.label70.Location = new System.Drawing.Point(113, 109);
+			this.label70.Location = new System.Drawing.Point(113, 113);
 			this.label70.Margin = new System.Windows.Forms.Padding(5);
 			this.label70.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label70.Name = "label70";
-			this.label70.Size = new System.Drawing.Size(98, 94);
+			this.label70.Size = new System.Drawing.Size(98, 98);
 			this.label70.TabIndex = 25;
 			this.label70.Text = "Bingo Tile 7";
 			this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1618,11 +1640,11 @@
 			this.label71.BackColor = System.Drawing.Color.LightGray;
 			this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label71.ForeColor = System.Drawing.Color.Black;
-			this.label71.Location = new System.Drawing.Point(221, 109);
+			this.label71.Location = new System.Drawing.Point(221, 113);
 			this.label71.Margin = new System.Windows.Forms.Padding(5);
 			this.label71.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label71.Name = "label71";
-			this.label71.Size = new System.Drawing.Size(98, 94);
+			this.label71.Size = new System.Drawing.Size(98, 98);
 			this.label71.TabIndex = 26;
 			this.label71.Text = "Bingo Tile 8";
 			this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1637,11 +1659,11 @@
 			this.label72.BackColor = System.Drawing.Color.LightGray;
 			this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label72.ForeColor = System.Drawing.Color.Black;
-			this.label72.Location = new System.Drawing.Point(329, 109);
+			this.label72.Location = new System.Drawing.Point(329, 113);
 			this.label72.Margin = new System.Windows.Forms.Padding(5);
 			this.label72.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label72.Name = "label72";
-			this.label72.Size = new System.Drawing.Size(98, 94);
+			this.label72.Size = new System.Drawing.Size(98, 98);
 			this.label72.TabIndex = 27;
 			this.label72.Text = "Bingo Tile 9";
 			this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1656,11 +1678,11 @@
 			this.label73.BackColor = System.Drawing.Color.LightGray;
 			this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label73.ForeColor = System.Drawing.Color.Black;
-			this.label73.Location = new System.Drawing.Point(437, 109);
+			this.label73.Location = new System.Drawing.Point(437, 113);
 			this.label73.Margin = new System.Windows.Forms.Padding(5);
 			this.label73.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label73.Name = "label73";
-			this.label73.Size = new System.Drawing.Size(98, 94);
+			this.label73.Size = new System.Drawing.Size(98, 98);
 			this.label73.TabIndex = 28;
 			this.label73.Text = "Bingo Tile 10";
 			this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1675,11 +1697,11 @@
 			this.label74.BackColor = System.Drawing.Color.LightGray;
 			this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label74.ForeColor = System.Drawing.Color.Black;
-			this.label74.Location = new System.Drawing.Point(5, 213);
+			this.label74.Location = new System.Drawing.Point(5, 221);
 			this.label74.Margin = new System.Windows.Forms.Padding(5);
 			this.label74.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label74.Name = "label74";
-			this.label74.Size = new System.Drawing.Size(98, 94);
+			this.label74.Size = new System.Drawing.Size(98, 98);
 			this.label74.TabIndex = 29;
 			this.label74.Text = "Bingo Tile 11";
 			this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1694,11 +1716,11 @@
 			this.label75.BackColor = System.Drawing.Color.LightGray;
 			this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label75.ForeColor = System.Drawing.Color.Black;
-			this.label75.Location = new System.Drawing.Point(113, 213);
+			this.label75.Location = new System.Drawing.Point(113, 221);
 			this.label75.Margin = new System.Windows.Forms.Padding(5);
 			this.label75.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label75.Name = "label75";
-			this.label75.Size = new System.Drawing.Size(98, 94);
+			this.label75.Size = new System.Drawing.Size(98, 98);
 			this.label75.TabIndex = 30;
 			this.label75.Text = "Bingo Tile 12";
 			this.label75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1713,11 +1735,11 @@
 			this.label76.BackColor = System.Drawing.Color.LightGray;
 			this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label76.ForeColor = System.Drawing.Color.Black;
-			this.label76.Location = new System.Drawing.Point(221, 213);
+			this.label76.Location = new System.Drawing.Point(221, 221);
 			this.label76.Margin = new System.Windows.Forms.Padding(5);
 			this.label76.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label76.Name = "label76";
-			this.label76.Size = new System.Drawing.Size(98, 94);
+			this.label76.Size = new System.Drawing.Size(98, 98);
 			this.label76.TabIndex = 31;
 			this.label76.Text = "Bingo Tile 13";
 			this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1732,11 +1754,11 @@
 			this.label77.BackColor = System.Drawing.Color.LightGray;
 			this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label77.ForeColor = System.Drawing.Color.Black;
-			this.label77.Location = new System.Drawing.Point(329, 213);
+			this.label77.Location = new System.Drawing.Point(329, 221);
 			this.label77.Margin = new System.Windows.Forms.Padding(5);
 			this.label77.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label77.Name = "label77";
-			this.label77.Size = new System.Drawing.Size(98, 94);
+			this.label77.Size = new System.Drawing.Size(98, 98);
 			this.label77.TabIndex = 32;
 			this.label77.Text = "Bingo Tile 14";
 			this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1751,11 +1773,11 @@
 			this.label78.BackColor = System.Drawing.Color.LightGray;
 			this.label78.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label78.ForeColor = System.Drawing.Color.Black;
-			this.label78.Location = new System.Drawing.Point(437, 213);
+			this.label78.Location = new System.Drawing.Point(437, 221);
 			this.label78.Margin = new System.Windows.Forms.Padding(5);
 			this.label78.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label78.Name = "label78";
-			this.label78.Size = new System.Drawing.Size(98, 94);
+			this.label78.Size = new System.Drawing.Size(98, 98);
 			this.label78.TabIndex = 33;
 			this.label78.Text = "Bingo Tile 15";
 			this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1770,11 +1792,11 @@
 			this.label79.BackColor = System.Drawing.Color.LightGray;
 			this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label79.ForeColor = System.Drawing.Color.Black;
-			this.label79.Location = new System.Drawing.Point(5, 317);
+			this.label79.Location = new System.Drawing.Point(5, 329);
 			this.label79.Margin = new System.Windows.Forms.Padding(5);
 			this.label79.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label79.Name = "label79";
-			this.label79.Size = new System.Drawing.Size(98, 94);
+			this.label79.Size = new System.Drawing.Size(98, 98);
 			this.label79.TabIndex = 34;
 			this.label79.Text = "Bingo Tile 16";
 			this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1789,11 +1811,11 @@
 			this.label80.BackColor = System.Drawing.Color.LightGray;
 			this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label80.ForeColor = System.Drawing.Color.Black;
-			this.label80.Location = new System.Drawing.Point(113, 317);
+			this.label80.Location = new System.Drawing.Point(113, 329);
 			this.label80.Margin = new System.Windows.Forms.Padding(5);
 			this.label80.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label80.Name = "label80";
-			this.label80.Size = new System.Drawing.Size(98, 94);
+			this.label80.Size = new System.Drawing.Size(98, 98);
 			this.label80.TabIndex = 35;
 			this.label80.Text = "Bingo Tile 17";
 			this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1808,11 +1830,11 @@
 			this.label81.BackColor = System.Drawing.Color.LightGray;
 			this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label81.ForeColor = System.Drawing.Color.Black;
-			this.label81.Location = new System.Drawing.Point(221, 317);
+			this.label81.Location = new System.Drawing.Point(221, 329);
 			this.label81.Margin = new System.Windows.Forms.Padding(5);
 			this.label81.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label81.Name = "label81";
-			this.label81.Size = new System.Drawing.Size(98, 94);
+			this.label81.Size = new System.Drawing.Size(98, 98);
 			this.label81.TabIndex = 36;
 			this.label81.Text = "Bingo Tile 18";
 			this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1827,11 +1849,11 @@
 			this.label82.BackColor = System.Drawing.Color.LightGray;
 			this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label82.ForeColor = System.Drawing.Color.Black;
-			this.label82.Location = new System.Drawing.Point(329, 317);
+			this.label82.Location = new System.Drawing.Point(329, 329);
 			this.label82.Margin = new System.Windows.Forms.Padding(5);
 			this.label82.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label82.Name = "label82";
-			this.label82.Size = new System.Drawing.Size(98, 94);
+			this.label82.Size = new System.Drawing.Size(98, 98);
 			this.label82.TabIndex = 37;
 			this.label82.Text = "Bingo Tile 19";
 			this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1846,11 +1868,11 @@
 			this.label83.BackColor = System.Drawing.Color.LightGray;
 			this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label83.ForeColor = System.Drawing.Color.Black;
-			this.label83.Location = new System.Drawing.Point(437, 317);
+			this.label83.Location = new System.Drawing.Point(437, 329);
 			this.label83.Margin = new System.Windows.Forms.Padding(5);
 			this.label83.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label83.Name = "label83";
-			this.label83.Size = new System.Drawing.Size(98, 94);
+			this.label83.Size = new System.Drawing.Size(98, 98);
 			this.label83.TabIndex = 38;
 			this.label83.Text = "Bingo Tile 20";
 			this.label83.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1865,11 +1887,11 @@
 			this.label84.BackColor = System.Drawing.Color.LightGray;
 			this.label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label84.ForeColor = System.Drawing.Color.Black;
-			this.label84.Location = new System.Drawing.Point(5, 421);
+			this.label84.Location = new System.Drawing.Point(5, 437);
 			this.label84.Margin = new System.Windows.Forms.Padding(5);
 			this.label84.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label84.Name = "label84";
-			this.label84.Size = new System.Drawing.Size(98, 96);
+			this.label84.Size = new System.Drawing.Size(98, 98);
 			this.label84.TabIndex = 39;
 			this.label84.Text = "Bingo Tile 21";
 			this.label84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1884,11 +1906,11 @@
 			this.label85.BackColor = System.Drawing.Color.LightGray;
 			this.label85.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label85.ForeColor = System.Drawing.Color.Black;
-			this.label85.Location = new System.Drawing.Point(113, 421);
+			this.label85.Location = new System.Drawing.Point(113, 437);
 			this.label85.Margin = new System.Windows.Forms.Padding(5);
 			this.label85.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label85.Name = "label85";
-			this.label85.Size = new System.Drawing.Size(98, 96);
+			this.label85.Size = new System.Drawing.Size(98, 98);
 			this.label85.TabIndex = 40;
 			this.label85.Text = "Bingo Tile 22";
 			this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1903,11 +1925,11 @@
 			this.label86.BackColor = System.Drawing.Color.LightGray;
 			this.label86.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label86.ForeColor = System.Drawing.Color.Black;
-			this.label86.Location = new System.Drawing.Point(221, 421);
+			this.label86.Location = new System.Drawing.Point(221, 437);
 			this.label86.Margin = new System.Windows.Forms.Padding(5);
 			this.label86.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label86.Name = "label86";
-			this.label86.Size = new System.Drawing.Size(98, 96);
+			this.label86.Size = new System.Drawing.Size(98, 98);
 			this.label86.TabIndex = 41;
 			this.label86.Text = "Bingo Tile 23";
 			this.label86.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1922,11 +1944,11 @@
 			this.label87.BackColor = System.Drawing.Color.LightGray;
 			this.label87.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label87.ForeColor = System.Drawing.Color.Black;
-			this.label87.Location = new System.Drawing.Point(329, 421);
+			this.label87.Location = new System.Drawing.Point(329, 437);
 			this.label87.Margin = new System.Windows.Forms.Padding(5);
 			this.label87.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label87.Name = "label87";
-			this.label87.Size = new System.Drawing.Size(98, 96);
+			this.label87.Size = new System.Drawing.Size(98, 98);
 			this.label87.TabIndex = 42;
 			this.label87.Text = "Bingo Tile 24";
 			this.label87.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1941,11 +1963,11 @@
 			this.label88.BackColor = System.Drawing.Color.LightGray;
 			this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label88.ForeColor = System.Drawing.Color.Black;
-			this.label88.Location = new System.Drawing.Point(437, 421);
+			this.label88.Location = new System.Drawing.Point(437, 437);
 			this.label88.Margin = new System.Windows.Forms.Padding(5);
 			this.label88.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label88.Name = "label88";
-			this.label88.Size = new System.Drawing.Size(98, 96);
+			this.label88.Size = new System.Drawing.Size(98, 98);
 			this.label88.TabIndex = 43;
 			this.label88.Text = "Bingo Tile 25";
 			this.label88.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1959,7 +1981,7 @@
 			this.playerRed.Location = new System.Drawing.Point(4, 22);
 			this.playerRed.Name = "playerRed";
 			this.playerRed.Padding = new System.Windows.Forms.Padding(3);
-			this.playerRed.Size = new System.Drawing.Size(546, 529);
+			this.playerRed.Size = new System.Drawing.Size(546, 547);
 			this.playerRed.TabIndex = 2;
 			this.playerRed.Text = "Player Red";
 			// 
@@ -2010,7 +2032,7 @@
 			this.tableLayoutPanelRed.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanelRed.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanelRed.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelRed.Size = new System.Drawing.Size(540, 522);
+			this.tableLayoutPanelRed.Size = new System.Drawing.Size(540, 540);
 			this.tableLayoutPanelRed.TabIndex = 54;
 			// 
 			// label89
@@ -2025,7 +2047,7 @@
 			this.label89.Margin = new System.Windows.Forms.Padding(5);
 			this.label89.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label89.Name = "label89";
-			this.label89.Size = new System.Drawing.Size(98, 94);
+			this.label89.Size = new System.Drawing.Size(98, 98);
 			this.label89.TabIndex = 19;
 			this.label89.Text = "Bingo Tile 1";
 			this.label89.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2044,7 +2066,7 @@
 			this.label90.Margin = new System.Windows.Forms.Padding(5);
 			this.label90.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label90.Name = "label90";
-			this.label90.Size = new System.Drawing.Size(98, 94);
+			this.label90.Size = new System.Drawing.Size(98, 98);
 			this.label90.TabIndex = 20;
 			this.label90.Text = "Bingo Tile 2";
 			this.label90.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2063,7 +2085,7 @@
 			this.label91.Margin = new System.Windows.Forms.Padding(5);
 			this.label91.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label91.Name = "label91";
-			this.label91.Size = new System.Drawing.Size(98, 94);
+			this.label91.Size = new System.Drawing.Size(98, 98);
 			this.label91.TabIndex = 21;
 			this.label91.Text = "Bingo Tile 3";
 			this.label91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2082,7 +2104,7 @@
 			this.label92.Margin = new System.Windows.Forms.Padding(5);
 			this.label92.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label92.Name = "label92";
-			this.label92.Size = new System.Drawing.Size(98, 94);
+			this.label92.Size = new System.Drawing.Size(98, 98);
 			this.label92.TabIndex = 22;
 			this.label92.Text = "Bingo Tile 4";
 			this.label92.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2101,7 +2123,7 @@
 			this.label93.Margin = new System.Windows.Forms.Padding(5);
 			this.label93.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label93.Name = "label93";
-			this.label93.Size = new System.Drawing.Size(98, 94);
+			this.label93.Size = new System.Drawing.Size(98, 98);
 			this.label93.TabIndex = 23;
 			this.label93.Text = "Bingo Tile 5";
 			this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2116,11 +2138,11 @@
 			this.label94.BackColor = System.Drawing.Color.LightGray;
 			this.label94.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label94.ForeColor = System.Drawing.Color.Black;
-			this.label94.Location = new System.Drawing.Point(5, 109);
+			this.label94.Location = new System.Drawing.Point(5, 113);
 			this.label94.Margin = new System.Windows.Forms.Padding(5);
 			this.label94.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label94.Name = "label94";
-			this.label94.Size = new System.Drawing.Size(98, 94);
+			this.label94.Size = new System.Drawing.Size(98, 98);
 			this.label94.TabIndex = 24;
 			this.label94.Text = "Bingo Tile 6";
 			this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2135,11 +2157,11 @@
 			this.label95.BackColor = System.Drawing.Color.LightGray;
 			this.label95.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label95.ForeColor = System.Drawing.Color.Black;
-			this.label95.Location = new System.Drawing.Point(113, 109);
+			this.label95.Location = new System.Drawing.Point(113, 113);
 			this.label95.Margin = new System.Windows.Forms.Padding(5);
 			this.label95.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label95.Name = "label95";
-			this.label95.Size = new System.Drawing.Size(98, 94);
+			this.label95.Size = new System.Drawing.Size(98, 98);
 			this.label95.TabIndex = 25;
 			this.label95.Text = "Bingo Tile 7";
 			this.label95.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2154,11 +2176,11 @@
 			this.label96.BackColor = System.Drawing.Color.LightGray;
 			this.label96.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label96.ForeColor = System.Drawing.Color.Black;
-			this.label96.Location = new System.Drawing.Point(221, 109);
+			this.label96.Location = new System.Drawing.Point(221, 113);
 			this.label96.Margin = new System.Windows.Forms.Padding(5);
 			this.label96.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label96.Name = "label96";
-			this.label96.Size = new System.Drawing.Size(98, 94);
+			this.label96.Size = new System.Drawing.Size(98, 98);
 			this.label96.TabIndex = 26;
 			this.label96.Text = "Bingo Tile 8";
 			this.label96.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2173,11 +2195,11 @@
 			this.label97.BackColor = System.Drawing.Color.LightGray;
 			this.label97.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label97.ForeColor = System.Drawing.Color.Black;
-			this.label97.Location = new System.Drawing.Point(329, 109);
+			this.label97.Location = new System.Drawing.Point(329, 113);
 			this.label97.Margin = new System.Windows.Forms.Padding(5);
 			this.label97.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label97.Name = "label97";
-			this.label97.Size = new System.Drawing.Size(98, 94);
+			this.label97.Size = new System.Drawing.Size(98, 98);
 			this.label97.TabIndex = 27;
 			this.label97.Text = "Bingo Tile 9";
 			this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2192,11 +2214,11 @@
 			this.label98.BackColor = System.Drawing.Color.LightGray;
 			this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label98.ForeColor = System.Drawing.Color.Black;
-			this.label98.Location = new System.Drawing.Point(437, 109);
+			this.label98.Location = new System.Drawing.Point(437, 113);
 			this.label98.Margin = new System.Windows.Forms.Padding(5);
 			this.label98.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label98.Name = "label98";
-			this.label98.Size = new System.Drawing.Size(98, 94);
+			this.label98.Size = new System.Drawing.Size(98, 98);
 			this.label98.TabIndex = 28;
 			this.label98.Text = "Bingo Tile 10";
 			this.label98.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2211,11 +2233,11 @@
 			this.label99.BackColor = System.Drawing.Color.LightGray;
 			this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label99.ForeColor = System.Drawing.Color.Black;
-			this.label99.Location = new System.Drawing.Point(5, 213);
+			this.label99.Location = new System.Drawing.Point(5, 221);
 			this.label99.Margin = new System.Windows.Forms.Padding(5);
 			this.label99.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label99.Name = "label99";
-			this.label99.Size = new System.Drawing.Size(98, 94);
+			this.label99.Size = new System.Drawing.Size(98, 98);
 			this.label99.TabIndex = 29;
 			this.label99.Text = "Bingo Tile 11";
 			this.label99.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2230,11 +2252,11 @@
 			this.label100.BackColor = System.Drawing.Color.LightGray;
 			this.label100.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label100.ForeColor = System.Drawing.Color.Black;
-			this.label100.Location = new System.Drawing.Point(113, 213);
+			this.label100.Location = new System.Drawing.Point(113, 221);
 			this.label100.Margin = new System.Windows.Forms.Padding(5);
 			this.label100.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label100.Name = "label100";
-			this.label100.Size = new System.Drawing.Size(98, 94);
+			this.label100.Size = new System.Drawing.Size(98, 98);
 			this.label100.TabIndex = 30;
 			this.label100.Text = "Bingo Tile 12";
 			this.label100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2249,11 +2271,11 @@
 			this.label101.BackColor = System.Drawing.Color.LightGray;
 			this.label101.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label101.ForeColor = System.Drawing.Color.Black;
-			this.label101.Location = new System.Drawing.Point(221, 213);
+			this.label101.Location = new System.Drawing.Point(221, 221);
 			this.label101.Margin = new System.Windows.Forms.Padding(5);
 			this.label101.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label101.Name = "label101";
-			this.label101.Size = new System.Drawing.Size(98, 94);
+			this.label101.Size = new System.Drawing.Size(98, 98);
 			this.label101.TabIndex = 31;
 			this.label101.Text = "Bingo Tile 13";
 			this.label101.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2268,11 +2290,11 @@
 			this.label102.BackColor = System.Drawing.Color.LightGray;
 			this.label102.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label102.ForeColor = System.Drawing.Color.Black;
-			this.label102.Location = new System.Drawing.Point(329, 213);
+			this.label102.Location = new System.Drawing.Point(329, 221);
 			this.label102.Margin = new System.Windows.Forms.Padding(5);
 			this.label102.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label102.Name = "label102";
-			this.label102.Size = new System.Drawing.Size(98, 94);
+			this.label102.Size = new System.Drawing.Size(98, 98);
 			this.label102.TabIndex = 32;
 			this.label102.Text = "Bingo Tile 14";
 			this.label102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2287,11 +2309,11 @@
 			this.label103.BackColor = System.Drawing.Color.LightGray;
 			this.label103.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label103.ForeColor = System.Drawing.Color.Black;
-			this.label103.Location = new System.Drawing.Point(437, 213);
+			this.label103.Location = new System.Drawing.Point(437, 221);
 			this.label103.Margin = new System.Windows.Forms.Padding(5);
 			this.label103.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label103.Name = "label103";
-			this.label103.Size = new System.Drawing.Size(98, 94);
+			this.label103.Size = new System.Drawing.Size(98, 98);
 			this.label103.TabIndex = 33;
 			this.label103.Text = "Bingo Tile 15";
 			this.label103.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2306,11 +2328,11 @@
 			this.label104.BackColor = System.Drawing.Color.LightGray;
 			this.label104.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label104.ForeColor = System.Drawing.Color.Black;
-			this.label104.Location = new System.Drawing.Point(5, 317);
+			this.label104.Location = new System.Drawing.Point(5, 329);
 			this.label104.Margin = new System.Windows.Forms.Padding(5);
 			this.label104.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label104.Name = "label104";
-			this.label104.Size = new System.Drawing.Size(98, 94);
+			this.label104.Size = new System.Drawing.Size(98, 98);
 			this.label104.TabIndex = 34;
 			this.label104.Text = "Bingo Tile 16";
 			this.label104.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2325,11 +2347,11 @@
 			this.label105.BackColor = System.Drawing.Color.LightGray;
 			this.label105.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label105.ForeColor = System.Drawing.Color.Black;
-			this.label105.Location = new System.Drawing.Point(113, 317);
+			this.label105.Location = new System.Drawing.Point(113, 329);
 			this.label105.Margin = new System.Windows.Forms.Padding(5);
 			this.label105.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label105.Name = "label105";
-			this.label105.Size = new System.Drawing.Size(98, 94);
+			this.label105.Size = new System.Drawing.Size(98, 98);
 			this.label105.TabIndex = 35;
 			this.label105.Text = "Bingo Tile 17";
 			this.label105.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2344,11 +2366,11 @@
 			this.label106.BackColor = System.Drawing.Color.LightGray;
 			this.label106.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label106.ForeColor = System.Drawing.Color.Black;
-			this.label106.Location = new System.Drawing.Point(221, 317);
+			this.label106.Location = new System.Drawing.Point(221, 329);
 			this.label106.Margin = new System.Windows.Forms.Padding(5);
 			this.label106.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label106.Name = "label106";
-			this.label106.Size = new System.Drawing.Size(98, 94);
+			this.label106.Size = new System.Drawing.Size(98, 98);
 			this.label106.TabIndex = 36;
 			this.label106.Text = "Bingo Tile 18";
 			this.label106.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2363,11 +2385,11 @@
 			this.label107.BackColor = System.Drawing.Color.LightGray;
 			this.label107.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label107.ForeColor = System.Drawing.Color.Black;
-			this.label107.Location = new System.Drawing.Point(329, 317);
+			this.label107.Location = new System.Drawing.Point(329, 329);
 			this.label107.Margin = new System.Windows.Forms.Padding(5);
 			this.label107.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label107.Name = "label107";
-			this.label107.Size = new System.Drawing.Size(98, 94);
+			this.label107.Size = new System.Drawing.Size(98, 98);
 			this.label107.TabIndex = 37;
 			this.label107.Text = "Bingo Tile 19";
 			this.label107.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2382,11 +2404,11 @@
 			this.label108.BackColor = System.Drawing.Color.LightGray;
 			this.label108.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label108.ForeColor = System.Drawing.Color.Black;
-			this.label108.Location = new System.Drawing.Point(437, 317);
+			this.label108.Location = new System.Drawing.Point(437, 329);
 			this.label108.Margin = new System.Windows.Forms.Padding(5);
 			this.label108.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label108.Name = "label108";
-			this.label108.Size = new System.Drawing.Size(98, 94);
+			this.label108.Size = new System.Drawing.Size(98, 98);
 			this.label108.TabIndex = 38;
 			this.label108.Text = "Bingo Tile 20";
 			this.label108.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2401,11 +2423,11 @@
 			this.label109.BackColor = System.Drawing.Color.LightGray;
 			this.label109.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label109.ForeColor = System.Drawing.Color.Black;
-			this.label109.Location = new System.Drawing.Point(5, 421);
+			this.label109.Location = new System.Drawing.Point(5, 437);
 			this.label109.Margin = new System.Windows.Forms.Padding(5);
 			this.label109.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label109.Name = "label109";
-			this.label109.Size = new System.Drawing.Size(98, 96);
+			this.label109.Size = new System.Drawing.Size(98, 98);
 			this.label109.TabIndex = 39;
 			this.label109.Text = "Bingo Tile 21";
 			this.label109.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2420,11 +2442,11 @@
 			this.label110.BackColor = System.Drawing.Color.LightGray;
 			this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label110.ForeColor = System.Drawing.Color.Black;
-			this.label110.Location = new System.Drawing.Point(113, 421);
+			this.label110.Location = new System.Drawing.Point(113, 437);
 			this.label110.Margin = new System.Windows.Forms.Padding(5);
 			this.label110.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label110.Name = "label110";
-			this.label110.Size = new System.Drawing.Size(98, 96);
+			this.label110.Size = new System.Drawing.Size(98, 98);
 			this.label110.TabIndex = 40;
 			this.label110.Text = "Bingo Tile 22";
 			this.label110.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2439,11 +2461,11 @@
 			this.label111.BackColor = System.Drawing.Color.LightGray;
 			this.label111.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label111.ForeColor = System.Drawing.Color.Black;
-			this.label111.Location = new System.Drawing.Point(221, 421);
+			this.label111.Location = new System.Drawing.Point(221, 437);
 			this.label111.Margin = new System.Windows.Forms.Padding(5);
 			this.label111.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label111.Name = "label111";
-			this.label111.Size = new System.Drawing.Size(98, 96);
+			this.label111.Size = new System.Drawing.Size(98, 98);
 			this.label111.TabIndex = 41;
 			this.label111.Text = "Bingo Tile 23";
 			this.label111.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2458,11 +2480,11 @@
 			this.label112.BackColor = System.Drawing.Color.LightGray;
 			this.label112.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label112.ForeColor = System.Drawing.Color.Black;
-			this.label112.Location = new System.Drawing.Point(329, 421);
+			this.label112.Location = new System.Drawing.Point(329, 437);
 			this.label112.Margin = new System.Windows.Forms.Padding(5);
 			this.label112.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label112.Name = "label112";
-			this.label112.Size = new System.Drawing.Size(98, 96);
+			this.label112.Size = new System.Drawing.Size(98, 98);
 			this.label112.TabIndex = 42;
 			this.label112.Text = "Bingo Tile 24";
 			this.label112.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2477,11 +2499,11 @@
 			this.label113.BackColor = System.Drawing.Color.LightGray;
 			this.label113.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label113.ForeColor = System.Drawing.Color.Black;
-			this.label113.Location = new System.Drawing.Point(437, 421);
+			this.label113.Location = new System.Drawing.Point(437, 437);
 			this.label113.Margin = new System.Windows.Forms.Padding(5);
 			this.label113.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label113.Name = "label113";
-			this.label113.Size = new System.Drawing.Size(98, 96);
+			this.label113.Size = new System.Drawing.Size(98, 98);
 			this.label113.TabIndex = 43;
 			this.label113.Text = "Bingo Tile 25";
 			this.label113.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2494,7 +2516,7 @@
 			this.playerBlue.Controls.Add(this.tableLayoutPanelBlue);
 			this.playerBlue.Location = new System.Drawing.Point(4, 22);
 			this.playerBlue.Name = "playerBlue";
-			this.playerBlue.Size = new System.Drawing.Size(546, 529);
+			this.playerBlue.Size = new System.Drawing.Size(546, 547);
 			this.playerBlue.TabIndex = 3;
 			this.playerBlue.Text = "Player Blue";
 			// 
@@ -2545,7 +2567,7 @@
 			this.tableLayoutPanelBlue.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanelBlue.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanelBlue.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelBlue.Size = new System.Drawing.Size(540, 522);
+			this.tableLayoutPanelBlue.Size = new System.Drawing.Size(540, 540);
 			this.tableLayoutPanelBlue.TabIndex = 54;
 			// 
 			// label139
@@ -2560,7 +2582,7 @@
 			this.label139.Margin = new System.Windows.Forms.Padding(5);
 			this.label139.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label139.Name = "label139";
-			this.label139.Size = new System.Drawing.Size(98, 94);
+			this.label139.Size = new System.Drawing.Size(98, 98);
 			this.label139.TabIndex = 19;
 			this.label139.Text = "Bingo Tile 1";
 			this.label139.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2579,7 +2601,7 @@
 			this.label140.Margin = new System.Windows.Forms.Padding(5);
 			this.label140.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label140.Name = "label140";
-			this.label140.Size = new System.Drawing.Size(98, 94);
+			this.label140.Size = new System.Drawing.Size(98, 98);
 			this.label140.TabIndex = 20;
 			this.label140.Text = "Bingo Tile 2";
 			this.label140.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2598,7 +2620,7 @@
 			this.label141.Margin = new System.Windows.Forms.Padding(5);
 			this.label141.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label141.Name = "label141";
-			this.label141.Size = new System.Drawing.Size(98, 94);
+			this.label141.Size = new System.Drawing.Size(98, 98);
 			this.label141.TabIndex = 21;
 			this.label141.Text = "Bingo Tile 3";
 			this.label141.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2617,7 +2639,7 @@
 			this.label142.Margin = new System.Windows.Forms.Padding(5);
 			this.label142.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label142.Name = "label142";
-			this.label142.Size = new System.Drawing.Size(98, 94);
+			this.label142.Size = new System.Drawing.Size(98, 98);
 			this.label142.TabIndex = 22;
 			this.label142.Text = "Bingo Tile 4";
 			this.label142.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2636,7 +2658,7 @@
 			this.label143.Margin = new System.Windows.Forms.Padding(5);
 			this.label143.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label143.Name = "label143";
-			this.label143.Size = new System.Drawing.Size(98, 94);
+			this.label143.Size = new System.Drawing.Size(98, 98);
 			this.label143.TabIndex = 23;
 			this.label143.Text = "Bingo Tile 5";
 			this.label143.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2651,11 +2673,11 @@
 			this.label144.BackColor = System.Drawing.Color.LightGray;
 			this.label144.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label144.ForeColor = System.Drawing.Color.Black;
-			this.label144.Location = new System.Drawing.Point(5, 109);
+			this.label144.Location = new System.Drawing.Point(5, 113);
 			this.label144.Margin = new System.Windows.Forms.Padding(5);
 			this.label144.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label144.Name = "label144";
-			this.label144.Size = new System.Drawing.Size(98, 94);
+			this.label144.Size = new System.Drawing.Size(98, 98);
 			this.label144.TabIndex = 24;
 			this.label144.Text = "Bingo Tile 6";
 			this.label144.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2670,11 +2692,11 @@
 			this.label145.BackColor = System.Drawing.Color.LightGray;
 			this.label145.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label145.ForeColor = System.Drawing.Color.Black;
-			this.label145.Location = new System.Drawing.Point(113, 109);
+			this.label145.Location = new System.Drawing.Point(113, 113);
 			this.label145.Margin = new System.Windows.Forms.Padding(5);
 			this.label145.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label145.Name = "label145";
-			this.label145.Size = new System.Drawing.Size(98, 94);
+			this.label145.Size = new System.Drawing.Size(98, 98);
 			this.label145.TabIndex = 25;
 			this.label145.Text = "Bingo Tile 7";
 			this.label145.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2689,11 +2711,11 @@
 			this.label146.BackColor = System.Drawing.Color.LightGray;
 			this.label146.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label146.ForeColor = System.Drawing.Color.Black;
-			this.label146.Location = new System.Drawing.Point(221, 109);
+			this.label146.Location = new System.Drawing.Point(221, 113);
 			this.label146.Margin = new System.Windows.Forms.Padding(5);
 			this.label146.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label146.Name = "label146";
-			this.label146.Size = new System.Drawing.Size(98, 94);
+			this.label146.Size = new System.Drawing.Size(98, 98);
 			this.label146.TabIndex = 26;
 			this.label146.Text = "Bingo Tile 8";
 			this.label146.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2708,11 +2730,11 @@
 			this.label147.BackColor = System.Drawing.Color.LightGray;
 			this.label147.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label147.ForeColor = System.Drawing.Color.Black;
-			this.label147.Location = new System.Drawing.Point(329, 109);
+			this.label147.Location = new System.Drawing.Point(329, 113);
 			this.label147.Margin = new System.Windows.Forms.Padding(5);
 			this.label147.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label147.Name = "label147";
-			this.label147.Size = new System.Drawing.Size(98, 94);
+			this.label147.Size = new System.Drawing.Size(98, 98);
 			this.label147.TabIndex = 27;
 			this.label147.Text = "Bingo Tile 9";
 			this.label147.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2727,11 +2749,11 @@
 			this.label148.BackColor = System.Drawing.Color.LightGray;
 			this.label148.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label148.ForeColor = System.Drawing.Color.Black;
-			this.label148.Location = new System.Drawing.Point(437, 109);
+			this.label148.Location = new System.Drawing.Point(437, 113);
 			this.label148.Margin = new System.Windows.Forms.Padding(5);
 			this.label148.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label148.Name = "label148";
-			this.label148.Size = new System.Drawing.Size(98, 94);
+			this.label148.Size = new System.Drawing.Size(98, 98);
 			this.label148.TabIndex = 28;
 			this.label148.Text = "Bingo Tile 10";
 			this.label148.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2746,11 +2768,11 @@
 			this.label149.BackColor = System.Drawing.Color.LightGray;
 			this.label149.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label149.ForeColor = System.Drawing.Color.Black;
-			this.label149.Location = new System.Drawing.Point(5, 213);
+			this.label149.Location = new System.Drawing.Point(5, 221);
 			this.label149.Margin = new System.Windows.Forms.Padding(5);
 			this.label149.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label149.Name = "label149";
-			this.label149.Size = new System.Drawing.Size(98, 94);
+			this.label149.Size = new System.Drawing.Size(98, 98);
 			this.label149.TabIndex = 29;
 			this.label149.Text = "Bingo Tile 11";
 			this.label149.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2765,11 +2787,11 @@
 			this.label150.BackColor = System.Drawing.Color.LightGray;
 			this.label150.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label150.ForeColor = System.Drawing.Color.Black;
-			this.label150.Location = new System.Drawing.Point(113, 213);
+			this.label150.Location = new System.Drawing.Point(113, 221);
 			this.label150.Margin = new System.Windows.Forms.Padding(5);
 			this.label150.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label150.Name = "label150";
-			this.label150.Size = new System.Drawing.Size(98, 94);
+			this.label150.Size = new System.Drawing.Size(98, 98);
 			this.label150.TabIndex = 30;
 			this.label150.Text = "Bingo Tile 12";
 			this.label150.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2784,11 +2806,11 @@
 			this.label151.BackColor = System.Drawing.Color.LightGray;
 			this.label151.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label151.ForeColor = System.Drawing.Color.Black;
-			this.label151.Location = new System.Drawing.Point(221, 213);
+			this.label151.Location = new System.Drawing.Point(221, 221);
 			this.label151.Margin = new System.Windows.Forms.Padding(5);
 			this.label151.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label151.Name = "label151";
-			this.label151.Size = new System.Drawing.Size(98, 94);
+			this.label151.Size = new System.Drawing.Size(98, 98);
 			this.label151.TabIndex = 31;
 			this.label151.Text = "Bingo Tile 13";
 			this.label151.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2803,11 +2825,11 @@
 			this.label152.BackColor = System.Drawing.Color.LightGray;
 			this.label152.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label152.ForeColor = System.Drawing.Color.Black;
-			this.label152.Location = new System.Drawing.Point(329, 213);
+			this.label152.Location = new System.Drawing.Point(329, 221);
 			this.label152.Margin = new System.Windows.Forms.Padding(5);
 			this.label152.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label152.Name = "label152";
-			this.label152.Size = new System.Drawing.Size(98, 94);
+			this.label152.Size = new System.Drawing.Size(98, 98);
 			this.label152.TabIndex = 32;
 			this.label152.Text = "Bingo Tile 14";
 			this.label152.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2822,11 +2844,11 @@
 			this.label153.BackColor = System.Drawing.Color.LightGray;
 			this.label153.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label153.ForeColor = System.Drawing.Color.Black;
-			this.label153.Location = new System.Drawing.Point(437, 213);
+			this.label153.Location = new System.Drawing.Point(437, 221);
 			this.label153.Margin = new System.Windows.Forms.Padding(5);
 			this.label153.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label153.Name = "label153";
-			this.label153.Size = new System.Drawing.Size(98, 94);
+			this.label153.Size = new System.Drawing.Size(98, 98);
 			this.label153.TabIndex = 33;
 			this.label153.Text = "Bingo Tile 15";
 			this.label153.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2841,11 +2863,11 @@
 			this.label154.BackColor = System.Drawing.Color.LightGray;
 			this.label154.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label154.ForeColor = System.Drawing.Color.Black;
-			this.label154.Location = new System.Drawing.Point(5, 317);
+			this.label154.Location = new System.Drawing.Point(5, 329);
 			this.label154.Margin = new System.Windows.Forms.Padding(5);
 			this.label154.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label154.Name = "label154";
-			this.label154.Size = new System.Drawing.Size(98, 94);
+			this.label154.Size = new System.Drawing.Size(98, 98);
 			this.label154.TabIndex = 34;
 			this.label154.Text = "Bingo Tile 16";
 			this.label154.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2860,11 +2882,11 @@
 			this.label155.BackColor = System.Drawing.Color.LightGray;
 			this.label155.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label155.ForeColor = System.Drawing.Color.Black;
-			this.label155.Location = new System.Drawing.Point(113, 317);
+			this.label155.Location = new System.Drawing.Point(113, 329);
 			this.label155.Margin = new System.Windows.Forms.Padding(5);
 			this.label155.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label155.Name = "label155";
-			this.label155.Size = new System.Drawing.Size(98, 94);
+			this.label155.Size = new System.Drawing.Size(98, 98);
 			this.label155.TabIndex = 35;
 			this.label155.Text = "Bingo Tile 17";
 			this.label155.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2879,11 +2901,11 @@
 			this.label156.BackColor = System.Drawing.Color.LightGray;
 			this.label156.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label156.ForeColor = System.Drawing.Color.Black;
-			this.label156.Location = new System.Drawing.Point(221, 317);
+			this.label156.Location = new System.Drawing.Point(221, 329);
 			this.label156.Margin = new System.Windows.Forms.Padding(5);
 			this.label156.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label156.Name = "label156";
-			this.label156.Size = new System.Drawing.Size(98, 94);
+			this.label156.Size = new System.Drawing.Size(98, 98);
 			this.label156.TabIndex = 36;
 			this.label156.Text = "Bingo Tile 18";
 			this.label156.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2898,11 +2920,11 @@
 			this.label157.BackColor = System.Drawing.Color.LightGray;
 			this.label157.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label157.ForeColor = System.Drawing.Color.Black;
-			this.label157.Location = new System.Drawing.Point(329, 317);
+			this.label157.Location = new System.Drawing.Point(329, 329);
 			this.label157.Margin = new System.Windows.Forms.Padding(5);
 			this.label157.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label157.Name = "label157";
-			this.label157.Size = new System.Drawing.Size(98, 94);
+			this.label157.Size = new System.Drawing.Size(98, 98);
 			this.label157.TabIndex = 37;
 			this.label157.Text = "Bingo Tile 19";
 			this.label157.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2917,11 +2939,11 @@
 			this.label158.BackColor = System.Drawing.Color.LightGray;
 			this.label158.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label158.ForeColor = System.Drawing.Color.Black;
-			this.label158.Location = new System.Drawing.Point(437, 317);
+			this.label158.Location = new System.Drawing.Point(437, 329);
 			this.label158.Margin = new System.Windows.Forms.Padding(5);
 			this.label158.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label158.Name = "label158";
-			this.label158.Size = new System.Drawing.Size(98, 94);
+			this.label158.Size = new System.Drawing.Size(98, 98);
 			this.label158.TabIndex = 38;
 			this.label158.Text = "Bingo Tile 20";
 			this.label158.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2936,11 +2958,11 @@
 			this.label159.BackColor = System.Drawing.Color.LightGray;
 			this.label159.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label159.ForeColor = System.Drawing.Color.Black;
-			this.label159.Location = new System.Drawing.Point(5, 421);
+			this.label159.Location = new System.Drawing.Point(5, 437);
 			this.label159.Margin = new System.Windows.Forms.Padding(5);
 			this.label159.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label159.Name = "label159";
-			this.label159.Size = new System.Drawing.Size(98, 96);
+			this.label159.Size = new System.Drawing.Size(98, 98);
 			this.label159.TabIndex = 39;
 			this.label159.Text = "Bingo Tile 21";
 			this.label159.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2955,11 +2977,11 @@
 			this.label160.BackColor = System.Drawing.Color.LightGray;
 			this.label160.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label160.ForeColor = System.Drawing.Color.Black;
-			this.label160.Location = new System.Drawing.Point(113, 421);
+			this.label160.Location = new System.Drawing.Point(113, 437);
 			this.label160.Margin = new System.Windows.Forms.Padding(5);
 			this.label160.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label160.Name = "label160";
-			this.label160.Size = new System.Drawing.Size(98, 96);
+			this.label160.Size = new System.Drawing.Size(98, 98);
 			this.label160.TabIndex = 40;
 			this.label160.Text = "Bingo Tile 22";
 			this.label160.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2974,11 +2996,11 @@
 			this.label161.BackColor = System.Drawing.Color.LightGray;
 			this.label161.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label161.ForeColor = System.Drawing.Color.Black;
-			this.label161.Location = new System.Drawing.Point(221, 421);
+			this.label161.Location = new System.Drawing.Point(221, 437);
 			this.label161.Margin = new System.Windows.Forms.Padding(5);
 			this.label161.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label161.Name = "label161";
-			this.label161.Size = new System.Drawing.Size(98, 96);
+			this.label161.Size = new System.Drawing.Size(98, 98);
 			this.label161.TabIndex = 41;
 			this.label161.Text = "Bingo Tile 23";
 			this.label161.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2993,11 +3015,11 @@
 			this.label162.BackColor = System.Drawing.Color.LightGray;
 			this.label162.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label162.ForeColor = System.Drawing.Color.Black;
-			this.label162.Location = new System.Drawing.Point(329, 421);
+			this.label162.Location = new System.Drawing.Point(329, 437);
 			this.label162.Margin = new System.Windows.Forms.Padding(5);
 			this.label162.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label162.Name = "label162";
-			this.label162.Size = new System.Drawing.Size(98, 96);
+			this.label162.Size = new System.Drawing.Size(98, 98);
 			this.label162.TabIndex = 42;
 			this.label162.Text = "Bingo Tile 24";
 			this.label162.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3012,11 +3034,11 @@
 			this.label163.BackColor = System.Drawing.Color.LightGray;
 			this.label163.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label163.ForeColor = System.Drawing.Color.Black;
-			this.label163.Location = new System.Drawing.Point(437, 421);
+			this.label163.Location = new System.Drawing.Point(437, 437);
 			this.label163.Margin = new System.Windows.Forms.Padding(5);
 			this.label163.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label163.Name = "label163";
-			this.label163.Size = new System.Drawing.Size(98, 96);
+			this.label163.Size = new System.Drawing.Size(98, 98);
 			this.label163.TabIndex = 43;
 			this.label163.Text = "Bingo Tile 25";
 			this.label163.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3029,9 +3051,9 @@
 			this.tabPage6.Controls.Add(this.groupBox8);
 			this.tabPage6.Controls.Add(this.groupBox7);
 			this.tabPage6.ForeColor = System.Drawing.Color.White;
-			this.tabPage6.Location = new System.Drawing.Point(4, 40);
+			this.tabPage6.Location = new System.Drawing.Point(4, 22);
 			this.tabPage6.Name = "tabPage6";
-			this.tabPage6.Size = new System.Drawing.Size(561, 718);
+			this.tabPage6.Size = new System.Drawing.Size(561, 736);
 			this.tabPage6.TabIndex = 5;
 			this.tabPage6.Text = "Help & Info";
 			// 
@@ -3092,9 +3114,9 @@
 			this.tabPage5.BackColor = System.Drawing.Color.Black;
 			this.tabPage5.Controls.Add(this.groupBox5);
 			this.tabPage5.ForeColor = System.Drawing.Color.White;
-			this.tabPage5.Location = new System.Drawing.Point(4, 40);
+			this.tabPage5.Location = new System.Drawing.Point(4, 22);
 			this.tabPage5.Name = "tabPage5";
-			this.tabPage5.Size = new System.Drawing.Size(561, 718);
+			this.tabPage5.Size = new System.Drawing.Size(561, 736);
 			this.tabPage5.TabIndex = 4;
 			this.tabPage5.Text = "Program Settings";
 			// 
@@ -3694,9 +3716,9 @@
 			this.tabPage3.Controls.Add(this.groupBox6);
 			this.tabPage3.Controls.Add(this.groupBox3);
 			this.tabPage3.ForeColor = System.Drawing.Color.White;
-			this.tabPage3.Location = new System.Drawing.Point(4, 40);
+			this.tabPage3.Location = new System.Drawing.Point(4, 22);
 			this.tabPage3.Name = "tabPage3";
-			this.tabPage3.Size = new System.Drawing.Size(561, 718);
+			this.tabPage3.Size = new System.Drawing.Size(561, 736);
 			this.tabPage3.TabIndex = 2;
 			this.tabPage3.Text = "Load Board";
 			// 
@@ -3749,8 +3771,7 @@
 			this.label28.Name = "label28";
 			this.label28.Size = new System.Drawing.Size(534, 74);
 			this.label28.TabIndex = 47;
-			this.label28.Text = "If someone else has already generated a board, simply type or paste their unique " +
-    "board ID (5-8 digits) in here, and hit \'Generate\' at the bottom.";
+			this.label28.Text = resources.GetString("label28.Text");
 			// 
 			// uIDBox
 			// 
@@ -3772,10 +3793,10 @@
 			this.tabPage2.Controls.Add(this.groupBox2);
 			this.tabPage2.Controls.Add(this.groupBox1);
 			this.tabPage2.ForeColor = System.Drawing.Color.White;
-			this.tabPage2.Location = new System.Drawing.Point(4, 40);
+			this.tabPage2.Location = new System.Drawing.Point(4, 22);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage2.Size = new System.Drawing.Size(561, 718);
+			this.tabPage2.Size = new System.Drawing.Size(561, 736);
 			this.tabPage2.TabIndex = 1;
 			this.tabPage2.Text = "Create New Board";
 			// 
@@ -3992,9 +4013,9 @@
 			this.tabPage4.BackColor = System.Drawing.Color.Black;
 			this.tabPage4.Controls.Add(this.boardInfoBox);
 			this.tabPage4.ForeColor = System.Drawing.Color.White;
-			this.tabPage4.Location = new System.Drawing.Point(4, 40);
+			this.tabPage4.Location = new System.Drawing.Point(4, 22);
 			this.tabPage4.Name = "tabPage4";
-			this.tabPage4.Size = new System.Drawing.Size(561, 718);
+			this.tabPage4.Size = new System.Drawing.Size(561, 736);
 			this.tabPage4.TabIndex = 3;
 			this.tabPage4.Text = "Rules & Info";
 			// 
@@ -4012,7 +4033,7 @@
 			this.boardInfoBox.Name = "boardInfoBox";
 			this.boardInfoBox.ReadOnly = true;
 			this.boardInfoBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-			this.boardInfoBox.Size = new System.Drawing.Size(549, 730);
+			this.boardInfoBox.Size = new System.Drawing.Size(549, 748);
 			this.boardInfoBox.TabIndex = 51;
 			this.boardInfoBox.Text = "No goals have been loaded. Please load goals";
 			// 
@@ -4025,10 +4046,10 @@
 			this.tabPage1.Controls.Add(this.tableLayoutPanel1);
 			this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.tabPage1.ForeColor = System.Drawing.Color.White;
-			this.tabPage1.Location = new System.Drawing.Point(4, 40);
+			this.tabPage1.Location = new System.Drawing.Point(4, 22);
 			this.tabPage1.Name = "tabPage1";
 			this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage1.Size = new System.Drawing.Size(561, 718);
+			this.tabPage1.Size = new System.Drawing.Size(561, 736);
 			this.tabPage1.TabIndex = 0;
 			this.tabPage1.Text = "Board";
 			// 
@@ -4037,7 +4058,7 @@
 			this.labelGoalVersion.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.labelGoalVersion.AutoSize = true;
 			this.labelGoalVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.labelGoalVersion.Location = new System.Drawing.Point(45, 183);
+			this.labelGoalVersion.Location = new System.Drawing.Point(45, 192);
 			this.labelGoalVersion.Name = "labelGoalVersion";
 			this.labelGoalVersion.Size = new System.Drawing.Size(305, 88);
 			this.labelGoalVersion.TabIndex = 52;
@@ -4049,7 +4070,7 @@
 			this.unhideButton.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.unhideButton.BackColor = System.Drawing.Color.White;
 			this.unhideButton.ForeColor = System.Drawing.Color.Black;
-			this.unhideButton.Location = new System.Drawing.Point(191, 287);
+			this.unhideButton.Location = new System.Drawing.Point(191, 296);
 			this.unhideButton.Name = "unhideButton";
 			this.unhideButton.Size = new System.Drawing.Size(172, 59);
 			this.unhideButton.TabIndex = 50;
@@ -4066,7 +4087,7 @@
 			this.goalInfoBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.goalInfoBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.goalInfoBox.ForeColor = System.Drawing.Color.White;
-			this.goalInfoBox.Location = new System.Drawing.Point(9, 540);
+			this.goalInfoBox.Location = new System.Drawing.Point(9, 558);
 			this.goalInfoBox.Multiline = true;
 			this.goalInfoBox.Name = "goalInfoBox";
 			this.goalInfoBox.ReadOnly = true;
@@ -4122,7 +4143,7 @@
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel1.Size = new System.Drawing.Size(555, 537);
+			this.tableLayoutPanel1.Size = new System.Drawing.Size(555, 555);
 			this.tableLayoutPanel1.TabIndex = 51;
 			// 
 			// label1
@@ -4137,7 +4158,7 @@
 			this.label1.Margin = new System.Windows.Forms.Padding(5);
 			this.label1.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(101, 97);
+			this.label1.Size = new System.Drawing.Size(101, 101);
 			this.label1.TabIndex = 19;
 			this.label1.Text = "Bingo Tile 1";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4156,7 +4177,7 @@
 			this.label2.Margin = new System.Windows.Forms.Padding(5);
 			this.label2.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(101, 97);
+			this.label2.Size = new System.Drawing.Size(101, 101);
 			this.label2.TabIndex = 20;
 			this.label2.Text = "Bingo Tile 2";
 			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4175,7 +4196,7 @@
 			this.label3.Margin = new System.Windows.Forms.Padding(5);
 			this.label3.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(101, 97);
+			this.label3.Size = new System.Drawing.Size(101, 101);
 			this.label3.TabIndex = 21;
 			this.label3.Text = "Bingo Tile 3";
 			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4194,7 +4215,7 @@
 			this.label4.Margin = new System.Windows.Forms.Padding(5);
 			this.label4.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(101, 97);
+			this.label4.Size = new System.Drawing.Size(101, 101);
 			this.label4.TabIndex = 22;
 			this.label4.Text = "Bingo Tile 4";
 			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4213,7 +4234,7 @@
 			this.label5.Margin = new System.Windows.Forms.Padding(5);
 			this.label5.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(101, 97);
+			this.label5.Size = new System.Drawing.Size(101, 101);
 			this.label5.TabIndex = 23;
 			this.label5.Text = "Bingo Tile 5";
 			this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4228,11 +4249,11 @@
 			this.label6.BackColor = System.Drawing.Color.LightGray;
 			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label6.ForeColor = System.Drawing.Color.Black;
-			this.label6.Location = new System.Drawing.Point(5, 112);
+			this.label6.Location = new System.Drawing.Point(5, 116);
 			this.label6.Margin = new System.Windows.Forms.Padding(5);
 			this.label6.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(101, 97);
+			this.label6.Size = new System.Drawing.Size(101, 101);
 			this.label6.TabIndex = 24;
 			this.label6.Text = "Bingo Tile 6";
 			this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4247,11 +4268,11 @@
 			this.label7.BackColor = System.Drawing.Color.LightGray;
 			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label7.ForeColor = System.Drawing.Color.Black;
-			this.label7.Location = new System.Drawing.Point(116, 112);
+			this.label7.Location = new System.Drawing.Point(116, 116);
 			this.label7.Margin = new System.Windows.Forms.Padding(5);
 			this.label7.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(101, 97);
+			this.label7.Size = new System.Drawing.Size(101, 101);
 			this.label7.TabIndex = 25;
 			this.label7.Text = "Bingo Tile 7";
 			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4266,11 +4287,11 @@
 			this.label8.BackColor = System.Drawing.Color.LightGray;
 			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label8.ForeColor = System.Drawing.Color.Black;
-			this.label8.Location = new System.Drawing.Point(227, 112);
+			this.label8.Location = new System.Drawing.Point(227, 116);
 			this.label8.Margin = new System.Windows.Forms.Padding(5);
 			this.label8.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(101, 97);
+			this.label8.Size = new System.Drawing.Size(101, 101);
 			this.label8.TabIndex = 26;
 			this.label8.Text = "Bingo Tile 8";
 			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4285,11 +4306,11 @@
 			this.label9.BackColor = System.Drawing.Color.LightGray;
 			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label9.ForeColor = System.Drawing.Color.Black;
-			this.label9.Location = new System.Drawing.Point(338, 112);
+			this.label9.Location = new System.Drawing.Point(338, 116);
 			this.label9.Margin = new System.Windows.Forms.Padding(5);
 			this.label9.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(101, 97);
+			this.label9.Size = new System.Drawing.Size(101, 101);
 			this.label9.TabIndex = 27;
 			this.label9.Text = "Bingo Tile 9";
 			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4304,11 +4325,11 @@
 			this.label10.BackColor = System.Drawing.Color.LightGray;
 			this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label10.ForeColor = System.Drawing.Color.Black;
-			this.label10.Location = new System.Drawing.Point(449, 112);
+			this.label10.Location = new System.Drawing.Point(449, 116);
 			this.label10.Margin = new System.Windows.Forms.Padding(5);
 			this.label10.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(101, 97);
+			this.label10.Size = new System.Drawing.Size(101, 101);
 			this.label10.TabIndex = 28;
 			this.label10.Text = "Bingo Tile 10";
 			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4323,11 +4344,11 @@
 			this.label11.BackColor = System.Drawing.Color.LightGray;
 			this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label11.ForeColor = System.Drawing.Color.Black;
-			this.label11.Location = new System.Drawing.Point(5, 219);
+			this.label11.Location = new System.Drawing.Point(5, 227);
 			this.label11.Margin = new System.Windows.Forms.Padding(5);
 			this.label11.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(101, 97);
+			this.label11.Size = new System.Drawing.Size(101, 101);
 			this.label11.TabIndex = 29;
 			this.label11.Text = "Bingo Tile 11";
 			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4342,11 +4363,11 @@
 			this.label12.BackColor = System.Drawing.Color.LightGray;
 			this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label12.ForeColor = System.Drawing.Color.Black;
-			this.label12.Location = new System.Drawing.Point(116, 219);
+			this.label12.Location = new System.Drawing.Point(116, 227);
 			this.label12.Margin = new System.Windows.Forms.Padding(5);
 			this.label12.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(101, 97);
+			this.label12.Size = new System.Drawing.Size(101, 101);
 			this.label12.TabIndex = 30;
 			this.label12.Text = "Bingo Tile 12";
 			this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4361,11 +4382,11 @@
 			this.label13.BackColor = System.Drawing.Color.LightGray;
 			this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label13.ForeColor = System.Drawing.Color.Black;
-			this.label13.Location = new System.Drawing.Point(227, 219);
+			this.label13.Location = new System.Drawing.Point(227, 227);
 			this.label13.Margin = new System.Windows.Forms.Padding(5);
 			this.label13.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label13.Name = "label13";
-			this.label13.Size = new System.Drawing.Size(101, 97);
+			this.label13.Size = new System.Drawing.Size(101, 101);
 			this.label13.TabIndex = 31;
 			this.label13.Text = "Bingo Tile 13";
 			this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4380,11 +4401,11 @@
 			this.label14.BackColor = System.Drawing.Color.LightGray;
 			this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label14.ForeColor = System.Drawing.Color.Black;
-			this.label14.Location = new System.Drawing.Point(338, 219);
+			this.label14.Location = new System.Drawing.Point(338, 227);
 			this.label14.Margin = new System.Windows.Forms.Padding(5);
 			this.label14.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(101, 97);
+			this.label14.Size = new System.Drawing.Size(101, 101);
 			this.label14.TabIndex = 32;
 			this.label14.Text = "Bingo Tile 14";
 			this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4399,11 +4420,11 @@
 			this.label15.BackColor = System.Drawing.Color.LightGray;
 			this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label15.ForeColor = System.Drawing.Color.Black;
-			this.label15.Location = new System.Drawing.Point(449, 219);
+			this.label15.Location = new System.Drawing.Point(449, 227);
 			this.label15.Margin = new System.Windows.Forms.Padding(5);
 			this.label15.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(101, 97);
+			this.label15.Size = new System.Drawing.Size(101, 101);
 			this.label15.TabIndex = 33;
 			this.label15.Text = "Bingo Tile 15";
 			this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4418,11 +4439,11 @@
 			this.label16.BackColor = System.Drawing.Color.LightGray;
 			this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label16.ForeColor = System.Drawing.Color.Black;
-			this.label16.Location = new System.Drawing.Point(5, 326);
+			this.label16.Location = new System.Drawing.Point(5, 338);
 			this.label16.Margin = new System.Windows.Forms.Padding(5);
 			this.label16.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label16.Name = "label16";
-			this.label16.Size = new System.Drawing.Size(101, 97);
+			this.label16.Size = new System.Drawing.Size(101, 101);
 			this.label16.TabIndex = 34;
 			this.label16.Text = "Bingo Tile 16";
 			this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4437,11 +4458,11 @@
 			this.label17.BackColor = System.Drawing.Color.LightGray;
 			this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label17.ForeColor = System.Drawing.Color.Black;
-			this.label17.Location = new System.Drawing.Point(116, 326);
+			this.label17.Location = new System.Drawing.Point(116, 338);
 			this.label17.Margin = new System.Windows.Forms.Padding(5);
 			this.label17.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label17.Name = "label17";
-			this.label17.Size = new System.Drawing.Size(101, 97);
+			this.label17.Size = new System.Drawing.Size(101, 101);
 			this.label17.TabIndex = 35;
 			this.label17.Text = "Bingo Tile 17";
 			this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4456,11 +4477,11 @@
 			this.label18.BackColor = System.Drawing.Color.LightGray;
 			this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label18.ForeColor = System.Drawing.Color.Black;
-			this.label18.Location = new System.Drawing.Point(227, 326);
+			this.label18.Location = new System.Drawing.Point(227, 338);
 			this.label18.Margin = new System.Windows.Forms.Padding(5);
 			this.label18.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label18.Name = "label18";
-			this.label18.Size = new System.Drawing.Size(101, 97);
+			this.label18.Size = new System.Drawing.Size(101, 101);
 			this.label18.TabIndex = 36;
 			this.label18.Text = "Bingo Tile 18";
 			this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4475,11 +4496,11 @@
 			this.label19.BackColor = System.Drawing.Color.LightGray;
 			this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label19.ForeColor = System.Drawing.Color.Black;
-			this.label19.Location = new System.Drawing.Point(338, 326);
+			this.label19.Location = new System.Drawing.Point(338, 338);
 			this.label19.Margin = new System.Windows.Forms.Padding(5);
 			this.label19.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label19.Name = "label19";
-			this.label19.Size = new System.Drawing.Size(101, 97);
+			this.label19.Size = new System.Drawing.Size(101, 101);
 			this.label19.TabIndex = 37;
 			this.label19.Text = "Bingo Tile 19";
 			this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4494,11 +4515,11 @@
 			this.label20.BackColor = System.Drawing.Color.LightGray;
 			this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label20.ForeColor = System.Drawing.Color.Black;
-			this.label20.Location = new System.Drawing.Point(449, 326);
+			this.label20.Location = new System.Drawing.Point(449, 338);
 			this.label20.Margin = new System.Windows.Forms.Padding(5);
 			this.label20.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label20.Name = "label20";
-			this.label20.Size = new System.Drawing.Size(101, 97);
+			this.label20.Size = new System.Drawing.Size(101, 101);
 			this.label20.TabIndex = 38;
 			this.label20.Text = "Bingo Tile 20";
 			this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4513,11 +4534,11 @@
 			this.label21.BackColor = System.Drawing.Color.LightGray;
 			this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label21.ForeColor = System.Drawing.Color.Black;
-			this.label21.Location = new System.Drawing.Point(5, 433);
+			this.label21.Location = new System.Drawing.Point(5, 449);
 			this.label21.Margin = new System.Windows.Forms.Padding(5);
 			this.label21.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label21.Name = "label21";
-			this.label21.Size = new System.Drawing.Size(101, 99);
+			this.label21.Size = new System.Drawing.Size(101, 101);
 			this.label21.TabIndex = 39;
 			this.label21.Text = "Bingo Tile 21";
 			this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4532,11 +4553,11 @@
 			this.label22.BackColor = System.Drawing.Color.LightGray;
 			this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label22.ForeColor = System.Drawing.Color.Black;
-			this.label22.Location = new System.Drawing.Point(116, 433);
+			this.label22.Location = new System.Drawing.Point(116, 449);
 			this.label22.Margin = new System.Windows.Forms.Padding(5);
 			this.label22.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label22.Name = "label22";
-			this.label22.Size = new System.Drawing.Size(101, 99);
+			this.label22.Size = new System.Drawing.Size(101, 101);
 			this.label22.TabIndex = 40;
 			this.label22.Text = "Bingo Tile 22";
 			this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4551,11 +4572,11 @@
 			this.label23.BackColor = System.Drawing.Color.LightGray;
 			this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label23.ForeColor = System.Drawing.Color.Black;
-			this.label23.Location = new System.Drawing.Point(227, 433);
+			this.label23.Location = new System.Drawing.Point(227, 449);
 			this.label23.Margin = new System.Windows.Forms.Padding(5);
 			this.label23.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label23.Name = "label23";
-			this.label23.Size = new System.Drawing.Size(101, 99);
+			this.label23.Size = new System.Drawing.Size(101, 101);
 			this.label23.TabIndex = 41;
 			this.label23.Text = "Bingo Tile 23";
 			this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4570,11 +4591,11 @@
 			this.label24.BackColor = System.Drawing.Color.LightGray;
 			this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label24.ForeColor = System.Drawing.Color.Black;
-			this.label24.Location = new System.Drawing.Point(338, 433);
+			this.label24.Location = new System.Drawing.Point(338, 449);
 			this.label24.Margin = new System.Windows.Forms.Padding(5);
 			this.label24.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label24.Name = "label24";
-			this.label24.Size = new System.Drawing.Size(101, 99);
+			this.label24.Size = new System.Drawing.Size(101, 101);
 			this.label24.TabIndex = 42;
 			this.label24.Text = "Bingo Tile 24";
 			this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4589,11 +4610,11 @@
 			this.label25.BackColor = System.Drawing.Color.LightGray;
 			this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label25.ForeColor = System.Drawing.Color.Black;
-			this.label25.Location = new System.Drawing.Point(449, 433);
+			this.label25.Location = new System.Drawing.Point(449, 449);
 			this.label25.Margin = new System.Windows.Forms.Padding(5);
 			this.label25.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.label25.Name = "label25";
-			this.label25.Size = new System.Drawing.Size(101, 99);
+			this.label25.Size = new System.Drawing.Size(101, 101);
 			this.label25.TabIndex = 43;
 			this.label25.Text = "Bingo Tile 25";
 			this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4623,16 +4644,250 @@
 			// tabPage8
 			// 
 			this.tabPage8.BackColor = System.Drawing.Color.Black;
+			this.tabPage8.Controls.Add(this.groupBox12);
 			this.tabPage8.Controls.Add(this.groupBox11);
 			this.tabPage8.Controls.Add(this.groupBox10);
 			this.tabPage8.Controls.Add(this.groupBox9);
 			this.tabPage8.ForeColor = System.Drawing.Color.White;
-			this.tabPage8.Location = new System.Drawing.Point(4, 40);
+			this.tabPage8.Location = new System.Drawing.Point(4, 22);
 			this.tabPage8.Name = "tabPage8";
 			this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage8.Size = new System.Drawing.Size(561, 718);
+			this.tabPage8.Size = new System.Drawing.Size(561, 736);
 			this.tabPage8.TabIndex = 7;
-			this.tabPage8.Text = "Multiplayer";
+			this.tabPage8.Text = "Online";
+			// 
+			// groupBox12
+			// 
+			this.groupBox12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.groupBox12.BackColor = System.Drawing.Color.Transparent;
+			this.groupBox12.Controls.Add(this.comboBox7);
+			this.groupBox12.Controls.Add(this.comboBox8);
+			this.groupBox12.Controls.Add(this.comboBox5);
+			this.groupBox12.Controls.Add(this.comboBox6);
+			this.groupBox12.Controls.Add(this.comboBox4);
+			this.groupBox12.Controls.Add(this.comboBox3);
+			this.groupBox12.Controls.Add(this.textBox6);
+			this.groupBox12.Controls.Add(this.label177);
+			this.groupBox12.Controls.Add(this.textBox5);
+			this.groupBox12.Controls.Add(this.label176);
+			this.groupBox12.Controls.Add(this.textBox4);
+			this.groupBox12.Controls.Add(this.label175);
+			this.groupBox12.Controls.Add(this.textBox3);
+			this.groupBox12.Controls.Add(this.label174);
+			this.groupBox12.Controls.Add(this.textBox2);
+			this.groupBox12.Controls.Add(this.label172);
+			this.groupBox12.Controls.Add(this.comboBox2);
+			this.groupBox12.Controls.Add(this.textBoxName);
+			this.groupBox12.Controls.Add(this.label171);
+			this.groupBox12.Controls.Add(this.label173);
+			this.groupBox12.ForeColor = System.Drawing.Color.White;
+			this.groupBox12.Location = new System.Drawing.Point(6, 244);
+			this.groupBox12.Name = "groupBox12";
+			this.groupBox12.Size = new System.Drawing.Size(549, 171);
+			this.groupBox12.TabIndex = 53;
+			this.groupBox12.TabStop = false;
+			this.groupBox12.Text = "Settings";
+			// 
+			// comboBox7
+			// 
+			this.comboBox7.FormattingEnabled = true;
+			this.comboBox7.Items.AddRange(new object[] {
+            "Red",
+            "Yellow",
+            "Green",
+            "Blue",
+            "Spectate"});
+			this.comboBox7.Location = new System.Drawing.Point(159, 143);
+			this.comboBox7.Name = "comboBox7";
+			this.comboBox7.Size = new System.Drawing.Size(121, 21);
+			this.comboBox7.TabIndex = 69;
+			// 
+			// comboBox8
+			// 
+			this.comboBox8.FormattingEnabled = true;
+			this.comboBox8.Items.AddRange(new object[] {
+            "Red",
+            "Yellow",
+            "Green",
+            "Blue",
+            "Spectate"});
+			this.comboBox8.Location = new System.Drawing.Point(159, 117);
+			this.comboBox8.Name = "comboBox8";
+			this.comboBox8.Size = new System.Drawing.Size(121, 21);
+			this.comboBox8.TabIndex = 68;
+			// 
+			// comboBox5
+			// 
+			this.comboBox5.FormattingEnabled = true;
+			this.comboBox5.Items.AddRange(new object[] {
+            "Red",
+            "Yellow",
+            "Green",
+            "Blue",
+            "Spectate"});
+			this.comboBox5.Location = new System.Drawing.Point(159, 91);
+			this.comboBox5.Name = "comboBox5";
+			this.comboBox5.Size = new System.Drawing.Size(121, 21);
+			this.comboBox5.TabIndex = 67;
+			// 
+			// comboBox6
+			// 
+			this.comboBox6.FormattingEnabled = true;
+			this.comboBox6.Items.AddRange(new object[] {
+            "Red",
+            "Yellow",
+            "Green",
+            "Blue",
+            "Spectate"});
+			this.comboBox6.Location = new System.Drawing.Point(159, 65);
+			this.comboBox6.Name = "comboBox6";
+			this.comboBox6.Size = new System.Drawing.Size(121, 21);
+			this.comboBox6.TabIndex = 66;
+			// 
+			// comboBox4
+			// 
+			this.comboBox4.FormattingEnabled = true;
+			this.comboBox4.Items.AddRange(new object[] {
+            "Red",
+            "Yellow",
+            "Green",
+            "Blue",
+            "Spectate"});
+			this.comboBox4.Location = new System.Drawing.Point(159, 39);
+			this.comboBox4.Name = "comboBox4";
+			this.comboBox4.Size = new System.Drawing.Size(121, 21);
+			this.comboBox4.TabIndex = 65;
+			// 
+			// comboBox3
+			// 
+			this.comboBox3.FormattingEnabled = true;
+			this.comboBox3.Items.AddRange(new object[] {
+            "Red",
+            "Yellow",
+            "Green",
+            "Blue",
+            "Spectate"});
+			this.comboBox3.Location = new System.Drawing.Point(159, 13);
+			this.comboBox3.Name = "comboBox3";
+			this.comboBox3.Size = new System.Drawing.Size(121, 21);
+			this.comboBox3.TabIndex = 64;
+			// 
+			// textBox6
+			// 
+			this.textBox6.Location = new System.Drawing.Point(66, 143);
+			this.textBox6.Name = "textBox6";
+			this.textBox6.Size = new System.Drawing.Size(87, 20);
+			this.textBox6.TabIndex = 63;
+			// 
+			// label177
+			// 
+			this.label177.AutoSize = true;
+			this.label177.Location = new System.Drawing.Point(12, 146);
+			this.label177.Name = "label177";
+			this.label177.Size = new System.Drawing.Size(48, 13);
+			this.label177.TabIndex = 62;
+			this.label177.Text = "Player 6:";
+			// 
+			// textBox5
+			// 
+			this.textBox5.Location = new System.Drawing.Point(66, 117);
+			this.textBox5.Name = "textBox5";
+			this.textBox5.Size = new System.Drawing.Size(87, 20);
+			this.textBox5.TabIndex = 61;
+			// 
+			// label176
+			// 
+			this.label176.AutoSize = true;
+			this.label176.Location = new System.Drawing.Point(12, 120);
+			this.label176.Name = "label176";
+			this.label176.Size = new System.Drawing.Size(48, 13);
+			this.label176.TabIndex = 60;
+			this.label176.Text = "Player 5:";
+			// 
+			// textBox4
+			// 
+			this.textBox4.Location = new System.Drawing.Point(66, 91);
+			this.textBox4.Name = "textBox4";
+			this.textBox4.Size = new System.Drawing.Size(87, 20);
+			this.textBox4.TabIndex = 59;
+			// 
+			// label175
+			// 
+			this.label175.AutoSize = true;
+			this.label175.Location = new System.Drawing.Point(12, 94);
+			this.label175.Name = "label175";
+			this.label175.Size = new System.Drawing.Size(48, 13);
+			this.label175.TabIndex = 58;
+			this.label175.Text = "Player 4:";
+			// 
+			// textBox3
+			// 
+			this.textBox3.Location = new System.Drawing.Point(66, 65);
+			this.textBox3.Name = "textBox3";
+			this.textBox3.Size = new System.Drawing.Size(87, 20);
+			this.textBox3.TabIndex = 57;
+			// 
+			// label174
+			// 
+			this.label174.AutoSize = true;
+			this.label174.Location = new System.Drawing.Point(12, 68);
+			this.label174.Name = "label174";
+			this.label174.Size = new System.Drawing.Size(48, 13);
+			this.label174.TabIndex = 56;
+			this.label174.Text = "Player 3:";
+			// 
+			// textBox2
+			// 
+			this.textBox2.Location = new System.Drawing.Point(66, 39);
+			this.textBox2.Name = "textBox2";
+			this.textBox2.Size = new System.Drawing.Size(87, 20);
+			this.textBox2.TabIndex = 55;
+			// 
+			// label172
+			// 
+			this.label172.AutoSize = true;
+			this.label172.Location = new System.Drawing.Point(12, 42);
+			this.label172.Name = "label172";
+			this.label172.Size = new System.Drawing.Size(48, 13);
+			this.label172.TabIndex = 54;
+			this.label172.Text = "Player 2:";
+			// 
+			// comboBox2
+			// 
+			this.comboBox2.FormattingEnabled = true;
+			this.comboBox2.Items.AddRange(new object[] {
+            "Free For All"});
+			this.comboBox2.Location = new System.Drawing.Point(422, 20);
+			this.comboBox2.Name = "comboBox2";
+			this.comboBox2.Size = new System.Drawing.Size(121, 21);
+			this.comboBox2.TabIndex = 53;
+			// 
+			// textBoxName
+			// 
+			this.textBoxName.Location = new System.Drawing.Point(66, 13);
+			this.textBoxName.Name = "textBoxName";
+			this.textBoxName.Size = new System.Drawing.Size(87, 20);
+			this.textBoxName.TabIndex = 52;
+			// 
+			// label171
+			// 
+			this.label171.AutoSize = true;
+			this.label171.Location = new System.Drawing.Point(12, 16);
+			this.label171.Name = "label171";
+			this.label171.Size = new System.Drawing.Size(48, 13);
+			this.label171.TabIndex = 51;
+			this.label171.Text = "Player 1:";
+			// 
+			// label173
+			// 
+			this.label173.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label173.Location = new System.Drawing.Point(343, 62);
+			this.label173.Name = "label173";
+			this.label173.Size = new System.Drawing.Size(200, 97);
+			this.label173.TabIndex = 47;
+			this.label173.Text = "Beta: ";
 			// 
 			// groupBox11
 			// 
@@ -4643,17 +4898,19 @@
 			this.groupBox11.Controls.Add(this.textBoxSend);
 			this.groupBox11.Controls.Add(this.textBoxMessages);
 			this.groupBox11.ForeColor = System.Drawing.Color.White;
-			this.groupBox11.Location = new System.Drawing.Point(6, 244);
+			this.groupBox11.Location = new System.Drawing.Point(6, 421);
 			this.groupBox11.Name = "groupBox11";
-			this.groupBox11.Size = new System.Drawing.Size(549, 468);
+			this.groupBox11.Size = new System.Drawing.Size(549, 291);
 			this.groupBox11.TabIndex = 53;
 			this.groupBox11.TabStop = false;
 			this.groupBox11.Text = "Connection Log";
 			// 
 			// buttonSend
 			// 
+			this.buttonSend.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.buttonSend.ForeColor = System.Drawing.Color.Black;
-			this.buttonSend.Location = new System.Drawing.Point(438, 442);
+			this.buttonSend.Location = new System.Drawing.Point(438, 265);
 			this.buttonSend.Name = "buttonSend";
 			this.buttonSend.Size = new System.Drawing.Size(105, 20);
 			this.buttonSend.TabIndex = 2;
@@ -4663,17 +4920,22 @@
 			// 
 			// textBoxSend
 			// 
-			this.textBoxSend.Location = new System.Drawing.Point(7, 442);
+			this.textBoxSend.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.textBoxSend.Location = new System.Drawing.Point(7, 265);
 			this.textBoxSend.Name = "textBoxSend";
 			this.textBoxSend.Size = new System.Drawing.Size(425, 20);
 			this.textBoxSend.TabIndex = 1;
 			// 
 			// textBoxMessages
 			// 
+			this.textBoxMessages.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.textBoxMessages.Location = new System.Drawing.Point(7, 20);
 			this.textBoxMessages.Multiline = true;
 			this.textBoxMessages.Name = "textBoxMessages";
-			this.textBoxMessages.Size = new System.Drawing.Size(536, 416);
+			this.textBoxMessages.Size = new System.Drawing.Size(536, 239);
 			this.textBoxMessages.TabIndex = 0;
 			// 
 			// groupBox10
@@ -4693,7 +4955,7 @@
 			this.groupBox10.Size = new System.Drawing.Size(549, 113);
 			this.groupBox10.TabIndex = 51;
 			this.groupBox10.TabStop = false;
-			this.groupBox10.Text = "Client";
+			this.groupBox10.Text = "Connect";
 			// 
 			// textBoxClientIP
 			// 
@@ -4746,8 +5008,8 @@
 			this.label169.Name = "label169";
 			this.label169.Size = new System.Drawing.Size(534, 43);
 			this.label169.TabIndex = 47;
-			this.label169.Text = "Beta: Only one player can connect to the server. Make sure the IP Address and Por" +
-    "t are correct. Also gameplay doesn\'t work, you can only connect.\r\n";
+			this.label169.Text = "Beta: Make sure the IP Address and Port are correct, the tool crashes if they are" +
+    "n\'t (because beta). Also gameplay doesn\'t work, you can only connect.\r\n";
 			// 
 			// groupBox9
 			// 
@@ -4764,7 +5026,7 @@
 			this.groupBox9.Size = new System.Drawing.Size(549, 113);
 			this.groupBox9.TabIndex = 8;
 			this.groupBox9.TabStop = false;
-			this.groupBox9.Text = "Server";
+			this.groupBox9.Text = "Host";
 			// 
 			// buttonStartServer
 			// 
@@ -4801,7 +5063,8 @@
 			this.label166.Name = "label166";
 			this.label166.Size = new System.Drawing.Size(534, 43);
 			this.label166.TabIndex = 47;
-			this.label166.Text = resources.GetString("label166.Text");
+			this.label166.Text = "Beta two player mode available. To play, one player must start a server (don\'t fo" +
+    "rget to forward ports). Player 2 must connect to the server below";
 			// 
 			// backgroundWorkerReceive
 			// 
@@ -4867,6 +5130,8 @@
 			this.tableLayoutPanel1.ResumeLayout(false);
 			this.tabControl1.ResumeLayout(false);
 			this.tabPage8.ResumeLayout(false);
+			this.groupBox12.ResumeLayout(false);
+			this.groupBox12.PerformLayout();
 			this.groupBox11.ResumeLayout(false);
 			this.groupBox11.PerformLayout();
 			this.groupBox10.ResumeLayout(false);
@@ -5158,6 +5423,27 @@
 		private System.Windows.Forms.Label label166;
 		private System.ComponentModel.BackgroundWorker backgroundWorkerReceive;
 		private System.ComponentModel.BackgroundWorker backgroundWorkerSend;
+		private System.Windows.Forms.GroupBox groupBox12;
+		private System.Windows.Forms.ComboBox comboBox2;
+		private System.Windows.Forms.TextBox textBoxName;
+		private System.Windows.Forms.Label label171;
+		private System.Windows.Forms.Label label173;
+		private System.Windows.Forms.ComboBox comboBox7;
+		private System.Windows.Forms.ComboBox comboBox8;
+		private System.Windows.Forms.ComboBox comboBox5;
+		private System.Windows.Forms.ComboBox comboBox6;
+		private System.Windows.Forms.ComboBox comboBox4;
+		private System.Windows.Forms.ComboBox comboBox3;
+		private System.Windows.Forms.TextBox textBox6;
+		private System.Windows.Forms.Label label177;
+		private System.Windows.Forms.TextBox textBox5;
+		private System.Windows.Forms.Label label176;
+		private System.Windows.Forms.TextBox textBox4;
+		private System.Windows.Forms.Label label175;
+		private System.Windows.Forms.TextBox textBox3;
+		private System.Windows.Forms.Label label174;
+		private System.Windows.Forms.TextBox textBox2;
+		private System.Windows.Forms.Label label172;
 	}
 }
 
