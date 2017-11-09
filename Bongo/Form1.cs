@@ -197,14 +197,20 @@ namespace Bongo {
 		};
 
 		// online stuff
-		// https://www.youtube.com/watch?v=AN5AtcD2Hdc
+		/*// https://www.youtube.com/watch?v=AN5AtcD2Hdc
 		TcpClient client;
 		public StreamReader streamReader;
 		public StreamWriter streamWriter;
 		public string textToReceive;
-		public String textToSend;
+		public String textToSend;*/
 
-
+		// https://www.youtube.com/watch?v=xgLRe7QV6QI
+		private readonly Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+		private readonly List<Socket> clientSockets = new List<Socket>();
+		private const int BufferSize = 2048;
+		//private const int Port;
+		private static readonly byte[] buffer = new byte[BufferSize];
+		private readonly Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
 		public Form1() {
 			InitializeComponent();
@@ -1231,56 +1237,176 @@ namespace Bongo {
 		#endregion
 
 		#region online stuff
+		// start the server
 		private void buttonStartServer_Click(object sender, EventArgs e) {
-			/*ipaddress[] localip = dns.gethostaddresses(dns.gethostname());          // get my ip
-			foreach (ipaddress address in localip) {
-				if (address.addressfamily == addressfamily.internetwork) {
-					textboxserverip.text = address.tostring();
-				}
-			}*/
-
-			TcpListener listener = new TcpListener(IPAddress.Any, int.Parse(textBoxServerPort.Text));
-			listener.Start();
-			client = listener.AcceptTcpClient();
-			streamReader = new StreamReader(client.GetStream());
-			streamWriter = new StreamWriter(client.GetStream());
-			streamWriter.AutoFlush = true;
-
-			backgroundWorkerReceive.RunWorkerAsync();
-			backgroundWorkerSend.WorkerSupportsCancellation = true;
+			textBoxMessages.AppendText("Starting server... \n");
+			serverSocket.Bind(new IPEndPoint(IPAddress.Any, int.Parse(textBoxServerPort.Text)));
+			serverSocket.Listen(0);
+			serverSocket.BeginAccept(AcceptCallBack, null);
+			textBoxMessages.AppendText("Server started \n");
 		}
 
-		private void buttonClientConnect_Click(object sender, EventArgs e) {
-			client = new TcpClient();
-			IPEndPoint ip_End = new IPEndPoint(IPAddress.Parse(textBoxClientIP.Text), int.Parse(textBoxClientPort.Text));
+		// end the server
+		private void CloseAllSockets() {
+			foreach (Socket socket in clientSockets) {
+				socket.Shutdown(SocketShutdown.Both);
+				socket.Close();
+			}
+			serverSocket.Close();
+		}
+
+		// receive connection from clients
+		private void AcceptCallBack(IAsyncResult IA) {
+			Socket socket;
 
 			try {
-				client.Connect(ip_End);
-				if (client.Connected) {
-					textBoxMessages.AppendText("Connected to server \n");
-					streamReader = new StreamReader(client.GetStream());
-					streamWriter = new StreamWriter(client.GetStream());
-					streamWriter.AutoFlush = true;
+				socket = serverSocket.EndAccept(IA);
+			}
+			catch (ObjectDisposedException) {
+				this.BeginInvoke(new MethodInvoker(() => { textBoxMessages.AppendText("ObjectDisposedException \n"); }));
+				return;
+			}
 
-					backgroundWorkerReceive.RunWorkerAsync();
-					backgroundWorkerSend.WorkerSupportsCancellation = true;
-				}
-			}
-			catch (Exception exc) {
-				MessageBox.Show(exc.Message.ToString());
-			}
+			clientSockets.Add(socket);
+			socket.BeginReceive(buffer, 0, BufferSize, SocketFlags.None, ReceiveCallBack, socket);
+			this.BeginInvoke(new MethodInvoker(()=> { textBoxMessages.AppendText("Client connected \n"); }));
+			serverSocket.BeginAccept(AcceptCallBack, null);
 		}
 
+		// recieve information from connected clients
+		private void ReceiveCallBack(IAsyncResult IA) {
+			Socket current = (Socket)IA.AsyncState;
+			int received;
+
+			try {
+				received = current.EndReceive(IA);
+			}
+			catch (SocketException) {
+				this.BeginInvoke(new MethodInvoker(()=> { textBoxMessages.AppendText("Client Disconnected forcefully \n"); }));
+				current.Close();
+				clientSockets.Remove(current);
+				return;
+			}
+
+			byte[] recBuf = new byte[received];
+			Array.Copy(buffer, recBuf, received);
+			string text = Encoding.ASCII.GetString(recBuf);
+			this.BeginInvoke(new MethodInvoker(()=> { textBoxMessages.AppendText("Received: " + text + " \n"); }));
+			// relay message to other lcients
+			foreach (Socket socket in clientSockets) {
+				if (socket != current) {
+					socket.Send(recBuf);
+				}
+			}
+
+			current.BeginReceive(buffer, 0, BufferSize, SocketFlags.None, ReceiveCallBack, current);
+		}
+
+		/*ipaddress[] localip = dns.gethostaddresses(dns.gethostname());          // get my ip
+		foreach (ipaddress address in localip) {
+			if (address.addressfamily == addressfamily.internetwork) {
+				textboxserverip.text = address.tostring();
+			}
+		}* /
+
+		TcpListener listener = new TcpListener(IPAddress.Any, int.Parse(textBoxServerPort.Text));
+		listener.Start();
+		client = listener.AcceptTcpClient();
+		streamReader = new StreamReader(client.GetStream());
+		streamWriter = new StreamWriter(client.GetStream());
+		streamWriter.AutoFlush = true;
+
+		backgroundWorkerReceive.RunWorkerAsync();
+		backgroundWorkerSend.WorkerSupportsCancellation = true;
+	}*/
+
+		// client connect to server
+		private void buttonClientConnect_Click(object sender, EventArgs e) {
+			int attempts = 0;
+
+			while (!clientSocket.Connected) {
+				try {
+					attempts++;
+					textBoxMessages.AppendText("Connection attempt " + attempts + " \n");
+					clientSocket.Connect(IPAddress.Parse(textBoxClientIP.Text), int.Parse(textBoxClientPort.Text));
+				}
+				catch (SocketException) {
+					textBoxMessages.AppendText("SocketException \n");
+				}
+			}
+			textBoxMessages.AppendText("Connected to server \n");
+			backgroundWorkerReceive.RunWorkerAsync();
+		}
+
+		/*
+		client = new TcpClient();
+		IPEndPoint ip_End = new IPEndPoint(IPAddress.Parse(textBoxClientIP.Text), int.Parse(textBoxClientPort.Text));
+
+		try {
+			client.Connect(ip_End);
+			if (client.Connected) {
+				textBoxMessages.AppendText("Connected to server \n");
+				streamReader = new StreamReader(client.GetStream());
+				streamWriter = new StreamWriter(client.GetStream());
+				streamWriter.AutoFlush = true;
+
+				backgroundWorkerReceive.RunWorkerAsync();
+				backgroundWorkerSend.WorkerSupportsCancellation = true;
+			}
+		}
+		catch (Exception exc) {
+			MessageBox.Show(exc.Message.ToString());
+		}
+	}*/
+
+		// send message
 		private void buttonSend_Click(object sender, EventArgs e) {
 			if (textBoxSend.Text != "") {
+				if (clientSocket.Connected) {
+					byte[] buffer = Encoding.ASCII.GetBytes(textBoxSend.Text);
+					clientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
+					textBoxMessages.AppendText("Sent: " + textBoxSend.Text + " \n");
+					textBoxSend.Text = "";
+				}
+				// if server, send message to everyone
+				else {
+					byte[] data = Encoding.ASCII.GetBytes(textBoxSend.Text);
+					foreach (Socket socket in clientSockets) {
+						socket.Send(data);
+					}
+					textBoxMessages.AppendText("Sent: " + textBoxSend.Text + " \n");
+					textBoxSend.Text = "";
+				}
+			}
+		}
+			/*if (textBoxSend.Text != "") {
 				textToSend = textBoxSend.Text;
 				backgroundWorkerSend.RunWorkerAsync();
 			}
 			textBoxSend.Text = "";
+		}*/
+
+		// client check if response is recieved
+		private void ReceiveResponse() {
+			byte[] buffer = new byte[2048];
+			int received = clientSocket.Receive(buffer, SocketFlags.None);
+			if (received == 0) {
+				textBoxMessages.AppendText("received 0 \n");
+				return;
+			}
+			byte[] data = new byte[received];
+			Array.Copy(buffer, data, received);
+			string text = Encoding.ASCII.GetString(data);
+			textBoxMessages.AppendText("Received: " + text + " \n");
 		}
 
+		// continuously calls to see if shit's received
 		private void backgroundWorkerReceive_DoWork(object sender, DoWorkEventArgs e) {
-			while (client.Connected) {
+			while (clientSocket.Connected) {
+				ReceiveResponse();
+			}
+			
+			/*while (client.Connected) {
 				try {
 					textToReceive = streamReader.ReadLine();
 					textBoxMessages.Invoke(new MethodInvoker(delegate () { textBoxMessages.AppendText("Them: " + textToReceive + "\n"); }));
@@ -1288,18 +1414,19 @@ namespace Bongo {
 				catch (Exception exc) {
 					MessageBox.Show(exc.Message.ToString());
 				}
-			}
+			}*/
 		}
 
+		// deprecated
 		private void backgroundWorkerSend_DoWork(object sender, DoWorkEventArgs e) {
-			if (client.Connected) {
+			/*if (client.Connected) {
 				streamWriter.WriteLine(textToSend);
 				textBoxMessages.Invoke(new MethodInvoker(delegate () { textBoxMessages.AppendText("You: " + textToSend + "\n"); }));
 			}
 			else {
 				MessageBox.Show("Send Failed");
 			}
-			backgroundWorkerSend.CancelAsync();
+			backgroundWorkerSend.CancelAsync();*/
 		}
 
 		#endregion

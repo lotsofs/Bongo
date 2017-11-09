@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bongo.exe" size="120320">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bongo.exe" size="122368">
       <assemblyIdentity name="Bongo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>99ZcE+dgUi9hlAdxgIHCdqIvcn45Ovn3/2hkTO+PR18=</dsig:DigestValue>
+        <dsig:DigestValue>8dhGU4ZlSVeuC2n59JfEUurWkm0nEe7oA6HJfYL8BKw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
