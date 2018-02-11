@@ -361,7 +361,7 @@ namespace Bongo {
 			winT.Checked = Int32.Parse(node3.Attributes["T"].InnerText) >= 8;
 		}
 		
-		private void hideBoard(bool toHide) {
+		private void HideBoard(bool toHide) {
 			foreach (Label l in labels) {
 				l.Visible = !toHide;
 				tabControl2.Visible = !toHide;
@@ -371,7 +371,7 @@ namespace Bongo {
 			labelGoalVersion.Visible = toHide;
 		}
 
-		private void generateUID() {
+		private void GenerateUID() {
 			int uID;
 			// Specific uID entered, so set all the sliders and checkboxes in the settings to match
 			if (!string.IsNullOrEmpty(uIDBox.Text)) {
@@ -427,7 +427,7 @@ namespace Bongo {
 
 		// Sort the goals in the XML by difficulty/length, etc and print stuff from the XML on the screen
 		// This essentially processes the entire goals.xml and makes the info ready to be put on the board.
-		private void initialXMLRead() {
+		private void InitialXMLRead() {
 			#region print version + info
 			// Board info display on screen
 			XmlDocument docGoals = new XmlDocument();
@@ -572,7 +572,7 @@ namespace Bongo {
 			theBingoBoard.Clear();
 			resetBoardColors();
 
-			initialXMLRead();
+			InitialXMLRead();
 
 			for (int i = 0; i < 25; i++) {
 				theBingoBoard.Add(goalsPremade[i]);
@@ -609,8 +609,8 @@ namespace Bongo {
 			resetBoardColors();
 
 			// Generate an UID, then parse stuff from the textbox.
-			// I should make generateUID return the int with the uID instead lol
-			generateUID();
+			// I should make GenerateUID return the int with the uID instead lol
+			GenerateUID();
 			int uniqueCode = int.Parse(seedDisplayBox.Text);
 
 			// Determine the seed
@@ -687,7 +687,7 @@ namespace Bongo {
 			}
 
 			// Now that we've determined the length, process all the goals. It will throw out all goals that are too short or too long.
-			initialXMLRead();
+			InitialXMLRead();
 
 			#region Determine the board layout (unused)
 			if (uniqueCode % 1000000 / 100000 == 1) {
@@ -1073,7 +1073,7 @@ namespace Bongo {
 					}
 				}
 				else if (key == 6) {		// Unhide board
-					hideBoard(false);
+					HideBoard(false);
 				}
 
 			}
@@ -1159,7 +1159,7 @@ namespace Bongo {
 		#endregion
 
 		private void button1_Click(object sender, EventArgs e) {
-			hideBoard(checkBox1.Checked);
+			HideBoard(checkBox1.Checked);
 			SaveLastGameData();
 			if (!CheckIfPremade()) {
 				GenerateNewSheet();
@@ -1171,7 +1171,7 @@ namespace Bongo {
 		}
 
 		private void hideButton_Click(object sender, EventArgs e) {
-			hideBoard(false);
+			HideBoard(false);
 		}
 
 
@@ -1186,7 +1186,7 @@ namespace Bongo {
 			if (!int.TryParse(textBox1.Text, out a)) {
 				textBox1.Clear();
 			}
-			generateUID();
+			GenerateUID();
 		}
 
 		private void uIDBox_TextChanged(object sender, EventArgs e) {
@@ -1194,29 +1194,29 @@ namespace Bongo {
 			if (!int.TryParse(textBox1.Text, out a)) {
 				uIDBox.Clear();
 			}
-			generateUID();
+			GenerateUID();
 		}
 
 		private void trackBar1_Scroll(object sender, EventArgs e) {
 			difficulty = trackBar1.Value * Convert.ToInt32(trackBar1.Enabled);
-			generateUID();
+			GenerateUID();
 		}
 
 		private void trackBar2_Scroll(object sender, EventArgs e) {
 			length = trackBar2.Value * Convert.ToInt32(trackBar2.Enabled);
-			generateUID();
+			GenerateUID();
 		}
 
 		private void checkBoxLength_CheckedChanged(object sender, EventArgs e) {
 			trackBar2.Enabled = !checkBoxLength.Checked;
 			trackBar2_Scroll(sender, e);
-			generateUID();
+			GenerateUID();
 		}
 
 		private void checkBoxDiff_CheckedChanged(object sender, EventArgs e) {
 			trackBar1.Enabled = !checkBoxDiff.Checked;
 			trackBar1_Scroll(sender, e);
-			generateUID();
+			GenerateUID();
 		}
 
 		private void checkBox2_CheckedChanged(object sender, EventArgs e) {
