@@ -323,7 +323,6 @@
 			this.label167 = new System.Windows.Forms.Label();
 			this.label166 = new System.Windows.Forms.Label();
 			this.backgroundWorkerReceive = new System.ComponentModel.BackgroundWorker();
-			this.backgroundWorkerSend = new System.ComponentModel.BackgroundWorker();
 			this.tabPage7.SuspendLayout();
 			this.tabControl2.SuspendLayout();
 			this.playerGreen.SuspendLayout();
@@ -5070,10 +5069,6 @@
 			// 
 			this.backgroundWorkerReceive.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorkerReceive_DoWork);
 			// 
-			// backgroundWorkerSend
-			// 
-			this.backgroundWorkerSend.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorkerSend_DoWork);
-			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5422,7 +5417,6 @@
 		private System.Windows.Forms.Label label167;
 		private System.Windows.Forms.Label label166;
 		private System.ComponentModel.BackgroundWorker backgroundWorkerReceive;
-		private System.ComponentModel.BackgroundWorker backgroundWorkerSend;
 		private System.Windows.Forms.GroupBox groupBox12;
 		private System.Windows.Forms.ComboBox comboBox2;
 		private System.Windows.Forms.TextBox textBoxName;

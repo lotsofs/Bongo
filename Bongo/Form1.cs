@@ -1237,16 +1237,37 @@ namespace Bongo {
 		#endregion
 
 		#region online stuff
-		// start the server
+
+		enum BufferPrefixes
+		{
+			None,
+			FullBoard,
+			Chat
+		}
+
+		const string ServerStarting = "Starting server... \n";
+		const string ServerStarted = "Server started \n";
+		const string ClientConnected = "Client connected \n";
+		const string ClientDisconnectForce = "Client disconnected forcefully \n";
+		const string ConnectionAttempt = "Connection attempt {0}... \n";
+		const string ConnectedToServer = "Connected to server \n";
+
+		/// <summary>
+		/// Starts the server
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		private void buttonStartServer_Click(object sender, EventArgs e) {
-			textBoxMessages.AppendText("Starting server... \n");
+			textBoxMessages.AppendText(ServerStarting);
 			serverSocket.Bind(new IPEndPoint(IPAddress.Any, int.Parse(textBoxServerPort.Text)));
 			serverSocket.Listen(0);
 			serverSocket.BeginAccept(AcceptCallBack, null);
-			textBoxMessages.AppendText("Server started \n");
+			textBoxMessages.AppendText(ServerStarted);
 		}
 
-		// end the server
+		/// <summary>
+		/// Ends the server
+		/// </summary>
 		private void CloseAllSockets() {
 			foreach (Socket socket in clientSockets) {
 				socket.Shutdown(SocketShutdown.Both);
@@ -1255,7 +1276,10 @@ namespace Bongo {
 			serverSocket.Close();
 		}
 
-		// receive connection from clients
+		/// <summary>
+		/// Receive connections from clients
+		/// </summary>
+		/// <param name="IA"></param>
 		private void AcceptCallBack(IAsyncResult IA) {
 			Socket socket;
 
@@ -1269,11 +1293,14 @@ namespace Bongo {
 
 			clientSockets.Add(socket);
 			socket.BeginReceive(buffer, 0, BufferSize, SocketFlags.None, ReceiveCallBack, socket);
-			this.BeginInvoke(new MethodInvoker(()=> { textBoxMessages.AppendText("Client connected \n"); }));
+			this.BeginInvoke(new MethodInvoker(()=> { textBoxMessages.AppendText(ClientConnected); }));
 			serverSocket.BeginAccept(AcceptCallBack, null);
 		}
 
-		// recieve information from connected clients
+		/// <summary>
+		/// Server receives information from connected clients
+		/// </summary>
+		/// <param name="IA"></param>
 		private void ReceiveCallBack(IAsyncResult IA) {
 			Socket current = (Socket)IA.AsyncState;
 			int received;
@@ -1282,20 +1309,21 @@ namespace Bongo {
 				received = current.EndReceive(IA);
 			}
 			catch (SocketException) {
-				this.BeginInvoke(new MethodInvoker(()=> { textBoxMessages.AppendText("Client Disconnected forcefully \n"); }));
+				this.BeginInvoke(new MethodInvoker(()=> { textBoxMessages.AppendText(ClientDisconnectForce); }));
 				current.Close();
 				clientSockets.Remove(current);
 				return;
 			}
 
 			byte[] recBuf = new byte[received];
-			if (recBuf[0] == 2) {       // text chat message
+
+			if (buffer[0] == (byte)BufferPrefixes.Chat) {
 				Array.Copy(buffer, recBuf, received);
 				string text = Encoding.ASCII.GetString(recBuf);
-				text.Remove(0, 1);
+				text = text.Substring(1);
 				this.BeginInvoke(new MethodInvoker(() => { textBoxMessages.AppendText("Received: " + text + " \n"); }));
 			}
-			else if (recBuf[0] == 1) {  // bingo board colors
+			else if (buffer[0] == (byte)BufferPrefixes.FullBoard) {
 				///// do something
 			}
 
@@ -1309,91 +1337,58 @@ namespace Bongo {
 			current.BeginReceive(buffer, 0, BufferSize, SocketFlags.None, ReceiveCallBack, current);
 		}
 
-		/*ipaddress[] localip = dns.gethostaddresses(dns.gethostname());          // get my ip
-		foreach (ipaddress address in localip) {
-			if (address.addressfamily == addressfamily.internetwork) {
-				textboxserverip.text = address.tostring();
-			}
-		}* /
-
-		TcpListener listener = new TcpListener(IPAddress.Any, int.Parse(textBoxServerPort.Text));
-		listener.Start();
-		client = listener.AcceptTcpClient();
-		streamReader = new StreamReader(client.GetStream());
-		streamWriter = new StreamWriter(client.GetStream());
-		streamWriter.AutoFlush = true;
-
-		backgroundWorkerReceive.RunWorkerAsync();
-		backgroundWorkerSend.WorkerSupportsCancellation = true;
-	}*/
-
-		// client connect to server
+		/// <summary>
+		/// Client connecting to server
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		private void buttonClientConnect_Click(object sender, EventArgs e) {
 			int attempts = 0;
 
 			while (!clientSocket.Connected) {
 				try {
 					attempts++;
-					textBoxMessages.AppendText("Connection attempt " + attempts + " \n");
+					textBoxMessages.AppendText(string.Format(ConnectionAttempt, attempts));
 					clientSocket.Connect(IPAddress.Parse(textBoxClientIP.Text), int.Parse(textBoxClientPort.Text));
 				}
 				catch (SocketException) {
 					textBoxMessages.AppendText("SocketException \n");
 				}
 			}
-			textBoxMessages.AppendText("Connected to server \n");
+			textBoxMessages.AppendText(ConnectedToServer);
 			backgroundWorkerReceive.RunWorkerAsync();
 		}
 
-		/*
-		client = new TcpClient();
-		IPEndPoint ip_End = new IPEndPoint(IPAddress.Parse(textBoxClientIP.Text), int.Parse(textBoxClientPort.Text));
-
-		try {
-			client.Connect(ip_End);
-			if (client.Connected) {
-				textBoxMessages.AppendText("Connected to server \n");
-				streamReader = new StreamReader(client.GetStream());
-				streamWriter = new StreamWriter(client.GetStream());
-				streamWriter.AutoFlush = true;
-
-				backgroundWorkerReceive.RunWorkerAsync();
-				backgroundWorkerSend.WorkerSupportsCancellation = true;
+		/// <summary>
+		/// Transmits a chat message
+		/// </summary>
+		private void SendTextMessage() {
+			if (clientSocket.Connected) {
+				// convert the typed text to bytes, and add a byte in front of it to denote it is text
+				byte[] bufferWorking = Encoding.ASCII.GetBytes(textBoxSend.Text);
+				byte[] buffer = new byte[bufferWorking.Length + 1];
+				buffer[0] = (byte)BufferPrefixes.Chat;
+				Array.Copy(bufferWorking, 0, buffer, 1, bufferWorking.Length);
+				// send the bytes
+				clientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
+				textBoxMessages.AppendText("Sent: " + textBoxSend.Text + " \n");
+				textBoxSend.Text = string.Empty;
+			}
+			// if server, send message to everyone
+			else {
+				byte[] data = Encoding.ASCII.GetBytes(textBoxSend.Text);
+				foreach (Socket socket in clientSockets) {
+					socket.Send(data);
+				}
+				textBoxMessages.AppendText("Sent: " + textBoxSend.Text + " \n");
+				textBoxSend.Text = string.Empty;
 			}
 		}
-		catch (Exception exc) {
-			MessageBox.Show(exc.Message.ToString());
-		}
-	}*/
 
-		// buffer prefixes:
-		// 1 = full bingo board colors
-		// 2 = text chat message
-
-		// send message
-		private void buttonSend_Click(object sender, EventArgs e) {
-			if (textBoxSend.Text != "") {
-				if (clientSocket.Connected) {
-					// convert the typed text to bytes, and add a byte in front of it to denote it is text
-					byte[] bufferWorking = Encoding.ASCII.GetBytes(textBoxSend.Text);
-					byte[] buffer = new byte[bufferWorking.Length + 1];
-					buffer[0] = 2;
-					Array.Copy(bufferWorking, 0, buffer, 1, bufferWorking.Length);
-					// send the bytes
-					clientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
-					textBoxMessages.AppendText("Sent: " + textBoxSend.Text + " \n");
-					textBoxSend.Text = "";
-				}
-				// if server, send message to everyone
-				else {
-					byte[] data = Encoding.ASCII.GetBytes(textBoxSend.Text);
-					foreach (Socket socket in clientSockets) {
-						socket.Send(data);
-					}
-					textBoxMessages.AppendText("Sent: " + textBoxSend.Text + " \n");
-					textBoxSend.Text = "";
-				}
-			}
+		/// <summary>
+		/// Transmits the bingo board
+		/// </summary>
+		private void SendBingoBoard() {
 			if (clientSocket.Connected) {
 				// take the colors of the bingo board
 				int[] colorsInt = new int[25];
@@ -1402,22 +1397,18 @@ namespace Bongo {
 				}
 				// convert array of colors to byte with one byte to denote that it is a list of colors
 				byte[] buffer = new byte[colorsInt.Length * 4 + 1];
-				for(int i = 0; i < 25; i++) {
+				for (int i = 0; i < 25; i++) {
 					Array.Copy(BitConverter.GetBytes(colorsInt[i]), 0, buffer, i * 4 + 1, 4);
-					buffer[0] = 1;
+					buffer[0] = (byte)BufferPrefixes.FullBoard;
 				}
 				// transmit data
 				clientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
 			}
 		}
-			/*if (textBoxSend.Text != "") {
-				textToSend = textBoxSend.Text;
-				backgroundWorkerSend.RunWorkerAsync();
-			}
-			textBoxSend.Text = "";
-		}*/
 
-		// client check if response is recieved
+		/// <summary>
+		/// Client receive bytes
+		/// </summary>
 		private void ReceiveResponse() {
 			byte[] buffer = new byte[2048];
 			int received = clientSocket.Receive(buffer, SocketFlags.None);
@@ -1431,37 +1422,32 @@ namespace Bongo {
 			textBoxMessages.AppendText("Received: " + text + " \n");
 		}
 
-		// continuously calls to see if shit's received
+		#endregion
+
+		#region online tab buttons
+		/// <summary>
+		/// Send chat message button press
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void buttonSend_Click(object sender, EventArgs e) {
+			if (textBoxSend.Text != string.Empty) {
+				SendTextMessage();
+			}
+			SendBingoBoard();
+		}
+
+		/// <summary>
+		/// Continuously checks to see if a message is received
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		private void backgroundWorkerReceive_DoWork(object sender, DoWorkEventArgs e) {
 			while (clientSocket.Connected) {
 				ReceiveResponse();
 			}
-			
-			/*while (client.Connected) {
-				try {
-					textToReceive = streamReader.ReadLine();
-					textBoxMessages.Invoke(new MethodInvoker(delegate () { textBoxMessages.AppendText("Them: " + textToReceive + "\n"); }));
-				}
-				catch (Exception exc) {
-					MessageBox.Show(exc.Message.ToString());
-				}
-			}*/
 		}
-
-		// deprecated
-		private void backgroundWorkerSend_DoWork(object sender, DoWorkEventArgs e) {
-			/*if (client.Connected) {
-				streamWriter.WriteLine(textToSend);
-				textBoxMessages.Invoke(new MethodInvoker(delegate () { textBoxMessages.AppendText("You: " + textToSend + "\n"); }));
-			}
-			else {
-				MessageBox.Show("Send Failed");
-			}
-			backgroundWorkerSend.CancelAsync();*/
-		}
-
 		#endregion
-
 
 	}
 }
