@@ -47,6 +47,7 @@ namespace Bongo {
 					break;
 			}
 			num /= (100 / highestValue);
+			num = Math.Round(num);
 			return num;
 		}
 	}

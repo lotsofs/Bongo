@@ -61,6 +61,9 @@ namespace Bongo {
 						nearestDistance = distance;
 						nearestGoal = goal;
 					}
+					if (distance == 0) {
+						break;
+					}
 				}
 
 				selectedGoals[i] = nearestGoal;
