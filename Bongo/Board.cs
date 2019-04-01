@@ -33,7 +33,18 @@ namespace Bongo {
 			Random rand = new Random((int)seed);
 
 			// Select the goals for the board by picking a random length & difficulty, then picking the nearest goal
-			List<Goal> potentialGoals = bingoSet.Goals;
+			bingoSet.Goals = ChooseGoals(bingoSet.Goals, seed, difficulty, length);
+			return bingoSet;
+		}
+
+		/// <summary>
+		/// Choose goals from potentialGoals based on other parameters
+		/// </summary>
+		/// <param name="potentialGoals"></param>
+		/// <param name="seed"></param>
+		/// <param name="difficulty"></param>
+		/// <param name="length"></param>
+		List<Goal> ChooseGoals(List<Goal> potentialGoals, uint seed, uint difficulty, uint length) {
 			List<Goal> selectedGoals = new List<Goal>(25);
 
 			for (int i = 0; i < 25; i++) {
@@ -55,8 +66,7 @@ namespace Bongo {
 				selectedGoals[i] = nearestGoal;
 				potentialGoals.Remove(nearestGoal);
 			}
-			bingoSet.Goals = potentialGoals;
-			return bingoSet;
+			return selectedGoals;
 		}
 
 		/// <summary>

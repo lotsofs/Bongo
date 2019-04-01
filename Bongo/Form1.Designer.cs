@@ -3912,7 +3912,7 @@
 			this.label31.Name = "label31";
 			this.label31.Size = new System.Drawing.Size(245, 43);
 			this.label31.TabIndex = 47;
-			this.label31.Text = "Enter a seed of up to 5 digits and it will use this number to generate a board. L" +
+			this.label31.Text = "Enter a seed of up to 4 digits and it will use this number to generate a board. L" +
     "eaving it blank will generate a random board using a random seed.";
 			// 
 			// textBox1
