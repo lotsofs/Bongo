@@ -13,7 +13,7 @@ namespace Bongo {
 		/// <param name="bias">1 = add bias towards lower, 5 = higher. 0 = ignore</param>
 		/// <param name="highestValue"></param>
 		/// <returns></returns>
-		public static double Random(uint seed, uint bias, uint highestValue) {
+		public static double Random(int seed, int bias, int highestValue) {
 			Random rand = new Random((int)seed);
 			double num;
 			switch (bias) {

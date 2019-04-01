@@ -1,5 +1,5 @@
 ﻿namespace Bongo {
-    partial class Form1 {
+    partial class BongoForm {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -23,14 +23,14 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BongoForm));
 			this.goalsFileLabel = new System.Windows.Forms.Label();
-			this.comboBox1 = new System.Windows.Forms.ComboBox();
+			this.BottomFileBox = new System.Windows.Forms.ComboBox();
 			this.seedIndicationLabel = new System.Windows.Forms.Label();
-			this.seedDisplayBox = new System.Windows.Forms.TextBox();
-			this.button1 = new System.Windows.Forms.Button();
-			this.checkBox1 = new System.Windows.Forms.CheckBox();
-			this.labelHKNotifier = new System.Windows.Forms.Label();
+			this.BottomUidBox = new System.Windows.Forms.TextBox();
+			this.BottomGenerateButton = new System.Windows.Forms.Button();
+			this.BottomHideBoardCheck = new System.Windows.Forms.CheckBox();
+			this.BottomHotkeyLabel = new System.Windows.Forms.Label();
 			this.label138 = new System.Windows.Forms.Label();
 			this.label137 = new System.Windows.Forms.Label();
 			this.label136 = new System.Windows.Forms.Label();
@@ -231,58 +231,58 @@
 			this.label164 = new System.Windows.Forms.Label();
 			this.groupBox3 = new System.Windows.Forms.GroupBox();
 			this.label28 = new System.Windows.Forms.Label();
-			this.uIDBox = new System.Windows.Forms.TextBox();
+			this.LoadUidBox = new System.Windows.Forms.TextBox();
 			this.tabPage2 = new System.Windows.Forms.TabPage();
 			this.groupBox4 = new System.Windows.Forms.GroupBox();
-			this.checkBoxLength = new System.Windows.Forms.CheckBox();
+			this.CreateLengthDisregardBox = new System.Windows.Forms.CheckBox();
 			this.label33 = new System.Windows.Forms.Label();
 			this.label34 = new System.Windows.Forms.Label();
 			this.label35 = new System.Windows.Forms.Label();
 			this.label36 = new System.Windows.Forms.Label();
-			this.trackBar2 = new System.Windows.Forms.TrackBar();
+			this.CreateLengthBar = new System.Windows.Forms.TrackBar();
 			this.label30 = new System.Windows.Forms.Label();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
 			this.label31 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.CreateSeedBox = new System.Windows.Forms.TextBox();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
-			this.checkBoxDiff = new System.Windows.Forms.CheckBox();
+			this.CreateDifficultyDisregardBox = new System.Windows.Forms.CheckBox();
 			this.label32 = new System.Windows.Forms.Label();
 			this.label29 = new System.Windows.Forms.Label();
 			this.label26 = new System.Windows.Forms.Label();
 			this.label27 = new System.Windows.Forms.Label();
-			this.trackBar1 = new System.Windows.Forms.TrackBar();
+			this.CreateDifficultyBar = new System.Windows.Forms.TrackBar();
 			this.tabPage4 = new System.Windows.Forms.TabPage();
-			this.boardInfoBox = new System.Windows.Forms.TextBox();
+			this.RulesInfoTextField = new System.Windows.Forms.TextBox();
 			this.tabPage1 = new System.Windows.Forms.TabPage();
-			this.labelGoalVersion = new System.Windows.Forms.Label();
-			this.unhideButton = new System.Windows.Forms.Button();
-			this.goalInfoBox = new System.Windows.Forms.TextBox();
+			this.BoardVersionDisplay = new System.Windows.Forms.Label();
+			this.BoardUnhideButton = new System.Windows.Forms.Button();
+			this.BoardInfoTextField = new System.Windows.Forms.TextBox();
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-			this.label1 = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
-			this.label3 = new System.Windows.Forms.Label();
-			this.label4 = new System.Windows.Forms.Label();
-			this.label5 = new System.Windows.Forms.Label();
-			this.label6 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
-			this.label8 = new System.Windows.Forms.Label();
-			this.label9 = new System.Windows.Forms.Label();
-			this.label10 = new System.Windows.Forms.Label();
-			this.label11 = new System.Windows.Forms.Label();
-			this.label12 = new System.Windows.Forms.Label();
-			this.label13 = new System.Windows.Forms.Label();
-			this.label14 = new System.Windows.Forms.Label();
-			this.label15 = new System.Windows.Forms.Label();
-			this.label16 = new System.Windows.Forms.Label();
-			this.label17 = new System.Windows.Forms.Label();
-			this.label18 = new System.Windows.Forms.Label();
-			this.label19 = new System.Windows.Forms.Label();
-			this.label20 = new System.Windows.Forms.Label();
-			this.label21 = new System.Windows.Forms.Label();
-			this.label22 = new System.Windows.Forms.Label();
-			this.label23 = new System.Windows.Forms.Label();
-			this.label24 = new System.Windows.Forms.Label();
-			this.label25 = new System.Windows.Forms.Label();
+			this.BingoTile1 = new System.Windows.Forms.Label();
+			this.BingoTile2 = new System.Windows.Forms.Label();
+			this.BingoTile3 = new System.Windows.Forms.Label();
+			this.BingoTile4 = new System.Windows.Forms.Label();
+			this.BingoTile5 = new System.Windows.Forms.Label();
+			this.BingoTile6 = new System.Windows.Forms.Label();
+			this.BingoTile7 = new System.Windows.Forms.Label();
+			this.BingoTile8 = new System.Windows.Forms.Label();
+			this.BingoTile9 = new System.Windows.Forms.Label();
+			this.BingoTile10 = new System.Windows.Forms.Label();
+			this.BingoTile11 = new System.Windows.Forms.Label();
+			this.BingoTile12 = new System.Windows.Forms.Label();
+			this.BingoTile13 = new System.Windows.Forms.Label();
+			this.BingoTile14 = new System.Windows.Forms.Label();
+			this.BingoTile15 = new System.Windows.Forms.Label();
+			this.BingoTile16 = new System.Windows.Forms.Label();
+			this.BingoTile17 = new System.Windows.Forms.Label();
+			this.BingoTile18 = new System.Windows.Forms.Label();
+			this.BingoTile19 = new System.Windows.Forms.Label();
+			this.BingoTile20 = new System.Windows.Forms.Label();
+			this.BingoTile21 = new System.Windows.Forms.Label();
+			this.BingoTile22 = new System.Windows.Forms.Label();
+			this.BingoTile23 = new System.Windows.Forms.Label();
+			this.BingoTile24 = new System.Windows.Forms.Label();
+			this.BingoTile25 = new System.Windows.Forms.Label();
 			this.tabControl1 = new System.Windows.Forms.TabControl();
 			this.tabPage8 = new System.Windows.Forms.TabPage();
 			this.groupBox12 = new System.Windows.Forms.GroupBox();
@@ -323,6 +323,8 @@
 			this.label167 = new System.Windows.Forms.Label();
 			this.label166 = new System.Windows.Forms.Label();
 			this.backgroundWorkerReceive = new System.ComponentModel.BackgroundWorker();
+			this.groupBox13 = new System.Windows.Forms.GroupBox();
+			this.label1 = new System.Windows.Forms.Label();
 			this.tabPage7.SuspendLayout();
 			this.tabControl2.SuspendLayout();
 			this.playerGreen.SuspendLayout();
@@ -343,10 +345,10 @@
 			this.groupBox3.SuspendLayout();
 			this.tabPage2.SuspendLayout();
 			this.groupBox4.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.CreateLengthBar)).BeginInit();
 			this.groupBox2.SuspendLayout();
 			this.groupBox1.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.CreateDifficultyBar)).BeginInit();
 			this.tabPage4.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			this.tableLayoutPanel1.SuspendLayout();
@@ -356,6 +358,7 @@
 			this.groupBox11.SuspendLayout();
 			this.groupBox10.SuspendLayout();
 			this.groupBox9.SuspendLayout();
+			this.groupBox13.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// goalsFileLabel
@@ -369,14 +372,14 @@
 			this.goalsFileLabel.TabIndex = 48;
 			this.goalsFileLabel.Text = "Goals File:";
 			// 
-			// comboBox1
+			// BottomFileBox
 			// 
-			this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.comboBox1.FormattingEnabled = true;
-			this.comboBox1.Location = new System.Drawing.Point(453, 815);
-			this.comboBox1.Name = "comboBox1";
-			this.comboBox1.Size = new System.Drawing.Size(121, 21);
-			this.comboBox1.TabIndex = 47;
+			this.BottomFileBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.BottomFileBox.FormattingEnabled = true;
+			this.BottomFileBox.Location = new System.Drawing.Point(453, 815);
+			this.BottomFileBox.Name = "BottomFileBox";
+			this.BottomFileBox.Size = new System.Drawing.Size(121, 21);
+			this.BottomFileBox.TabIndex = 47;
 			// 
 			// seedIndicationLabel
 			// 
@@ -390,57 +393,57 @@
 			this.seedIndicationLabel.Text = "Board ID:";
 			this.seedIndicationLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
 			// 
-			// seedDisplayBox
+			// BottomUidBox
 			// 
-			this.seedDisplayBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.seedDisplayBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.seedDisplayBox.Location = new System.Drawing.Point(453, 775);
-			this.seedDisplayBox.Name = "seedDisplayBox";
-			this.seedDisplayBox.ReadOnly = true;
-			this.seedDisplayBox.Size = new System.Drawing.Size(121, 32);
-			this.seedDisplayBox.TabIndex = 45;
-			this.seedDisplayBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			this.BottomUidBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.BottomUidBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BottomUidBox.Location = new System.Drawing.Point(453, 775);
+			this.BottomUidBox.Name = "BottomUidBox";
+			this.BottomUidBox.ReadOnly = true;
+			this.BottomUidBox.Size = new System.Drawing.Size(121, 32);
+			this.BottomUidBox.TabIndex = 45;
+			this.BottomUidBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
-			// button1
+			// BottomGenerateButton
 			// 
-			this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+			this.BottomGenerateButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.button1.BackColor = System.Drawing.Color.White;
-			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.ForeColor = System.Drawing.Color.Black;
-			this.button1.Location = new System.Drawing.Point(5, 775);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(238, 61);
-			this.button1.TabIndex = 44;
-			this.button1.Text = "Generate New";
-			this.button1.UseVisualStyleBackColor = false;
-			this.button1.Click += new System.EventHandler(this.button1_Click);
+			this.BottomGenerateButton.BackColor = System.Drawing.Color.White;
+			this.BottomGenerateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BottomGenerateButton.ForeColor = System.Drawing.Color.Black;
+			this.BottomGenerateButton.Location = new System.Drawing.Point(5, 775);
+			this.BottomGenerateButton.Name = "BottomGenerateButton";
+			this.BottomGenerateButton.Size = new System.Drawing.Size(238, 61);
+			this.BottomGenerateButton.TabIndex = 44;
+			this.BottomGenerateButton.Text = "Generate New";
+			this.BottomGenerateButton.UseVisualStyleBackColor = false;
+			this.BottomGenerateButton.Click += new System.EventHandler(this.button1_Click);
 			// 
-			// checkBox1
+			// BottomHideBoardCheck
 			// 
-			this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.checkBox1.AutoSize = true;
-			this.checkBox1.Checked = true;
-			this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.checkBox1.ForeColor = System.Drawing.Color.White;
-			this.checkBox1.Location = new System.Drawing.Point(249, 786);
-			this.checkBox1.Name = "checkBox1";
-			this.checkBox1.Size = new System.Drawing.Size(79, 17);
-			this.checkBox1.TabIndex = 49;
-			this.checkBox1.Text = "Hide Board";
-			this.checkBox1.UseVisualStyleBackColor = true;
+			this.BottomHideBoardCheck.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.BottomHideBoardCheck.AutoSize = true;
+			this.BottomHideBoardCheck.Checked = true;
+			this.BottomHideBoardCheck.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.BottomHideBoardCheck.ForeColor = System.Drawing.Color.White;
+			this.BottomHideBoardCheck.Location = new System.Drawing.Point(249, 786);
+			this.BottomHideBoardCheck.Name = "BottomHideBoardCheck";
+			this.BottomHideBoardCheck.Size = new System.Drawing.Size(79, 17);
+			this.BottomHideBoardCheck.TabIndex = 49;
+			this.BottomHideBoardCheck.Text = "Hide Board";
+			this.BottomHideBoardCheck.UseVisualStyleBackColor = true;
 			// 
-			// labelHKNotifier
+			// BottomHotkeyLabel
 			// 
-			this.labelHKNotifier.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.labelHKNotifier.AutoSize = true;
-			this.labelHKNotifier.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.labelHKNotifier.ForeColor = System.Drawing.Color.White;
-			this.labelHKNotifier.Location = new System.Drawing.Point(279, 818);
-			this.labelHKNotifier.Name = "labelHKNotifier";
-			this.labelHKNotifier.Size = new System.Drawing.Size(106, 13);
-			this.labelHKNotifier.TabIndex = 50;
-			this.labelHKNotifier.Text = "Hotkeys Disabled";
+			this.BottomHotkeyLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.BottomHotkeyLabel.AutoSize = true;
+			this.BottomHotkeyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BottomHotkeyLabel.ForeColor = System.Drawing.Color.White;
+			this.BottomHotkeyLabel.Location = new System.Drawing.Point(279, 818);
+			this.BottomHotkeyLabel.Name = "BottomHotkeyLabel";
+			this.BottomHotkeyLabel.Size = new System.Drawing.Size(106, 13);
+			this.BottomHotkeyLabel.TabIndex = 50;
+			this.BottomHotkeyLabel.Text = "Hotkeys Disabled";
 			// 
 			// label138
 			// 
@@ -3047,6 +3050,7 @@
 			// tabPage6
 			// 
 			this.tabPage6.BackColor = System.Drawing.Color.Black;
+			this.tabPage6.Controls.Add(this.groupBox13);
 			this.tabPage6.Controls.Add(this.groupBox8);
 			this.tabPage6.Controls.Add(this.groupBox7);
 			this.tabPage6.ForeColor = System.Drawing.Color.White;
@@ -3752,7 +3756,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.groupBox3.BackColor = System.Drawing.Color.Transparent;
 			this.groupBox3.Controls.Add(this.label28);
-			this.groupBox3.Controls.Add(this.uIDBox);
+			this.groupBox3.Controls.Add(this.LoadUidBox);
 			this.groupBox3.ForeColor = System.Drawing.Color.White;
 			this.groupBox3.Location = new System.Drawing.Point(3, 3);
 			this.groupBox3.Name = "groupBox3";
@@ -3772,17 +3776,17 @@
 			this.label28.TabIndex = 47;
 			this.label28.Text = resources.GetString("label28.Text");
 			// 
-			// uIDBox
+			// LoadUidBox
 			// 
-			this.uIDBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+			this.LoadUidBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.uIDBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 44F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.uIDBox.Location = new System.Drawing.Point(6, 108);
-			this.uIDBox.MaxLength = 8;
-			this.uIDBox.Name = "uIDBox";
-			this.uIDBox.Size = new System.Drawing.Size(537, 74);
-			this.uIDBox.TabIndex = 46;
-			this.uIDBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			this.LoadUidBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 44F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.LoadUidBox.Location = new System.Drawing.Point(6, 108);
+			this.LoadUidBox.MaxLength = 8;
+			this.LoadUidBox.Name = "LoadUidBox";
+			this.LoadUidBox.Size = new System.Drawing.Size(537, 74);
+			this.LoadUidBox.TabIndex = 46;
+			this.LoadUidBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// tabPage2
 			// 
@@ -3804,12 +3808,12 @@
 			this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.groupBox4.BackColor = System.Drawing.Color.Transparent;
-			this.groupBox4.Controls.Add(this.checkBoxLength);
+			this.groupBox4.Controls.Add(this.CreateLengthDisregardBox);
 			this.groupBox4.Controls.Add(this.label33);
 			this.groupBox4.Controls.Add(this.label34);
 			this.groupBox4.Controls.Add(this.label35);
 			this.groupBox4.Controls.Add(this.label36);
-			this.groupBox4.Controls.Add(this.trackBar2);
+			this.groupBox4.Controls.Add(this.CreateLengthBar);
 			this.groupBox4.ForeColor = System.Drawing.Color.White;
 			this.groupBox4.Location = new System.Drawing.Point(289, 6);
 			this.groupBox4.Name = "groupBox4";
@@ -3818,16 +3822,16 @@
 			this.groupBox4.TabStop = false;
 			this.groupBox4.Text = "Length";
 			// 
-			// checkBoxLength
+			// CreateLengthDisregardBox
 			// 
-			this.checkBoxLength.AutoSize = true;
-			this.checkBoxLength.Location = new System.Drawing.Point(8, 107);
-			this.checkBoxLength.Name = "checkBoxLength";
-			this.checkBoxLength.Size = new System.Drawing.Size(107, 17);
-			this.checkBoxLength.TabIndex = 49;
-			this.checkBoxLength.Text = "Disregard Length";
-			this.checkBoxLength.UseVisualStyleBackColor = true;
-			this.checkBoxLength.CheckedChanged += new System.EventHandler(this.checkBoxLength_CheckedChanged);
+			this.CreateLengthDisregardBox.AutoSize = true;
+			this.CreateLengthDisregardBox.Location = new System.Drawing.Point(8, 107);
+			this.CreateLengthDisregardBox.Name = "CreateLengthDisregardBox";
+			this.CreateLengthDisregardBox.Size = new System.Drawing.Size(107, 17);
+			this.CreateLengthDisregardBox.TabIndex = 49;
+			this.CreateLengthDisregardBox.Text = "Disregard Length";
+			this.CreateLengthDisregardBox.UseVisualStyleBackColor = true;
+			this.CreateLengthDisregardBox.CheckedChanged += new System.EventHandler(this.checkBoxLength_CheckedChanged);
 			// 
 			// label33
 			// 
@@ -3866,19 +3870,19 @@
 			this.label36.TabIndex = 2;
 			this.label36.Text = "Long";
 			// 
-			// trackBar2
+			// CreateLengthBar
 			// 
-			this.trackBar2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+			this.CreateLengthBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.trackBar2.BackColor = System.Drawing.Color.Black;
-			this.trackBar2.Location = new System.Drawing.Point(8, 58);
-			this.trackBar2.Maximum = 5;
-			this.trackBar2.Minimum = 1;
-			this.trackBar2.Name = "trackBar2";
-			this.trackBar2.Size = new System.Drawing.Size(246, 45);
-			this.trackBar2.TabIndex = 5;
-			this.trackBar2.Value = 3;
-			this.trackBar2.Scroll += new System.EventHandler(this.trackBar2_Scroll);
+			this.CreateLengthBar.BackColor = System.Drawing.Color.Black;
+			this.CreateLengthBar.Location = new System.Drawing.Point(8, 58);
+			this.CreateLengthBar.Maximum = 5;
+			this.CreateLengthBar.Minimum = 1;
+			this.CreateLengthBar.Name = "CreateLengthBar";
+			this.CreateLengthBar.Size = new System.Drawing.Size(246, 45);
+			this.CreateLengthBar.TabIndex = 5;
+			this.CreateLengthBar.Value = 3;
+			this.CreateLengthBar.Scroll += new System.EventHandler(this.trackBar2_Scroll);
 			// 
 			// label30
 			// 
@@ -3895,7 +3899,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.groupBox2.BackColor = System.Drawing.Color.Transparent;
 			this.groupBox2.Controls.Add(this.label31);
-			this.groupBox2.Controls.Add(this.textBox1);
+			this.groupBox2.Controls.Add(this.CreateSeedBox);
 			this.groupBox2.ForeColor = System.Drawing.Color.White;
 			this.groupBox2.Location = new System.Drawing.Point(6, 152);
 			this.groupBox2.Name = "groupBox2";
@@ -3915,28 +3919,28 @@
 			this.label31.Text = "Enter a seed of up to 4 digits and it will use this number to generate a board. L" +
     "eaving it blank will generate a random board using a random seed.";
 			// 
-			// textBox1
+			// CreateSeedBox
 			// 
-			this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.textBox1.Location = new System.Drawing.Point(36, 66);
-			this.textBox1.MaxLength = 5;
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(72, 32);
-			this.textBox1.TabIndex = 46;
-			this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+			this.CreateSeedBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.CreateSeedBox.Location = new System.Drawing.Point(36, 66);
+			this.CreateSeedBox.MaxLength = 4;
+			this.CreateSeedBox.Name = "CreateSeedBox";
+			this.CreateSeedBox.Size = new System.Drawing.Size(62, 32);
+			this.CreateSeedBox.TabIndex = 46;
+			this.CreateSeedBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			this.CreateSeedBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
 			// 
 			// groupBox1
 			// 
 			this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-			this.groupBox1.Controls.Add(this.checkBoxDiff);
+			this.groupBox1.Controls.Add(this.CreateDifficultyDisregardBox);
 			this.groupBox1.Controls.Add(this.label32);
 			this.groupBox1.Controls.Add(this.label29);
 			this.groupBox1.Controls.Add(this.label26);
 			this.groupBox1.Controls.Add(this.label27);
-			this.groupBox1.Controls.Add(this.trackBar1);
+			this.groupBox1.Controls.Add(this.CreateDifficultyBar);
 			this.groupBox1.ForeColor = System.Drawing.Color.White;
 			this.groupBox1.Location = new System.Drawing.Point(6, 6);
 			this.groupBox1.Name = "groupBox1";
@@ -3945,16 +3949,16 @@
 			this.groupBox1.TabStop = false;
 			this.groupBox1.Text = "Difficulty";
 			// 
-			// checkBoxDiff
+			// CreateDifficultyDisregardBox
 			// 
-			this.checkBoxDiff.AutoSize = true;
-			this.checkBoxDiff.Location = new System.Drawing.Point(8, 107);
-			this.checkBoxDiff.Name = "checkBoxDiff";
-			this.checkBoxDiff.Size = new System.Drawing.Size(114, 17);
-			this.checkBoxDiff.TabIndex = 49;
-			this.checkBoxDiff.Text = "Disregard Difficulty";
-			this.checkBoxDiff.UseVisualStyleBackColor = true;
-			this.checkBoxDiff.CheckedChanged += new System.EventHandler(this.checkBoxDiff_CheckedChanged);
+			this.CreateDifficultyDisregardBox.AutoSize = true;
+			this.CreateDifficultyDisregardBox.Location = new System.Drawing.Point(8, 107);
+			this.CreateDifficultyDisregardBox.Name = "CreateDifficultyDisregardBox";
+			this.CreateDifficultyDisregardBox.Size = new System.Drawing.Size(114, 17);
+			this.CreateDifficultyDisregardBox.TabIndex = 49;
+			this.CreateDifficultyDisregardBox.Text = "Disregard Difficulty";
+			this.CreateDifficultyDisregardBox.UseVisualStyleBackColor = true;
+			this.CreateDifficultyDisregardBox.CheckedChanged += new System.EventHandler(this.checkBoxDiff_CheckedChanged);
 			// 
 			// label32
 			// 
@@ -3993,24 +3997,24 @@
 			this.label27.TabIndex = 2;
 			this.label27.Text = "Hard";
 			// 
-			// trackBar1
+			// CreateDifficultyBar
 			// 
-			this.trackBar1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+			this.CreateDifficultyBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.trackBar1.BackColor = System.Drawing.Color.Black;
-			this.trackBar1.Location = new System.Drawing.Point(8, 58);
-			this.trackBar1.Maximum = 5;
-			this.trackBar1.Minimum = 1;
-			this.trackBar1.Name = "trackBar1";
-			this.trackBar1.Size = new System.Drawing.Size(246, 45);
-			this.trackBar1.TabIndex = 5;
-			this.trackBar1.Value = 3;
-			this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
+			this.CreateDifficultyBar.BackColor = System.Drawing.Color.Black;
+			this.CreateDifficultyBar.Location = new System.Drawing.Point(8, 58);
+			this.CreateDifficultyBar.Maximum = 5;
+			this.CreateDifficultyBar.Minimum = 1;
+			this.CreateDifficultyBar.Name = "CreateDifficultyBar";
+			this.CreateDifficultyBar.Size = new System.Drawing.Size(246, 45);
+			this.CreateDifficultyBar.TabIndex = 5;
+			this.CreateDifficultyBar.Value = 3;
+			this.CreateDifficultyBar.Scroll += new System.EventHandler(this.trackBar1_Scroll);
 			// 
 			// tabPage4
 			// 
 			this.tabPage4.BackColor = System.Drawing.Color.Black;
-			this.tabPage4.Controls.Add(this.boardInfoBox);
+			this.tabPage4.Controls.Add(this.RulesInfoTextField);
 			this.tabPage4.ForeColor = System.Drawing.Color.White;
 			this.tabPage4.Location = new System.Drawing.Point(4, 22);
 			this.tabPage4.Name = "tabPage4";
@@ -4018,30 +4022,30 @@
 			this.tabPage4.TabIndex = 3;
 			this.tabPage4.Text = "Rules & Info";
 			// 
-			// boardInfoBox
+			// RulesInfoTextField
 			// 
-			this.boardInfoBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.RulesInfoTextField.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.boardInfoBox.BackColor = System.Drawing.Color.Black;
-			this.boardInfoBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.boardInfoBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.boardInfoBox.ForeColor = System.Drawing.Color.White;
-			this.boardInfoBox.Location = new System.Drawing.Point(3, 3);
-			this.boardInfoBox.Multiline = true;
-			this.boardInfoBox.Name = "boardInfoBox";
-			this.boardInfoBox.ReadOnly = true;
-			this.boardInfoBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-			this.boardInfoBox.Size = new System.Drawing.Size(549, 748);
-			this.boardInfoBox.TabIndex = 51;
-			this.boardInfoBox.Text = "No goals have been loaded. Please load goals";
+			this.RulesInfoTextField.BackColor = System.Drawing.Color.Black;
+			this.RulesInfoTextField.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.RulesInfoTextField.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RulesInfoTextField.ForeColor = System.Drawing.Color.White;
+			this.RulesInfoTextField.Location = new System.Drawing.Point(3, 3);
+			this.RulesInfoTextField.Multiline = true;
+			this.RulesInfoTextField.Name = "RulesInfoTextField";
+			this.RulesInfoTextField.ReadOnly = true;
+			this.RulesInfoTextField.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+			this.RulesInfoTextField.Size = new System.Drawing.Size(549, 748);
+			this.RulesInfoTextField.TabIndex = 51;
+			this.RulesInfoTextField.Text = "No goals have been loaded. Please load goals";
 			// 
 			// tabPage1
 			// 
 			this.tabPage1.BackColor = System.Drawing.Color.Black;
-			this.tabPage1.Controls.Add(this.labelGoalVersion);
-			this.tabPage1.Controls.Add(this.unhideButton);
-			this.tabPage1.Controls.Add(this.goalInfoBox);
+			this.tabPage1.Controls.Add(this.BoardVersionDisplay);
+			this.tabPage1.Controls.Add(this.BoardUnhideButton);
+			this.tabPage1.Controls.Add(this.BoardInfoTextField);
 			this.tabPage1.Controls.Add(this.tableLayoutPanel1);
 			this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.tabPage1.ForeColor = System.Drawing.Color.White;
@@ -4052,48 +4056,48 @@
 			this.tabPage1.TabIndex = 0;
 			this.tabPage1.Text = "Board";
 			// 
-			// labelGoalVersion
+			// BoardVersionDisplay
 			// 
-			this.labelGoalVersion.Anchor = System.Windows.Forms.AnchorStyles.None;
-			this.labelGoalVersion.AutoSize = true;
-			this.labelGoalVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.labelGoalVersion.Location = new System.Drawing.Point(45, 192);
-			this.labelGoalVersion.Name = "labelGoalVersion";
-			this.labelGoalVersion.Size = new System.Drawing.Size(305, 88);
-			this.labelGoalVersion.TabIndex = 52;
-			this.labelGoalVersion.Text = "Title\r\nGoals Version: X";
-			this.labelGoalVersion.Visible = false;
+			this.BoardVersionDisplay.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.BoardVersionDisplay.AutoSize = true;
+			this.BoardVersionDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BoardVersionDisplay.Location = new System.Drawing.Point(45, 192);
+			this.BoardVersionDisplay.Name = "BoardVersionDisplay";
+			this.BoardVersionDisplay.Size = new System.Drawing.Size(305, 88);
+			this.BoardVersionDisplay.TabIndex = 52;
+			this.BoardVersionDisplay.Text = "Title\r\nGoals Version: X";
+			this.BoardVersionDisplay.Visible = false;
 			// 
-			// unhideButton
+			// BoardUnhideButton
 			// 
-			this.unhideButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-			this.unhideButton.BackColor = System.Drawing.Color.White;
-			this.unhideButton.ForeColor = System.Drawing.Color.Black;
-			this.unhideButton.Location = new System.Drawing.Point(191, 296);
-			this.unhideButton.Name = "unhideButton";
-			this.unhideButton.Size = new System.Drawing.Size(172, 59);
-			this.unhideButton.TabIndex = 50;
-			this.unhideButton.Text = "Board Hidden. Press to Show";
-			this.unhideButton.UseVisualStyleBackColor = false;
-			this.unhideButton.Visible = false;
-			this.unhideButton.Click += new System.EventHandler(this.hideButton_Click);
+			this.BoardUnhideButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.BoardUnhideButton.BackColor = System.Drawing.Color.White;
+			this.BoardUnhideButton.ForeColor = System.Drawing.Color.Black;
+			this.BoardUnhideButton.Location = new System.Drawing.Point(191, 296);
+			this.BoardUnhideButton.Name = "BoardUnhideButton";
+			this.BoardUnhideButton.Size = new System.Drawing.Size(172, 59);
+			this.BoardUnhideButton.TabIndex = 50;
+			this.BoardUnhideButton.Text = "Board Hidden. Press to Show";
+			this.BoardUnhideButton.UseVisualStyleBackColor = false;
+			this.BoardUnhideButton.Visible = false;
+			this.BoardUnhideButton.Click += new System.EventHandler(this.hideButton_Click);
 			// 
-			// goalInfoBox
+			// BoardInfoTextField
 			// 
-			this.goalInfoBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+			this.BoardInfoTextField.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.goalInfoBox.BackColor = System.Drawing.Color.Black;
-			this.goalInfoBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.goalInfoBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.goalInfoBox.ForeColor = System.Drawing.Color.White;
-			this.goalInfoBox.Location = new System.Drawing.Point(9, 558);
-			this.goalInfoBox.Multiline = true;
-			this.goalInfoBox.Name = "goalInfoBox";
-			this.goalInfoBox.ReadOnly = true;
-			this.goalInfoBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-			this.goalInfoBox.Size = new System.Drawing.Size(544, 173);
-			this.goalInfoBox.TabIndex = 50;
-			this.goalInfoBox.Text = "No goals have been loaded. Please load goals";
+			this.BoardInfoTextField.BackColor = System.Drawing.Color.Black;
+			this.BoardInfoTextField.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.BoardInfoTextField.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BoardInfoTextField.ForeColor = System.Drawing.Color.White;
+			this.BoardInfoTextField.Location = new System.Drawing.Point(9, 558);
+			this.BoardInfoTextField.Multiline = true;
+			this.BoardInfoTextField.Name = "BoardInfoTextField";
+			this.BoardInfoTextField.ReadOnly = true;
+			this.BoardInfoTextField.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+			this.BoardInfoTextField.Size = new System.Drawing.Size(544, 173);
+			this.BoardInfoTextField.TabIndex = 50;
+			this.BoardInfoTextField.Text = "No goals have been loaded. Please load goals";
 			// 
 			// tableLayoutPanel1
 			// 
@@ -4107,31 +4111,31 @@
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
-			this.tableLayoutPanel1.Controls.Add(this.label2, 1, 0);
-			this.tableLayoutPanel1.Controls.Add(this.label3, 2, 0);
-			this.tableLayoutPanel1.Controls.Add(this.label4, 3, 0);
-			this.tableLayoutPanel1.Controls.Add(this.label5, 4, 0);
-			this.tableLayoutPanel1.Controls.Add(this.label6, 0, 1);
-			this.tableLayoutPanel1.Controls.Add(this.label7, 1, 1);
-			this.tableLayoutPanel1.Controls.Add(this.label8, 2, 1);
-			this.tableLayoutPanel1.Controls.Add(this.label9, 3, 1);
-			this.tableLayoutPanel1.Controls.Add(this.label10, 4, 1);
-			this.tableLayoutPanel1.Controls.Add(this.label11, 0, 2);
-			this.tableLayoutPanel1.Controls.Add(this.label12, 1, 2);
-			this.tableLayoutPanel1.Controls.Add(this.label13, 2, 2);
-			this.tableLayoutPanel1.Controls.Add(this.label14, 3, 2);
-			this.tableLayoutPanel1.Controls.Add(this.label15, 4, 2);
-			this.tableLayoutPanel1.Controls.Add(this.label16, 0, 3);
-			this.tableLayoutPanel1.Controls.Add(this.label17, 1, 3);
-			this.tableLayoutPanel1.Controls.Add(this.label18, 2, 3);
-			this.tableLayoutPanel1.Controls.Add(this.label19, 3, 3);
-			this.tableLayoutPanel1.Controls.Add(this.label20, 4, 3);
-			this.tableLayoutPanel1.Controls.Add(this.label21, 0, 4);
-			this.tableLayoutPanel1.Controls.Add(this.label22, 1, 4);
-			this.tableLayoutPanel1.Controls.Add(this.label23, 2, 4);
-			this.tableLayoutPanel1.Controls.Add(this.label24, 3, 4);
-			this.tableLayoutPanel1.Controls.Add(this.label25, 4, 4);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile1, 0, 0);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile2, 1, 0);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile3, 2, 0);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile4, 3, 0);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile5, 4, 0);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile6, 0, 1);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile7, 1, 1);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile8, 2, 1);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile9, 3, 1);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile10, 4, 1);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile11, 0, 2);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile12, 1, 2);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile13, 2, 2);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile14, 3, 2);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile15, 4, 2);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile16, 0, 3);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile17, 1, 3);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile18, 2, 3);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile19, 3, 3);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile20, 4, 3);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile21, 0, 4);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile22, 1, 4);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile23, 2, 4);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile24, 3, 4);
+			this.tableLayoutPanel1.Controls.Add(this.BingoTile25, 4, 4);
 			this.tableLayoutPanel1.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
 			this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 0);
 			this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
@@ -4145,480 +4149,480 @@
 			this.tableLayoutPanel1.Size = new System.Drawing.Size(555, 555);
 			this.tableLayoutPanel1.TabIndex = 51;
 			// 
-			// label1
+			// BingoTile1
 			// 
-			this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label1.BackColor = System.Drawing.Color.LightGray;
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.ForeColor = System.Drawing.Color.Black;
-			this.label1.Location = new System.Drawing.Point(5, 5);
-			this.label1.Margin = new System.Windows.Forms.Padding(5);
-			this.label1.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(101, 101);
-			this.label1.TabIndex = 19;
-			this.label1.Text = "Bingo Tile 1";
-			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile1.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile1.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile1.Location = new System.Drawing.Point(5, 5);
+			this.BingoTile1.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile1.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile1.Name = "BingoTile1";
+			this.BingoTile1.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile1.TabIndex = 19;
+			this.BingoTile1.Text = "Bingo Tile 1";
+			this.BingoTile1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label2
+			// BingoTile2
 			// 
-			this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label2.BackColor = System.Drawing.Color.LightGray;
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.ForeColor = System.Drawing.Color.Black;
-			this.label2.Location = new System.Drawing.Point(116, 5);
-			this.label2.Margin = new System.Windows.Forms.Padding(5);
-			this.label2.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(101, 101);
-			this.label2.TabIndex = 20;
-			this.label2.Text = "Bingo Tile 2";
-			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile2.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile2.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile2.Location = new System.Drawing.Point(116, 5);
+			this.BingoTile2.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile2.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile2.Name = "BingoTile2";
+			this.BingoTile2.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile2.TabIndex = 20;
+			this.BingoTile2.Text = "Bingo Tile 2";
+			this.BingoTile2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label3
+			// BingoTile3
 			// 
-			this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label3.BackColor = System.Drawing.Color.LightGray;
-			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label3.ForeColor = System.Drawing.Color.Black;
-			this.label3.Location = new System.Drawing.Point(227, 5);
-			this.label3.Margin = new System.Windows.Forms.Padding(5);
-			this.label3.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(101, 101);
-			this.label3.TabIndex = 21;
-			this.label3.Text = "Bingo Tile 3";
-			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile3.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile3.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile3.Location = new System.Drawing.Point(227, 5);
+			this.BingoTile3.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile3.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile3.Name = "BingoTile3";
+			this.BingoTile3.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile3.TabIndex = 21;
+			this.BingoTile3.Text = "Bingo Tile 3";
+			this.BingoTile3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label4
+			// BingoTile4
 			// 
-			this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label4.BackColor = System.Drawing.Color.LightGray;
-			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label4.ForeColor = System.Drawing.Color.Black;
-			this.label4.Location = new System.Drawing.Point(338, 5);
-			this.label4.Margin = new System.Windows.Forms.Padding(5);
-			this.label4.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(101, 101);
-			this.label4.TabIndex = 22;
-			this.label4.Text = "Bingo Tile 4";
-			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile4.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile4.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile4.Location = new System.Drawing.Point(338, 5);
+			this.BingoTile4.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile4.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile4.Name = "BingoTile4";
+			this.BingoTile4.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile4.TabIndex = 22;
+			this.BingoTile4.Text = "Bingo Tile 4";
+			this.BingoTile4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label5
+			// BingoTile5
 			// 
-			this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label5.BackColor = System.Drawing.Color.LightGray;
-			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label5.ForeColor = System.Drawing.Color.Black;
-			this.label5.Location = new System.Drawing.Point(449, 5);
-			this.label5.Margin = new System.Windows.Forms.Padding(5);
-			this.label5.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(101, 101);
-			this.label5.TabIndex = 23;
-			this.label5.Text = "Bingo Tile 5";
-			this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile5.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile5.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile5.Location = new System.Drawing.Point(449, 5);
+			this.BingoTile5.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile5.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile5.Name = "BingoTile5";
+			this.BingoTile5.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile5.TabIndex = 23;
+			this.BingoTile5.Text = "Bingo Tile 5";
+			this.BingoTile5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label6
+			// BingoTile6
 			// 
-			this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label6.BackColor = System.Drawing.Color.LightGray;
-			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label6.ForeColor = System.Drawing.Color.Black;
-			this.label6.Location = new System.Drawing.Point(5, 116);
-			this.label6.Margin = new System.Windows.Forms.Padding(5);
-			this.label6.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(101, 101);
-			this.label6.TabIndex = 24;
-			this.label6.Text = "Bingo Tile 6";
-			this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile6.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile6.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile6.Location = new System.Drawing.Point(5, 116);
+			this.BingoTile6.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile6.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile6.Name = "BingoTile6";
+			this.BingoTile6.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile6.TabIndex = 24;
+			this.BingoTile6.Text = "Bingo Tile 6";
+			this.BingoTile6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label7
+			// BingoTile7
 			// 
-			this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label7.BackColor = System.Drawing.Color.LightGray;
-			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label7.ForeColor = System.Drawing.Color.Black;
-			this.label7.Location = new System.Drawing.Point(116, 116);
-			this.label7.Margin = new System.Windows.Forms.Padding(5);
-			this.label7.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(101, 101);
-			this.label7.TabIndex = 25;
-			this.label7.Text = "Bingo Tile 7";
-			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile7.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile7.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile7.Location = new System.Drawing.Point(116, 116);
+			this.BingoTile7.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile7.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile7.Name = "BingoTile7";
+			this.BingoTile7.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile7.TabIndex = 25;
+			this.BingoTile7.Text = "Bingo Tile 7";
+			this.BingoTile7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label8
+			// BingoTile8
 			// 
-			this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label8.BackColor = System.Drawing.Color.LightGray;
-			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label8.ForeColor = System.Drawing.Color.Black;
-			this.label8.Location = new System.Drawing.Point(227, 116);
-			this.label8.Margin = new System.Windows.Forms.Padding(5);
-			this.label8.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(101, 101);
-			this.label8.TabIndex = 26;
-			this.label8.Text = "Bingo Tile 8";
-			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile8.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile8.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile8.Location = new System.Drawing.Point(227, 116);
+			this.BingoTile8.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile8.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile8.Name = "BingoTile8";
+			this.BingoTile8.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile8.TabIndex = 26;
+			this.BingoTile8.Text = "Bingo Tile 8";
+			this.BingoTile8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label9
+			// BingoTile9
 			// 
-			this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label9.BackColor = System.Drawing.Color.LightGray;
-			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label9.ForeColor = System.Drawing.Color.Black;
-			this.label9.Location = new System.Drawing.Point(338, 116);
-			this.label9.Margin = new System.Windows.Forms.Padding(5);
-			this.label9.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(101, 101);
-			this.label9.TabIndex = 27;
-			this.label9.Text = "Bingo Tile 9";
-			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile9.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile9.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile9.Location = new System.Drawing.Point(338, 116);
+			this.BingoTile9.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile9.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile9.Name = "BingoTile9";
+			this.BingoTile9.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile9.TabIndex = 27;
+			this.BingoTile9.Text = "Bingo Tile 9";
+			this.BingoTile9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label10
+			// BingoTile10
 			// 
-			this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label10.BackColor = System.Drawing.Color.LightGray;
-			this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label10.ForeColor = System.Drawing.Color.Black;
-			this.label10.Location = new System.Drawing.Point(449, 116);
-			this.label10.Margin = new System.Windows.Forms.Padding(5);
-			this.label10.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(101, 101);
-			this.label10.TabIndex = 28;
-			this.label10.Text = "Bingo Tile 10";
-			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile10.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile10.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile10.Location = new System.Drawing.Point(449, 116);
+			this.BingoTile10.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile10.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile10.Name = "BingoTile10";
+			this.BingoTile10.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile10.TabIndex = 28;
+			this.BingoTile10.Text = "Bingo Tile 10";
+			this.BingoTile10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label11
+			// BingoTile11
 			// 
-			this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label11.BackColor = System.Drawing.Color.LightGray;
-			this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label11.ForeColor = System.Drawing.Color.Black;
-			this.label11.Location = new System.Drawing.Point(5, 227);
-			this.label11.Margin = new System.Windows.Forms.Padding(5);
-			this.label11.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(101, 101);
-			this.label11.TabIndex = 29;
-			this.label11.Text = "Bingo Tile 11";
-			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile11.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile11.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile11.Location = new System.Drawing.Point(5, 227);
+			this.BingoTile11.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile11.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile11.Name = "BingoTile11";
+			this.BingoTile11.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile11.TabIndex = 29;
+			this.BingoTile11.Text = "Bingo Tile 11";
+			this.BingoTile11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label12
+			// BingoTile12
 			// 
-			this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label12.BackColor = System.Drawing.Color.LightGray;
-			this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label12.ForeColor = System.Drawing.Color.Black;
-			this.label12.Location = new System.Drawing.Point(116, 227);
-			this.label12.Margin = new System.Windows.Forms.Padding(5);
-			this.label12.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(101, 101);
-			this.label12.TabIndex = 30;
-			this.label12.Text = "Bingo Tile 12";
-			this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile12.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile12.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile12.Location = new System.Drawing.Point(116, 227);
+			this.BingoTile12.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile12.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile12.Name = "BingoTile12";
+			this.BingoTile12.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile12.TabIndex = 30;
+			this.BingoTile12.Text = "Bingo Tile 12";
+			this.BingoTile12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label13
+			// BingoTile13
 			// 
-			this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label13.BackColor = System.Drawing.Color.LightGray;
-			this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label13.ForeColor = System.Drawing.Color.Black;
-			this.label13.Location = new System.Drawing.Point(227, 227);
-			this.label13.Margin = new System.Windows.Forms.Padding(5);
-			this.label13.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label13.Name = "label13";
-			this.label13.Size = new System.Drawing.Size(101, 101);
-			this.label13.TabIndex = 31;
-			this.label13.Text = "Bingo Tile 13";
-			this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile13.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile13.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile13.Location = new System.Drawing.Point(227, 227);
+			this.BingoTile13.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile13.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile13.Name = "BingoTile13";
+			this.BingoTile13.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile13.TabIndex = 31;
+			this.BingoTile13.Text = "Bingo Tile 13";
+			this.BingoTile13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label14
+			// BingoTile14
 			// 
-			this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label14.BackColor = System.Drawing.Color.LightGray;
-			this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label14.ForeColor = System.Drawing.Color.Black;
-			this.label14.Location = new System.Drawing.Point(338, 227);
-			this.label14.Margin = new System.Windows.Forms.Padding(5);
-			this.label14.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(101, 101);
-			this.label14.TabIndex = 32;
-			this.label14.Text = "Bingo Tile 14";
-			this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile14.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile14.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile14.Location = new System.Drawing.Point(338, 227);
+			this.BingoTile14.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile14.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile14.Name = "BingoTile14";
+			this.BingoTile14.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile14.TabIndex = 32;
+			this.BingoTile14.Text = "Bingo Tile 14";
+			this.BingoTile14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label15
+			// BingoTile15
 			// 
-			this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label15.BackColor = System.Drawing.Color.LightGray;
-			this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label15.ForeColor = System.Drawing.Color.Black;
-			this.label15.Location = new System.Drawing.Point(449, 227);
-			this.label15.Margin = new System.Windows.Forms.Padding(5);
-			this.label15.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(101, 101);
-			this.label15.TabIndex = 33;
-			this.label15.Text = "Bingo Tile 15";
-			this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile15.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile15.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile15.Location = new System.Drawing.Point(449, 227);
+			this.BingoTile15.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile15.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile15.Name = "BingoTile15";
+			this.BingoTile15.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile15.TabIndex = 33;
+			this.BingoTile15.Text = "Bingo Tile 15";
+			this.BingoTile15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label16
+			// BingoTile16
 			// 
-			this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label16.BackColor = System.Drawing.Color.LightGray;
-			this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label16.ForeColor = System.Drawing.Color.Black;
-			this.label16.Location = new System.Drawing.Point(5, 338);
-			this.label16.Margin = new System.Windows.Forms.Padding(5);
-			this.label16.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label16.Name = "label16";
-			this.label16.Size = new System.Drawing.Size(101, 101);
-			this.label16.TabIndex = 34;
-			this.label16.Text = "Bingo Tile 16";
-			this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile16.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile16.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile16.Location = new System.Drawing.Point(5, 338);
+			this.BingoTile16.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile16.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile16.Name = "BingoTile16";
+			this.BingoTile16.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile16.TabIndex = 34;
+			this.BingoTile16.Text = "Bingo Tile 16";
+			this.BingoTile16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label17
+			// BingoTile17
 			// 
-			this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label17.BackColor = System.Drawing.Color.LightGray;
-			this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label17.ForeColor = System.Drawing.Color.Black;
-			this.label17.Location = new System.Drawing.Point(116, 338);
-			this.label17.Margin = new System.Windows.Forms.Padding(5);
-			this.label17.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label17.Name = "label17";
-			this.label17.Size = new System.Drawing.Size(101, 101);
-			this.label17.TabIndex = 35;
-			this.label17.Text = "Bingo Tile 17";
-			this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile17.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile17.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile17.Location = new System.Drawing.Point(116, 338);
+			this.BingoTile17.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile17.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile17.Name = "BingoTile17";
+			this.BingoTile17.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile17.TabIndex = 35;
+			this.BingoTile17.Text = "Bingo Tile 17";
+			this.BingoTile17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label18
+			// BingoTile18
 			// 
-			this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label18.BackColor = System.Drawing.Color.LightGray;
-			this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label18.ForeColor = System.Drawing.Color.Black;
-			this.label18.Location = new System.Drawing.Point(227, 338);
-			this.label18.Margin = new System.Windows.Forms.Padding(5);
-			this.label18.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label18.Name = "label18";
-			this.label18.Size = new System.Drawing.Size(101, 101);
-			this.label18.TabIndex = 36;
-			this.label18.Text = "Bingo Tile 18";
-			this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile18.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile18.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile18.Location = new System.Drawing.Point(227, 338);
+			this.BingoTile18.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile18.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile18.Name = "BingoTile18";
+			this.BingoTile18.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile18.TabIndex = 36;
+			this.BingoTile18.Text = "Bingo Tile 18";
+			this.BingoTile18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label19
+			// BingoTile19
 			// 
-			this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label19.BackColor = System.Drawing.Color.LightGray;
-			this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label19.ForeColor = System.Drawing.Color.Black;
-			this.label19.Location = new System.Drawing.Point(338, 338);
-			this.label19.Margin = new System.Windows.Forms.Padding(5);
-			this.label19.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label19.Name = "label19";
-			this.label19.Size = new System.Drawing.Size(101, 101);
-			this.label19.TabIndex = 37;
-			this.label19.Text = "Bingo Tile 19";
-			this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile19.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile19.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile19.Location = new System.Drawing.Point(338, 338);
+			this.BingoTile19.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile19.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile19.Name = "BingoTile19";
+			this.BingoTile19.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile19.TabIndex = 37;
+			this.BingoTile19.Text = "Bingo Tile 19";
+			this.BingoTile19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label20
+			// BingoTile20
 			// 
-			this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label20.BackColor = System.Drawing.Color.LightGray;
-			this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label20.ForeColor = System.Drawing.Color.Black;
-			this.label20.Location = new System.Drawing.Point(449, 338);
-			this.label20.Margin = new System.Windows.Forms.Padding(5);
-			this.label20.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label20.Name = "label20";
-			this.label20.Size = new System.Drawing.Size(101, 101);
-			this.label20.TabIndex = 38;
-			this.label20.Text = "Bingo Tile 20";
-			this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile20.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile20.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile20.Location = new System.Drawing.Point(449, 338);
+			this.BingoTile20.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile20.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile20.Name = "BingoTile20";
+			this.BingoTile20.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile20.TabIndex = 38;
+			this.BingoTile20.Text = "Bingo Tile 20";
+			this.BingoTile20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label21
+			// BingoTile21
 			// 
-			this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label21.BackColor = System.Drawing.Color.LightGray;
-			this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label21.ForeColor = System.Drawing.Color.Black;
-			this.label21.Location = new System.Drawing.Point(5, 449);
-			this.label21.Margin = new System.Windows.Forms.Padding(5);
-			this.label21.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label21.Name = "label21";
-			this.label21.Size = new System.Drawing.Size(101, 101);
-			this.label21.TabIndex = 39;
-			this.label21.Text = "Bingo Tile 21";
-			this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile21.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile21.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile21.Location = new System.Drawing.Point(5, 449);
+			this.BingoTile21.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile21.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile21.Name = "BingoTile21";
+			this.BingoTile21.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile21.TabIndex = 39;
+			this.BingoTile21.Text = "Bingo Tile 21";
+			this.BingoTile21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label22
+			// BingoTile22
 			// 
-			this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label22.BackColor = System.Drawing.Color.LightGray;
-			this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label22.ForeColor = System.Drawing.Color.Black;
-			this.label22.Location = new System.Drawing.Point(116, 449);
-			this.label22.Margin = new System.Windows.Forms.Padding(5);
-			this.label22.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label22.Name = "label22";
-			this.label22.Size = new System.Drawing.Size(101, 101);
-			this.label22.TabIndex = 40;
-			this.label22.Text = "Bingo Tile 22";
-			this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile22.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile22.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile22.Location = new System.Drawing.Point(116, 449);
+			this.BingoTile22.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile22.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile22.Name = "BingoTile22";
+			this.BingoTile22.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile22.TabIndex = 40;
+			this.BingoTile22.Text = "Bingo Tile 22";
+			this.BingoTile22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label23
+			// BingoTile23
 			// 
-			this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label23.BackColor = System.Drawing.Color.LightGray;
-			this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label23.ForeColor = System.Drawing.Color.Black;
-			this.label23.Location = new System.Drawing.Point(227, 449);
-			this.label23.Margin = new System.Windows.Forms.Padding(5);
-			this.label23.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label23.Name = "label23";
-			this.label23.Size = new System.Drawing.Size(101, 101);
-			this.label23.TabIndex = 41;
-			this.label23.Text = "Bingo Tile 23";
-			this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile23.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile23.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile23.Location = new System.Drawing.Point(227, 449);
+			this.BingoTile23.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile23.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile23.Name = "BingoTile23";
+			this.BingoTile23.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile23.TabIndex = 41;
+			this.BingoTile23.Text = "Bingo Tile 23";
+			this.BingoTile23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label24
+			// BingoTile24
 			// 
-			this.label24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label24.BackColor = System.Drawing.Color.LightGray;
-			this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label24.ForeColor = System.Drawing.Color.Black;
-			this.label24.Location = new System.Drawing.Point(338, 449);
-			this.label24.Margin = new System.Windows.Forms.Padding(5);
-			this.label24.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label24.Name = "label24";
-			this.label24.Size = new System.Drawing.Size(101, 101);
-			this.label24.TabIndex = 42;
-			this.label24.Text = "Bingo Tile 24";
-			this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label24.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label24.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile24.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile24.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile24.Location = new System.Drawing.Point(338, 449);
+			this.BingoTile24.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile24.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile24.Name = "BingoTile24";
+			this.BingoTile24.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile24.TabIndex = 42;
+			this.BingoTile24.Text = "Bingo Tile 24";
+			this.BingoTile24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile24.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile24.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
-			// label25
+			// BingoTile25
 			// 
-			this.label25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BingoTile25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label25.BackColor = System.Drawing.Color.LightGray;
-			this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label25.ForeColor = System.Drawing.Color.Black;
-			this.label25.Location = new System.Drawing.Point(449, 449);
-			this.label25.Margin = new System.Windows.Forms.Padding(5);
-			this.label25.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label25.Name = "label25";
-			this.label25.Size = new System.Drawing.Size(101, 101);
-			this.label25.TabIndex = 43;
-			this.label25.Text = "Bingo Tile 25";
-			this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label25.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
-			this.label25.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tile_Click);
+			this.BingoTile25.BackColor = System.Drawing.Color.LightGray;
+			this.BingoTile25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BingoTile25.ForeColor = System.Drawing.Color.Black;
+			this.BingoTile25.Location = new System.Drawing.Point(449, 449);
+			this.BingoTile25.Margin = new System.Windows.Forms.Padding(5);
+			this.BingoTile25.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.BingoTile25.Name = "BingoTile25";
+			this.BingoTile25.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile25.TabIndex = 43;
+			this.BingoTile25.Text = "Bingo Tile 25";
+			this.BingoTile25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BingoTile25.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
+			this.BingoTile25.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Tile_Click);
 			// 
 			// tabControl1
 			// 
@@ -5069,23 +5073,50 @@
 			// 
 			this.backgroundWorkerReceive.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorkerReceive_DoWork);
 			// 
-			// Form1
+			// groupBox13
+			// 
+			this.groupBox13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.groupBox13.BackColor = System.Drawing.Color.Transparent;
+			this.groupBox13.Controls.Add(this.label1);
+			this.groupBox13.ForeColor = System.Drawing.Color.White;
+			this.groupBox13.Location = new System.Drawing.Point(8, 370);
+			this.groupBox13.Name = "groupBox13";
+			this.groupBox13.Size = new System.Drawing.Size(549, 57);
+			this.groupBox13.TabIndex = 12;
+			this.groupBox13.TabStop = false;
+			this.groupBox13.Text = "Version";
+			// 
+			// label1
+			// 
+			this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Location = new System.Drawing.Point(8, 16);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(535, 38);
+			this.label1.TabIndex = 0;
+			this.label1.Text = "V0.2.0 Beta 2";
+			// 
+			// BongoForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.Black;
 			this.ClientSize = new System.Drawing.Size(578, 846);
-			this.Controls.Add(this.labelHKNotifier);
-			this.Controls.Add(this.checkBox1);
+			this.Controls.Add(this.BottomHotkeyLabel);
+			this.Controls.Add(this.BottomHideBoardCheck);
 			this.Controls.Add(this.tabControl1);
 			this.Controls.Add(this.goalsFileLabel);
-			this.Controls.Add(this.button1);
-			this.Controls.Add(this.seedDisplayBox);
-			this.Controls.Add(this.comboBox1);
+			this.Controls.Add(this.BottomGenerateButton);
+			this.Controls.Add(this.BottomUidBox);
+			this.Controls.Add(this.BottomFileBox);
 			this.Controls.Add(this.seedIndicationLabel);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MinimumSize = new System.Drawing.Size(500, 38);
-			this.Name = "Form1";
-			this.Text = "Bungo";
+			this.Name = "BongoForm";
+			this.Text = "Bongo";
 			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.tabPage7.ResumeLayout(false);
@@ -5112,12 +5143,12 @@
 			this.tabPage2.ResumeLayout(false);
 			this.groupBox4.ResumeLayout(false);
 			this.groupBox4.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.CreateLengthBar)).EndInit();
 			this.groupBox2.ResumeLayout(false);
 			this.groupBox2.PerformLayout();
 			this.groupBox1.ResumeLayout(false);
 			this.groupBox1.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.CreateDifficultyBar)).EndInit();
 			this.tabPage4.ResumeLayout(false);
 			this.tabPage4.PerformLayout();
 			this.tabPage1.ResumeLayout(false);
@@ -5133,19 +5164,20 @@
 			this.groupBox10.PerformLayout();
 			this.groupBox9.ResumeLayout(false);
 			this.groupBox9.PerformLayout();
+			this.groupBox13.ResumeLayout(false);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox seedDisplayBox;
+        private System.Windows.Forms.Button BottomGenerateButton;
+        private System.Windows.Forms.TextBox BottomUidBox;
         private System.Windows.Forms.Label seedIndicationLabel;
 		private System.Windows.Forms.Label goalsFileLabel;
-		private System.Windows.Forms.ComboBox comboBox1;
-		private System.Windows.Forms.CheckBox checkBox1;
-		private System.Windows.Forms.Label labelHKNotifier;
+		private System.Windows.Forms.ComboBox BottomFileBox;
+		private System.Windows.Forms.CheckBox BottomHideBoardCheck;
+		private System.Windows.Forms.Label BottomHotkeyLabel;
 		private System.Windows.Forms.Label label138;
 		private System.Windows.Forms.Label label137;
 		private System.Windows.Forms.Label label136;
@@ -5345,60 +5377,60 @@
 		private System.Windows.Forms.Label label164;
 		private System.Windows.Forms.GroupBox groupBox3;
 		private System.Windows.Forms.Label label28;
-		private System.Windows.Forms.TextBox uIDBox;
+		private System.Windows.Forms.TextBox LoadUidBox;
 		private System.Windows.Forms.TabPage tabPage2;
 		private System.Windows.Forms.GroupBox groupBox4;
-		private System.Windows.Forms.CheckBox checkBoxLength;
+		private System.Windows.Forms.CheckBox CreateLengthDisregardBox;
 		private System.Windows.Forms.Label label33;
 		private System.Windows.Forms.Label label34;
 		private System.Windows.Forms.Label label35;
 		private System.Windows.Forms.Label label36;
-		private System.Windows.Forms.TrackBar trackBar2;
+		private System.Windows.Forms.TrackBar CreateLengthBar;
 		private System.Windows.Forms.Label label30;
 		private System.Windows.Forms.GroupBox groupBox2;
 		private System.Windows.Forms.Label label31;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox CreateSeedBox;
 		private System.Windows.Forms.GroupBox groupBox1;
-		private System.Windows.Forms.CheckBox checkBoxDiff;
+		private System.Windows.Forms.CheckBox CreateDifficultyDisregardBox;
 		private System.Windows.Forms.Label label32;
 		private System.Windows.Forms.Label label29;
 		private System.Windows.Forms.Label label26;
 		private System.Windows.Forms.Label label27;
-		private System.Windows.Forms.TrackBar trackBar1;
+		private System.Windows.Forms.TrackBar CreateDifficultyBar;
 		private System.Windows.Forms.TabPage tabPage4;
-		private System.Windows.Forms.TextBox boardInfoBox;
+		private System.Windows.Forms.TextBox RulesInfoTextField;
 		private System.Windows.Forms.TabPage tabPage1;
-		private System.Windows.Forms.Button unhideButton;
-		private System.Windows.Forms.TextBox goalInfoBox;
+		private System.Windows.Forms.Button BoardUnhideButton;
+		private System.Windows.Forms.TextBox BoardInfoTextField;
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.Label label7;
-		private System.Windows.Forms.Label label8;
-		private System.Windows.Forms.Label label9;
-		private System.Windows.Forms.Label label10;
-		private System.Windows.Forms.Label label11;
-		private System.Windows.Forms.Label label12;
-		private System.Windows.Forms.Label label13;
-		private System.Windows.Forms.Label label14;
-		private System.Windows.Forms.Label label15;
-		private System.Windows.Forms.Label label16;
-		private System.Windows.Forms.Label label17;
-		private System.Windows.Forms.Label label18;
-		private System.Windows.Forms.Label label19;
-		private System.Windows.Forms.Label label20;
-		private System.Windows.Forms.Label label21;
-		private System.Windows.Forms.Label label22;
-		private System.Windows.Forms.Label label23;
-		private System.Windows.Forms.Label label24;
-		private System.Windows.Forms.Label label25;
+		private System.Windows.Forms.Label BingoTile1;
+		private System.Windows.Forms.Label BingoTile2;
+		private System.Windows.Forms.Label BingoTile3;
+		private System.Windows.Forms.Label BingoTile4;
+		private System.Windows.Forms.Label BingoTile5;
+		private System.Windows.Forms.Label BingoTile6;
+		private System.Windows.Forms.Label BingoTile7;
+		private System.Windows.Forms.Label BingoTile8;
+		private System.Windows.Forms.Label BingoTile9;
+		private System.Windows.Forms.Label BingoTile10;
+		private System.Windows.Forms.Label BingoTile11;
+		private System.Windows.Forms.Label BingoTile12;
+		private System.Windows.Forms.Label BingoTile13;
+		private System.Windows.Forms.Label BingoTile14;
+		private System.Windows.Forms.Label BingoTile15;
+		private System.Windows.Forms.Label BingoTile16;
+		private System.Windows.Forms.Label BingoTile17;
+		private System.Windows.Forms.Label BingoTile18;
+		private System.Windows.Forms.Label BingoTile19;
+		private System.Windows.Forms.Label BingoTile20;
+		private System.Windows.Forms.Label BingoTile21;
+		private System.Windows.Forms.Label BingoTile22;
+		private System.Windows.Forms.Label BingoTile23;
+		private System.Windows.Forms.Label BingoTile24;
+		private System.Windows.Forms.Label BingoTile25;
 		private System.Windows.Forms.TabControl tabControl1;
 		private System.Windows.Forms.Button unhideButtonSpectate;
-		private System.Windows.Forms.Label labelGoalVersion;
+		private System.Windows.Forms.Label BoardVersionDisplay;
 		private System.Windows.Forms.TabPage tabPage8;
 		private System.Windows.Forms.GroupBox groupBox11;
 		private System.Windows.Forms.Button buttonSend;
@@ -5438,6 +5470,8 @@
 		private System.Windows.Forms.Label label174;
 		private System.Windows.Forms.TextBox textBox2;
 		private System.Windows.Forms.Label label172;
+		private System.Windows.Forms.GroupBox groupBox13;
+		private System.Windows.Forms.Label label1;
 	}
 }
 

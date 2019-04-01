@@ -7,34 +7,44 @@ using System.Xml;
 
 namespace Bongo {
 	class Board {
+		public string Title;
+		public string Description;
+		public string Version;
+
+		public string Errors;
+
+		public List<Goal> Goals;
+
+		public bool Premade;
+
+
 		/// <summary>
 		/// Generate new bingo board
 		/// </summary>
 		/// <param name="path"></param>
 		/// <param name="id"></param>
 		/// <returns></returns>
-		public BingoSet Generate(string path, uint id) {
-			BingoSet bingoSet = new BingoSet();
+		public void Generate(string path, int id) {
 			XmlDocument goalsDoc = new XmlDocument();
 			goalsDoc.Load(path);
 
-			SetInfo(bingoSet, goalsDoc);
-			SetGoals(bingoSet, goalsDoc);
+			SetInfo(goalsDoc);
+			SetGoals(goalsDoc);
 
-			if (bingoSet.Premade) {
-				return bingoSet;
+			if (Premade) {
+				return;
 			}
 
 			// Get data from the board id
-			uint seed = BoardIdentifier.ReadSeed(id);
-			uint difficulty = BoardIdentifier.ReadDifficulty(id);
-			uint length = BoardIdentifier.ReadLength(id);
+			int seed = BoardIdentifier.ReadSeed(id);
+			int difficulty = BoardIdentifier.ReadDifficulty(id);
+			int length = BoardIdentifier.ReadLength(id);
 
 			Random rand = new Random((int)seed);
 
 			// Select the goals for the board by picking a random length & difficulty, then picking the nearest goal
-			bingoSet.Goals = ChooseGoals(bingoSet.Goals, seed, difficulty, length);
-			return bingoSet;
+			Goals = ChooseGoals(Goals, seed, difficulty, length);
+			return;
 		}
 
 		/// <summary>
@@ -44,8 +54,27 @@ namespace Bongo {
 		/// <param name="seed"></param>
 		/// <param name="difficulty"></param>
 		/// <param name="length"></param>
-		List<Goal> ChooseGoals(List<Goal> potentialGoals, uint seed, uint difficulty, uint length) {
-			List<Goal> selectedGoals = new List<Goal>(25);
+		List<Goal> ChooseGoals(List<Goal> potentialGoals, int seed, int difficulty, int length) {
+			Goal[] selectedGoals = new Goal[25];
+			Random rand = new Random(seed);
+
+			// shuffle the goals list
+			List<Goal> shuffledGoals = new List<Goal>(potentialGoals.Count);
+			while (potentialGoals.Count > 0) {
+				int index = rand.Next(potentialGoals.Count);
+				shuffledGoals.Add(potentialGoals[index]);
+				potentialGoals.RemoveAt(index);
+			}
+
+			// create a list of tiles and shuffle them
+			List<int> tiles = new List<int>(Enumerable.Range(0, 25));
+			List<int> shuffledTiles = new List<int>();
+
+			while (tiles.Count > 0) {
+				int index = rand.Next(tiles.Count);
+				shuffledTiles.Add(tiles[index]);
+				tiles.RemoveAt(index);
+			}
 
 			for (int i = 0; i < 25; i++) {
 				double x = PointGenerator.Random(seed, difficulty, 3);
@@ -53,9 +82,12 @@ namespace Bongo {
 				// TODO: dont make the above 3 & 5 hard coded
 
 				double nearestDistance = double.MaxValue;
-				Goal nearestGoal = potentialGoals[0];
+				Goal nearestGoal = shuffledGoals[0];
 
-				foreach (Goal goal in potentialGoals) {
+				foreach (Goal goal in shuffledGoals) {
+					if (difficulty == 0) {
+
+					}
 					double distance = S.Math.Distance2D(x, y, goal.Difficulty, goal.Length);
 					if (distance < nearestDistance) {
 						nearestDistance = distance;
@@ -66,10 +98,11 @@ namespace Bongo {
 					}
 				}
 
-				selectedGoals[i] = nearestGoal;
-				potentialGoals.Remove(nearestGoal);
+				int indexToAddGoal = shuffledTiles[i];
+				selectedGoals[indexToAddGoal] = nearestGoal;
+				shuffledGoals.Remove(nearestGoal);
 			}
-			return selectedGoals;
+			return selectedGoals.ToList();
 		}
 
 		/// <summary>
@@ -77,32 +110,35 @@ namespace Bongo {
 		/// </summary>
 		/// <param name="set"></param>
 		/// <param name="doc"></param>
-		void SetInfo(BingoSet set, XmlDocument doc) {
+		void SetInfo(XmlDocument doc) {
 			XmlNode info = doc.DocumentElement.SelectSingleNode("info");
 
 			// title
 			if (info.Attributes["title"] != null) {
-				set.Title = info.Attributes["title"].InnerText;
+				Title = info.Attributes["title"].InnerText;
 			}
 			else {
-				set.Title = "Untitled goals set";
+				Title = "Untitled goals set";
 			}
 			// description
 			if (info.Attributes["description"] != null) {
-				set.Description = info.Attributes["description"].InnerText;
+				Description = info.Attributes["description"].InnerText;
 			}
 			else {
-				set.Description = "No description available";
+				Description = "No description available";
 			}
 			// premade
 			if (info.Attributes["premade"] != null) {
-				bool.TryParse(info.Attributes["premade"].InnerText, out set.Premade);
+				bool.TryParse(info.Attributes["premade"].InnerText, out Premade);
 			}
 
 			XmlNode version = doc.DocumentElement.SelectSingleNode("version");
 			// version
 			if (version.Attributes["version"] != null) {
-				set.Version = version.Attributes["version"].InnerText;
+				Version = version.Attributes["version"].InnerText;
+			}
+			else {
+				Version = "Unknown version";
 			}
 		}
 
@@ -111,11 +147,12 @@ namespace Bongo {
 		/// </summary>
 		/// <param name="set"></param>
 		/// <param name="doc"></param>
-		void SetGoals(BingoSet set, XmlDocument doc) {
+		void SetGoals(XmlDocument doc) {
 			int unnamedGoals = 0;
 			int undescribedGoals = 0;
 			string errors = string.Empty;
 
+			Goals = new List<Goal>();
 			XmlNodeList goalsAll = doc.DocumentElement.GetElementsByTagName("goal");
 			foreach (XmlNode goal in goalsAll) {
 				string title = string.Empty;
@@ -159,7 +196,7 @@ namespace Bongo {
 					errors += string.Format("Goal '{0}' has no difficulty value\n", title);
 				}
 
-				set.Goals.Add(new Goal(title, description, length, difficulty));
+				Goals.Add(new Goal(title, description, length, difficulty));
 			}
 			if (unnamedGoals > 0) {
 				errors += string.Format("Error: {0} goals have no title\n", unnamedGoals);
@@ -170,7 +207,7 @@ namespace Bongo {
 			if (goalsAll.Count < 25) {
 				errors += "Error: Not enough goals\n";
 			}
-			set.Errors = errors;
+			Errors = errors;
 		}
 
 	}
