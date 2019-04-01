@@ -198,6 +198,7 @@ namespace Bongo {
 
 		Network network = new Network();
 
+
 		public Form1() {
 			InitializeComponent();
 		}
@@ -452,90 +453,90 @@ namespace Bongo {
 				if (count < 25) {
 					Debug.WriteLine("Throw an error: Not enough goals");
 				}
+				return;
 			}
-			else {
-				// Sort goals by difficulty and length etc
-				foreach (XmlNode goal in goalsAll) {
-					bool cont = true;       // If the length of the goal is too long/short, we don't need to sit through the difficulty check anymore.
-					if (goal.Attributes["length"] != null && !checkBoxLength.Checked) {
-						// Goal has length configured and length is factored in
-						switch (goal.Attributes["length"].InnerText) {
-							case "5":
-								if (amountOfLandMine == 0) {
-									cont = false;
-								}
-								break;
-							case "4":
-								if (amountOfVeryLong == 0) {
-									cont = false;
-								}
-								break;
-							case "3":
-								if (amountOfLong == 0) {
-									cont = false;
-								}
-								break;
-							case "2":
-								if (amountOfShort == 0) {
-									cont = false;
-								}
-								break;
-							case "1":
-								if (amountOfVeryShort == 0) {
-									cont = false;
-								}
-								break;
-							case "0":
-								if (amountOfLandMine + amountOfVeryLong + amountOfLong + amountOfShort + amountOfVeryShort == 25) {
-									cont = false;
-								}
-								break;
-							default:
-								boardInfoBox.Text = "Error: The goal '" + goal.Attributes["name"].InnerText + "' has no length set!" + Environment.NewLine + boardInfoBox.Text;
-								goalInfoBox.Text = boardInfoBox.Text;
+
+			// Sort goals by difficulty and length etc
+			foreach (XmlNode goal in goalsAll) {
+				bool cont = true;       // If the length of the goal is too long/short, we don't need to sit through the difficulty check anymore.
+				if (goal.Attributes["length"] != null && !checkBoxLength.Checked) {
+					// Goal has length configured and length is factored in
+					switch (goal.Attributes["length"].InnerText) {
+						case "5":
+							if (amountOfLandMine == 0) {
 								cont = false;
-								break;
-						}
+							}
+							break;
+						case "4":
+							if (amountOfVeryLong == 0) {
+								cont = false;
+							}
+							break;
+						case "3":
+							if (amountOfLong == 0) {
+								cont = false;
+							}
+							break;
+						case "2":
+							if (amountOfShort == 0) {
+								cont = false;
+							}
+							break;
+						case "1":
+							if (amountOfVeryShort == 0) {
+								cont = false;
+							}
+							break;
+						case "0":
+							if (amountOfLandMine + amountOfVeryLong + amountOfLong + amountOfShort + amountOfVeryShort == 25) {
+								cont = false;
+							}
+							break;
+						default:
+							boardInfoBox.Text = "Error: The goal '" + goal.Attributes["name"].InnerText + "' has no length set!" + Environment.NewLine + boardInfoBox.Text;
+							goalInfoBox.Text = boardInfoBox.Text;
+							cont = false;
+							break;
 					}
-					else if (!checkBoxLength.Checked) {
-						//Length is factored in, but the goal doesn't have length set
-						boardInfoBox.Text = "Error: The goal '" + goal.Attributes["name"].InnerText + "' has no length set!" + Environment.NewLine + boardInfoBox.Text;
-						goalInfoBox.Text = boardInfoBox.Text;
-						cont = false;
-					}
-					// If length isn't factored in, just continue to difficulty check
-					if (goal.Attributes["difficulty"] != null && cont == true && !checkBoxDiff.Checked) {
-						// Difficulty is factored in, length of the goal is valid, and goal has difficulty set
-						switch (goal.Attributes["difficulty"].InnerText) {
-							case "0":
-								goalsEasy.Add(goal);
-								break;
-							case "1":
-								goalsMedium.Add(goal);
-								break;
-							case "2":
-								goalsHard.Add(goal);
-								break;
-							case "3":
-								goalsVeryHard.Add(goal);
-								break;
-							default:
-								boardInfoBox.Text = "Error: The goal '" + goal.Attributes["name"].InnerText + "' has no difficulty set!" + Environment.NewLine + boardInfoBox.Text;
-								goalInfoBox.Text = boardInfoBox.Text;
-								break;
-						}
-					}
-					else if (checkBoxDiff.Checked && cont == true) {
-						// difficulty isn't factored in anyway, and the length of the goal is valid
-						goalsEasy.Add(goal);
-					}
-					else if (cont == true) {
-						// Goal doesn't have difficulty set, and difficulty is factored in, and the length of the goal is valid
-						boardInfoBox.Text = "Error: The goal '" + goal.Attributes["name"].InnerText + "' has no difficulty set!" + Environment.NewLine + boardInfoBox.Text;
-						goalInfoBox.Text = boardInfoBox.Text;
-					}
-					// If length of goal isn't valid (cont == false) then just do nothing
 				}
+				else if (!checkBoxLength.Checked) {
+					//Length is factored in, but the goal doesn't have length set
+					boardInfoBox.Text = "Error: The goal '" + goal.Attributes["name"].InnerText + "' has no length set!" + Environment.NewLine + boardInfoBox.Text;
+					goalInfoBox.Text = boardInfoBox.Text;
+					cont = false;
+				}
+				// If length isn't factored in, just continue to difficulty check
+				if (goal.Attributes["difficulty"] != null && cont == true && !checkBoxDiff.Checked) {
+					// Difficulty is factored in, length of the goal is valid, and goal has difficulty set
+					switch (goal.Attributes["difficulty"].InnerText) {
+						case "0":
+							goalsEasy.Add(goal);
+							break;
+						case "1":
+							goalsMedium.Add(goal);
+							break;
+						case "2":
+							goalsHard.Add(goal);
+							break;
+						case "3":
+							goalsVeryHard.Add(goal);
+							break;
+						default:
+							boardInfoBox.Text = "Error: The goal '" + goal.Attributes["name"].InnerText + "' has no difficulty set!" + Environment.NewLine + boardInfoBox.Text;
+							goalInfoBox.Text = boardInfoBox.Text;
+							break;
+					}
+				}
+				else if (checkBoxDiff.Checked && cont == true) {
+					// difficulty isn't factored in anyway, and the length of the goal is valid
+					goalsEasy.Add(goal);
+				}
+				else if (cont == true) {
+					// Goal doesn't have difficulty set, and difficulty is factored in, and the length of the goal is valid
+					boardInfoBox.Text = "Error: The goal '" + goal.Attributes["name"].InnerText + "' has no difficulty set!" + Environment.NewLine + boardInfoBox.Text;
+					goalInfoBox.Text = boardInfoBox.Text;
+				}
+				// If length of goal isn't valid (cont == false) then just do nothing
 			}
 		}
 		

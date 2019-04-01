@@ -3872,12 +3872,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.trackBar2.BackColor = System.Drawing.Color.Black;
 			this.trackBar2.Location = new System.Drawing.Point(8, 58);
-			this.trackBar2.Maximum = 7;
+			this.trackBar2.Maximum = 5;
 			this.trackBar2.Minimum = 1;
 			this.trackBar2.Name = "trackBar2";
 			this.trackBar2.Size = new System.Drawing.Size(246, 45);
 			this.trackBar2.TabIndex = 5;
-			this.trackBar2.Value = 4;
+			this.trackBar2.Value = 3;
 			this.trackBar2.Scroll += new System.EventHandler(this.trackBar2_Scroll);
 			// 
 			// label30
