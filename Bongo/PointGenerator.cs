@@ -17,9 +17,6 @@ namespace Bongo {
 			Random rand = new Random((int)seed);
 			double num;
 			switch (bias) {
-				default: // disregarded
-					num = rand.Next(0, 100);
-					break;
 				case 1: // very little
 					num = rand.Next(0, 100);
 					num = Math.Pow(num, 4);
@@ -30,6 +27,7 @@ namespace Bongo {
 					num = Math.Pow(num, 3);
 					num /= 15000;
 					break;
+				default:
 				case 3: // medium
 					num = rand.Next(0, 100);
 					num = Math.Pow(num, 2);
@@ -41,6 +39,9 @@ namespace Bongo {
 					num /= 10;
 					break;
 				case 5: // a whole lot
+					num = rand.Next(0, 100);
+					break;
+				case 6: // madness
 					num = rand.Next(0, 100);
 					num = Math.Pow(num, 0.5);
 					num /= 0.1;

@@ -77,8 +77,8 @@ namespace Bongo {
 			}
 
 			for (int i = 0; i < 25; i++) {
-				double x = PointGenerator.Random(seed, difficulty, 3);
-				double y = PointGenerator.Random(seed, length, 5);
+				double randDiff = PointGenerator.Random(seed, difficulty, 3);
+				double randLeng = PointGenerator.Random(seed, length, 5);
 				// TODO: dont make the above 3 & 5 hard coded
 
 				double nearestDistance = double.MaxValue;
@@ -86,9 +86,12 @@ namespace Bongo {
 
 				foreach (Goal goal in shuffledGoals) {
 					if (difficulty == 0) {
-
+						randDiff = goal.Difficulty;
 					}
-					double distance = S.Math.Distance2D(x, y, goal.Difficulty, goal.Length);
+					if (length == 0) {
+						randLeng = goal.Length;
+					}
+					double distance = S.Math.Distance2D(randDiff, randLeng, goal.Difficulty, goal.Length);
 					if (distance < nearestDistance) {
 						nearestDistance = distance;
 						nearestGoal = goal;

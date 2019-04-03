@@ -79,6 +79,7 @@
   <ItemGroup>
     <Compile Include="BoardIdentifier.cs" />
     <Compile Include="EventArgses\BingoBoardEventArgs.cs" />
+    <Compile Include="EventArgses\PlayerListEventArgs.cs" />
     <Compile Include="Goal.cs" />
     <Compile Include="Board.cs" />
     <Compile Include="BingoSet.cs" />
@@ -91,6 +92,7 @@
     </Compile>
     <Compile Include="Layout.cs" />
     <Compile Include="Network.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="PointGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -17,18 +17,20 @@ using System.Net.Sockets;
 namespace Bongo {
 	public partial class BongoForm : Form {
 
-		[DllImport("user32.dll")]
-		public static extern IntPtr FindWindow(String sClassName, String sAppName);
+		Network _network = new Network();
+		Board _currentBoard = new Board();
 
 		Label[] labels = new Label[25];
-		Label[] labelsGreen = new Label[25];
-		Label[] labelsYellow = new Label[25];
 		Label[] labelsRed = new Label[25];
+		Label[] labelsYellow = new Label[25];
+		Label[] labelsGreen = new Label[25];
 		Label[] labelsBlue = new Label[25];
 
 		int _selectedLabelIndex = 25;
-		int selectedLabelSpectate = 25;
+		int _selectedLabelIndexSpectate = 25;
+		bool _bingoActive = false;
 
+		// TODO: Make separate color script
 		Color[] colors = new Color[] { Color.LightGray, Color.DodgerBlue, Color.LimeGreen, Color.Red };
 		Color[] colorsExtended = new Color[] { Color.LightGray, Color.DodgerBlue, Color.LimeGreen, Color.Red, Color.DarkOrchid, Color.Goldenrod };
 
@@ -37,21 +39,7 @@ namespace Bongo {
 		Color[] colorsBlue = new Color[] { Color.LightGray, Color.FromArgb(127, 127, 255), Color.FromArgb(0, 0, 255), Color.FromArgb(63, 63, 127) };
 		Color[] colorsRed = new Color[] { Color.LightGray, Color.FromArgb(255, 127, 127), Color.FromArgb(255, 0 , 0), Color.FromArgb(127, 63, 63) };
 
-
-		bool _bingoActive = false;
-
-		int length = 4;
-		int difficulty = 3;
-		int seed = 0;
-
-		List<XmlNode> theBingoBoard = new List<XmlNode>();
-
-		List<XmlNode> goalsPremade = new List<XmlNode>();
-		List<XmlNode> goalsVeryHard = new List<XmlNode>();
-		List<XmlNode> goalsHard = new List<XmlNode>();
-		List<XmlNode> goalsMedium = new List<XmlNode>();
-		List<XmlNode> goalsEasy = new List<XmlNode>();
-
+		// TODO: Move all of this to hotkeys.cs?
 		private Hotkeys hotkeys;
 		IntPtr thisWindow;
 
@@ -181,11 +169,13 @@ namespace Bongo {
 			{"]",0xDD },
 			{"'",0xDE },
 
-		};
+		}; // Todo: Import this mess from S Keys 9
 
-		Network network = new Network();
+		[Obsolete]
+		List<XmlNode> theBingoBoard = new List<XmlNode>();
 
-		Board _currentBoard = new Board();
+		[DllImport("user32.dll")]
+		public static extern IntPtr FindWindow(String sClassName, String sAppName);
 
 		public BongoForm() {
 			InitializeComponent();
@@ -230,7 +220,7 @@ namespace Bongo {
 			#endregion	
 			ConfigXMLRead();
 			hotkeys.RegisterHotkeys((uint)comboT.SelectedValue, modifierT);
-			checkBox2_CheckedChanged(null, null);
+			HotkeyEnabledCheckbox_CheckedChanged(null, null);
 			//Put all 25 labels in the array
 			int labelIndex = 0;
 			foreach (Label label in tableLayoutPanel1.Controls) {
@@ -273,7 +263,7 @@ namespace Bongo {
 			BottomFileBox.SelectedItem = node.InnerText;
 			// Restore hotkeys
 			XmlNode node4 = docConfig.DocumentElement.SelectSingleNode("hotkeysenabled");
-			checkBox2.Checked = node4.InnerText == "true";
+			HotkeyEnabledCheckbox.Checked = node4.InnerText == "true";
 			XmlNode node2 = docConfig.DocumentElement.SelectSingleNode("hotkeys");
 			comboU.SelectedValue = UInt32.Parse(node2.Attributes["U"].InnerText);
 			comboD.SelectedValue = UInt32.Parse(node2.Attributes["D"].InnerText);
@@ -393,6 +383,7 @@ namespace Bongo {
 				difficulty *= CreateDifficultyDisregardBox.Checked ? 0 : 1;
 				int length = CreateLengthBar.Value;
 				length *= CreateLengthDisregardBox.Checked ? 0 : 1;
+				int seed;
 
 				if (string.IsNullOrEmpty(CreateSeedBox.Text)) {
 					Random rand = new Random();	// Generates a seed
@@ -423,9 +414,10 @@ namespace Bongo {
 			RulesInfoTextField.Text = infoText;
 
 			string nameText = string.Format(
-				"{0}\nGoals version: {1}",
+				"{0}\nGoals version: {1}\nBongo version: {2}",
 				_currentBoard.Title,
-				_currentBoard.Version
+				_currentBoard.Version,
+				HelpVersionLabel.Text
 			);
 			nameText = nameText.Replace("\n", Environment.NewLine);
 			BoardVersionDisplay.Text = nameText;
@@ -462,7 +454,10 @@ namespace Bongo {
 		}
 
 		#region spectator tiles
-
+		private void spectateTile_Click(object sender, MouseEventArgs e) {
+			Label clickedLabel = sender as Label;
+			mouseSpectateTileClick(clickedLabel, e.Button == MouseButtons.Left);
+		}
 		private void AssembleSpectateBoard() {
 			int labelIndex = 0;
 			foreach (Label label in tableLayoutPanelGreen.Controls) {
@@ -510,7 +505,7 @@ namespace Bongo {
 					break;
 			}
 
-			if (selectedLabelSpectate == clickedLabelIndex) {
+			if (_selectedLabelIndexSpectate == clickedLabelIndex) {
 				if (leftMouseButton) {
 					int colorIndexR = Array.FindIndex(colorsSpec, item => item == clickedLabel.BackColor);
 					clickedLabel.BackColor = colorsSpec[(colorIndexR + 1) % colorsSpec.Length];
@@ -521,32 +516,32 @@ namespace Bongo {
 				}
 			}
 			else {
-				if (selectedLabelSpectate != 25) {
-					Font fontToPutA = new Font(labelsGreen[selectedLabelSpectate].Font, FontStyle.Regular);
-					labelsGreen[selectedLabelSpectate].Font = fontToPutA;
-					labelsYellow[selectedLabelSpectate].Font = fontToPutA;
-					labelsRed[selectedLabelSpectate].Font = fontToPutA;
-					labelsBlue[selectedLabelSpectate].Font = fontToPutA;
-					Padding padToPutA = new Padding(labelsGreen[selectedLabelSpectate].Margin.All + 5);
-					labelsGreen[selectedLabelSpectate].Margin = padToPutA;
-					labelsYellow[selectedLabelSpectate].Margin = padToPutA;
-					labelsRed[selectedLabelSpectate].Margin = padToPutA;
-					labelsBlue[selectedLabelSpectate].Margin = padToPutA;
+				if (_selectedLabelIndexSpectate != 25) {
+					Font fontToPutA = new Font(labelsGreen[_selectedLabelIndexSpectate].Font, FontStyle.Regular);
+					labelsGreen[_selectedLabelIndexSpectate].Font = fontToPutA;
+					labelsYellow[_selectedLabelIndexSpectate].Font = fontToPutA;
+					labelsRed[_selectedLabelIndexSpectate].Font = fontToPutA;
+					labelsBlue[_selectedLabelIndexSpectate].Font = fontToPutA;
+					Padding padToPutA = new Padding(labelsGreen[_selectedLabelIndexSpectate].Margin.All + 5);
+					labelsGreen[_selectedLabelIndexSpectate].Margin = padToPutA;
+					labelsYellow[_selectedLabelIndexSpectate].Margin = padToPutA;
+					labelsRed[_selectedLabelIndexSpectate].Margin = padToPutA;
+					labelsBlue[_selectedLabelIndexSpectate].Margin = padToPutA;
 				}
-				selectedLabelSpectate = clickedLabelIndex;
-				Font fontToPutB = new Font(labelsGreen[selectedLabelSpectate].Font, FontStyle.Bold);
-				labelsGreen[selectedLabelSpectate].Font = fontToPutB;
-				labelsYellow[selectedLabelSpectate].Font = fontToPutB;
-				labelsRed[selectedLabelSpectate].Font = fontToPutB;
-				labelsBlue[selectedLabelSpectate].Font = fontToPutB;
-				Padding padToPutB = new Padding(labelsGreen[selectedLabelSpectate].Margin.All - 5);
-				labelsGreen[selectedLabelSpectate].Margin = padToPutB;
-				labelsYellow[selectedLabelSpectate].Margin = padToPutB;
-				labelsRed[selectedLabelSpectate].Margin = padToPutB;
-				labelsBlue[selectedLabelSpectate].Margin = padToPutB;
-				if (selectedLabelSpectate <= theBingoBoard.Count) {
-					if (_bingoActive && theBingoBoard[selectedLabelSpectate].Attributes["description"] != null) {
-						goalInfoSpectateBox.Text = theBingoBoard[selectedLabelSpectate].Attributes["description"].InnerText;
+				_selectedLabelIndexSpectate = clickedLabelIndex;
+				Font fontToPutB = new Font(labelsGreen[_selectedLabelIndexSpectate].Font, FontStyle.Bold);
+				labelsGreen[_selectedLabelIndexSpectate].Font = fontToPutB;
+				labelsYellow[_selectedLabelIndexSpectate].Font = fontToPutB;
+				labelsRed[_selectedLabelIndexSpectate].Font = fontToPutB;
+				labelsBlue[_selectedLabelIndexSpectate].Font = fontToPutB;
+				Padding padToPutB = new Padding(labelsGreen[_selectedLabelIndexSpectate].Margin.All - 5);
+				labelsGreen[_selectedLabelIndexSpectate].Margin = padToPutB;
+				labelsYellow[_selectedLabelIndexSpectate].Margin = padToPutB;
+				labelsRed[_selectedLabelIndexSpectate].Margin = padToPutB;
+				labelsBlue[_selectedLabelIndexSpectate].Margin = padToPutB;
+				if (_selectedLabelIndexSpectate <= theBingoBoard.Count) {
+					if (_bingoActive && theBingoBoard[_selectedLabelIndexSpectate].Attributes["description"] != null) {
+						goalInfoSpectateBox.Text = theBingoBoard[_selectedLabelIndexSpectate].Attributes["description"].InnerText;
 					}
 					else {
 						goalInfoSpectateBox.Text = "";
@@ -660,7 +655,7 @@ namespace Bongo {
 			if (keyPressed.Msg == 0x0312) {
 				int key = keyPressed.WParam.ToInt32();
 				if (key == 7) {		// Toggle hotkeys
-					checkBox2.Checked = !checkBox2.Checked;
+					HotkeyEnabledCheckbox.Checked = !HotkeyEnabledCheckbox.Checked;
 				}
 				else if (!BoardUnhideButton.Visible) {
 					switch (key) {
@@ -695,7 +690,7 @@ namespace Bongo {
 		}
 
 		// Upon clicking the apply button, make the hotkeys work, and update the config file.
-		private void button2_Click(object sender, EventArgs e) {
+		private void HotkeyApplyButton_Click(object sender, EventArgs e) {
 			hotkeys.UnregisterHotkeys(true);
 			hotkeys.RegisterHotkeys((uint)comboU.SelectedValue, (uint)comboD.SelectedValue, (uint)comboL.SelectedValue, (uint)comboR.SelectedValue, (uint)comboP.SelectedValue, (uint)comboN.SelectedValue, (uint)comboH.SelectedValue, (uint)comboT.SelectedValue, modifierU, modifierD, modifierL, modifierR, modifierP, modifierN, modifierH, modifierT);
 
@@ -758,8 +753,7 @@ namespace Bongo {
 
 		#endregion
 
-		#region clicking on stuff on the form etc
-		#region tile click
+		#region form interactions
 		/// <summary>
 		/// Clicking on a bingo tile
 		/// </summary>
@@ -770,93 +764,64 @@ namespace Bongo {
 			ClickTile(clickedLabel, e.Button == MouseButtons.Left);
 		}
 
-		private void spectateTile_Click(object sender, MouseEventArgs e) {
-			Label clickedLabel = sender as Label;
-			mouseSpectateTileClick(clickedLabel, e.Button == MouseButtons.Left);
-		}
-		#endregion
-
-		private void button1_Click(object sender, EventArgs e) {
+		private void BottomGenerateButton_Click(object sender, EventArgs e) {
 			HideBoard(BottomHideBoardCheck.Checked);
 			SaveLastGameData();
 			GenerateBoard();
-			//if (!CheckIfPremade()) {
-			//	GenerateNewSheet();
-			//}
-			//else {
-			//	GeneratePremadeSheet();
-			//}
-			tabControl1.SelectedTab = tabPage1;
+			TabControlMain.SelectedTab = TabBoard;
 		}
 
-		private void hideButton_Click(object sender, EventArgs e) {
+		private void BottomHideButton_Click(object sender, EventArgs e) {
 			HideBoard(false);
 		}
-
-
 
 		private void Form1_FormClosed(object sender, FormClosedEventArgs e) {
 			hotkeys.UnregisterHotkeys(true);
 			SaveLastGameData();
 		}
 
-		private void textBox1_TextChanged(object sender, EventArgs e) {
-			int a;
-			if (!int.TryParse(CreateSeedBox.Text, out a)) {
+		private void CreateSeedBox_TestChanged(object sender, EventArgs e) {
+			int dump;
+			if (!int.TryParse(CreateSeedBox.Text, out dump)) {
 				CreateSeedBox.Clear();
 			}
 			GenerateUID();
 		}
 
-		private void uIDBox_TextChanged(object sender, EventArgs e) {
-			int a;
-			if (!int.TryParse(CreateSeedBox.Text, out a)) {
-				LoadUidBox.Clear();
-			}
+		private void CreateDifficultyBar_Scroll(object sender, EventArgs e) {
 			GenerateUID();
 		}
 
-		private void trackBar1_Scroll(object sender, EventArgs e) {
-			difficulty = CreateDifficultyBar.Value * Convert.ToInt32(CreateDifficultyBar.Enabled);
+		private void CreateLengthBar_Scroll(object sender, EventArgs e) {
 			GenerateUID();
 		}
 
-		private void trackBar2_Scroll(object sender, EventArgs e) {
-			length = CreateLengthBar.Value * Convert.ToInt32(CreateLengthBar.Enabled);
-			GenerateUID();
-		}
-
-		private void checkBoxLength_CheckedChanged(object sender, EventArgs e) {
+		private void CreateLengthDisregardBox_CheckedChanged(object sender, EventArgs e) {
 			CreateLengthBar.Enabled = !CreateLengthDisregardBox.Checked;
-			trackBar2_Scroll(sender, e);
 			GenerateUID();
 		}
 
-		private void checkBoxDiff_CheckedChanged(object sender, EventArgs e) {
+		private void CreateDifficultyDisregardBox_CheckedChanged(object sender, EventArgs e) {
 			CreateDifficultyBar.Enabled = !CreateDifficultyDisregardBox.Checked;
-			trackBar1_Scroll(sender, e);
 			GenerateUID();
 		}
 
-		private void checkBox2_CheckedChanged(object sender, EventArgs e) {
-			if (!checkBox2.Checked) {
+		private void HotkeyEnabledCheckbox_CheckedChanged(object sender, EventArgs e) {
+			if (!HotkeyEnabledCheckbox.Checked) {
 				hotkeys.UnregisterHotkeys(false);
 				BottomHotkeyLabel.Text = "Hotkeys DISABLED";
 			}
 			else {
 				hotkeys.RegisterHotkeys((uint)comboU.SelectedValue, (uint)comboD.SelectedValue, (uint)comboL.SelectedValue, (uint)comboR.SelectedValue, (uint)comboP.SelectedValue, (uint)comboN.SelectedValue, (uint)comboH.SelectedValue, (uint)comboT.SelectedValue, modifierU, modifierD, modifierL, modifierR, modifierP, modifierN, modifierH, modifierT);
-				BottomHotkeyLabel.Text = "";
+				BottomHotkeyLabel.Text = "Hotkeys enabled";
 			}
 		}
 
-
-
-
-
 		#endregion
 
-
 		#region online stuff
+
+		#region receiving data
 
 		/// <summary>
 		/// Write a message in the textbox
@@ -865,8 +830,8 @@ namespace Bongo {
 		/// <param name="e"></param>
 		void OnSystemMessage(object sender, SystemMessageEventArgs e) {
 			this.BeginInvoke(new MethodInvoker(() => {
-				textBoxMessages.AppendText(e.Message);
-				textBoxMessages.AppendText(Environment.NewLine);
+				NetworkMessagebox.AppendText(e.Message);
+				NetworkMessagebox.AppendText(Environment.NewLine);
 			}));
 		}
 
@@ -892,39 +857,21 @@ namespace Bongo {
 			}
 		}
 
-		/// <summary>
-		/// Registers events for networking
-		/// </summary>
-		void RegisterNetworkEvents() {
-			network.OnSystemMessage += OnSystemMessage;
-			network.OnConnectedToServer += OnConnectedToServer;
-			network.OnReceivedBingoBoard += OnReceivedBingoBoard;
+		// Todo: Show seed, version etc for each player here.
+		void OnPlayerListUpdated(object sender, PlayerListEventArgs e) {
+			string list = string.Empty;
+			foreach (Player p in e.PlayerList) {
+				list += string.Format("{0}: {1} ({2})\n", p.Id, p.Name, NetworkPlayerColor.Items[p.Color]);
+			}
+			list = list.Replace("\n", Environment.NewLine);
+			this.BeginInvoke(new MethodInvoker(() => {
+				NetworkPlayerInfoText.Text = list;
+			}));
 		}
 
-		/// <summary>
-		/// When clicking the 'start server' button
-		/// </summary>
-		/// <param name="sender"></param>
-		/// <param name="e"></param>
-		private void buttonStartServer_Click(object sender, EventArgs e) {
-			RegisterNetworkEvents();
-			int port = int.Parse(textBoxServerPort.Text);
-			network.StartServer(port);
-			return;
-		}
+		#endregion
 
-		/// <summary>
-		/// When clicking the 'connect to server' button
-		/// </summary>
-		/// <param name="sender"></param>
-		/// <param name="e"></param>
-		private void buttonClientConnect_Click(object sender, EventArgs e) {
-			RegisterNetworkEvents();
-			IPAddress ip = IPAddress.Parse(textBoxClientIP.Text);
-			int port = int.Parse(textBoxClientPort.Text);
-			network.ConnectToServer(ip, port);
-			return;
-		}
+		#region sending data
 
 		/// <summary>
 		/// Compile bingo board colors to int array
@@ -935,20 +882,46 @@ namespace Bongo {
 			for (int i = 0; i < 25; i++) {
 				colorsInt[i] = Array.FindIndex(colors, item => item == labels[i].BackColor);
 			}
-			network.SendBingoBoard(colorsInt);
+			_network.SendBingoBoard(colorsInt);
+		}
+
+		#endregion
+
+		#region connection stuff (server/client)
+
+		/// <summary>
+		/// Registers events for networking
+		/// </summary>
+		void RegisterNetworkEvents() {
+			_network.OnSystemMessage += OnSystemMessage;
+			_network.OnConnectedToServer += OnConnectedToServer;
+			_network.OnReceivedBingoBoard += OnReceivedBingoBoard;
+			_network.OnPlayerListUpdated += OnPlayerListUpdated;
 		}
 
 		/// <summary>
-		/// When clicking 'send message' button
+		/// When clicking the 'start server' button
 		/// </summary>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
-		private void buttonSend_Click(object sender, EventArgs e) {
-			if (textBoxSend.Text != string.Empty) {
-				network.SendTextMessage(textBoxSend.Text);
-				textBoxSend.Text = string.Empty;
-			}
-			SendBingoBoard();
+		private void NetworkServerStart_Click(object sender, EventArgs e) {
+			RegisterNetworkEvents();
+			int port = int.Parse(NetworkServerPortBox.Text);
+			_network.StartServer(port);
+			NetworkGameBox.Enabled = true;
+		}
+
+		/// <summary>
+		/// When clicking the 'connect to server' button
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void NetworkClientConnectButton_Click(object sender, EventArgs e) {
+			RegisterNetworkEvents();
+			IPAddress ip = IPAddress.Parse(NetworkClientIpBox.Text);
+			int port = int.Parse(NetworkClientPortBox.Text);
+			_network.ConnectToServer(ip, port);
+			NetworkGameBox.Enabled = true;
 		}
 
 		/// <summary>
@@ -957,13 +930,44 @@ namespace Bongo {
 		/// </summary>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
-		private void backgroundWorkerReceive_DoWork(object sender, DoWorkEventArgs e) {
-			while (network.Connected()) {
-				network.ReceiveResponse();
+		private void BackgroundWorkerReceive_DoWork(object sender, DoWorkEventArgs e) {
+			while (_network.Connected) {
+				_network.ReceiveResponse();
 			}
 		}
-		
+
 		#endregion
 
+		#region chat
+
+		/// <summary>
+		/// When clicking 'send message' button
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void NetworkButtonSend_Click(object sender, EventArgs e) {
+			if (textBoxSend.Text != string.Empty) {
+				_network.SendTextMessage(textBoxSend.Text);
+				textBoxSend.Text = string.Empty;
+			}
+		}
+
+		#endregion
+
+		#region settings buttons
+
+		private void NetworkPlayerNameBox_TextChanged(object sender, EventArgs e) {
+			if (!string.IsNullOrEmpty(NetworkPlayerNameBox.Text)) {
+				_network.SendName(NetworkPlayerNameBox.Text);
+			}
+		}
+
+		private void NetworkPlayerColor_SelectedIndexChanged(object sender, EventArgs e) {
+			_network.SendColor((byte)NetworkPlayerColor.SelectedIndex);
+		}
+
+		#endregion
+
+		#endregion
 	}
 }

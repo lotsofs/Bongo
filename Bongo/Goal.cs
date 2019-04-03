@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Bongo {
-	public struct Goal {
+	public class Goal {
 		public string Name;
 		public string Description;
 		public float Length;

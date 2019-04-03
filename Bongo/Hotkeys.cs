@@ -27,10 +27,34 @@ namespace Bongo {
 			_hWnd = hWnd;
 		}
 
+		/// <summary>
+		/// Register 'toggle hotkeys' hotkey to specified params
+		/// </summary>
+		/// <param name="hotkeyT"></param>
+		/// <param name="modifierT"></param>
 		public void RegisterHotkeys(uint hotkeyT, uint modifierT) {
-			RegisterHotKey(_hWnd, 7, modifierT, hotkeyT); //Toggle hotkeyhs
+			RegisterHotKey(_hWnd, 7, modifierT, hotkeyT); //Toggle hotkeys
 		}
 
+		/// <summary>
+		/// Register specified hotkeys
+		/// </summary>
+		/// <param name="hotkeyU"></param>
+		/// <param name="hotkeyD"></param>
+		/// <param name="hotkeyL"></param>
+		/// <param name="hotkeyR"></param>
+		/// <param name="hotkeyP"></param>
+		/// <param name="hotkeyN"></param>
+		/// <param name="hotkeyH"></param>
+		/// <param name="hotkeyT"></param>
+		/// <param name="modifierU"></param>
+		/// <param name="modifierD"></param>
+		/// <param name="modifierL"></param>
+		/// <param name="modifierR"></param>
+		/// <param name="modifierP"></param>
+		/// <param name="modifierN"></param>
+		/// <param name="modifierH"></param>
+		/// <param name="modifierT"></param>
 		public void RegisterHotkeys(uint hotkeyU, uint hotkeyD, uint hotkeyL, uint hotkeyR, uint hotkeyP, uint hotkeyN, uint hotkeyH, uint hotkeyT, uint modifierU, uint modifierD, uint modifierL, uint modifierR, uint modifierP, uint modifierN, uint modifierH, uint modifierT) {
 			RegisterHotKey(_hWnd, 0, modifierU, hotkeyU); //up
 			RegisterHotKey(_hWnd, 1, modifierD, hotkeyD); //down
@@ -42,6 +66,10 @@ namespace Bongo {
 			RegisterHotKey(_hWnd, 7, modifierT, hotkeyT); //Toggle hotkeyhs
 		}
 
+		/// <summary>
+		/// Unregister hotkeys
+		/// </summary>
+		/// <param name="includingToggle">Also unregister the 'toggle hotkeys' hotkey</param>
 		public void UnregisterHotkeys(bool includingToggle) {
 			UnregisterHotKey(_hWnd, 0);
 			UnregisterHotKey(_hWnd, 1);
