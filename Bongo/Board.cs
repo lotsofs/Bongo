@@ -40,10 +40,10 @@ namespace Bongo {
 			int difficulty = BoardIdentifier.ReadDifficulty(id);
 			int length = BoardIdentifier.ReadLength(id);
 
-			Random rand = new Random((int)seed);
+			Random rand = new Random(seed);
 
 			// Select the goals for the board by picking a random length & difficulty, then picking the nearest goal
-			Goals = ChooseGoals(Goals, seed, difficulty, length);
+			Goals = ChooseGoals(Goals, rand, difficulty, length);
 			return;
 		}
 
@@ -54,9 +54,8 @@ namespace Bongo {
 		/// <param name="seed"></param>
 		/// <param name="difficulty"></param>
 		/// <param name="length"></param>
-		List<Goal> ChooseGoals(List<Goal> potentialGoals, int seed, int difficulty, int length) {
+		List<Goal> ChooseGoals(List<Goal> potentialGoals, Random rand, int difficulty, int length) {
 			Goal[] selectedGoals = new Goal[25];
-			Random rand = new Random(seed);
 
 			// shuffle the goals list
 			List<Goal> shuffledGoals = new List<Goal>(potentialGoals.Count);
@@ -77,8 +76,8 @@ namespace Bongo {
 			}
 
 			for (int i = 0; i < 25; i++) {
-				double randDiff = PointGenerator.Random(seed, difficulty, 3);
-				double randLeng = PointGenerator.Random(seed, length, 5);
+				double randDiff = PointGenerator.Random(rand, difficulty, 3);
+				double randLeng = PointGenerator.Random(rand, length, 5);
 				// TODO: dont make the above 3 & 5 hard coded
 
 				double nearestDistance = double.MaxValue;

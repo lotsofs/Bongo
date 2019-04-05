@@ -386,8 +386,8 @@ namespace Bongo {
 				int seed;
 
 				if (string.IsNullOrEmpty(CreateSeedBox.Text)) {
-					Random rand = new Random();	// Generates a seed
-					seed = rand.Next(0, 10000);
+					Random randSeed = new Random();	// Generates a seed
+					seed = randSeed.Next(0, 10000);
 				}
 				else {
 					seed = Math.Abs(int.Parse(CreateSeedBox.Text));
