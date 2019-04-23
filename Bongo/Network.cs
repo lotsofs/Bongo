@@ -12,7 +12,7 @@ namespace Bongo {
 	class Network {
 
 		// Server:
-		byte _nextPlayer = 1;
+		byte _nextPlayer = 2;
 		private Socket _serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 		private List<Socket> _connectedSockets = new List<Socket>();
 		private const int BufferSize = 2048;
@@ -26,7 +26,7 @@ namespace Bongo {
 
 		// Misc:
 		List<Player> _players = new List<Player>();
-		byte _playerId = 0;
+		byte _playerId = 1;
 
 		public event EventHandler<SystemMessageEventArgs> OnSystemMessage;
 		public event EventHandler OnConnectedToServer;
@@ -40,6 +40,10 @@ namespace Bongo {
 		const string ClientDisconnectForce = "Client disconnected forcefully ";
 		const string ConnectionAttempt = "Connection attempt {0}... ";
 		const string ConnectedToServer = "Connected to server ";
+
+		const byte PrefixIndex = 1;
+		const byte PlayerIdIndex = 2;
+		const byte ContentStartIndex = 3;
 
 		enum BufferPrefixes {
 			None,
@@ -76,7 +80,7 @@ namespace Bongo {
 			_serverRunning = true;
 
 			Player serverPlayer = new Player();
-			serverPlayer.Id = 0;
+			serverPlayer.Id = _playerId;
 			_players.Add(serverPlayer);
 		}
 
@@ -93,7 +97,7 @@ namespace Bongo {
 			_serverSocket.Shutdown(SocketShutdown.Both);
 			_serverSocket.Close();
 			_serverRunning = false;
-			_nextPlayer = 1;
+			_nextPlayer = 2;
 		}
 
 		/// <summary>
@@ -119,10 +123,10 @@ namespace Bongo {
 			ReceiveBuffer(_buffer, received);
 
 			// relay message to other clients
-			if (_buffer[0] != (byte)BufferPrefixes.Confirm) {
+			if (_buffer[PrefixIndex] != (byte)BufferPrefixes.Confirm) {
 				byte[] receivedBuffer = new byte[received];
 				Array.Copy(_buffer, receivedBuffer, received);
-				SendBytesToEveryone(receivedBuffer);
+				ServerSendToEveryone(receivedBuffer);
 			}
 			current.BeginReceive(_buffer, 0, BufferSize, SocketFlags.None, ReceiveCallBack, current);
 		}
@@ -150,8 +154,8 @@ namespace Bongo {
 			Player player = new Player();
 			player.Socket = socket;
 			AssignPlayerId(player);
-			SendPlayerJoined(player.Id);
 			_players.Add(player);
+			SendPlayerJoined(player.Id);
 			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
 		}
 
@@ -170,16 +174,33 @@ namespace Bongo {
 			SendConnectionId(player.Socket, player.Id);
 		}
 
-		private Player GetPlayer(byte id) {
-			Player player = _players.Find(p => p.Id == id);
+		Player GetPlayer(byte[] buffer) {
+			byte playerId = buffer[PlayerIdIndex];
+			Player player = _players.Find(p => p.Id == playerId);
 			if (player != null) {
 				return player;
 			}
 			player = new Player();
-			Debug.WriteLine("Added player: " + id);
-			player.Id = id;
+			player.Id = playerId;
 			_players.Add(player);
 			return player;
+		}
+
+		Player GetPlayer(byte playerId) {
+			Player player = _players.Find(p => p.Id == playerId);
+			if (player != null) {
+				return player;
+			}
+			player = new Player();
+			player.Id = playerId;
+			_players.Add(player);
+			return player;
+		}
+
+		byte[] GetContent(byte[] buffer) {
+			byte[] content = new byte[buffer.Length - ContentStartIndex];
+			Array.Copy(buffer, ContentStartIndex, content, 0, content.Length);
+			return content;
 		}
 
 		#endregion
@@ -222,113 +243,77 @@ namespace Bongo {
 		}
 
 		#endregion
-		
+
 		#region received transmissions
 
 		private void ReceiveBuffer(byte[] buffer, int received) {
-			byte[] b = new byte[received];
-			Array.Copy(buffer, b, received);
-			switch (buffer[0]) {
+			byte[] bufferWorking = new byte[received];
+			Array.Copy(buffer, bufferWorking, received);
+
+			Player player = GetPlayer(bufferWorking);
+			byte[] content = GetContent(bufferWorking);
+
+			switch (bufferWorking[PrefixIndex]) {
 				case (byte)BufferPrefixes.Chat:
-					ReceiveChat(b);
+					ReceiveChat(player, content);
 					break;
 				case (byte)BufferPrefixes.FullBoard:
-					ReceiveBoard(b);
+					ReceiveBingoBoard(content);
 					break;
 				case (byte)BufferPrefixes.ConnectionId:
-					ReceiveConnectionId(b);
+					ReceiveConnectionId(content);
 					break;
 				case (byte)BufferPrefixes.PlayerJoined:
-					ReceivePlayerJoined(b);
+					ReceivePlayerJoined(content);
 					break;
 				case (byte)BufferPrefixes.PlayerLeft:
-					ReceivePlayerLeft(b);
+					ReceivePlayerLeft(content);
 					break;
 				case (byte)BufferPrefixes.Name:
-					ReceiveName(b);
+					ReceiveName(player, content);
 					break;
 				case (byte)BufferPrefixes.Color:
-					ReceiveColor(b);
+					ReceiveColor(player, content);
 					break;
 				case (byte)BufferPrefixes.PlayerList:
-					ReceivePlayerList(b);
+					ReceivePlayerList(content);
 					break;
 				case (byte)BufferPrefixes.Confirm:
-					ReceiveConfirm(b);
+					ReceiveConfirm(player);
 					break;
 				default:
 					break;
 			}
 		}
 
-		private void ReceiveChat(byte[] receiveBuffer) {
-			string text = Encoding.ASCII.GetString(receiveBuffer);
-			text = text.Substring(2);
-			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(string.Format("Chat message: {0}", text)));
-		}
-
-		private void ReceiveBoard(byte[] receiveBuffer) {
-			int[] colorsInt = new int[25];
-			for (int i = 0; i < 25; i++) {
-				colorsInt[i] = BitConverter.ToInt32(receiveBuffer, i * 4 + 2);
-			}
-			OnReceivedBingoBoard(this, new BingoBoardEventArgs(colorsInt));
-		}
-
-		private void ReceiveConnectionId(byte[] receiveBuffer) {
-			_playerId = receiveBuffer[1];
-			SendConfirm();
-			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(string.Format("You are player {0}", _playerId)));
-		}
-
-		private void ReceivePlayerList(byte[] receiveBuffer) {
-			for (int i = 1; i < receiveBuffer.Length; i++) {
-				GetPlayer(receiveBuffer[i]);
-			}
-			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
-		}
-
-		private void ReceivePlayerJoined(byte[] receiveBuffer) {
-			GetPlayer(receiveBuffer[1]);
-			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
-		}
-
-		private void ReceivePlayerLeft(byte[] receiveBuffer) {
-			Player player = GetPlayer(receiveBuffer[1]);
-			_players.Remove(player);
-			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
-		}
-
-		private void ReceiveName(byte[] receiveBuffer) {
-			string name = Encoding.ASCII.GetString(receiveBuffer);
-			name = name.Substring(2);
-			Player player = GetPlayer(receiveBuffer[1]);
-			player.Name = string.Empty;
-			player.Name = name;
-			Debug.WriteLine(name.Length);
-			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
-		}
-
-		private void ReceiveColor(byte[] receiveBuffer) {
-			Player player = GetPlayer(receiveBuffer[1]);
-			player.Color = receiveBuffer[2];
-			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
-		}
-
-		private void ReceiveConfirm(byte[] receiveBuffer) {
-			Player player = GetPlayer(receiveBuffer[1]);
-			if (!_clientSocket.Connected) {
-				SendPlayerList(player); 
-			}
-		}
-
 		#endregion
 
-		#region send transmissions
 
-		public void SendBytesToEveryone(byte[] buffer) {
+		#region send transmissions general
+
+		byte[] MakeByteArray(BufferPrefixes prefix, byte[] content) {
+			byte[] buffer = new byte[content.Length + 3];
+			buffer[0] = 0;
+			buffer[PrefixIndex] = (byte)prefix;
+			buffer[PlayerIdIndex] = _playerId;
+			Array.Copy(content, 0, buffer, ContentStartIndex, content.Length);
+			return buffer;
+		}
+
+		void SendToEveryone(byte[] buffer) {
+			// send the bytes
+			if (_clientSocket.Connected) {
+				_clientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
+			}
+			// if server, send message to everyone
+			else {
+				ServerSendToEveryone(buffer);
+			}
+		}
+
+		public void ServerSendToEveryone(byte[] buffer) {
 			foreach (Player player in _players) {
-				if (player.Id > 0) {
+				if (player.Id > _playerId) {
 					try {
 						player.Socket.Send(buffer);
 					}
@@ -340,28 +325,31 @@ namespace Bongo {
 			}
 		}
 
+		#endregion
+
+		#region transmission types
+
 		/// <summary>
 		/// Transmits a chat message
 		/// </summary>
 		/// <param name="message"></param>
-		public void SendTextMessage(string message) {
-			// convert the typed text to bytes, and add a byte in front of it to denote it is text
-			byte[] bufferWorking = Encoding.ASCII.GetBytes(message);
-			byte[] buffer = new byte[bufferWorking.Length + 2];
-			buffer[0] = (byte)BufferPrefixes.Chat;
-			buffer[1] = _playerId;
-			Array.Copy(bufferWorking, 0, buffer, 2, bufferWorking.Length);
-
-			// send the bytes
-			if (_clientSocket.Connected) {
-				_clientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
-			}
-			// if server, send message to everyone
-			else {
-				ReceiveChat(buffer);
-				SendBytesToEveryone(buffer);
-			}
+		public void SendChat(string message) {
+			//// convert the typed text to bytes, and add a byte in front of it to denote it is text
+			byte[] buffer = MakeByteArray(BufferPrefixes.Chat, Encoding.ASCII.GetBytes(message));
+			ReceiveChat(GetPlayer(_playerId), message);
+			SendToEveryone(buffer);
 		}
+
+		private void ReceiveChat(Player sender, byte[] content) {
+			string message = Encoding.ASCII.GetString(content);
+			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(string.Format("{0}: {1}", sender.Name, message)));
+		}
+
+		private void ReceiveChat(Player sender, string message) {
+			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(string.Format("{0}: {1}", sender.Name, message)));
+		}
+
+		// --------------------------------------------------------------------------------------------------------------------------
 
 		/// <summary>
 		/// Sends the entire bingo board
@@ -369,22 +357,23 @@ namespace Bongo {
 		/// <param name="colors"></param>
 		public void SendBingoBoard(int[] colors) {
 			// convert array of colors to byte with one byte to denote that it is a list of colors
-			byte[] buffer = new byte[colors.Length * 4 + 2];
+			byte[] colorBytes = new byte[colors.Length];
 			for (int i = 0; i < 25; i++) {
-				Array.Copy(BitConverter.GetBytes(colors[i]), 0, buffer, i * 4 + 2, 4);
+				Array.Copy(BitConverter.GetBytes(colors[i]), 0, colorBytes, i * 4, 4);
 			}
-			buffer[0] = (byte)BufferPrefixes.FullBoard;
-			buffer[1] = _playerId;
-
-			// transmit data
-			if (_clientSocket.Connected) {
-				_clientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
-			}
-			else {
-				ReceiveBoard(buffer);
-				SendBytesToEveryone(buffer);
-			}
+			byte[] buffer = MakeByteArray(BufferPrefixes.FullBoard, colorBytes);
+			SendToEveryone(buffer);
 		}
+
+		private void ReceiveBingoBoard(byte[] content) {
+			int[] colorsInt = new int[25];
+			for (int i = 0; i < 25; i++) {
+				colorsInt[i] = BitConverter.ToInt32(content, i * 4);
+			}
+			OnReceivedBingoBoard(this, new BingoBoardEventArgs(colorsInt));
+		}
+
+		// --------------------------------------------------------------------------------------------------------------------------
 
 		/// <summary>
 		/// Sends a player id to someone who just joined
@@ -392,101 +381,126 @@ namespace Bongo {
 		/// <param name="socket"></param>
 		/// <param name="id"></param>
 		private void SendConnectionId(Socket socket, byte id) {
-			byte[] buffer = new byte[2];
-			buffer[0] = (byte)BufferPrefixes.ConnectionId;
-			buffer[1] = id;
+			byte[] buffer = MakeByteArray(BufferPrefixes.ConnectionId, new byte[] { id });
 			socket.Send(buffer);
 			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(string.Format(ClientIdSent, id)));
 		}
 
+		private void ReceiveConnectionId(byte[] content) {
+			_playerId = content[0];
+			SendConfirm();
+			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(string.Format("You are player {0}", _playerId)));
+		}
+
+		// --------------------------------------------------------------------------------------------------------------------------
+
 		// Todo: Also include names and colors in this
 		private void SendPlayerList(Player player) {
-			byte[] buffer = new byte[_players.Count + 1];
-			buffer[0] = (byte)BufferPrefixes.PlayerList;
+			byte[] buffersPlayerList = new byte[_players.Count];
 			for (int i = 0; i < _players.Count; i++) {
-				buffer[i + 1] = _players[i].Id;
+				buffersPlayerList[i] = _players[i].Id;
 			}
+			byte[] buffer = MakeByteArray(BufferPrefixes.PlayerList, buffersPlayerList);
 			player.Socket.Send(buffer);
 		}
 
-		private void SendPlayerJoined(byte id, Socket socket = null) {
-			byte[] buffer = new byte[2];
-			buffer[0] = (byte)BufferPrefixes.PlayerJoined;
-			buffer[1] = id;
-			if (socket != null) {
-				socket.Send(buffer);
-				return;
+		private void ReceivePlayerList(byte[] content) {
+			for (int i = 0; i < content.Length; i++) {
+				GetPlayer(content[i]);
 			}
-			SendBytesToEveryone(buffer);
+			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
 		}
+
+		// --------------------------------------------------------------------------------------------------------------------------
+
+		private void SendPlayerJoined(byte id) {
+			byte[] buffer = MakeByteArray(BufferPrefixes.PlayerJoined, new byte[] { id });
+			ReceivePlayerJoined(id);
+			ServerSendToEveryone(buffer);
+		}
+
+		private void ReceivePlayerJoined(byte[] content) {
+			GetPlayer(content[0]);
+			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
+		}
+
+		private void ReceivePlayerJoined(byte id) {
+			GetPlayer(id);
+			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
+		}
+
+		// --------------------------------------------------------------------------------------------------------------------------
 
 		private void SendPlayerLeft(byte id) {
-			byte[] buffer = new byte[2];
-			buffer[0] = (byte)BufferPrefixes.PlayerLeft;
-			buffer[1] = id;
-			SendBytesToEveryone(buffer);
+			byte[] buffer = MakeByteArray(BufferPrefixes.PlayerLeft, new byte[] { id });
+			ReceivePlayerLeft(id);
+			ServerSendToEveryone(buffer);
 		}
+
+		private void ReceivePlayerLeft(byte[] content) {
+			Player player = GetPlayer(content[0]);
+			_players.Remove(player);
+			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
+		}
+
+		private void ReceivePlayerLeft(byte id) {
+			Player player = GetPlayer(id);
+			_players.Remove(player);
+			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
+		}
+
+
+		// --------------------------------------------------------------------------------------------------------------------------
 
 		public void SendName(string name) {
-			byte[] bufferWorking = Encoding.ASCII.GetBytes(name);
-			byte[] buffer = new byte[bufferWorking.Length + 2];
-			buffer[0] = (byte)BufferPrefixes.Name;
-			buffer[1] = _playerId;
-			Array.Copy(bufferWorking, 0, buffer, 2, bufferWorking.Length);
-			// send the bytes
-			if (_clientSocket.Connected) {
-				_clientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
-			}
-			// if server, send message to everyone (including self)
-			else {
-				ReceiveName(buffer);
-				SendBytesToEveryone(buffer);
-			}
+			byte[] buffer = MakeByteArray(BufferPrefixes.Name, Encoding.ASCII.GetBytes(name));
+			ReceiveName(GetPlayer(_playerId), name);
+			SendToEveryone(buffer);
 		}
 
-		private void SendName(string name, byte id, Socket socket) {
-			byte[] bufferWorking = Encoding.ASCII.GetBytes(name);
-			byte[] buffer = new byte[bufferWorking.Length + 2];
-			buffer[0] = (byte)BufferPrefixes.Name;
-			buffer[1] = id;
-			Array.Copy(bufferWorking, 0, buffer, 2, bufferWorking.Length);
-			socket.Send(buffer);
+		private void ReceiveName(Player player, byte[] content) {
+			string name = Encoding.ASCII.GetString(content);
+			player.Name = string.Empty;
+			player.Name = name;
+			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
 		}
+
+		private void ReceiveName(Player player, string name) {
+			player.Name = string.Empty;
+			player.Name = name;
+			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
+		}
+
+		// --------------------------------------------------------------------------------------------------------------------------
 
 		public void SendColor(byte color) {
-			byte[] buffer = new byte[3];
-			buffer[0] = (byte)BufferPrefixes.Color;
-			buffer[1] = _playerId;
-			buffer[2] = color;
-
-			// send the bytes
-			if (_clientSocket.Connected) {
-				//Thread.Sleep(1);
-				_clientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
-			}
-			// if server, send message to everyone
-			else {
-				ReceiveColor(buffer);
-				SendBytesToEveryone(buffer);
-			}
+			byte[] buffer = MakeByteArray(BufferPrefixes.Color, new byte[] { color });
+			ReceiveColor(GetPlayer(_playerId), color);
+			SendToEveryone(buffer);
 		}
 
-		private void SendColor(byte color, byte id, Socket socket) {
-			byte[] buffer = new byte[3];
-			buffer[0] = (byte)BufferPrefixes.Color;
-			buffer[1] = id;
-			buffer[2] = color;
-			//Thread.Sleep(1);
-			socket.Send(buffer);
+		private void ReceiveColor(Player player, byte[] content) {
+			player.Color = content[0];
+			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
 		}
+
+		private void ReceiveColor(Player player, byte color) {
+			player.Color = color;
+			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
+		}
+
+		// --------------------------------------------------------------------------------------------------------------------------
 
 		private void SendConfirm() {
-			byte[] buffer = new byte[2];
-			buffer[0] = (byte)BufferPrefixes.Confirm;
-			buffer[1] = _playerId;
+			byte[] buffer = MakeByteArray(BufferPrefixes.Confirm, new byte[] { _playerId });
 			if (_clientSocket.Connected) {
-				//Thread.Sleep(1);
 				_clientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
+			}
+		}
+
+		private void ReceiveConfirm(Player player) {
+			if (!_clientSocket.Connected) {
+				SendPlayerList(player);
 			}
 		}
 

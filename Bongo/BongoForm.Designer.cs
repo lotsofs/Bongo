@@ -3069,7 +3069,7 @@
 			this.HelpVersionLabel.Name = "HelpVersionLabel";
 			this.HelpVersionLabel.Size = new System.Drawing.Size(535, 38);
 			this.HelpVersionLabel.TabIndex = 0;
-			this.HelpVersionLabel.Text = "V0.2.0 Beta 3";
+			this.HelpVersionLabel.Text = "V0.2.0 Beta 4";
 			// 
 			// groupBox8
 			// 

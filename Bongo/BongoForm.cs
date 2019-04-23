@@ -947,7 +947,7 @@ namespace Bongo {
 		/// <param name="e"></param>
 		private void NetworkButtonSend_Click(object sender, EventArgs e) {
 			if (textBoxSend.Text != string.Empty) {
-				_network.SendTextMessage(textBoxSend.Text);
+				_network.SendChat(textBoxSend.Text);
 				textBoxSend.Text = string.Empty;
 			}
 		}
