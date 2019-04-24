@@ -182,6 +182,7 @@ namespace Bongo {
 		}
 
 		private void Form1_Load(object sender, EventArgs e) {
+			RegisterNetworkEvents();
 			//Lookup goal directories and put them in the goal selector dropdown
 			string[] files = Directory.GetDirectories(@"Goals\");
 			for (int i = 0; i < files.Length; i++) {
@@ -569,6 +570,7 @@ namespace Bongo {
 			else {
 				label.BackColor = colors[(colorIndex + colors.Length - 1) % colors.Length];
 			}
+			SendBingoBoard();
 		}
 
 		/// <summary>
@@ -869,6 +871,12 @@ namespace Bongo {
 			}));
 		}
 
+		void OnServerShutdown(object sender, EventArgs e) {
+			NetworkGameBox.Enabled = false;
+			NetworkHostBox.Enabled = true;
+			NetworkConnectBox.Enabled = true;
+		}
+
 		#endregion
 
 		#region sending data
@@ -897,6 +905,7 @@ namespace Bongo {
 			_network.OnConnectedToServer += OnConnectedToServer;
 			_network.OnReceivedBingoBoard += OnReceivedBingoBoard;
 			_network.OnPlayerListUpdated += OnPlayerListUpdated;
+			_network.OnServerShutdown += OnServerShutdown;
 		}
 
 		/// <summary>
@@ -905,10 +914,11 @@ namespace Bongo {
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		private void NetworkServerStart_Click(object sender, EventArgs e) {
-			RegisterNetworkEvents();
 			int port = int.Parse(NetworkServerPortBox.Text);
 			_network.StartServer(port);
 			NetworkGameBox.Enabled = true;
+			NetworkHostBox.Enabled = false;
+			NetworkConnectBox.Enabled = false;
 		}
 
 		/// <summary>
@@ -917,11 +927,21 @@ namespace Bongo {
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		private void NetworkClientConnectButton_Click(object sender, EventArgs e) {
-			RegisterNetworkEvents();
 			IPAddress ip = IPAddress.Parse(NetworkClientIpBox.Text);
 			int port = int.Parse(NetworkClientPortBox.Text);
 			_network.ConnectToServer(ip, port);
 			NetworkGameBox.Enabled = true;
+			NetworkHostBox.Enabled = false;
+			NetworkConnectBox.Enabled = false;
+		}
+
+		/// <summary>
+		/// When clicking the 'disconnect' button
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void NetworkGameDisconnectButton_Click(object sender, EventArgs e) {
+			_network.Disconnect();
 		}
 
 		/// <summary>
@@ -969,5 +989,6 @@ namespace Bongo {
 		#endregion
 
 		#endregion
+
 	}
 }

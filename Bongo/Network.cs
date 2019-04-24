@@ -13,7 +13,7 @@ namespace Bongo {
 
 		// Server:
 		byte _nextPlayer = 2;
-		private Socket _serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+		private Socket _serverSocket;
 		private List<Socket> _connectedSockets = new List<Socket>();
 		private const int BufferSize = 2048;
 		private static byte[] _buffer = new byte[BufferSize];
@@ -30,6 +30,7 @@ namespace Bongo {
 
 		public event EventHandler<SystemMessageEventArgs> OnSystemMessage;
 		public event EventHandler OnConnectedToServer;
+		public event EventHandler OnServerShutdown;
 		public event EventHandler<BingoBoardEventArgs> OnReceivedBingoBoard;
 		public event EventHandler<PlayerListEventArgs> OnPlayerListUpdated;
 
@@ -41,9 +42,9 @@ namespace Bongo {
 		const string ConnectionAttempt = "Connection attempt {0}... ";
 		const string ConnectedToServer = "Connected to server ";
 
-		const byte PrefixIndex = 1;
-		const byte PlayerIdIndex = 2;
-		const byte ContentStartIndex = 3;
+		const byte PrefixIndex = 2;
+		const byte PlayerIdIndex = 3;
+		const byte ContentStartIndex = 4;
 
 		enum BufferPrefixes {
 			None,
@@ -64,7 +65,29 @@ namespace Bongo {
 			set {
 			}
 		}
-		
+
+		#region disconnection
+
+		public void Disconnect() {
+			if (_serverRunning) {
+				CloseAllSockets();
+			}
+			else if (_clientSocket.Connected) {
+				SendPlayerLeft();
+				ClientDisconnect();
+			}
+		}
+
+		public void ClientDisconnect() {
+			_clientSocket.Shutdown(SocketShutdown.Both);
+			_clientSocket.Close();
+			_players = new List<Player>();
+			OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Disconnected"));
+			OnServerShutdown.Invoke(this, new EventArgs());
+		}
+
+		#endregion
+
 		#region server
 
 		/// <summary>
@@ -73,6 +96,7 @@ namespace Bongo {
 		/// <param name="port"></param>
 		public void StartServer(int port) {
 			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(ServerStarting));
+			_serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 			_serverSocket.Bind(new IPEndPoint(IPAddress.Any, port));
 			_serverSocket.Listen(0);
 			_serverSocket.BeginAccept(AcceptCallBack, null);
@@ -82,6 +106,7 @@ namespace Bongo {
 			Player serverPlayer = new Player();
 			serverPlayer.Id = _playerId;
 			_players.Add(serverPlayer);
+			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
 		}
 
 
@@ -89,12 +114,13 @@ namespace Bongo {
 		/// Stops the server
 		/// </summary>
 		private void CloseAllSockets() {
-			for (int i = _players.Count - 1; i >= 0; i--) {
+			SendPlayerLeft(_playerId);
+			for (int i = _players.Count - 1; i > 0; i--) {
 				_players[i].Socket.Shutdown(SocketShutdown.Both);
 				_players[i].Socket.Close();
-				_players.RemoveAt(i);
 			}
-			_serverSocket.Shutdown(SocketShutdown.Both);
+			_players = new List<Player>();
+			//_serverSocket.Shutdown(SocketShutdown.Both);
 			_serverSocket.Close();
 			_serverRunning = false;
 			_nextPlayer = 2;
@@ -119,7 +145,15 @@ namespace Bongo {
 				_players.Remove(player);
 				return;
 			}
+			catch (ObjectDisposedException) {
+				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("ObjectDisposedException"));
+				return;
+			}
 
+			if (received == 0) {
+				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Received 0"));
+				return;
+			}
 			ReceiveBuffer(_buffer, received);
 
 			// relay message to other clients
@@ -128,7 +162,12 @@ namespace Bongo {
 				Array.Copy(_buffer, receivedBuffer, received);
 				ServerSendToEveryone(receivedBuffer);
 			}
-			current.BeginReceive(_buffer, 0, BufferSize, SocketFlags.None, ReceiveCallBack, current);
+			try {
+				current.BeginReceive(_buffer, 0, BufferSize, SocketFlags.None, ReceiveCallBack, current);
+			}
+			catch (ObjectDisposedException) {
+				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("ObjectDisposedException"));
+			}
 		}
 
 		/// <summary>
@@ -211,13 +250,18 @@ namespace Bongo {
 		/// Client receive bytes
 		/// </summary>
 		public void ReceiveResponse() {
-			byte[] buffer = new byte[2048];
-			int received = _clientSocket.Receive(buffer, SocketFlags.None);		// TODO: Socketexception if host stops
-			if (received == 0) {
-				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Received 0"));
-				return;
+			try {
+				byte[] buffer = new byte[2048];
+				int received = _clientSocket.Receive(buffer, SocketFlags.None);     // TODO: Socketexception if host stops
+				if (received == 0) {
+					OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Received 0"));
+					return;
+				}
+				ReceiveBuffer(buffer, received);
 			}
-			ReceiveBuffer(buffer, received);
+			catch (SocketException) {
+				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("SocketException"));
+			}
 		}
 
 		/// <summary>
@@ -226,6 +270,7 @@ namespace Bongo {
 		/// <param name="address"></param>
 		/// <param name="port"></param>
 		public void ConnectToServer(IPAddress address, int port) {
+			_clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 			int attempts = 0;
 
 			while (!_clientSocket.Connected) {
@@ -233,6 +278,11 @@ namespace Bongo {
 					attempts++;
 					OnSystemMessage.Invoke(this, new SystemMessageEventArgs(string.Format(ConnectionAttempt, attempts)));
 					_clientSocket.Connect(address, port);
+					if (attempts > 10) {
+						OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Failed to connect"));
+						OnServerShutdown.Invoke(this, new EventArgs());
+						return;
+					}
 				}
 				catch (SocketException) {
 					OnSystemMessage.Invoke(this, new SystemMessageEventArgs("SocketException"));
@@ -246,14 +296,11 @@ namespace Bongo {
 
 		#region received transmissions
 
-		private void ReceiveBuffer(byte[] buffer, int received) {
-			byte[] bufferWorking = new byte[received];
-			Array.Copy(buffer, bufferWorking, received);
+		private void ProcessReceivedBuffer(byte[] buffer) {
+			Player player = GetPlayer(buffer);
+			byte[] content = GetContent(buffer);
 
-			Player player = GetPlayer(bufferWorking);
-			byte[] content = GetContent(bufferWorking);
-
-			switch (bufferWorking[PrefixIndex]) {
+			switch (buffer[PrefixIndex]) {
 				case (byte)BufferPrefixes.Chat:
 					ReceiveChat(player, content);
 					break;
@@ -286,14 +333,30 @@ namespace Bongo {
 			}
 		}
 
-		#endregion
+		private void ReceiveBuffer(byte[] buffer, int received) {
+			int newBufferStartIndex = 0;
+			for (int i = 1; i < received - 1; i++) {
+				if (buffer[i] != 0 || buffer[i + 1] != 0 || buffer[i + 2] == 0) {
+					continue;
+				}
+				byte[] bufferW = new byte[i];
+				Array.Copy(buffer, newBufferStartIndex, bufferW, 0, i);
+				ProcessReceivedBuffer(bufferW);
+				newBufferStartIndex = i;
+			}
+			byte[] bufferWF = new byte[received - newBufferStartIndex];
+			Array.Copy(buffer, newBufferStartIndex, bufferWF, 0, bufferWF.Length);
+			ProcessReceivedBuffer(bufferWF);
+		}
 
+		#endregion
 
 		#region send transmissions general
 
 		byte[] MakeByteArray(BufferPrefixes prefix, byte[] content) {
-			byte[] buffer = new byte[content.Length + 3];
+			byte[] buffer = new byte[content.Length + ContentStartIndex];
 			buffer[0] = 0;
+			buffer[1] = 0;
 			buffer[PrefixIndex] = (byte)prefix;
 			buffer[PlayerIdIndex] = _playerId;
 			Array.Copy(content, 0, buffer, ContentStartIndex, content.Length);
@@ -395,18 +458,31 @@ namespace Bongo {
 		// --------------------------------------------------------------------------------------------------------------------------
 
 		// Todo: Also include names and colors in this
-		private void SendPlayerList(Player player) {
+		private void SendPlayerList(Player to) {
 			byte[] buffersPlayerList = new byte[_players.Count];
-			for (int i = 0; i < _players.Count; i++) {
-				buffersPlayerList[i] = _players[i].Id;
+			List<byte> PlayersListList = new List<byte>();
+			foreach (Player player in _players) {
+				PlayersListList.Add(player.Id);
+				PlayersListList.Add(player.Color);
+				byte[] name = Encoding.ASCII.GetBytes(player.Name);
+				PlayersListList.AddRange(name);
+				PlayersListList.Add(byte.MaxValue);
 			}
+			buffersPlayerList = PlayersListList.ToArray();
 			byte[] buffer = MakeByteArray(BufferPrefixes.PlayerList, buffersPlayerList);
-			player.Socket.Send(buffer);
+			to.Socket.Send(buffer);
 		}
 
 		private void ReceivePlayerList(byte[] content) {
+			int currentPlayerStartingIndex = 0;
 			for (int i = 0; i < content.Length; i++) {
-				GetPlayer(content[i]);
+				if (content[i] != byte.MaxValue) {
+					continue;
+				}
+				Player player = GetPlayer(content[currentPlayerStartingIndex]);
+				player.Color = content[currentPlayerStartingIndex + 1];
+				player.Name = Encoding.ASCII.GetString(content, currentPlayerStartingIndex + 2, i - currentPlayerStartingIndex - 2);
+				currentPlayerStartingIndex = i + 1;
 			}
 			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
 		}
@@ -431,6 +507,11 @@ namespace Bongo {
 
 		// --------------------------------------------------------------------------------------------------------------------------
 
+		private void SendPlayerLeft() {
+			byte[] buffer = MakeByteArray(BufferPrefixes.PlayerLeft, new byte[] { _playerId });
+			SendToEveryone(buffer);
+		}
+
 		private void SendPlayerLeft(byte id) {
 			byte[] buffer = MakeByteArray(BufferPrefixes.PlayerLeft, new byte[] { id });
 			ReceivePlayerLeft(id);
@@ -439,12 +520,31 @@ namespace Bongo {
 
 		private void ReceivePlayerLeft(byte[] content) {
 			Player player = GetPlayer(content[0]);
+			if (player == _players[0] && _clientSocket.Connected == true) {
+				ClientDisconnect();
+				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Host shut down the server"));
+			}
+			// if i have socket information (ie im the host), close sockets
+			if (player.Socket != null) {
+				player.Socket.Shutdown(SocketShutdown.Both);
+				player.Socket.Close();
+			}
 			_players.Remove(player);
 			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
 		}
 
 		private void ReceivePlayerLeft(byte id) {
 			Player player = GetPlayer(id);
+			// if player left is the host, disconnect
+			if (player == _players[0] && _clientSocket.Connected == true) {
+				ClientDisconnect();
+				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Host shut down the server"));
+			}
+			// if i have socket information (ie im the host), close sockets
+			if (player.Socket != null) {
+				player.Socket.Shutdown(SocketShutdown.Both);
+				player.Socket.Close();
+			}
 			_players.Remove(player);
 			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
 		}

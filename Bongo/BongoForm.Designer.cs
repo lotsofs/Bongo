@@ -297,19 +297,20 @@
 			this.NetworkButtonSend = new System.Windows.Forms.Button();
 			this.textBoxSend = new System.Windows.Forms.TextBox();
 			this.NetworkMessagebox = new System.Windows.Forms.TextBox();
-			this.groupBox10 = new System.Windows.Forms.GroupBox();
+			this.NetworkConnectBox = new System.Windows.Forms.GroupBox();
 			this.NetworkClientIpBox = new System.Windows.Forms.TextBox();
 			this.label170 = new System.Windows.Forms.Label();
 			this.NetworkClientConnectButton = new System.Windows.Forms.Button();
 			this.NetworkClientPortBox = new System.Windows.Forms.TextBox();
 			this.label168 = new System.Windows.Forms.Label();
 			this.label169 = new System.Windows.Forms.Label();
-			this.groupBox9 = new System.Windows.Forms.GroupBox();
+			this.NetworkHostBox = new System.Windows.Forms.GroupBox();
 			this.NetworkServerStart = new System.Windows.Forms.Button();
 			this.NetworkServerPortBox = new System.Windows.Forms.TextBox();
 			this.label167 = new System.Windows.Forms.Label();
 			this.label166 = new System.Windows.Forms.Label();
 			this.backgroundWorkerReceive = new System.ComponentModel.BackgroundWorker();
+			this.NetworkGameDisconnectButton = new System.Windows.Forms.Button();
 			this.TabSpectator.SuspendLayout();
 			this.tabControl2.SuspendLayout();
 			this.PlayerRed.SuspendLayout();
@@ -342,8 +343,8 @@
 			this.TabOnline.SuspendLayout();
 			this.NetworkGameBox.SuspendLayout();
 			this.groupBox11.SuspendLayout();
-			this.groupBox10.SuspendLayout();
-			this.groupBox9.SuspendLayout();
+			this.NetworkConnectBox.SuspendLayout();
+			this.NetworkHostBox.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// goalsFileLabel
@@ -4660,8 +4661,8 @@
 			this.TabOnline.BackColor = System.Drawing.Color.Black;
 			this.TabOnline.Controls.Add(this.NetworkGameBox);
 			this.TabOnline.Controls.Add(this.groupBox11);
-			this.TabOnline.Controls.Add(this.groupBox10);
-			this.TabOnline.Controls.Add(this.groupBox9);
+			this.TabOnline.Controls.Add(this.NetworkConnectBox);
+			this.TabOnline.Controls.Add(this.NetworkHostBox);
 			this.TabOnline.ForeColor = System.Drawing.Color.White;
 			this.TabOnline.Location = new System.Drawing.Point(4, 22);
 			this.TabOnline.Name = "TabOnline";
@@ -4675,6 +4676,7 @@
 			this.NetworkGameBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.NetworkGameBox.BackColor = System.Drawing.Color.Transparent;
+			this.NetworkGameBox.Controls.Add(this.NetworkGameDisconnectButton);
 			this.NetworkGameBox.Controls.Add(this.NetworkPlayerInfoText);
 			this.NetworkGameBox.Controls.Add(this.NetworkPlayerColor);
 			this.NetworkGameBox.Controls.Add(this.comboBox2);
@@ -4710,9 +4712,9 @@
             "Yellow",
             "Green",
             "Blue"});
-			this.NetworkPlayerColor.Location = new System.Drawing.Point(105, 19);
+			this.NetworkPlayerColor.Location = new System.Drawing.Point(140, 19);
 			this.NetworkPlayerColor.Name = "NetworkPlayerColor";
-			this.NetworkPlayerColor.Size = new System.Drawing.Size(121, 21);
+			this.NetworkPlayerColor.Size = new System.Drawing.Size(88, 21);
 			this.NetworkPlayerColor.TabIndex = 64;
 			this.NetworkPlayerColor.SelectedIndexChanged += new System.EventHandler(this.NetworkPlayerColor_SelectedIndexChanged);
 			// 
@@ -4729,8 +4731,9 @@
 			// NetworkPlayerNameBox
 			// 
 			this.NetworkPlayerNameBox.Location = new System.Drawing.Point(12, 19);
+			this.NetworkPlayerNameBox.MaxLength = 16;
 			this.NetworkPlayerNameBox.Name = "NetworkPlayerNameBox";
-			this.NetworkPlayerNameBox.Size = new System.Drawing.Size(87, 20);
+			this.NetworkPlayerNameBox.Size = new System.Drawing.Size(122, 20);
 			this.NetworkPlayerNameBox.TabIndex = 52;
 			this.NetworkPlayerNameBox.Text = "Player";
 			this.NetworkPlayerNameBox.TextChanged += new System.EventHandler(this.NetworkPlayerNameBox_TextChanged);
@@ -4794,24 +4797,24 @@
 			this.NetworkMessagebox.Size = new System.Drawing.Size(536, 239);
 			this.NetworkMessagebox.TabIndex = 0;
 			// 
-			// groupBox10
+			// NetworkConnectBox
 			// 
-			this.groupBox10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+			this.NetworkConnectBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.groupBox10.BackColor = System.Drawing.Color.Transparent;
-			this.groupBox10.Controls.Add(this.NetworkClientIpBox);
-			this.groupBox10.Controls.Add(this.label170);
-			this.groupBox10.Controls.Add(this.NetworkClientConnectButton);
-			this.groupBox10.Controls.Add(this.NetworkClientPortBox);
-			this.groupBox10.Controls.Add(this.label168);
-			this.groupBox10.Controls.Add(this.label169);
-			this.groupBox10.ForeColor = System.Drawing.Color.White;
-			this.groupBox10.Location = new System.Drawing.Point(6, 125);
-			this.groupBox10.Name = "groupBox10";
-			this.groupBox10.Size = new System.Drawing.Size(549, 113);
-			this.groupBox10.TabIndex = 51;
-			this.groupBox10.TabStop = false;
-			this.groupBox10.Text = "Connect";
+			this.NetworkConnectBox.BackColor = System.Drawing.Color.Transparent;
+			this.NetworkConnectBox.Controls.Add(this.NetworkClientIpBox);
+			this.NetworkConnectBox.Controls.Add(this.label170);
+			this.NetworkConnectBox.Controls.Add(this.NetworkClientConnectButton);
+			this.NetworkConnectBox.Controls.Add(this.NetworkClientPortBox);
+			this.NetworkConnectBox.Controls.Add(this.label168);
+			this.NetworkConnectBox.Controls.Add(this.label169);
+			this.NetworkConnectBox.ForeColor = System.Drawing.Color.White;
+			this.NetworkConnectBox.Location = new System.Drawing.Point(6, 125);
+			this.NetworkConnectBox.Name = "NetworkConnectBox";
+			this.NetworkConnectBox.Size = new System.Drawing.Size(549, 113);
+			this.NetworkConnectBox.TabIndex = 51;
+			this.NetworkConnectBox.TabStop = false;
+			this.NetworkConnectBox.Text = "Connect";
 			// 
 			// NetworkClientIpBox
 			// 
@@ -4867,24 +4870,24 @@
 			this.label169.Size = new System.Drawing.Size(534, 43);
 			this.label169.TabIndex = 47;
 			this.label169.Text = "Beta: Make sure the IP Address and Port are correct, the tool crashes if they are" +
-    "n\'t (because beta). Also gameplay doesn\'t work, you can only connect.\r\n";
+    "n\'t (because beta). ";
 			// 
-			// groupBox9
+			// NetworkHostBox
 			// 
-			this.groupBox9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+			this.NetworkHostBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.groupBox9.BackColor = System.Drawing.Color.Transparent;
-			this.groupBox9.Controls.Add(this.NetworkServerStart);
-			this.groupBox9.Controls.Add(this.NetworkServerPortBox);
-			this.groupBox9.Controls.Add(this.label167);
-			this.groupBox9.Controls.Add(this.label166);
-			this.groupBox9.ForeColor = System.Drawing.Color.White;
-			this.groupBox9.Location = new System.Drawing.Point(6, 6);
-			this.groupBox9.Name = "groupBox9";
-			this.groupBox9.Size = new System.Drawing.Size(549, 113);
-			this.groupBox9.TabIndex = 8;
-			this.groupBox9.TabStop = false;
-			this.groupBox9.Text = "Host";
+			this.NetworkHostBox.BackColor = System.Drawing.Color.Transparent;
+			this.NetworkHostBox.Controls.Add(this.NetworkServerStart);
+			this.NetworkHostBox.Controls.Add(this.NetworkServerPortBox);
+			this.NetworkHostBox.Controls.Add(this.label167);
+			this.NetworkHostBox.Controls.Add(this.label166);
+			this.NetworkHostBox.ForeColor = System.Drawing.Color.White;
+			this.NetworkHostBox.Location = new System.Drawing.Point(6, 6);
+			this.NetworkHostBox.Name = "NetworkHostBox";
+			this.NetworkHostBox.Size = new System.Drawing.Size(549, 113);
+			this.NetworkHostBox.TabIndex = 8;
+			this.NetworkHostBox.TabStop = false;
+			this.NetworkHostBox.Text = "Host";
 			// 
 			// NetworkServerStart
 			// 
@@ -4928,6 +4931,17 @@
 			// backgroundWorkerReceive
 			// 
 			this.backgroundWorkerReceive.DoWork += new System.ComponentModel.DoWorkEventHandler(this.BackgroundWorkerReceive_DoWork);
+			// 
+			// NetworkGameDisconnectButton
+			// 
+			this.NetworkGameDisconnectButton.ForeColor = System.Drawing.Color.Black;
+			this.NetworkGameDisconnectButton.Location = new System.Drawing.Point(422, 137);
+			this.NetworkGameDisconnectButton.Name = "NetworkGameDisconnectButton";
+			this.NetworkGameDisconnectButton.Size = new System.Drawing.Size(121, 28);
+			this.NetworkGameDisconnectButton.TabIndex = 66;
+			this.NetworkGameDisconnectButton.Text = "Disconnect";
+			this.NetworkGameDisconnectButton.UseVisualStyleBackColor = true;
+			this.NetworkGameDisconnectButton.Click += new System.EventHandler(this.NetworkGameDisconnectButton_Click);
 			// 
 			// BongoForm
 			// 
@@ -4991,10 +5005,10 @@
 			this.NetworkGameBox.PerformLayout();
 			this.groupBox11.ResumeLayout(false);
 			this.groupBox11.PerformLayout();
-			this.groupBox10.ResumeLayout(false);
-			this.groupBox10.PerformLayout();
-			this.groupBox9.ResumeLayout(false);
-			this.groupBox9.PerformLayout();
+			this.NetworkConnectBox.ResumeLayout(false);
+			this.NetworkConnectBox.PerformLayout();
+			this.NetworkHostBox.ResumeLayout(false);
+			this.NetworkHostBox.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -5266,14 +5280,14 @@
 		private System.Windows.Forms.Button NetworkButtonSend;
 		private System.Windows.Forms.TextBox textBoxSend;
 		private System.Windows.Forms.TextBox NetworkMessagebox;
-		private System.Windows.Forms.GroupBox groupBox10;
+		private System.Windows.Forms.GroupBox NetworkConnectBox;
 		private System.Windows.Forms.TextBox NetworkClientIpBox;
 		private System.Windows.Forms.Label label170;
 		private System.Windows.Forms.Button NetworkClientConnectButton;
 		private System.Windows.Forms.TextBox NetworkClientPortBox;
 		private System.Windows.Forms.Label label168;
 		private System.Windows.Forms.Label label169;
-		private System.Windows.Forms.GroupBox groupBox9;
+		private System.Windows.Forms.GroupBox NetworkHostBox;
 		private System.Windows.Forms.Button NetworkServerStart;
 		private System.Windows.Forms.TextBox NetworkServerPortBox;
 		private System.Windows.Forms.Label label167;
@@ -5287,6 +5301,7 @@
 		private System.Windows.Forms.GroupBox groupBox13;
 		private System.Windows.Forms.Label HelpVersionLabel;
 		private System.Windows.Forms.Label NetworkPlayerInfoText;
+		private System.Windows.Forms.Button NetworkGameDisconnectButton;
 	}
 }
 
