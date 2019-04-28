@@ -60,7 +60,39 @@
 			this.unhideButtonSpectate = new System.Windows.Forms.Button();
 			this.goalInfoSpectateBox = new System.Windows.Forms.TextBox();
 			this.tabControl2 = new System.Windows.Forms.TabControl();
-			this.PlayerRed = new System.Windows.Forms.TabPage();
+			this.TabAll = new System.Windows.Forms.TabPage();
+			this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+			this.specAllTile1 = new System.Windows.Forms.Label();
+			this.specAllTile2 = new System.Windows.Forms.Label();
+			this.specAllTile3 = new System.Windows.Forms.Label();
+			this.specAllTile4 = new System.Windows.Forms.Label();
+			this.specAllTile5 = new System.Windows.Forms.Label();
+			this.specAllTile21 = new System.Windows.Forms.Label();
+			this.specAllTile22 = new System.Windows.Forms.Label();
+			this.specAllTile23 = new System.Windows.Forms.Label();
+			this.specAllTile24 = new System.Windows.Forms.Label();
+			this.specAllTile25 = new System.Windows.Forms.Label();
+			this.specAllTile20 = new System.Windows.Forms.Label();
+			this.specAllTile19 = new System.Windows.Forms.Label();
+			this.specAllTile17 = new System.Windows.Forms.Label();
+			this.specAllTile16 = new System.Windows.Forms.Label();
+			this.specAllTile15 = new System.Windows.Forms.Label();
+			this.specAllTile13 = new System.Windows.Forms.Label();
+			this.specAllTile12 = new System.Windows.Forms.Label();
+			this.specAllTile11 = new System.Windows.Forms.Label();
+			this.specAllTile10 = new System.Windows.Forms.Label();
+			this.specAllTile9 = new System.Windows.Forms.Label();
+			this.specAllTile8 = new System.Windows.Forms.Label();
+			this.specAllTile7 = new System.Windows.Forms.Label();
+			this.specAllTile6 = new System.Windows.Forms.Label();
+			this.specAllTile18 = new System.Windows.Forms.Label();
+			this.specAllTile14 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+			this.label4 = new System.Windows.Forms.Label();
+			this.label3 = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
+			this.label1 = new System.Windows.Forms.Label();
+			this.TabRed = new System.Windows.Forms.TabPage();
 			this.tableLayoutPanelRed = new System.Windows.Forms.TableLayoutPanel();
 			this.label89 = new System.Windows.Forms.Label();
 			this.label90 = new System.Windows.Forms.Label();
@@ -87,7 +119,7 @@
 			this.label111 = new System.Windows.Forms.Label();
 			this.label112 = new System.Windows.Forms.Label();
 			this.label113 = new System.Windows.Forms.Label();
-			this.PlayerYellow = new System.Windows.Forms.TabPage();
+			this.TabYellow = new System.Windows.Forms.TabPage();
 			this.tableLayoutPanelYellow = new System.Windows.Forms.TableLayoutPanel();
 			this.label64 = new System.Windows.Forms.Label();
 			this.label65 = new System.Windows.Forms.Label();
@@ -114,7 +146,7 @@
 			this.label86 = new System.Windows.Forms.Label();
 			this.label87 = new System.Windows.Forms.Label();
 			this.label88 = new System.Windows.Forms.Label();
-			this.PlayerGreen = new System.Windows.Forms.TabPage();
+			this.TabGreen = new System.Windows.Forms.TabPage();
 			this.tableLayoutPanelGreen = new System.Windows.Forms.TableLayoutPanel();
 			this.label39 = new System.Windows.Forms.Label();
 			this.label40 = new System.Windows.Forms.Label();
@@ -141,7 +173,7 @@
 			this.label61 = new System.Windows.Forms.Label();
 			this.label62 = new System.Windows.Forms.Label();
 			this.label63 = new System.Windows.Forms.Label();
-			this.PlayerBlue = new System.Windows.Forms.TabPage();
+			this.TabBlue = new System.Windows.Forms.TabPage();
 			this.tableLayoutPanelBlue = new System.Windows.Forms.TableLayoutPanel();
 			this.label139 = new System.Windows.Forms.Label();
 			this.label140 = new System.Windows.Forms.Label();
@@ -288,6 +320,7 @@
 			this.TabControlMain = new System.Windows.Forms.TabControl();
 			this.TabOnline = new System.Windows.Forms.TabPage();
 			this.NetworkGameBox = new System.Windows.Forms.GroupBox();
+			this.NetworkGameDisconnectButton = new System.Windows.Forms.Button();
 			this.NetworkPlayerInfoText = new System.Windows.Forms.Label();
 			this.NetworkPlayerColor = new System.Windows.Forms.ComboBox();
 			this.comboBox2 = new System.Windows.Forms.ComboBox();
@@ -310,16 +343,138 @@
 			this.label167 = new System.Windows.Forms.Label();
 			this.label166 = new System.Windows.Forms.Label();
 			this.backgroundWorkerReceive = new System.ComponentModel.BackgroundWorker();
-			this.NetworkGameDisconnectButton = new System.Windows.Forms.Button();
+			this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+			this.label5 = new System.Windows.Forms.Label();
+			this.label6 = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
+			this.label8 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+			this.label9 = new System.Windows.Forms.Label();
+			this.label10 = new System.Windows.Forms.Label();
+			this.label11 = new System.Windows.Forms.Label();
+			this.label12 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+			this.label13 = new System.Windows.Forms.Label();
+			this.label14 = new System.Windows.Forms.Label();
+			this.label15 = new System.Windows.Forms.Label();
+			this.label16 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
+			this.label17 = new System.Windows.Forms.Label();
+			this.label18 = new System.Windows.Forms.Label();
+			this.label19 = new System.Windows.Forms.Label();
+			this.label20 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
+			this.label21 = new System.Windows.Forms.Label();
+			this.label22 = new System.Windows.Forms.Label();
+			this.label23 = new System.Windows.Forms.Label();
+			this.label24 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+			this.label25 = new System.Windows.Forms.Label();
+			this.label171 = new System.Windows.Forms.Label();
+			this.label172 = new System.Windows.Forms.Label();
+			this.label174 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
+			this.label175 = new System.Windows.Forms.Label();
+			this.label176 = new System.Windows.Forms.Label();
+			this.label177 = new System.Windows.Forms.Label();
+			this.label178 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
+			this.label179 = new System.Windows.Forms.Label();
+			this.label180 = new System.Windows.Forms.Label();
+			this.label181 = new System.Windows.Forms.Label();
+			this.label182 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
+			this.label183 = new System.Windows.Forms.Label();
+			this.label184 = new System.Windows.Forms.Label();
+			this.label185 = new System.Windows.Forms.Label();
+			this.label186 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
+			this.label187 = new System.Windows.Forms.Label();
+			this.label188 = new System.Windows.Forms.Label();
+			this.label189 = new System.Windows.Forms.Label();
+			this.label190 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
+			this.label191 = new System.Windows.Forms.Label();
+			this.label192 = new System.Windows.Forms.Label();
+			this.label193 = new System.Windows.Forms.Label();
+			this.label194 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
+			this.label195 = new System.Windows.Forms.Label();
+			this.label196 = new System.Windows.Forms.Label();
+			this.label197 = new System.Windows.Forms.Label();
+			this.label198 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
+			this.label199 = new System.Windows.Forms.Label();
+			this.label200 = new System.Windows.Forms.Label();
+			this.label201 = new System.Windows.Forms.Label();
+			this.label202 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
+			this.label203 = new System.Windows.Forms.Label();
+			this.label204 = new System.Windows.Forms.Label();
+			this.label205 = new System.Windows.Forms.Label();
+			this.label206 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
+			this.label207 = new System.Windows.Forms.Label();
+			this.label208 = new System.Windows.Forms.Label();
+			this.label209 = new System.Windows.Forms.Label();
+			this.label210 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
+			this.label211 = new System.Windows.Forms.Label();
+			this.label212 = new System.Windows.Forms.Label();
+			this.label213 = new System.Windows.Forms.Label();
+			this.label214 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel20 = new System.Windows.Forms.TableLayoutPanel();
+			this.label215 = new System.Windows.Forms.Label();
+			this.label216 = new System.Windows.Forms.Label();
+			this.label217 = new System.Windows.Forms.Label();
+			this.label218 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
+			this.label219 = new System.Windows.Forms.Label();
+			this.label220 = new System.Windows.Forms.Label();
+			this.label221 = new System.Windows.Forms.Label();
+			this.label222 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel22 = new System.Windows.Forms.TableLayoutPanel();
+			this.label223 = new System.Windows.Forms.Label();
+			this.label224 = new System.Windows.Forms.Label();
+			this.label225 = new System.Windows.Forms.Label();
+			this.label226 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel23 = new System.Windows.Forms.TableLayoutPanel();
+			this.label227 = new System.Windows.Forms.Label();
+			this.label228 = new System.Windows.Forms.Label();
+			this.label229 = new System.Windows.Forms.Label();
+			this.label230 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel24 = new System.Windows.Forms.TableLayoutPanel();
+			this.label231 = new System.Windows.Forms.Label();
+			this.label232 = new System.Windows.Forms.Label();
+			this.label233 = new System.Windows.Forms.Label();
+			this.label234 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel25 = new System.Windows.Forms.TableLayoutPanel();
+			this.label235 = new System.Windows.Forms.Label();
+			this.label236 = new System.Windows.Forms.Label();
+			this.label237 = new System.Windows.Forms.Label();
+			this.label238 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel26 = new System.Windows.Forms.TableLayoutPanel();
+			this.label239 = new System.Windows.Forms.Label();
+			this.label240 = new System.Windows.Forms.Label();
+			this.label241 = new System.Windows.Forms.Label();
+			this.label242 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel27 = new System.Windows.Forms.TableLayoutPanel();
+			this.label243 = new System.Windows.Forms.Label();
+			this.label244 = new System.Windows.Forms.Label();
+			this.label245 = new System.Windows.Forms.Label();
+			this.label246 = new System.Windows.Forms.Label();
 			this.TabSpectator.SuspendLayout();
 			this.tabControl2.SuspendLayout();
-			this.PlayerRed.SuspendLayout();
+			this.TabAll.SuspendLayout();
+			this.tableLayoutPanel2.SuspendLayout();
+			this.tableLayoutPanel3.SuspendLayout();
+			this.TabRed.SuspendLayout();
 			this.tableLayoutPanelRed.SuspendLayout();
-			this.PlayerYellow.SuspendLayout();
+			this.TabYellow.SuspendLayout();
 			this.tableLayoutPanelYellow.SuspendLayout();
-			this.PlayerGreen.SuspendLayout();
+			this.TabGreen.SuspendLayout();
 			this.tableLayoutPanelGreen.SuspendLayout();
-			this.PlayerBlue.SuspendLayout();
+			this.TabBlue.SuspendLayout();
 			this.tableLayoutPanelBlue.SuspendLayout();
 			this.TabHelp.SuspendLayout();
 			this.groupBox13.SuspendLayout();
@@ -345,6 +500,30 @@
 			this.groupBox11.SuspendLayout();
 			this.NetworkConnectBox.SuspendLayout();
 			this.NetworkHostBox.SuspendLayout();
+			this.tableLayoutPanel4.SuspendLayout();
+			this.tableLayoutPanel5.SuspendLayout();
+			this.tableLayoutPanel6.SuspendLayout();
+			this.tableLayoutPanel7.SuspendLayout();
+			this.tableLayoutPanel8.SuspendLayout();
+			this.tableLayoutPanel9.SuspendLayout();
+			this.tableLayoutPanel10.SuspendLayout();
+			this.tableLayoutPanel11.SuspendLayout();
+			this.tableLayoutPanel12.SuspendLayout();
+			this.tableLayoutPanel13.SuspendLayout();
+			this.tableLayoutPanel14.SuspendLayout();
+			this.tableLayoutPanel15.SuspendLayout();
+			this.tableLayoutPanel16.SuspendLayout();
+			this.tableLayoutPanel17.SuspendLayout();
+			this.tableLayoutPanel18.SuspendLayout();
+			this.tableLayoutPanel19.SuspendLayout();
+			this.tableLayoutPanel20.SuspendLayout();
+			this.tableLayoutPanel21.SuspendLayout();
+			this.tableLayoutPanel22.SuspendLayout();
+			this.tableLayoutPanel23.SuspendLayout();
+			this.tableLayoutPanel24.SuspendLayout();
+			this.tableLayoutPanel25.SuspendLayout();
+			this.tableLayoutPanel26.SuspendLayout();
+			this.tableLayoutPanel27.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// goalsFileLabel
@@ -880,26 +1059,631 @@
 			this.tabControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.tabControl2.Controls.Add(this.PlayerRed);
-			this.tabControl2.Controls.Add(this.PlayerYellow);
-			this.tabControl2.Controls.Add(this.PlayerGreen);
-			this.tabControl2.Controls.Add(this.PlayerBlue);
+			this.tabControl2.Controls.Add(this.TabAll);
+			this.tabControl2.Controls.Add(this.TabRed);
+			this.tabControl2.Controls.Add(this.TabYellow);
+			this.tabControl2.Controls.Add(this.TabGreen);
+			this.tabControl2.Controls.Add(this.TabBlue);
 			this.tabControl2.Location = new System.Drawing.Point(3, 3);
 			this.tabControl2.Name = "tabControl2";
 			this.tabControl2.SelectedIndex = 0;
 			this.tabControl2.Size = new System.Drawing.Size(554, 573);
 			this.tabControl2.TabIndex = 0;
 			// 
-			// PlayerRed
+			// TabAll
 			// 
-			this.PlayerRed.BackColor = System.Drawing.Color.Maroon;
-			this.PlayerRed.Controls.Add(this.tableLayoutPanelRed);
-			this.PlayerRed.Location = new System.Drawing.Point(4, 22);
-			this.PlayerRed.Name = "PlayerRed";
-			this.PlayerRed.Padding = new System.Windows.Forms.Padding(3);
-			this.PlayerRed.Size = new System.Drawing.Size(546, 547);
-			this.PlayerRed.TabIndex = 2;
-			this.PlayerRed.Text = "Player Red";
+			this.TabAll.BackColor = System.Drawing.Color.Black;
+			this.TabAll.Controls.Add(this.tableLayoutPanel2);
+			this.TabAll.ForeColor = System.Drawing.Color.White;
+			this.TabAll.Location = new System.Drawing.Point(4, 22);
+			this.TabAll.Name = "TabAll";
+			this.TabAll.Size = new System.Drawing.Size(546, 547);
+			this.TabAll.TabIndex = 4;
+			this.TabAll.Text = "All";
+			// 
+			// tableLayoutPanel2
+			// 
+			this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.tableLayoutPanel2.BackColor = System.Drawing.Color.Black;
+			this.tableLayoutPanel2.ColumnCount = 5;
+			this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel27, 4, 9);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel26, 3, 9);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel25, 2, 9);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel24, 1, 9);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel23, 0, 9);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel22, 4, 7);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel21, 3, 7);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel20, 2, 7);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel19, 1, 7);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel18, 0, 7);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel17, 4, 5);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel16, 3, 5);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel15, 2, 5);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel14, 1, 5);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel13, 0, 5);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel12, 4, 3);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel11, 3, 3);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel10, 2, 3);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel9, 1, 3);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel8, 0, 3);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel7, 4, 1);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel6, 3, 1);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel5, 2, 1);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel4, 1, 1);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile1, 0, 0);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile2, 1, 0);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile3, 2, 0);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile4, 3, 0);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile5, 4, 0);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile21, 0, 8);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile22, 1, 8);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile23, 2, 8);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile24, 3, 8);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile25, 4, 8);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile20, 4, 6);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile19, 3, 6);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile17, 1, 6);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile16, 0, 6);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile15, 4, 4);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile13, 2, 4);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile12, 1, 4);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile11, 0, 4);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile10, 4, 2);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile9, 3, 2);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile8, 2, 2);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile7, 1, 2);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile6, 0, 2);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile18, 3, 4);
+			this.tableLayoutPanel2.Controls.Add(this.specAllTile14, 2, 6);
+			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 1);
+			this.tableLayoutPanel2.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
+			this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
+			this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
+			this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+			this.tableLayoutPanel2.RowCount = 10;
+			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
+			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
+			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
+			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
+			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
+			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+			this.tableLayoutPanel2.Size = new System.Drawing.Size(540, 540);
+			this.tableLayoutPanel2.TabIndex = 55;
+			// 
+			// specAllTile1
+			// 
+			this.specAllTile1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile1.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile1.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile1.Location = new System.Drawing.Point(5, 5);
+			this.specAllTile1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile1.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile1.Name = "specAllTile1";
+			this.specAllTile1.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile1.TabIndex = 19;
+			this.specAllTile1.Text = "Bingo Tile 1";
+			this.specAllTile1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile2
+			// 
+			this.specAllTile2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile2.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile2.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile2.Location = new System.Drawing.Point(113, 5);
+			this.specAllTile2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile2.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile2.Name = "specAllTile2";
+			this.specAllTile2.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile2.TabIndex = 20;
+			this.specAllTile2.Text = "Bingo Tile 2";
+			this.specAllTile2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile3
+			// 
+			this.specAllTile3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile3.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile3.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile3.Location = new System.Drawing.Point(221, 5);
+			this.specAllTile3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile3.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile3.Name = "specAllTile3";
+			this.specAllTile3.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile3.TabIndex = 21;
+			this.specAllTile3.Text = "Bingo Tile 3";
+			this.specAllTile3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile4
+			// 
+			this.specAllTile4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile4.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile4.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile4.Location = new System.Drawing.Point(329, 5);
+			this.specAllTile4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile4.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile4.Name = "specAllTile4";
+			this.specAllTile4.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile4.TabIndex = 22;
+			this.specAllTile4.Text = "Bingo Tile 4";
+			this.specAllTile4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile5
+			// 
+			this.specAllTile5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile5.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile5.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile5.Location = new System.Drawing.Point(437, 5);
+			this.specAllTile5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile5.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile5.Name = "specAllTile5";
+			this.specAllTile5.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile5.TabIndex = 23;
+			this.specAllTile5.Text = "Bingo Tile 5";
+			this.specAllTile5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile21
+			// 
+			this.specAllTile21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile21.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile21.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile21.Location = new System.Drawing.Point(5, 437);
+			this.specAllTile21.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile21.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile21.Name = "specAllTile21";
+			this.specAllTile21.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile21.TabIndex = 39;
+			this.specAllTile21.Text = "Bingo Tile 21";
+			this.specAllTile21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile22
+			// 
+			this.specAllTile22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile22.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile22.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile22.Location = new System.Drawing.Point(113, 437);
+			this.specAllTile22.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile22.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile22.Name = "specAllTile22";
+			this.specAllTile22.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile22.TabIndex = 40;
+			this.specAllTile22.Text = "Bingo Tile 22";
+			this.specAllTile22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile23
+			// 
+			this.specAllTile23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile23.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile23.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile23.Location = new System.Drawing.Point(221, 437);
+			this.specAllTile23.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile23.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile23.Name = "specAllTile23";
+			this.specAllTile23.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile23.TabIndex = 41;
+			this.specAllTile23.Text = "Bingo Tile 23";
+			this.specAllTile23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile24
+			// 
+			this.specAllTile24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile24.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile24.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile24.Location = new System.Drawing.Point(329, 437);
+			this.specAllTile24.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile24.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile24.Name = "specAllTile24";
+			this.specAllTile24.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile24.TabIndex = 42;
+			this.specAllTile24.Text = "Bingo Tile 24";
+			this.specAllTile24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile25
+			// 
+			this.specAllTile25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile25.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile25.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile25.Location = new System.Drawing.Point(437, 437);
+			this.specAllTile25.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile25.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile25.Name = "specAllTile25";
+			this.specAllTile25.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile25.TabIndex = 43;
+			this.specAllTile25.Text = "Bingo Tile 25";
+			this.specAllTile25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile20
+			// 
+			this.specAllTile20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile20.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile20.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile20.Location = new System.Drawing.Point(437, 329);
+			this.specAllTile20.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile20.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile20.Name = "specAllTile20";
+			this.specAllTile20.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile20.TabIndex = 38;
+			this.specAllTile20.Text = "Bingo Tile 20";
+			this.specAllTile20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile19
+			// 
+			this.specAllTile19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile19.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile19.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile19.Location = new System.Drawing.Point(329, 329);
+			this.specAllTile19.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile19.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile19.Name = "specAllTile19";
+			this.specAllTile19.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile19.TabIndex = 37;
+			this.specAllTile19.Text = "Bingo Tile 19";
+			this.specAllTile19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile17
+			// 
+			this.specAllTile17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile17.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile17.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile17.Location = new System.Drawing.Point(113, 329);
+			this.specAllTile17.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile17.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile17.Name = "specAllTile17";
+			this.specAllTile17.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile17.TabIndex = 35;
+			this.specAllTile17.Text = "Bingo Tile 17";
+			this.specAllTile17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile16
+			// 
+			this.specAllTile16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile16.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile16.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile16.Location = new System.Drawing.Point(5, 329);
+			this.specAllTile16.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile16.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile16.Name = "specAllTile16";
+			this.specAllTile16.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile16.TabIndex = 34;
+			this.specAllTile16.Text = "Bingo Tile 16";
+			this.specAllTile16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile15
+			// 
+			this.specAllTile15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile15.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile15.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile15.Location = new System.Drawing.Point(437, 221);
+			this.specAllTile15.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile15.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile15.Name = "specAllTile15";
+			this.specAllTile15.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile15.TabIndex = 33;
+			this.specAllTile15.Text = "Bingo Tile 15";
+			this.specAllTile15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile13
+			// 
+			this.specAllTile13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile13.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile13.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile13.Location = new System.Drawing.Point(221, 221);
+			this.specAllTile13.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile13.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile13.Name = "specAllTile13";
+			this.specAllTile13.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile13.TabIndex = 31;
+			this.specAllTile13.Text = "Bingo Tile 13";
+			this.specAllTile13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile12
+			// 
+			this.specAllTile12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile12.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile12.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile12.Location = new System.Drawing.Point(113, 221);
+			this.specAllTile12.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile12.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile12.Name = "specAllTile12";
+			this.specAllTile12.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile12.TabIndex = 30;
+			this.specAllTile12.Text = "Bingo Tile 12";
+			this.specAllTile12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile11
+			// 
+			this.specAllTile11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile11.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile11.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile11.Location = new System.Drawing.Point(5, 221);
+			this.specAllTile11.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile11.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile11.Name = "specAllTile11";
+			this.specAllTile11.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile11.TabIndex = 29;
+			this.specAllTile11.Text = "Bingo Tile 11";
+			this.specAllTile11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile10
+			// 
+			this.specAllTile10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile10.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile10.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile10.Location = new System.Drawing.Point(437, 113);
+			this.specAllTile10.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile10.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile10.Name = "specAllTile10";
+			this.specAllTile10.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile10.TabIndex = 28;
+			this.specAllTile10.Text = "Bingo Tile 10";
+			this.specAllTile10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile9
+			// 
+			this.specAllTile9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile9.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile9.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile9.Location = new System.Drawing.Point(329, 113);
+			this.specAllTile9.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile9.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile9.Name = "specAllTile9";
+			this.specAllTile9.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile9.TabIndex = 27;
+			this.specAllTile9.Text = "Bingo Tile 9";
+			this.specAllTile9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile8
+			// 
+			this.specAllTile8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile8.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile8.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile8.Location = new System.Drawing.Point(221, 113);
+			this.specAllTile8.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile8.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile8.Name = "specAllTile8";
+			this.specAllTile8.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile8.TabIndex = 26;
+			this.specAllTile8.Text = "Bingo Tile 8";
+			this.specAllTile8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile7
+			// 
+			this.specAllTile7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile7.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile7.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile7.Location = new System.Drawing.Point(113, 113);
+			this.specAllTile7.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile7.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile7.Name = "specAllTile7";
+			this.specAllTile7.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile7.TabIndex = 25;
+			this.specAllTile7.Text = "Bingo Tile 7";
+			this.specAllTile7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile6
+			// 
+			this.specAllTile6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile6.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile6.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile6.Location = new System.Drawing.Point(5, 113);
+			this.specAllTile6.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile6.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile6.Name = "specAllTile6";
+			this.specAllTile6.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile6.TabIndex = 24;
+			this.specAllTile6.Text = "Bingo Tile 6";
+			this.specAllTile6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile18
+			// 
+			this.specAllTile18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile18.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile18.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile18.Location = new System.Drawing.Point(329, 221);
+			this.specAllTile18.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile18.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile18.Name = "specAllTile18";
+			this.specAllTile18.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile18.TabIndex = 36;
+			this.specAllTile18.Text = "Bingo Tile 18";
+			this.specAllTile18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// specAllTile14
+			// 
+			this.specAllTile14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.specAllTile14.BackColor = System.Drawing.Color.LightGray;
+			this.specAllTile14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.specAllTile14.ForeColor = System.Drawing.Color.Black;
+			this.specAllTile14.Location = new System.Drawing.Point(221, 329);
+			this.specAllTile14.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
+			this.specAllTile14.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.specAllTile14.Name = "specAllTile14";
+			this.specAllTile14.Size = new System.Drawing.Size(98, 76);
+			this.specAllTile14.TabIndex = 32;
+			this.specAllTile14.Text = "Bingo Tile 14";
+			this.specAllTile14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel3
+			// 
+			this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel3.ColumnCount = 4;
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel3.Controls.Add(this.label4, 3, 0);
+			this.tableLayoutPanel3.Controls.Add(this.label3, 2, 0);
+			this.tableLayoutPanel3.Controls.Add(this.label2, 1, 0);
+			this.tableLayoutPanel3.Controls.Add(this.label1, 0, 0);
+			this.tableLayoutPanel3.Location = new System.Drawing.Point(5, 81);
+			this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+			this.tableLayoutPanel3.RowCount = 1;
+			this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel3.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel3.TabIndex = 44;
+			// 
+			// label4
+			// 
+			this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label4.BackColor = System.Drawing.Color.LightGray;
+			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label4.ForeColor = System.Drawing.Color.Black;
+			this.label4.Location = new System.Drawing.Point(74, 0);
+			this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(22, 22);
+			this.label4.TabIndex = 3;
+			this.label4.Text = "O";
+			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label3
+			// 
+			this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label3.BackColor = System.Drawing.Color.LightGray;
+			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.ForeColor = System.Drawing.Color.Black;
+			this.label3.Location = new System.Drawing.Point(50, 0);
+			this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(20, 22);
+			this.label3.TabIndex = 2;
+			this.label3.Text = "O";
+			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label2
+			// 
+			this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label2.BackColor = System.Drawing.Color.LightGray;
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.ForeColor = System.Drawing.Color.Black;
+			this.label2.Location = new System.Drawing.Point(26, 0);
+			this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(20, 22);
+			this.label2.TabIndex = 1;
+			this.label2.Text = "O";
+			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label1
+			// 
+			this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label1.BackColor = System.Drawing.Color.LightGray;
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.ForeColor = System.Drawing.Color.Black;
+			this.label1.Location = new System.Drawing.Point(2, 0);
+			this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(20, 22);
+			this.label1.TabIndex = 0;
+			this.label1.Text = "O";
+			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// TabRed
+			// 
+			this.TabRed.BackColor = System.Drawing.Color.Maroon;
+			this.TabRed.Controls.Add(this.tableLayoutPanelRed);
+			this.TabRed.Location = new System.Drawing.Point(4, 22);
+			this.TabRed.Name = "TabRed";
+			this.TabRed.Padding = new System.Windows.Forms.Padding(3);
+			this.TabRed.Size = new System.Drawing.Size(546, 547);
+			this.TabRed.TabIndex = 2;
+			this.TabRed.Text = "Player Red";
 			// 
 			// tableLayoutPanelRed
 			// 
@@ -1426,16 +2210,16 @@
 			this.label113.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
 			this.label113.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
 			// 
-			// PlayerYellow
+			// TabYellow
 			// 
-			this.PlayerYellow.BackColor = System.Drawing.Color.Khaki;
-			this.PlayerYellow.Controls.Add(this.tableLayoutPanelYellow);
-			this.PlayerYellow.Location = new System.Drawing.Point(4, 22);
-			this.PlayerYellow.Name = "PlayerYellow";
-			this.PlayerYellow.Padding = new System.Windows.Forms.Padding(3);
-			this.PlayerYellow.Size = new System.Drawing.Size(546, 547);
-			this.PlayerYellow.TabIndex = 1;
-			this.PlayerYellow.Text = "Player Yellow";
+			this.TabYellow.BackColor = System.Drawing.Color.Khaki;
+			this.TabYellow.Controls.Add(this.tableLayoutPanelYellow);
+			this.TabYellow.Location = new System.Drawing.Point(4, 22);
+			this.TabYellow.Name = "TabYellow";
+			this.TabYellow.Padding = new System.Windows.Forms.Padding(3);
+			this.TabYellow.Size = new System.Drawing.Size(546, 547);
+			this.TabYellow.TabIndex = 1;
+			this.TabYellow.Text = "Player Yellow";
 			// 
 			// tableLayoutPanelYellow
 			// 
@@ -1962,16 +2746,16 @@
 			this.label88.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
 			this.label88.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
 			// 
-			// PlayerGreen
+			// TabGreen
 			// 
-			this.PlayerGreen.BackColor = System.Drawing.Color.ForestGreen;
-			this.PlayerGreen.Controls.Add(this.tableLayoutPanelGreen);
-			this.PlayerGreen.Location = new System.Drawing.Point(4, 22);
-			this.PlayerGreen.Name = "PlayerGreen";
-			this.PlayerGreen.Padding = new System.Windows.Forms.Padding(3);
-			this.PlayerGreen.Size = new System.Drawing.Size(546, 547);
-			this.PlayerGreen.TabIndex = 0;
-			this.PlayerGreen.Text = "Player Green";
+			this.TabGreen.BackColor = System.Drawing.Color.ForestGreen;
+			this.TabGreen.Controls.Add(this.tableLayoutPanelGreen);
+			this.TabGreen.Location = new System.Drawing.Point(4, 22);
+			this.TabGreen.Name = "TabGreen";
+			this.TabGreen.Padding = new System.Windows.Forms.Padding(3);
+			this.TabGreen.Size = new System.Drawing.Size(546, 547);
+			this.TabGreen.TabIndex = 0;
+			this.TabGreen.Text = "Player Green";
 			// 
 			// tableLayoutPanelGreen
 			// 
@@ -2498,15 +3282,15 @@
 			this.label63.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
 			this.label63.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
 			// 
-			// PlayerBlue
+			// TabBlue
 			// 
-			this.PlayerBlue.BackColor = System.Drawing.Color.RoyalBlue;
-			this.PlayerBlue.Controls.Add(this.tableLayoutPanelBlue);
-			this.PlayerBlue.Location = new System.Drawing.Point(4, 22);
-			this.PlayerBlue.Name = "PlayerBlue";
-			this.PlayerBlue.Size = new System.Drawing.Size(546, 547);
-			this.PlayerBlue.TabIndex = 3;
-			this.PlayerBlue.Text = "Player Blue";
+			this.TabBlue.BackColor = System.Drawing.Color.RoyalBlue;
+			this.TabBlue.Controls.Add(this.tableLayoutPanelBlue);
+			this.TabBlue.Location = new System.Drawing.Point(4, 22);
+			this.TabBlue.Name = "TabBlue";
+			this.TabBlue.Size = new System.Drawing.Size(546, 547);
+			this.TabBlue.TabIndex = 3;
+			this.TabBlue.Text = "Player Blue";
 			// 
 			// tableLayoutPanelBlue
 			// 
@@ -4073,7 +4857,7 @@
 			this.BoardVersionDisplay.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.BoardVersionDisplay.AutoSize = true;
 			this.BoardVersionDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.BoardVersionDisplay.Location = new System.Drawing.Point(45, 155);
+			this.BoardVersionDisplay.Location = new System.Drawing.Point(42, 155);
 			this.BoardVersionDisplay.Name = "BoardVersionDisplay";
 			this.BoardVersionDisplay.Size = new System.Drawing.Size(305, 132);
 			this.BoardVersionDisplay.TabIndex = 52;
@@ -4085,7 +4869,7 @@
 			this.BoardUnhideButton.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.BoardUnhideButton.BackColor = System.Drawing.Color.White;
 			this.BoardUnhideButton.ForeColor = System.Drawing.Color.Black;
-			this.BoardUnhideButton.Location = new System.Drawing.Point(191, 296);
+			this.BoardUnhideButton.Location = new System.Drawing.Point(188, 296);
 			this.BoardUnhideButton.Name = "BoardUnhideButton";
 			this.BoardUnhideButton.Size = new System.Drawing.Size(172, 59);
 			this.BoardUnhideButton.TabIndex = 50;
@@ -4691,6 +5475,17 @@
 			this.NetworkGameBox.TabStop = false;
 			this.NetworkGameBox.Text = "Game";
 			// 
+			// NetworkGameDisconnectButton
+			// 
+			this.NetworkGameDisconnectButton.ForeColor = System.Drawing.Color.Black;
+			this.NetworkGameDisconnectButton.Location = new System.Drawing.Point(422, 137);
+			this.NetworkGameDisconnectButton.Name = "NetworkGameDisconnectButton";
+			this.NetworkGameDisconnectButton.Size = new System.Drawing.Size(121, 28);
+			this.NetworkGameDisconnectButton.TabIndex = 66;
+			this.NetworkGameDisconnectButton.Text = "Disconnect";
+			this.NetworkGameDisconnectButton.UseVisualStyleBackColor = true;
+			this.NetworkGameDisconnectButton.Click += new System.EventHandler(this.NetworkGameDisconnectButton_Click);
+			// 
 			// NetworkPlayerInfoText
 			// 
 			this.NetworkPlayerInfoText.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -4932,16 +5727,2093 @@
 			// 
 			this.backgroundWorkerReceive.DoWork += new System.ComponentModel.DoWorkEventHandler(this.BackgroundWorkerReceive_DoWork);
 			// 
-			// NetworkGameDisconnectButton
+			// tableLayoutPanel4
 			// 
-			this.NetworkGameDisconnectButton.ForeColor = System.Drawing.Color.Black;
-			this.NetworkGameDisconnectButton.Location = new System.Drawing.Point(422, 137);
-			this.NetworkGameDisconnectButton.Name = "NetworkGameDisconnectButton";
-			this.NetworkGameDisconnectButton.Size = new System.Drawing.Size(121, 28);
-			this.NetworkGameDisconnectButton.TabIndex = 66;
-			this.NetworkGameDisconnectButton.Text = "Disconnect";
-			this.NetworkGameDisconnectButton.UseVisualStyleBackColor = true;
-			this.NetworkGameDisconnectButton.Click += new System.EventHandler(this.NetworkGameDisconnectButton_Click);
+			this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel4.ColumnCount = 4;
+			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel4.Controls.Add(this.label5, 3, 0);
+			this.tableLayoutPanel4.Controls.Add(this.label6, 2, 0);
+			this.tableLayoutPanel4.Controls.Add(this.label7, 1, 0);
+			this.tableLayoutPanel4.Controls.Add(this.label8, 0, 0);
+			this.tableLayoutPanel4.Location = new System.Drawing.Point(113, 81);
+			this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+			this.tableLayoutPanel4.RowCount = 1;
+			this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel4.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel4.TabIndex = 45;
+			// 
+			// label5
+			// 
+			this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label5.BackColor = System.Drawing.Color.LightGray;
+			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label5.ForeColor = System.Drawing.Color.Black;
+			this.label5.Location = new System.Drawing.Point(74, 0);
+			this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(22, 22);
+			this.label5.TabIndex = 3;
+			this.label5.Text = "O";
+			this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label6
+			// 
+			this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label6.BackColor = System.Drawing.Color.LightGray;
+			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label6.ForeColor = System.Drawing.Color.Black;
+			this.label6.Location = new System.Drawing.Point(50, 0);
+			this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(20, 22);
+			this.label6.TabIndex = 2;
+			this.label6.Text = "O";
+			this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label7
+			// 
+			this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label7.BackColor = System.Drawing.Color.LightGray;
+			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label7.ForeColor = System.Drawing.Color.Black;
+			this.label7.Location = new System.Drawing.Point(26, 0);
+			this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(20, 22);
+			this.label7.TabIndex = 1;
+			this.label7.Text = "O";
+			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label8
+			// 
+			this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label8.BackColor = System.Drawing.Color.LightGray;
+			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label8.ForeColor = System.Drawing.Color.Black;
+			this.label8.Location = new System.Drawing.Point(2, 0);
+			this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(20, 22);
+			this.label8.TabIndex = 0;
+			this.label8.Text = "O";
+			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel5
+			// 
+			this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel5.ColumnCount = 4;
+			this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel5.Controls.Add(this.label9, 3, 0);
+			this.tableLayoutPanel5.Controls.Add(this.label10, 2, 0);
+			this.tableLayoutPanel5.Controls.Add(this.label11, 1, 0);
+			this.tableLayoutPanel5.Controls.Add(this.label12, 0, 0);
+			this.tableLayoutPanel5.Location = new System.Drawing.Point(221, 81);
+			this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+			this.tableLayoutPanel5.RowCount = 1;
+			this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel5.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel5.TabIndex = 46;
+			// 
+			// label9
+			// 
+			this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label9.BackColor = System.Drawing.Color.LightGray;
+			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label9.ForeColor = System.Drawing.Color.Black;
+			this.label9.Location = new System.Drawing.Point(74, 0);
+			this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(22, 22);
+			this.label9.TabIndex = 3;
+			this.label9.Text = "O";
+			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label10
+			// 
+			this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label10.BackColor = System.Drawing.Color.LightGray;
+			this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label10.ForeColor = System.Drawing.Color.Black;
+			this.label10.Location = new System.Drawing.Point(50, 0);
+			this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(20, 22);
+			this.label10.TabIndex = 2;
+			this.label10.Text = "O";
+			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label11
+			// 
+			this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label11.BackColor = System.Drawing.Color.LightGray;
+			this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label11.ForeColor = System.Drawing.Color.Black;
+			this.label11.Location = new System.Drawing.Point(26, 0);
+			this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label11.Name = "label11";
+			this.label11.Size = new System.Drawing.Size(20, 22);
+			this.label11.TabIndex = 1;
+			this.label11.Text = "O";
+			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label12
+			// 
+			this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label12.BackColor = System.Drawing.Color.LightGray;
+			this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label12.ForeColor = System.Drawing.Color.Black;
+			this.label12.Location = new System.Drawing.Point(2, 0);
+			this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label12.Name = "label12";
+			this.label12.Size = new System.Drawing.Size(20, 22);
+			this.label12.TabIndex = 0;
+			this.label12.Text = "O";
+			this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel6
+			// 
+			this.tableLayoutPanel6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel6.ColumnCount = 4;
+			this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel6.Controls.Add(this.label13, 3, 0);
+			this.tableLayoutPanel6.Controls.Add(this.label14, 2, 0);
+			this.tableLayoutPanel6.Controls.Add(this.label15, 1, 0);
+			this.tableLayoutPanel6.Controls.Add(this.label16, 0, 0);
+			this.tableLayoutPanel6.Location = new System.Drawing.Point(329, 81);
+			this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel6.Name = "tableLayoutPanel6";
+			this.tableLayoutPanel6.RowCount = 1;
+			this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel6.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel6.TabIndex = 47;
+			// 
+			// label13
+			// 
+			this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label13.BackColor = System.Drawing.Color.LightGray;
+			this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label13.ForeColor = System.Drawing.Color.Black;
+			this.label13.Location = new System.Drawing.Point(74, 0);
+			this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label13.Name = "label13";
+			this.label13.Size = new System.Drawing.Size(22, 22);
+			this.label13.TabIndex = 3;
+			this.label13.Text = "O";
+			this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label14
+			// 
+			this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label14.BackColor = System.Drawing.Color.LightGray;
+			this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label14.ForeColor = System.Drawing.Color.Black;
+			this.label14.Location = new System.Drawing.Point(50, 0);
+			this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label14.Name = "label14";
+			this.label14.Size = new System.Drawing.Size(20, 22);
+			this.label14.TabIndex = 2;
+			this.label14.Text = "O";
+			this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label15
+			// 
+			this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label15.BackColor = System.Drawing.Color.LightGray;
+			this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label15.ForeColor = System.Drawing.Color.Black;
+			this.label15.Location = new System.Drawing.Point(26, 0);
+			this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label15.Name = "label15";
+			this.label15.Size = new System.Drawing.Size(20, 22);
+			this.label15.TabIndex = 1;
+			this.label15.Text = "O";
+			this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label16
+			// 
+			this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label16.BackColor = System.Drawing.Color.LightGray;
+			this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label16.ForeColor = System.Drawing.Color.Black;
+			this.label16.Location = new System.Drawing.Point(2, 0);
+			this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label16.Name = "label16";
+			this.label16.Size = new System.Drawing.Size(20, 22);
+			this.label16.TabIndex = 0;
+			this.label16.Text = "O";
+			this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel7
+			// 
+			this.tableLayoutPanel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel7.ColumnCount = 4;
+			this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel7.Controls.Add(this.label17, 3, 0);
+			this.tableLayoutPanel7.Controls.Add(this.label18, 2, 0);
+			this.tableLayoutPanel7.Controls.Add(this.label19, 1, 0);
+			this.tableLayoutPanel7.Controls.Add(this.label20, 0, 0);
+			this.tableLayoutPanel7.Location = new System.Drawing.Point(437, 81);
+			this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel7.Name = "tableLayoutPanel7";
+			this.tableLayoutPanel7.RowCount = 1;
+			this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel7.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel7.TabIndex = 48;
+			// 
+			// label17
+			// 
+			this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label17.BackColor = System.Drawing.Color.LightGray;
+			this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label17.ForeColor = System.Drawing.Color.Black;
+			this.label17.Location = new System.Drawing.Point(74, 0);
+			this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label17.Name = "label17";
+			this.label17.Size = new System.Drawing.Size(22, 22);
+			this.label17.TabIndex = 3;
+			this.label17.Text = "O";
+			this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label18
+			// 
+			this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label18.BackColor = System.Drawing.Color.LightGray;
+			this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label18.ForeColor = System.Drawing.Color.Black;
+			this.label18.Location = new System.Drawing.Point(50, 0);
+			this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label18.Name = "label18";
+			this.label18.Size = new System.Drawing.Size(20, 22);
+			this.label18.TabIndex = 2;
+			this.label18.Text = "O";
+			this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label19
+			// 
+			this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label19.BackColor = System.Drawing.Color.LightGray;
+			this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label19.ForeColor = System.Drawing.Color.Black;
+			this.label19.Location = new System.Drawing.Point(26, 0);
+			this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label19.Name = "label19";
+			this.label19.Size = new System.Drawing.Size(20, 22);
+			this.label19.TabIndex = 1;
+			this.label19.Text = "O";
+			this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label20
+			// 
+			this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label20.BackColor = System.Drawing.Color.LightGray;
+			this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label20.ForeColor = System.Drawing.Color.Black;
+			this.label20.Location = new System.Drawing.Point(2, 0);
+			this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label20.Name = "label20";
+			this.label20.Size = new System.Drawing.Size(20, 22);
+			this.label20.TabIndex = 0;
+			this.label20.Text = "O";
+			this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel8
+			// 
+			this.tableLayoutPanel8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel8.ColumnCount = 4;
+			this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel8.Controls.Add(this.label21, 3, 0);
+			this.tableLayoutPanel8.Controls.Add(this.label22, 2, 0);
+			this.tableLayoutPanel8.Controls.Add(this.label23, 1, 0);
+			this.tableLayoutPanel8.Controls.Add(this.label24, 0, 0);
+			this.tableLayoutPanel8.Location = new System.Drawing.Point(5, 189);
+			this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel8.Name = "tableLayoutPanel8";
+			this.tableLayoutPanel8.RowCount = 1;
+			this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel8.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel8.TabIndex = 49;
+			// 
+			// label21
+			// 
+			this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label21.BackColor = System.Drawing.Color.LightGray;
+			this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label21.ForeColor = System.Drawing.Color.Black;
+			this.label21.Location = new System.Drawing.Point(74, 0);
+			this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label21.Name = "label21";
+			this.label21.Size = new System.Drawing.Size(22, 22);
+			this.label21.TabIndex = 3;
+			this.label21.Text = "O";
+			this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label22
+			// 
+			this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label22.BackColor = System.Drawing.Color.LightGray;
+			this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label22.ForeColor = System.Drawing.Color.Black;
+			this.label22.Location = new System.Drawing.Point(50, 0);
+			this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label22.Name = "label22";
+			this.label22.Size = new System.Drawing.Size(20, 22);
+			this.label22.TabIndex = 2;
+			this.label22.Text = "O";
+			this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label23
+			// 
+			this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label23.BackColor = System.Drawing.Color.LightGray;
+			this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label23.ForeColor = System.Drawing.Color.Black;
+			this.label23.Location = new System.Drawing.Point(26, 0);
+			this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label23.Name = "label23";
+			this.label23.Size = new System.Drawing.Size(20, 22);
+			this.label23.TabIndex = 1;
+			this.label23.Text = "O";
+			this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label24
+			// 
+			this.label24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label24.BackColor = System.Drawing.Color.LightGray;
+			this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label24.ForeColor = System.Drawing.Color.Black;
+			this.label24.Location = new System.Drawing.Point(2, 0);
+			this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label24.Name = "label24";
+			this.label24.Size = new System.Drawing.Size(20, 22);
+			this.label24.TabIndex = 0;
+			this.label24.Text = "O";
+			this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel9
+			// 
+			this.tableLayoutPanel9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel9.ColumnCount = 4;
+			this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel9.Controls.Add(this.label25, 3, 0);
+			this.tableLayoutPanel9.Controls.Add(this.label171, 2, 0);
+			this.tableLayoutPanel9.Controls.Add(this.label172, 1, 0);
+			this.tableLayoutPanel9.Controls.Add(this.label174, 0, 0);
+			this.tableLayoutPanel9.Location = new System.Drawing.Point(113, 189);
+			this.tableLayoutPanel9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel9.Name = "tableLayoutPanel9";
+			this.tableLayoutPanel9.RowCount = 1;
+			this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel9.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel9.TabIndex = 50;
+			// 
+			// label25
+			// 
+			this.label25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label25.BackColor = System.Drawing.Color.LightGray;
+			this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label25.ForeColor = System.Drawing.Color.Black;
+			this.label25.Location = new System.Drawing.Point(74, 0);
+			this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label25.Name = "label25";
+			this.label25.Size = new System.Drawing.Size(22, 22);
+			this.label25.TabIndex = 3;
+			this.label25.Text = "O";
+			this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label171
+			// 
+			this.label171.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label171.BackColor = System.Drawing.Color.LightGray;
+			this.label171.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label171.ForeColor = System.Drawing.Color.Black;
+			this.label171.Location = new System.Drawing.Point(50, 0);
+			this.label171.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label171.Name = "label171";
+			this.label171.Size = new System.Drawing.Size(20, 22);
+			this.label171.TabIndex = 2;
+			this.label171.Text = "O";
+			this.label171.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label172
+			// 
+			this.label172.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label172.BackColor = System.Drawing.Color.LightGray;
+			this.label172.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label172.ForeColor = System.Drawing.Color.Black;
+			this.label172.Location = new System.Drawing.Point(26, 0);
+			this.label172.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label172.Name = "label172";
+			this.label172.Size = new System.Drawing.Size(20, 22);
+			this.label172.TabIndex = 1;
+			this.label172.Text = "O";
+			this.label172.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label174
+			// 
+			this.label174.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label174.BackColor = System.Drawing.Color.LightGray;
+			this.label174.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label174.ForeColor = System.Drawing.Color.Black;
+			this.label174.Location = new System.Drawing.Point(2, 0);
+			this.label174.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label174.Name = "label174";
+			this.label174.Size = new System.Drawing.Size(20, 22);
+			this.label174.TabIndex = 0;
+			this.label174.Text = "O";
+			this.label174.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel10
+			// 
+			this.tableLayoutPanel10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel10.ColumnCount = 4;
+			this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel10.Controls.Add(this.label175, 3, 0);
+			this.tableLayoutPanel10.Controls.Add(this.label176, 2, 0);
+			this.tableLayoutPanel10.Controls.Add(this.label177, 1, 0);
+			this.tableLayoutPanel10.Controls.Add(this.label178, 0, 0);
+			this.tableLayoutPanel10.Location = new System.Drawing.Point(221, 189);
+			this.tableLayoutPanel10.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+			this.tableLayoutPanel10.RowCount = 1;
+			this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel10.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel10.TabIndex = 51;
+			// 
+			// label175
+			// 
+			this.label175.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label175.BackColor = System.Drawing.Color.LightGray;
+			this.label175.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label175.ForeColor = System.Drawing.Color.Black;
+			this.label175.Location = new System.Drawing.Point(74, 0);
+			this.label175.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label175.Name = "label175";
+			this.label175.Size = new System.Drawing.Size(22, 22);
+			this.label175.TabIndex = 3;
+			this.label175.Text = "O";
+			this.label175.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label176
+			// 
+			this.label176.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label176.BackColor = System.Drawing.Color.LightGray;
+			this.label176.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label176.ForeColor = System.Drawing.Color.Black;
+			this.label176.Location = new System.Drawing.Point(50, 0);
+			this.label176.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label176.Name = "label176";
+			this.label176.Size = new System.Drawing.Size(20, 22);
+			this.label176.TabIndex = 2;
+			this.label176.Text = "O";
+			this.label176.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label177
+			// 
+			this.label177.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label177.BackColor = System.Drawing.Color.LightGray;
+			this.label177.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label177.ForeColor = System.Drawing.Color.Black;
+			this.label177.Location = new System.Drawing.Point(26, 0);
+			this.label177.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label177.Name = "label177";
+			this.label177.Size = new System.Drawing.Size(20, 22);
+			this.label177.TabIndex = 1;
+			this.label177.Text = "O";
+			this.label177.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label178
+			// 
+			this.label178.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label178.BackColor = System.Drawing.Color.LightGray;
+			this.label178.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label178.ForeColor = System.Drawing.Color.Black;
+			this.label178.Location = new System.Drawing.Point(2, 0);
+			this.label178.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label178.Name = "label178";
+			this.label178.Size = new System.Drawing.Size(20, 22);
+			this.label178.TabIndex = 0;
+			this.label178.Text = "O";
+			this.label178.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel11
+			// 
+			this.tableLayoutPanel11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel11.ColumnCount = 4;
+			this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel11.Controls.Add(this.label179, 3, 0);
+			this.tableLayoutPanel11.Controls.Add(this.label180, 2, 0);
+			this.tableLayoutPanel11.Controls.Add(this.label181, 1, 0);
+			this.tableLayoutPanel11.Controls.Add(this.label182, 0, 0);
+			this.tableLayoutPanel11.Location = new System.Drawing.Point(329, 189);
+			this.tableLayoutPanel11.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel11.Name = "tableLayoutPanel11";
+			this.tableLayoutPanel11.RowCount = 1;
+			this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel11.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel11.TabIndex = 52;
+			// 
+			// label179
+			// 
+			this.label179.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label179.BackColor = System.Drawing.Color.LightGray;
+			this.label179.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label179.ForeColor = System.Drawing.Color.Black;
+			this.label179.Location = new System.Drawing.Point(74, 0);
+			this.label179.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label179.Name = "label179";
+			this.label179.Size = new System.Drawing.Size(22, 22);
+			this.label179.TabIndex = 3;
+			this.label179.Text = "O";
+			this.label179.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label180
+			// 
+			this.label180.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label180.BackColor = System.Drawing.Color.LightGray;
+			this.label180.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label180.ForeColor = System.Drawing.Color.Black;
+			this.label180.Location = new System.Drawing.Point(50, 0);
+			this.label180.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label180.Name = "label180";
+			this.label180.Size = new System.Drawing.Size(20, 22);
+			this.label180.TabIndex = 2;
+			this.label180.Text = "O";
+			this.label180.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label181
+			// 
+			this.label181.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label181.BackColor = System.Drawing.Color.LightGray;
+			this.label181.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label181.ForeColor = System.Drawing.Color.Black;
+			this.label181.Location = new System.Drawing.Point(26, 0);
+			this.label181.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label181.Name = "label181";
+			this.label181.Size = new System.Drawing.Size(20, 22);
+			this.label181.TabIndex = 1;
+			this.label181.Text = "O";
+			this.label181.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label182
+			// 
+			this.label182.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label182.BackColor = System.Drawing.Color.LightGray;
+			this.label182.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label182.ForeColor = System.Drawing.Color.Black;
+			this.label182.Location = new System.Drawing.Point(2, 0);
+			this.label182.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label182.Name = "label182";
+			this.label182.Size = new System.Drawing.Size(20, 22);
+			this.label182.TabIndex = 0;
+			this.label182.Text = "O";
+			this.label182.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel12
+			// 
+			this.tableLayoutPanel12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel12.ColumnCount = 4;
+			this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel12.Controls.Add(this.label183, 3, 0);
+			this.tableLayoutPanel12.Controls.Add(this.label184, 2, 0);
+			this.tableLayoutPanel12.Controls.Add(this.label185, 1, 0);
+			this.tableLayoutPanel12.Controls.Add(this.label186, 0, 0);
+			this.tableLayoutPanel12.Location = new System.Drawing.Point(437, 189);
+			this.tableLayoutPanel12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel12.Name = "tableLayoutPanel12";
+			this.tableLayoutPanel12.RowCount = 1;
+			this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel12.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel12.TabIndex = 53;
+			// 
+			// label183
+			// 
+			this.label183.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label183.BackColor = System.Drawing.Color.LightGray;
+			this.label183.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label183.ForeColor = System.Drawing.Color.Black;
+			this.label183.Location = new System.Drawing.Point(74, 0);
+			this.label183.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label183.Name = "label183";
+			this.label183.Size = new System.Drawing.Size(22, 22);
+			this.label183.TabIndex = 3;
+			this.label183.Text = "O";
+			this.label183.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label184
+			// 
+			this.label184.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label184.BackColor = System.Drawing.Color.LightGray;
+			this.label184.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label184.ForeColor = System.Drawing.Color.Black;
+			this.label184.Location = new System.Drawing.Point(50, 0);
+			this.label184.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label184.Name = "label184";
+			this.label184.Size = new System.Drawing.Size(20, 22);
+			this.label184.TabIndex = 2;
+			this.label184.Text = "O";
+			this.label184.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label185
+			// 
+			this.label185.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label185.BackColor = System.Drawing.Color.LightGray;
+			this.label185.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label185.ForeColor = System.Drawing.Color.Black;
+			this.label185.Location = new System.Drawing.Point(26, 0);
+			this.label185.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label185.Name = "label185";
+			this.label185.Size = new System.Drawing.Size(20, 22);
+			this.label185.TabIndex = 1;
+			this.label185.Text = "O";
+			this.label185.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label186
+			// 
+			this.label186.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label186.BackColor = System.Drawing.Color.LightGray;
+			this.label186.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label186.ForeColor = System.Drawing.Color.Black;
+			this.label186.Location = new System.Drawing.Point(2, 0);
+			this.label186.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label186.Name = "label186";
+			this.label186.Size = new System.Drawing.Size(20, 22);
+			this.label186.TabIndex = 0;
+			this.label186.Text = "O";
+			this.label186.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel13
+			// 
+			this.tableLayoutPanel13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel13.ColumnCount = 4;
+			this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel13.Controls.Add(this.label187, 3, 0);
+			this.tableLayoutPanel13.Controls.Add(this.label188, 2, 0);
+			this.tableLayoutPanel13.Controls.Add(this.label189, 1, 0);
+			this.tableLayoutPanel13.Controls.Add(this.label190, 0, 0);
+			this.tableLayoutPanel13.Location = new System.Drawing.Point(5, 297);
+			this.tableLayoutPanel13.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel13.Name = "tableLayoutPanel13";
+			this.tableLayoutPanel13.RowCount = 1;
+			this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel13.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel13.TabIndex = 54;
+			// 
+			// label187
+			// 
+			this.label187.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label187.BackColor = System.Drawing.Color.LightGray;
+			this.label187.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label187.ForeColor = System.Drawing.Color.Black;
+			this.label187.Location = new System.Drawing.Point(74, 0);
+			this.label187.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label187.Name = "label187";
+			this.label187.Size = new System.Drawing.Size(22, 22);
+			this.label187.TabIndex = 3;
+			this.label187.Text = "O";
+			this.label187.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label188
+			// 
+			this.label188.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label188.BackColor = System.Drawing.Color.LightGray;
+			this.label188.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label188.ForeColor = System.Drawing.Color.Black;
+			this.label188.Location = new System.Drawing.Point(50, 0);
+			this.label188.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label188.Name = "label188";
+			this.label188.Size = new System.Drawing.Size(20, 22);
+			this.label188.TabIndex = 2;
+			this.label188.Text = "O";
+			this.label188.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label189
+			// 
+			this.label189.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label189.BackColor = System.Drawing.Color.LightGray;
+			this.label189.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label189.ForeColor = System.Drawing.Color.Black;
+			this.label189.Location = new System.Drawing.Point(26, 0);
+			this.label189.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label189.Name = "label189";
+			this.label189.Size = new System.Drawing.Size(20, 22);
+			this.label189.TabIndex = 1;
+			this.label189.Text = "O";
+			this.label189.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label190
+			// 
+			this.label190.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label190.BackColor = System.Drawing.Color.LightGray;
+			this.label190.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label190.ForeColor = System.Drawing.Color.Black;
+			this.label190.Location = new System.Drawing.Point(2, 0);
+			this.label190.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label190.Name = "label190";
+			this.label190.Size = new System.Drawing.Size(20, 22);
+			this.label190.TabIndex = 0;
+			this.label190.Text = "O";
+			this.label190.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel14
+			// 
+			this.tableLayoutPanel14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel14.ColumnCount = 4;
+			this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel14.Controls.Add(this.label191, 3, 0);
+			this.tableLayoutPanel14.Controls.Add(this.label192, 2, 0);
+			this.tableLayoutPanel14.Controls.Add(this.label193, 1, 0);
+			this.tableLayoutPanel14.Controls.Add(this.label194, 0, 0);
+			this.tableLayoutPanel14.Location = new System.Drawing.Point(113, 297);
+			this.tableLayoutPanel14.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel14.Name = "tableLayoutPanel14";
+			this.tableLayoutPanel14.RowCount = 1;
+			this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel14.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel14.TabIndex = 55;
+			// 
+			// label191
+			// 
+			this.label191.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label191.BackColor = System.Drawing.Color.LightGray;
+			this.label191.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label191.ForeColor = System.Drawing.Color.Black;
+			this.label191.Location = new System.Drawing.Point(74, 0);
+			this.label191.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label191.Name = "label191";
+			this.label191.Size = new System.Drawing.Size(22, 22);
+			this.label191.TabIndex = 3;
+			this.label191.Text = "O";
+			this.label191.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label192
+			// 
+			this.label192.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label192.BackColor = System.Drawing.Color.LightGray;
+			this.label192.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label192.ForeColor = System.Drawing.Color.Black;
+			this.label192.Location = new System.Drawing.Point(50, 0);
+			this.label192.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label192.Name = "label192";
+			this.label192.Size = new System.Drawing.Size(20, 22);
+			this.label192.TabIndex = 2;
+			this.label192.Text = "O";
+			this.label192.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label193
+			// 
+			this.label193.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label193.BackColor = System.Drawing.Color.LightGray;
+			this.label193.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label193.ForeColor = System.Drawing.Color.Black;
+			this.label193.Location = new System.Drawing.Point(26, 0);
+			this.label193.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label193.Name = "label193";
+			this.label193.Size = new System.Drawing.Size(20, 22);
+			this.label193.TabIndex = 1;
+			this.label193.Text = "O";
+			this.label193.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label194
+			// 
+			this.label194.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label194.BackColor = System.Drawing.Color.LightGray;
+			this.label194.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label194.ForeColor = System.Drawing.Color.Black;
+			this.label194.Location = new System.Drawing.Point(2, 0);
+			this.label194.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label194.Name = "label194";
+			this.label194.Size = new System.Drawing.Size(20, 22);
+			this.label194.TabIndex = 0;
+			this.label194.Text = "O";
+			this.label194.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel15
+			// 
+			this.tableLayoutPanel15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel15.ColumnCount = 4;
+			this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel15.Controls.Add(this.label195, 3, 0);
+			this.tableLayoutPanel15.Controls.Add(this.label196, 2, 0);
+			this.tableLayoutPanel15.Controls.Add(this.label197, 1, 0);
+			this.tableLayoutPanel15.Controls.Add(this.label198, 0, 0);
+			this.tableLayoutPanel15.Location = new System.Drawing.Point(221, 297);
+			this.tableLayoutPanel15.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel15.Name = "tableLayoutPanel15";
+			this.tableLayoutPanel15.RowCount = 1;
+			this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel15.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel15.TabIndex = 56;
+			// 
+			// label195
+			// 
+			this.label195.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label195.BackColor = System.Drawing.Color.LightGray;
+			this.label195.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label195.ForeColor = System.Drawing.Color.Black;
+			this.label195.Location = new System.Drawing.Point(74, 0);
+			this.label195.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label195.Name = "label195";
+			this.label195.Size = new System.Drawing.Size(22, 22);
+			this.label195.TabIndex = 3;
+			this.label195.Text = "O";
+			this.label195.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label196
+			// 
+			this.label196.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label196.BackColor = System.Drawing.Color.LightGray;
+			this.label196.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label196.ForeColor = System.Drawing.Color.Black;
+			this.label196.Location = new System.Drawing.Point(50, 0);
+			this.label196.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label196.Name = "label196";
+			this.label196.Size = new System.Drawing.Size(20, 22);
+			this.label196.TabIndex = 2;
+			this.label196.Text = "O";
+			this.label196.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label197
+			// 
+			this.label197.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label197.BackColor = System.Drawing.Color.LightGray;
+			this.label197.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label197.ForeColor = System.Drawing.Color.Black;
+			this.label197.Location = new System.Drawing.Point(26, 0);
+			this.label197.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label197.Name = "label197";
+			this.label197.Size = new System.Drawing.Size(20, 22);
+			this.label197.TabIndex = 1;
+			this.label197.Text = "O";
+			this.label197.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label198
+			// 
+			this.label198.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label198.BackColor = System.Drawing.Color.LightGray;
+			this.label198.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label198.ForeColor = System.Drawing.Color.Black;
+			this.label198.Location = new System.Drawing.Point(2, 0);
+			this.label198.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label198.Name = "label198";
+			this.label198.Size = new System.Drawing.Size(20, 22);
+			this.label198.TabIndex = 0;
+			this.label198.Text = "O";
+			this.label198.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel16
+			// 
+			this.tableLayoutPanel16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel16.ColumnCount = 4;
+			this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel16.Controls.Add(this.label199, 3, 0);
+			this.tableLayoutPanel16.Controls.Add(this.label200, 2, 0);
+			this.tableLayoutPanel16.Controls.Add(this.label201, 1, 0);
+			this.tableLayoutPanel16.Controls.Add(this.label202, 0, 0);
+			this.tableLayoutPanel16.Location = new System.Drawing.Point(329, 297);
+			this.tableLayoutPanel16.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel16.Name = "tableLayoutPanel16";
+			this.tableLayoutPanel16.RowCount = 1;
+			this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel16.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel16.TabIndex = 57;
+			// 
+			// label199
+			// 
+			this.label199.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label199.BackColor = System.Drawing.Color.LightGray;
+			this.label199.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label199.ForeColor = System.Drawing.Color.Black;
+			this.label199.Location = new System.Drawing.Point(74, 0);
+			this.label199.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label199.Name = "label199";
+			this.label199.Size = new System.Drawing.Size(22, 22);
+			this.label199.TabIndex = 3;
+			this.label199.Text = "O";
+			this.label199.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label200
+			// 
+			this.label200.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label200.BackColor = System.Drawing.Color.LightGray;
+			this.label200.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label200.ForeColor = System.Drawing.Color.Black;
+			this.label200.Location = new System.Drawing.Point(50, 0);
+			this.label200.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label200.Name = "label200";
+			this.label200.Size = new System.Drawing.Size(20, 22);
+			this.label200.TabIndex = 2;
+			this.label200.Text = "O";
+			this.label200.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label201
+			// 
+			this.label201.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label201.BackColor = System.Drawing.Color.LightGray;
+			this.label201.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label201.ForeColor = System.Drawing.Color.Black;
+			this.label201.Location = new System.Drawing.Point(26, 0);
+			this.label201.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label201.Name = "label201";
+			this.label201.Size = new System.Drawing.Size(20, 22);
+			this.label201.TabIndex = 1;
+			this.label201.Text = "O";
+			this.label201.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label202
+			// 
+			this.label202.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label202.BackColor = System.Drawing.Color.LightGray;
+			this.label202.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label202.ForeColor = System.Drawing.Color.Black;
+			this.label202.Location = new System.Drawing.Point(2, 0);
+			this.label202.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label202.Name = "label202";
+			this.label202.Size = new System.Drawing.Size(20, 22);
+			this.label202.TabIndex = 0;
+			this.label202.Text = "O";
+			this.label202.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel17
+			// 
+			this.tableLayoutPanel17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel17.ColumnCount = 4;
+			this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel17.Controls.Add(this.label203, 3, 0);
+			this.tableLayoutPanel17.Controls.Add(this.label204, 2, 0);
+			this.tableLayoutPanel17.Controls.Add(this.label205, 1, 0);
+			this.tableLayoutPanel17.Controls.Add(this.label206, 0, 0);
+			this.tableLayoutPanel17.Location = new System.Drawing.Point(437, 297);
+			this.tableLayoutPanel17.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel17.Name = "tableLayoutPanel17";
+			this.tableLayoutPanel17.RowCount = 1;
+			this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel17.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel17.TabIndex = 58;
+			// 
+			// label203
+			// 
+			this.label203.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label203.BackColor = System.Drawing.Color.LightGray;
+			this.label203.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label203.ForeColor = System.Drawing.Color.Black;
+			this.label203.Location = new System.Drawing.Point(74, 0);
+			this.label203.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label203.Name = "label203";
+			this.label203.Size = new System.Drawing.Size(22, 22);
+			this.label203.TabIndex = 3;
+			this.label203.Text = "O";
+			this.label203.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label204
+			// 
+			this.label204.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label204.BackColor = System.Drawing.Color.LightGray;
+			this.label204.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label204.ForeColor = System.Drawing.Color.Black;
+			this.label204.Location = new System.Drawing.Point(50, 0);
+			this.label204.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label204.Name = "label204";
+			this.label204.Size = new System.Drawing.Size(20, 22);
+			this.label204.TabIndex = 2;
+			this.label204.Text = "O";
+			this.label204.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label205
+			// 
+			this.label205.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label205.BackColor = System.Drawing.Color.LightGray;
+			this.label205.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label205.ForeColor = System.Drawing.Color.Black;
+			this.label205.Location = new System.Drawing.Point(26, 0);
+			this.label205.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label205.Name = "label205";
+			this.label205.Size = new System.Drawing.Size(20, 22);
+			this.label205.TabIndex = 1;
+			this.label205.Text = "O";
+			this.label205.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label206
+			// 
+			this.label206.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label206.BackColor = System.Drawing.Color.LightGray;
+			this.label206.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label206.ForeColor = System.Drawing.Color.Black;
+			this.label206.Location = new System.Drawing.Point(2, 0);
+			this.label206.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label206.Name = "label206";
+			this.label206.Size = new System.Drawing.Size(20, 22);
+			this.label206.TabIndex = 0;
+			this.label206.Text = "O";
+			this.label206.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel18
+			// 
+			this.tableLayoutPanel18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel18.ColumnCount = 4;
+			this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel18.Controls.Add(this.label207, 3, 0);
+			this.tableLayoutPanel18.Controls.Add(this.label208, 2, 0);
+			this.tableLayoutPanel18.Controls.Add(this.label209, 1, 0);
+			this.tableLayoutPanel18.Controls.Add(this.label210, 0, 0);
+			this.tableLayoutPanel18.Location = new System.Drawing.Point(5, 405);
+			this.tableLayoutPanel18.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel18.Name = "tableLayoutPanel18";
+			this.tableLayoutPanel18.RowCount = 1;
+			this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel18.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel18.TabIndex = 59;
+			// 
+			// label207
+			// 
+			this.label207.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label207.BackColor = System.Drawing.Color.LightGray;
+			this.label207.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label207.ForeColor = System.Drawing.Color.Black;
+			this.label207.Location = new System.Drawing.Point(74, 0);
+			this.label207.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label207.Name = "label207";
+			this.label207.Size = new System.Drawing.Size(22, 22);
+			this.label207.TabIndex = 3;
+			this.label207.Text = "O";
+			this.label207.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label208
+			// 
+			this.label208.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label208.BackColor = System.Drawing.Color.LightGray;
+			this.label208.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label208.ForeColor = System.Drawing.Color.Black;
+			this.label208.Location = new System.Drawing.Point(50, 0);
+			this.label208.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label208.Name = "label208";
+			this.label208.Size = new System.Drawing.Size(20, 22);
+			this.label208.TabIndex = 2;
+			this.label208.Text = "O";
+			this.label208.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label209
+			// 
+			this.label209.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label209.BackColor = System.Drawing.Color.LightGray;
+			this.label209.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label209.ForeColor = System.Drawing.Color.Black;
+			this.label209.Location = new System.Drawing.Point(26, 0);
+			this.label209.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label209.Name = "label209";
+			this.label209.Size = new System.Drawing.Size(20, 22);
+			this.label209.TabIndex = 1;
+			this.label209.Text = "O";
+			this.label209.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label210
+			// 
+			this.label210.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label210.BackColor = System.Drawing.Color.LightGray;
+			this.label210.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label210.ForeColor = System.Drawing.Color.Black;
+			this.label210.Location = new System.Drawing.Point(2, 0);
+			this.label210.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label210.Name = "label210";
+			this.label210.Size = new System.Drawing.Size(20, 22);
+			this.label210.TabIndex = 0;
+			this.label210.Text = "O";
+			this.label210.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel19
+			// 
+			this.tableLayoutPanel19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel19.ColumnCount = 4;
+			this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel19.Controls.Add(this.label211, 3, 0);
+			this.tableLayoutPanel19.Controls.Add(this.label212, 2, 0);
+			this.tableLayoutPanel19.Controls.Add(this.label213, 1, 0);
+			this.tableLayoutPanel19.Controls.Add(this.label214, 0, 0);
+			this.tableLayoutPanel19.Location = new System.Drawing.Point(113, 405);
+			this.tableLayoutPanel19.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel19.Name = "tableLayoutPanel19";
+			this.tableLayoutPanel19.RowCount = 1;
+			this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel19.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel19.TabIndex = 60;
+			// 
+			// label211
+			// 
+			this.label211.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label211.BackColor = System.Drawing.Color.LightGray;
+			this.label211.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label211.ForeColor = System.Drawing.Color.Black;
+			this.label211.Location = new System.Drawing.Point(74, 0);
+			this.label211.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label211.Name = "label211";
+			this.label211.Size = new System.Drawing.Size(22, 22);
+			this.label211.TabIndex = 3;
+			this.label211.Text = "O";
+			this.label211.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label212
+			// 
+			this.label212.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label212.BackColor = System.Drawing.Color.LightGray;
+			this.label212.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label212.ForeColor = System.Drawing.Color.Black;
+			this.label212.Location = new System.Drawing.Point(50, 0);
+			this.label212.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label212.Name = "label212";
+			this.label212.Size = new System.Drawing.Size(20, 22);
+			this.label212.TabIndex = 2;
+			this.label212.Text = "O";
+			this.label212.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label213
+			// 
+			this.label213.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label213.BackColor = System.Drawing.Color.LightGray;
+			this.label213.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label213.ForeColor = System.Drawing.Color.Black;
+			this.label213.Location = new System.Drawing.Point(26, 0);
+			this.label213.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label213.Name = "label213";
+			this.label213.Size = new System.Drawing.Size(20, 22);
+			this.label213.TabIndex = 1;
+			this.label213.Text = "O";
+			this.label213.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label214
+			// 
+			this.label214.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label214.BackColor = System.Drawing.Color.LightGray;
+			this.label214.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label214.ForeColor = System.Drawing.Color.Black;
+			this.label214.Location = new System.Drawing.Point(2, 0);
+			this.label214.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label214.Name = "label214";
+			this.label214.Size = new System.Drawing.Size(20, 22);
+			this.label214.TabIndex = 0;
+			this.label214.Text = "O";
+			this.label214.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel20
+			// 
+			this.tableLayoutPanel20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel20.ColumnCount = 4;
+			this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel20.Controls.Add(this.label215, 3, 0);
+			this.tableLayoutPanel20.Controls.Add(this.label216, 2, 0);
+			this.tableLayoutPanel20.Controls.Add(this.label217, 1, 0);
+			this.tableLayoutPanel20.Controls.Add(this.label218, 0, 0);
+			this.tableLayoutPanel20.Location = new System.Drawing.Point(221, 405);
+			this.tableLayoutPanel20.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel20.Name = "tableLayoutPanel20";
+			this.tableLayoutPanel20.RowCount = 1;
+			this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel20.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel20.TabIndex = 61;
+			// 
+			// label215
+			// 
+			this.label215.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label215.BackColor = System.Drawing.Color.LightGray;
+			this.label215.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label215.ForeColor = System.Drawing.Color.Black;
+			this.label215.Location = new System.Drawing.Point(74, 0);
+			this.label215.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label215.Name = "label215";
+			this.label215.Size = new System.Drawing.Size(22, 22);
+			this.label215.TabIndex = 3;
+			this.label215.Text = "O";
+			this.label215.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label216
+			// 
+			this.label216.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label216.BackColor = System.Drawing.Color.LightGray;
+			this.label216.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label216.ForeColor = System.Drawing.Color.Black;
+			this.label216.Location = new System.Drawing.Point(50, 0);
+			this.label216.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label216.Name = "label216";
+			this.label216.Size = new System.Drawing.Size(20, 22);
+			this.label216.TabIndex = 2;
+			this.label216.Text = "O";
+			this.label216.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label217
+			// 
+			this.label217.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label217.BackColor = System.Drawing.Color.LightGray;
+			this.label217.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label217.ForeColor = System.Drawing.Color.Black;
+			this.label217.Location = new System.Drawing.Point(26, 0);
+			this.label217.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label217.Name = "label217";
+			this.label217.Size = new System.Drawing.Size(20, 22);
+			this.label217.TabIndex = 1;
+			this.label217.Text = "O";
+			this.label217.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label218
+			// 
+			this.label218.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label218.BackColor = System.Drawing.Color.LightGray;
+			this.label218.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label218.ForeColor = System.Drawing.Color.Black;
+			this.label218.Location = new System.Drawing.Point(2, 0);
+			this.label218.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label218.Name = "label218";
+			this.label218.Size = new System.Drawing.Size(20, 22);
+			this.label218.TabIndex = 0;
+			this.label218.Text = "O";
+			this.label218.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel21
+			// 
+			this.tableLayoutPanel21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel21.ColumnCount = 4;
+			this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel21.Controls.Add(this.label219, 3, 0);
+			this.tableLayoutPanel21.Controls.Add(this.label220, 2, 0);
+			this.tableLayoutPanel21.Controls.Add(this.label221, 1, 0);
+			this.tableLayoutPanel21.Controls.Add(this.label222, 0, 0);
+			this.tableLayoutPanel21.Location = new System.Drawing.Point(329, 405);
+			this.tableLayoutPanel21.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel21.Name = "tableLayoutPanel21";
+			this.tableLayoutPanel21.RowCount = 1;
+			this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel21.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel21.TabIndex = 62;
+			// 
+			// label219
+			// 
+			this.label219.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label219.BackColor = System.Drawing.Color.LightGray;
+			this.label219.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label219.ForeColor = System.Drawing.Color.Black;
+			this.label219.Location = new System.Drawing.Point(74, 0);
+			this.label219.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label219.Name = "label219";
+			this.label219.Size = new System.Drawing.Size(22, 22);
+			this.label219.TabIndex = 3;
+			this.label219.Text = "O";
+			this.label219.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label220
+			// 
+			this.label220.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label220.BackColor = System.Drawing.Color.LightGray;
+			this.label220.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label220.ForeColor = System.Drawing.Color.Black;
+			this.label220.Location = new System.Drawing.Point(50, 0);
+			this.label220.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label220.Name = "label220";
+			this.label220.Size = new System.Drawing.Size(20, 22);
+			this.label220.TabIndex = 2;
+			this.label220.Text = "O";
+			this.label220.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label221
+			// 
+			this.label221.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label221.BackColor = System.Drawing.Color.LightGray;
+			this.label221.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label221.ForeColor = System.Drawing.Color.Black;
+			this.label221.Location = new System.Drawing.Point(26, 0);
+			this.label221.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label221.Name = "label221";
+			this.label221.Size = new System.Drawing.Size(20, 22);
+			this.label221.TabIndex = 1;
+			this.label221.Text = "O";
+			this.label221.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label222
+			// 
+			this.label222.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label222.BackColor = System.Drawing.Color.LightGray;
+			this.label222.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label222.ForeColor = System.Drawing.Color.Black;
+			this.label222.Location = new System.Drawing.Point(2, 0);
+			this.label222.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label222.Name = "label222";
+			this.label222.Size = new System.Drawing.Size(20, 22);
+			this.label222.TabIndex = 0;
+			this.label222.Text = "O";
+			this.label222.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel22
+			// 
+			this.tableLayoutPanel22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel22.ColumnCount = 4;
+			this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel22.Controls.Add(this.label223, 3, 0);
+			this.tableLayoutPanel22.Controls.Add(this.label224, 2, 0);
+			this.tableLayoutPanel22.Controls.Add(this.label225, 1, 0);
+			this.tableLayoutPanel22.Controls.Add(this.label226, 0, 0);
+			this.tableLayoutPanel22.Location = new System.Drawing.Point(437, 405);
+			this.tableLayoutPanel22.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel22.Name = "tableLayoutPanel22";
+			this.tableLayoutPanel22.RowCount = 1;
+			this.tableLayoutPanel22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel22.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel22.TabIndex = 63;
+			// 
+			// label223
+			// 
+			this.label223.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label223.BackColor = System.Drawing.Color.LightGray;
+			this.label223.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label223.ForeColor = System.Drawing.Color.Black;
+			this.label223.Location = new System.Drawing.Point(74, 0);
+			this.label223.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label223.Name = "label223";
+			this.label223.Size = new System.Drawing.Size(22, 22);
+			this.label223.TabIndex = 3;
+			this.label223.Text = "O";
+			this.label223.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label224
+			// 
+			this.label224.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label224.BackColor = System.Drawing.Color.LightGray;
+			this.label224.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label224.ForeColor = System.Drawing.Color.Black;
+			this.label224.Location = new System.Drawing.Point(50, 0);
+			this.label224.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label224.Name = "label224";
+			this.label224.Size = new System.Drawing.Size(20, 22);
+			this.label224.TabIndex = 2;
+			this.label224.Text = "O";
+			this.label224.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label225
+			// 
+			this.label225.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label225.BackColor = System.Drawing.Color.LightGray;
+			this.label225.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label225.ForeColor = System.Drawing.Color.Black;
+			this.label225.Location = new System.Drawing.Point(26, 0);
+			this.label225.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label225.Name = "label225";
+			this.label225.Size = new System.Drawing.Size(20, 22);
+			this.label225.TabIndex = 1;
+			this.label225.Text = "O";
+			this.label225.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label226
+			// 
+			this.label226.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label226.BackColor = System.Drawing.Color.LightGray;
+			this.label226.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label226.ForeColor = System.Drawing.Color.Black;
+			this.label226.Location = new System.Drawing.Point(2, 0);
+			this.label226.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label226.Name = "label226";
+			this.label226.Size = new System.Drawing.Size(20, 22);
+			this.label226.TabIndex = 0;
+			this.label226.Text = "O";
+			this.label226.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel23
+			// 
+			this.tableLayoutPanel23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel23.ColumnCount = 4;
+			this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel23.Controls.Add(this.label227, 3, 0);
+			this.tableLayoutPanel23.Controls.Add(this.label228, 2, 0);
+			this.tableLayoutPanel23.Controls.Add(this.label229, 1, 0);
+			this.tableLayoutPanel23.Controls.Add(this.label230, 0, 0);
+			this.tableLayoutPanel23.Location = new System.Drawing.Point(5, 513);
+			this.tableLayoutPanel23.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel23.Name = "tableLayoutPanel23";
+			this.tableLayoutPanel23.RowCount = 1;
+			this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel23.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel23.TabIndex = 64;
+			// 
+			// label227
+			// 
+			this.label227.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label227.BackColor = System.Drawing.Color.LightGray;
+			this.label227.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label227.ForeColor = System.Drawing.Color.Black;
+			this.label227.Location = new System.Drawing.Point(74, 0);
+			this.label227.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label227.Name = "label227";
+			this.label227.Size = new System.Drawing.Size(22, 22);
+			this.label227.TabIndex = 3;
+			this.label227.Text = "O";
+			this.label227.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label228
+			// 
+			this.label228.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label228.BackColor = System.Drawing.Color.LightGray;
+			this.label228.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label228.ForeColor = System.Drawing.Color.Black;
+			this.label228.Location = new System.Drawing.Point(50, 0);
+			this.label228.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label228.Name = "label228";
+			this.label228.Size = new System.Drawing.Size(20, 22);
+			this.label228.TabIndex = 2;
+			this.label228.Text = "O";
+			this.label228.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label229
+			// 
+			this.label229.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label229.BackColor = System.Drawing.Color.LightGray;
+			this.label229.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label229.ForeColor = System.Drawing.Color.Black;
+			this.label229.Location = new System.Drawing.Point(26, 0);
+			this.label229.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label229.Name = "label229";
+			this.label229.Size = new System.Drawing.Size(20, 22);
+			this.label229.TabIndex = 1;
+			this.label229.Text = "O";
+			this.label229.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label230
+			// 
+			this.label230.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label230.BackColor = System.Drawing.Color.LightGray;
+			this.label230.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label230.ForeColor = System.Drawing.Color.Black;
+			this.label230.Location = new System.Drawing.Point(2, 0);
+			this.label230.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label230.Name = "label230";
+			this.label230.Size = new System.Drawing.Size(20, 22);
+			this.label230.TabIndex = 0;
+			this.label230.Text = "O";
+			this.label230.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel24
+			// 
+			this.tableLayoutPanel24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel24.ColumnCount = 4;
+			this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel24.Controls.Add(this.label231, 3, 0);
+			this.tableLayoutPanel24.Controls.Add(this.label232, 2, 0);
+			this.tableLayoutPanel24.Controls.Add(this.label233, 1, 0);
+			this.tableLayoutPanel24.Controls.Add(this.label234, 0, 0);
+			this.tableLayoutPanel24.Location = new System.Drawing.Point(113, 513);
+			this.tableLayoutPanel24.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel24.Name = "tableLayoutPanel24";
+			this.tableLayoutPanel24.RowCount = 1;
+			this.tableLayoutPanel24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel24.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel24.TabIndex = 65;
+			// 
+			// label231
+			// 
+			this.label231.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label231.BackColor = System.Drawing.Color.LightGray;
+			this.label231.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label231.ForeColor = System.Drawing.Color.Black;
+			this.label231.Location = new System.Drawing.Point(74, 0);
+			this.label231.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label231.Name = "label231";
+			this.label231.Size = new System.Drawing.Size(22, 22);
+			this.label231.TabIndex = 3;
+			this.label231.Text = "O";
+			this.label231.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label232
+			// 
+			this.label232.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label232.BackColor = System.Drawing.Color.LightGray;
+			this.label232.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label232.ForeColor = System.Drawing.Color.Black;
+			this.label232.Location = new System.Drawing.Point(50, 0);
+			this.label232.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label232.Name = "label232";
+			this.label232.Size = new System.Drawing.Size(20, 22);
+			this.label232.TabIndex = 2;
+			this.label232.Text = "O";
+			this.label232.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label233
+			// 
+			this.label233.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label233.BackColor = System.Drawing.Color.LightGray;
+			this.label233.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label233.ForeColor = System.Drawing.Color.Black;
+			this.label233.Location = new System.Drawing.Point(26, 0);
+			this.label233.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label233.Name = "label233";
+			this.label233.Size = new System.Drawing.Size(20, 22);
+			this.label233.TabIndex = 1;
+			this.label233.Text = "O";
+			this.label233.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label234
+			// 
+			this.label234.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label234.BackColor = System.Drawing.Color.LightGray;
+			this.label234.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label234.ForeColor = System.Drawing.Color.Black;
+			this.label234.Location = new System.Drawing.Point(2, 0);
+			this.label234.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label234.Name = "label234";
+			this.label234.Size = new System.Drawing.Size(20, 22);
+			this.label234.TabIndex = 0;
+			this.label234.Text = "O";
+			this.label234.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel25
+			// 
+			this.tableLayoutPanel25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel25.ColumnCount = 4;
+			this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel25.Controls.Add(this.label235, 3, 0);
+			this.tableLayoutPanel25.Controls.Add(this.label236, 2, 0);
+			this.tableLayoutPanel25.Controls.Add(this.label237, 1, 0);
+			this.tableLayoutPanel25.Controls.Add(this.label238, 0, 0);
+			this.tableLayoutPanel25.Location = new System.Drawing.Point(221, 513);
+			this.tableLayoutPanel25.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel25.Name = "tableLayoutPanel25";
+			this.tableLayoutPanel25.RowCount = 1;
+			this.tableLayoutPanel25.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel25.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel25.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel25.TabIndex = 66;
+			// 
+			// label235
+			// 
+			this.label235.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label235.BackColor = System.Drawing.Color.LightGray;
+			this.label235.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label235.ForeColor = System.Drawing.Color.Black;
+			this.label235.Location = new System.Drawing.Point(74, 0);
+			this.label235.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label235.Name = "label235";
+			this.label235.Size = new System.Drawing.Size(22, 22);
+			this.label235.TabIndex = 3;
+			this.label235.Text = "O";
+			this.label235.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label236
+			// 
+			this.label236.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label236.BackColor = System.Drawing.Color.LightGray;
+			this.label236.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label236.ForeColor = System.Drawing.Color.Black;
+			this.label236.Location = new System.Drawing.Point(50, 0);
+			this.label236.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label236.Name = "label236";
+			this.label236.Size = new System.Drawing.Size(20, 22);
+			this.label236.TabIndex = 2;
+			this.label236.Text = "O";
+			this.label236.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label237
+			// 
+			this.label237.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label237.BackColor = System.Drawing.Color.LightGray;
+			this.label237.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label237.ForeColor = System.Drawing.Color.Black;
+			this.label237.Location = new System.Drawing.Point(26, 0);
+			this.label237.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label237.Name = "label237";
+			this.label237.Size = new System.Drawing.Size(20, 22);
+			this.label237.TabIndex = 1;
+			this.label237.Text = "O";
+			this.label237.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label238
+			// 
+			this.label238.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label238.BackColor = System.Drawing.Color.LightGray;
+			this.label238.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label238.ForeColor = System.Drawing.Color.Black;
+			this.label238.Location = new System.Drawing.Point(2, 0);
+			this.label238.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label238.Name = "label238";
+			this.label238.Size = new System.Drawing.Size(20, 22);
+			this.label238.TabIndex = 0;
+			this.label238.Text = "O";
+			this.label238.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel26
+			// 
+			this.tableLayoutPanel26.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel26.ColumnCount = 4;
+			this.tableLayoutPanel26.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel26.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel26.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel26.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel26.Controls.Add(this.label239, 3, 0);
+			this.tableLayoutPanel26.Controls.Add(this.label240, 2, 0);
+			this.tableLayoutPanel26.Controls.Add(this.label241, 1, 0);
+			this.tableLayoutPanel26.Controls.Add(this.label242, 0, 0);
+			this.tableLayoutPanel26.Location = new System.Drawing.Point(329, 513);
+			this.tableLayoutPanel26.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel26.Name = "tableLayoutPanel26";
+			this.tableLayoutPanel26.RowCount = 1;
+			this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel26.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel26.TabIndex = 67;
+			// 
+			// label239
+			// 
+			this.label239.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label239.BackColor = System.Drawing.Color.LightGray;
+			this.label239.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label239.ForeColor = System.Drawing.Color.Black;
+			this.label239.Location = new System.Drawing.Point(74, 0);
+			this.label239.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label239.Name = "label239";
+			this.label239.Size = new System.Drawing.Size(22, 22);
+			this.label239.TabIndex = 3;
+			this.label239.Text = "O";
+			this.label239.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label240
+			// 
+			this.label240.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label240.BackColor = System.Drawing.Color.LightGray;
+			this.label240.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label240.ForeColor = System.Drawing.Color.Black;
+			this.label240.Location = new System.Drawing.Point(50, 0);
+			this.label240.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label240.Name = "label240";
+			this.label240.Size = new System.Drawing.Size(20, 22);
+			this.label240.TabIndex = 2;
+			this.label240.Text = "O";
+			this.label240.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label241
+			// 
+			this.label241.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label241.BackColor = System.Drawing.Color.LightGray;
+			this.label241.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label241.ForeColor = System.Drawing.Color.Black;
+			this.label241.Location = new System.Drawing.Point(26, 0);
+			this.label241.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label241.Name = "label241";
+			this.label241.Size = new System.Drawing.Size(20, 22);
+			this.label241.TabIndex = 1;
+			this.label241.Text = "O";
+			this.label241.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label242
+			// 
+			this.label242.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label242.BackColor = System.Drawing.Color.LightGray;
+			this.label242.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label242.ForeColor = System.Drawing.Color.Black;
+			this.label242.Location = new System.Drawing.Point(2, 0);
+			this.label242.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label242.Name = "label242";
+			this.label242.Size = new System.Drawing.Size(20, 22);
+			this.label242.TabIndex = 0;
+			this.label242.Text = "O";
+			this.label242.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// tableLayoutPanel27
+			// 
+			this.tableLayoutPanel27.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tableLayoutPanel27.ColumnCount = 4;
+			this.tableLayoutPanel27.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel27.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel27.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel27.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.tableLayoutPanel27.Controls.Add(this.label243, 3, 0);
+			this.tableLayoutPanel27.Controls.Add(this.label244, 2, 0);
+			this.tableLayoutPanel27.Controls.Add(this.label245, 1, 0);
+			this.tableLayoutPanel27.Controls.Add(this.label246, 0, 0);
+			this.tableLayoutPanel27.Location = new System.Drawing.Point(437, 513);
+			this.tableLayoutPanel27.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
+			this.tableLayoutPanel27.Name = "tableLayoutPanel27";
+			this.tableLayoutPanel27.RowCount = 1;
+			this.tableLayoutPanel27.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+			this.tableLayoutPanel27.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+			this.tableLayoutPanel27.Size = new System.Drawing.Size(98, 22);
+			this.tableLayoutPanel27.TabIndex = 68;
+			// 
+			// label243
+			// 
+			this.label243.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label243.BackColor = System.Drawing.Color.LightGray;
+			this.label243.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label243.ForeColor = System.Drawing.Color.Black;
+			this.label243.Location = new System.Drawing.Point(74, 0);
+			this.label243.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label243.Name = "label243";
+			this.label243.Size = new System.Drawing.Size(22, 22);
+			this.label243.TabIndex = 3;
+			this.label243.Text = "O";
+			this.label243.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label244
+			// 
+			this.label244.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label244.BackColor = System.Drawing.Color.LightGray;
+			this.label244.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label244.ForeColor = System.Drawing.Color.Black;
+			this.label244.Location = new System.Drawing.Point(50, 0);
+			this.label244.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label244.Name = "label244";
+			this.label244.Size = new System.Drawing.Size(20, 22);
+			this.label244.TabIndex = 2;
+			this.label244.Text = "O";
+			this.label244.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label245
+			// 
+			this.label245.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label245.BackColor = System.Drawing.Color.LightGray;
+			this.label245.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label245.ForeColor = System.Drawing.Color.Black;
+			this.label245.Location = new System.Drawing.Point(26, 0);
+			this.label245.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label245.Name = "label245";
+			this.label245.Size = new System.Drawing.Size(20, 22);
+			this.label245.TabIndex = 1;
+			this.label245.Text = "O";
+			this.label245.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label246
+			// 
+			this.label246.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label246.BackColor = System.Drawing.Color.LightGray;
+			this.label246.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label246.ForeColor = System.Drawing.Color.Black;
+			this.label246.Location = new System.Drawing.Point(2, 0);
+			this.label246.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label246.Name = "label246";
+			this.label246.Size = new System.Drawing.Size(20, 22);
+			this.label246.TabIndex = 0;
+			this.label246.Text = "O";
+			this.label246.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// BongoForm
 			// 
@@ -4966,13 +7838,16 @@
 			this.TabSpectator.ResumeLayout(false);
 			this.TabSpectator.PerformLayout();
 			this.tabControl2.ResumeLayout(false);
-			this.PlayerRed.ResumeLayout(false);
+			this.TabAll.ResumeLayout(false);
+			this.tableLayoutPanel2.ResumeLayout(false);
+			this.tableLayoutPanel3.ResumeLayout(false);
+			this.TabRed.ResumeLayout(false);
 			this.tableLayoutPanelRed.ResumeLayout(false);
-			this.PlayerYellow.ResumeLayout(false);
+			this.TabYellow.ResumeLayout(false);
 			this.tableLayoutPanelYellow.ResumeLayout(false);
-			this.PlayerGreen.ResumeLayout(false);
+			this.TabGreen.ResumeLayout(false);
 			this.tableLayoutPanelGreen.ResumeLayout(false);
-			this.PlayerBlue.ResumeLayout(false);
+			this.TabBlue.ResumeLayout(false);
 			this.tableLayoutPanelBlue.ResumeLayout(false);
 			this.TabHelp.ResumeLayout(false);
 			this.groupBox13.ResumeLayout(false);
@@ -5009,6 +7884,30 @@
 			this.NetworkConnectBox.PerformLayout();
 			this.NetworkHostBox.ResumeLayout(false);
 			this.NetworkHostBox.PerformLayout();
+			this.tableLayoutPanel4.ResumeLayout(false);
+			this.tableLayoutPanel5.ResumeLayout(false);
+			this.tableLayoutPanel6.ResumeLayout(false);
+			this.tableLayoutPanel7.ResumeLayout(false);
+			this.tableLayoutPanel8.ResumeLayout(false);
+			this.tableLayoutPanel9.ResumeLayout(false);
+			this.tableLayoutPanel10.ResumeLayout(false);
+			this.tableLayoutPanel11.ResumeLayout(false);
+			this.tableLayoutPanel12.ResumeLayout(false);
+			this.tableLayoutPanel13.ResumeLayout(false);
+			this.tableLayoutPanel14.ResumeLayout(false);
+			this.tableLayoutPanel15.ResumeLayout(false);
+			this.tableLayoutPanel16.ResumeLayout(false);
+			this.tableLayoutPanel17.ResumeLayout(false);
+			this.tableLayoutPanel18.ResumeLayout(false);
+			this.tableLayoutPanel19.ResumeLayout(false);
+			this.tableLayoutPanel20.ResumeLayout(false);
+			this.tableLayoutPanel21.ResumeLayout(false);
+			this.tableLayoutPanel22.ResumeLayout(false);
+			this.tableLayoutPanel23.ResumeLayout(false);
+			this.tableLayoutPanel24.ResumeLayout(false);
+			this.tableLayoutPanel25.ResumeLayout(false);
+			this.tableLayoutPanel26.ResumeLayout(false);
+			this.tableLayoutPanel27.ResumeLayout(false);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -5050,7 +7949,7 @@
 		private System.Windows.Forms.TabPage TabSpectator;
 		private System.Windows.Forms.TextBox goalInfoSpectateBox;
 		private System.Windows.Forms.TabControl tabControl2;
-		private System.Windows.Forms.TabPage PlayerGreen;
+		private System.Windows.Forms.TabPage TabGreen;
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanelGreen;
 		private System.Windows.Forms.Label label39;
 		private System.Windows.Forms.Label label40;
@@ -5077,7 +7976,7 @@
 		private System.Windows.Forms.Label label61;
 		private System.Windows.Forms.Label label62;
 		private System.Windows.Forms.Label label63;
-		private System.Windows.Forms.TabPage PlayerYellow;
+		private System.Windows.Forms.TabPage TabYellow;
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanelYellow;
 		private System.Windows.Forms.Label label64;
 		private System.Windows.Forms.Label label65;
@@ -5104,7 +8003,7 @@
 		private System.Windows.Forms.Label label86;
 		private System.Windows.Forms.Label label87;
 		private System.Windows.Forms.Label label88;
-		private System.Windows.Forms.TabPage PlayerRed;
+		private System.Windows.Forms.TabPage TabRed;
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanelRed;
 		private System.Windows.Forms.Label label89;
 		private System.Windows.Forms.Label label90;
@@ -5131,7 +8030,7 @@
 		private System.Windows.Forms.Label label111;
 		private System.Windows.Forms.Label label112;
 		private System.Windows.Forms.Label label113;
-		private System.Windows.Forms.TabPage PlayerBlue;
+		private System.Windows.Forms.TabPage TabBlue;
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanelBlue;
 		private System.Windows.Forms.Label label139;
 		private System.Windows.Forms.Label label140;
@@ -5302,6 +8201,158 @@
 		private System.Windows.Forms.Label HelpVersionLabel;
 		private System.Windows.Forms.Label NetworkPlayerInfoText;
 		private System.Windows.Forms.Button NetworkGameDisconnectButton;
+		private System.Windows.Forms.TabPage TabAll;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+		private System.Windows.Forms.Label specAllTile1;
+		private System.Windows.Forms.Label specAllTile2;
+		private System.Windows.Forms.Label specAllTile3;
+		private System.Windows.Forms.Label specAllTile4;
+		private System.Windows.Forms.Label specAllTile5;
+		private System.Windows.Forms.Label specAllTile6;
+		private System.Windows.Forms.Label specAllTile7;
+		private System.Windows.Forms.Label specAllTile8;
+		private System.Windows.Forms.Label specAllTile9;
+		private System.Windows.Forms.Label specAllTile10;
+		private System.Windows.Forms.Label specAllTile11;
+		private System.Windows.Forms.Label specAllTile12;
+		private System.Windows.Forms.Label specAllTile13;
+		private System.Windows.Forms.Label specAllTile14;
+		private System.Windows.Forms.Label specAllTile15;
+		private System.Windows.Forms.Label specAllTile16;
+		private System.Windows.Forms.Label specAllTile17;
+		private System.Windows.Forms.Label specAllTile18;
+		private System.Windows.Forms.Label specAllTile19;
+		private System.Windows.Forms.Label specAllTile20;
+		private System.Windows.Forms.Label specAllTile21;
+		private System.Windows.Forms.Label specAllTile22;
+		private System.Windows.Forms.Label specAllTile23;
+		private System.Windows.Forms.Label specAllTile24;
+		private System.Windows.Forms.Label specAllTile25;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel27;
+		private System.Windows.Forms.Label label243;
+		private System.Windows.Forms.Label label244;
+		private System.Windows.Forms.Label label245;
+		private System.Windows.Forms.Label label246;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel26;
+		private System.Windows.Forms.Label label239;
+		private System.Windows.Forms.Label label240;
+		private System.Windows.Forms.Label label241;
+		private System.Windows.Forms.Label label242;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel25;
+		private System.Windows.Forms.Label label235;
+		private System.Windows.Forms.Label label236;
+		private System.Windows.Forms.Label label237;
+		private System.Windows.Forms.Label label238;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel24;
+		private System.Windows.Forms.Label label231;
+		private System.Windows.Forms.Label label232;
+		private System.Windows.Forms.Label label233;
+		private System.Windows.Forms.Label label234;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel23;
+		private System.Windows.Forms.Label label227;
+		private System.Windows.Forms.Label label228;
+		private System.Windows.Forms.Label label229;
+		private System.Windows.Forms.Label label230;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel22;
+		private System.Windows.Forms.Label label223;
+		private System.Windows.Forms.Label label224;
+		private System.Windows.Forms.Label label225;
+		private System.Windows.Forms.Label label226;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel21;
+		private System.Windows.Forms.Label label219;
+		private System.Windows.Forms.Label label220;
+		private System.Windows.Forms.Label label221;
+		private System.Windows.Forms.Label label222;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel20;
+		private System.Windows.Forms.Label label215;
+		private System.Windows.Forms.Label label216;
+		private System.Windows.Forms.Label label217;
+		private System.Windows.Forms.Label label218;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel19;
+		private System.Windows.Forms.Label label211;
+		private System.Windows.Forms.Label label212;
+		private System.Windows.Forms.Label label213;
+		private System.Windows.Forms.Label label214;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel18;
+		private System.Windows.Forms.Label label207;
+		private System.Windows.Forms.Label label208;
+		private System.Windows.Forms.Label label209;
+		private System.Windows.Forms.Label label210;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel17;
+		private System.Windows.Forms.Label label203;
+		private System.Windows.Forms.Label label204;
+		private System.Windows.Forms.Label label205;
+		private System.Windows.Forms.Label label206;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel16;
+		private System.Windows.Forms.Label label199;
+		private System.Windows.Forms.Label label200;
+		private System.Windows.Forms.Label label201;
+		private System.Windows.Forms.Label label202;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel15;
+		private System.Windows.Forms.Label label195;
+		private System.Windows.Forms.Label label196;
+		private System.Windows.Forms.Label label197;
+		private System.Windows.Forms.Label label198;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel14;
+		private System.Windows.Forms.Label label191;
+		private System.Windows.Forms.Label label192;
+		private System.Windows.Forms.Label label193;
+		private System.Windows.Forms.Label label194;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel13;
+		private System.Windows.Forms.Label label187;
+		private System.Windows.Forms.Label label188;
+		private System.Windows.Forms.Label label189;
+		private System.Windows.Forms.Label label190;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
+		private System.Windows.Forms.Label label183;
+		private System.Windows.Forms.Label label184;
+		private System.Windows.Forms.Label label185;
+		private System.Windows.Forms.Label label186;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel11;
+		private System.Windows.Forms.Label label179;
+		private System.Windows.Forms.Label label180;
+		private System.Windows.Forms.Label label181;
+		private System.Windows.Forms.Label label182;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
+		private System.Windows.Forms.Label label175;
+		private System.Windows.Forms.Label label176;
+		private System.Windows.Forms.Label label177;
+		private System.Windows.Forms.Label label178;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
+		private System.Windows.Forms.Label label25;
+		private System.Windows.Forms.Label label171;
+		private System.Windows.Forms.Label label172;
+		private System.Windows.Forms.Label label174;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
+		private System.Windows.Forms.Label label21;
+		private System.Windows.Forms.Label label22;
+		private System.Windows.Forms.Label label23;
+		private System.Windows.Forms.Label label24;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
+		private System.Windows.Forms.Label label17;
+		private System.Windows.Forms.Label label18;
+		private System.Windows.Forms.Label label19;
+		private System.Windows.Forms.Label label20;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
+		private System.Windows.Forms.Label label13;
+		private System.Windows.Forms.Label label14;
+		private System.Windows.Forms.Label label15;
+		private System.Windows.Forms.Label label16;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
+		private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.Label label10;
+		private System.Windows.Forms.Label label11;
+		private System.Windows.Forms.Label label12;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
+		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.Label label6;
+		private System.Windows.Forms.Label label7;
+		private System.Windows.Forms.Label label8;
 	}
 }
 

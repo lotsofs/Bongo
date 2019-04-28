@@ -457,8 +457,9 @@ namespace Bongo {
 		#region spectator tiles
 		private void spectateTile_Click(object sender, MouseEventArgs e) {
 			Label clickedLabel = sender as Label;
-			mouseSpectateTileClick(clickedLabel, e.Button == MouseButtons.Left);
+			MouseSpectateTileClick(clickedLabel, e.Button == MouseButtons.Left);
 		}
+
 		private void AssembleSpectateBoard() {
 			int labelIndex = 0;
 			foreach (Label label in tableLayoutPanelGreen.Controls) {
@@ -481,23 +482,24 @@ namespace Bongo {
 				labelIndex++;
 			}
 		}
-		private void mouseSpectateTileClick(Label clickedLabel, bool leftMouseButton) {
+
+		private void MouseSpectateTileClick(Label clickedLabel, bool leftMouseButton) {
 			int clickedLabelIndex = 25;
 			Color[] colorsSpec;
 			switch (tabControl2.SelectedTab.Name) {
-				case "playerGreen":
+				case "TabGreen":
 					clickedLabelIndex = Array.FindIndex(labelsGreen, item => item == clickedLabel);
 					colorsSpec = colorsGreen;
 					break;
-				case "playerYellow":
+				case "TabYellow":
 					clickedLabelIndex = Array.FindIndex(labelsYellow, item => item == clickedLabel);
 					colorsSpec = colorsYellow;
 					break;
-				case "playerRed":
+				case "TabRed":
 					clickedLabelIndex = Array.FindIndex(labelsRed, item => item == clickedLabel);
 					colorsSpec = colorsRed;
 					break;
-				case "playerBlue":
+				case "TabBlue":
 					clickedLabelIndex = Array.FindIndex(labelsBlue, item => item == clickedLabel);
 					colorsSpec = colorsBlue;
 					break;
@@ -885,6 +887,9 @@ namespace Bongo {
 		/// Compile bingo board colors to int array
 		/// </summary>
 		private void SendBingoBoard() {
+			if (!_network.Connected) {
+				return;
+			}
 			// take the colors of the bingo board
 			int[] colorsInt = new int[25];
 			for (int i = 0; i < 25; i++) {
@@ -989,6 +994,5 @@ namespace Bongo {
 		#endregion
 
 		#endregion
-
 	}
 }

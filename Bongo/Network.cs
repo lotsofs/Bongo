@@ -420,7 +420,7 @@ namespace Bongo {
 		/// <param name="colors"></param>
 		public void SendBingoBoard(int[] colors) {
 			// convert array of colors to byte with one byte to denote that it is a list of colors
-			byte[] colorBytes = new byte[colors.Length];
+			byte[] colorBytes = new byte[colors.Length * 4];
 			for (int i = 0; i < 25; i++) {
 				Array.Copy(BitConverter.GetBytes(colors[i]), 0, colorBytes, i * 4, 4);
 			}
