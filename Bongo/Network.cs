@@ -305,7 +305,7 @@ namespace Bongo {
 					ReceiveChat(player, content);
 					break;
 				case (byte)BufferPrefixes.FullBoard:
-					ReceiveBingoBoard(content);
+					ReceiveBingoBoard(content, player);
 					break;
 				case (byte)BufferPrefixes.ConnectionId:
 					ReceiveConnectionId(content);
@@ -425,15 +425,16 @@ namespace Bongo {
 				Array.Copy(BitConverter.GetBytes(colors[i]), 0, colorBytes, i * 4, 4);
 			}
 			byte[] buffer = MakeByteArray(BufferPrefixes.FullBoard, colorBytes);
+			ReceiveBingoBoard(colorBytes, GetPlayer(_playerId));
 			SendToEveryone(buffer);
 		}
 
-		private void ReceiveBingoBoard(byte[] content) {
+		private void ReceiveBingoBoard(byte[] content, Player player) {
 			int[] colorsInt = new int[25];
 			for (int i = 0; i < 25; i++) {
 				colorsInt[i] = BitConverter.ToInt32(content, i * 4);
 			}
-			OnReceivedBingoBoard(this, new BingoBoardEventArgs(colorsInt));
+			OnReceivedBingoBoard(this, new BingoBoardEventArgs(colorsInt, player.Color));
 		}
 
 		// --------------------------------------------------------------------------------------------------------------------------

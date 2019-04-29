@@ -21,10 +21,7 @@ namespace Bongo {
 		Board _currentBoard = new Board();
 
 		Label[] labels = new Label[25];
-		Label[] labelsRed = new Label[25];
-		Label[] labelsYellow = new Label[25];
-		Label[] labelsGreen = new Label[25];
-		Label[] labelsBlue = new Label[25];
+		Label[] labelsSpectate = new Label[25];
 
 		int _selectedLabelIndex = 25;
 		int _selectedLabelIndexSpectate = 25;
@@ -32,12 +29,15 @@ namespace Bongo {
 
 		// TODO: Make separate color script
 		Color[] colors = new Color[] { Color.LightGray, Color.DodgerBlue, Color.LimeGreen, Color.Red };
+		string[] icons = new string[] { "", "", ":)", "X" };
 		Color[] colorsExtended = new Color[] { Color.LightGray, Color.DodgerBlue, Color.LimeGreen, Color.Red, Color.DarkOrchid, Color.Goldenrod };
 
-		Color[] colorsGreen = new Color[] { Color.LightGray, Color.FromArgb(127, 255, 127), Color.FromArgb(0, 255, 0), Color.FromArgb(63, 127, 63) };
-		Color[] colorsYellow = new Color[] { Color.LightGray, Color.FromArgb(255, 255, 127), Color.FromArgb(255, 255, 0), Color.FromArgb(127, 127, 63) };
-		Color[] colorsBlue = new Color[] { Color.LightGray, Color.FromArgb(127, 127, 255), Color.FromArgb(0, 0, 255), Color.FromArgb(63, 63, 127) };
-		Color[] colorsRed = new Color[] { Color.LightGray, Color.FromArgb(255, 127, 127), Color.FromArgb(255, 0 , 0), Color.FromArgb(127, 63, 63) };
+		Color[] colorsRed = new Color[] { Color.LightGray, Color.FromArgb(255, 0, 0), Color.FromArgb(255, 0 , 0), Color.FromArgb(255, 0, 0) };
+		Color[] colorsYellow = new Color[] { Color.LightGray, Color.FromArgb(255, 255, 0), Color.FromArgb(255, 255, 0), Color.FromArgb(255, 255, 0) };
+		Color[] colorsGreen = new Color[] { Color.LightGray, Color.FromArgb(0, 255, 0), Color.FromArgb(0, 255, 0), Color.FromArgb(0, 255, 0) };
+		Color[] colorsBlue = new Color[] { Color.LightGray, Color.FromArgb(0, 255, 255), Color.FromArgb(0, 255, 255), Color.FromArgb(0, 255, 255) };
+		Color[][] colorsList;
+
 
 		// TODO: Move all of this to hotkeys.cs?
 		private Hotkeys hotkeys;
@@ -171,9 +171,6 @@ namespace Bongo {
 
 		}; // Todo: Import this mess from S Keys 9
 
-		[Obsolete]
-		List<XmlNode> theBingoBoard = new List<XmlNode>();
-
 		[DllImport("user32.dll")]
 		public static extern IntPtr FindWindow(String sClassName, String sAppName);
 
@@ -224,35 +221,11 @@ namespace Bongo {
 			HotkeyEnabledCheckbox_CheckedChanged(null, null);
 			//Put all 25 labels in the array
 			int labelIndex = 0;
-			foreach (Label label in tableLayoutPanel1.Controls) {
+			foreach (Label label in BoardTableLayoutPanel.Controls) {
 				labels[labelIndex] = label;
 				labelIndex++;
 			}
 			SpectatorModeSetup();
-		}
-
-		// Initiate the spectator boards I guess
-		private void SpectatorModeSetup() {
-			int labelIndex = 0;
-			foreach (Label label in tableLayoutPanelGreen.Controls) {
-				labelsGreen[labelIndex] = label;
-				labelIndex++;
-			}
-			labelIndex = 0;
-			foreach (Label label in tableLayoutPanelYellow.Controls) {
-				labelsYellow[labelIndex] = label;
-				labelIndex++;
-			}
-			labelIndex = 0;
-			foreach (Label label in tableLayoutPanelRed.Controls) {
-				labelsRed[labelIndex] = label;
-				labelIndex++;
-			}
-			labelIndex = 0;
-			foreach (Label label in tableLayoutPanelBlue.Controls) {
-				labelsBlue[labelIndex] = label;
-				labelIndex++;
-			}
 		}
 
 		private void ConfigXMLRead() {
@@ -327,6 +300,14 @@ namespace Bongo {
 			winT.Checked = Int32.Parse(node3.Attributes["T"].InnerText) >= 8;
 		}
 
+		// Write to the config XML that this is the last game the player played (is this needed?)
+		private void SaveLastGameData() {
+			XmlDocument doc = new XmlDocument();
+			doc.Load(@"BingoConfig.xml");
+			XmlNode node = doc.DocumentElement.SelectSingleNode("lastgame");
+			node.InnerText = BottomFileBox.SelectedItem.ToString();
+			doc.Save(@"BingoConfig.xml");
+		}
 
 		#region board display
 		/// <summary>
@@ -336,10 +317,10 @@ namespace Bongo {
 		private void HideBoard(bool hide) {
 			foreach (Label l in labels) {
 				l.Visible = !hide;
-				tabControl2.Visible = !hide;
+				//tabControl2.Visible = !hide;
 			}
 			BoardUnhideButton.Visible = hide;
-			unhideButtonSpectate.Visible = hide;
+			SpectateUnhideButton.Visible = hide;
 			BoardVersionDisplay.Visible = hide;
 		}
 
@@ -445,119 +426,56 @@ namespace Bongo {
 
 		#endregion
 
-		// Write to the config XML that this is the last game the player played (is this needed?)
-		private void SaveLastGameData() {
-			XmlDocument doc = new XmlDocument();
-			doc.Load(@"BingoConfig.xml");
-			XmlNode node = doc.DocumentElement.SelectSingleNode("lastgame");
-			node.InnerText = BottomFileBox.SelectedItem.ToString();
-			doc.Save(@"BingoConfig.xml");
+		#region spectator tiles
+
+		/// <summary>
+		/// Puts all 25 spectate board tiles into an array
+		/// </summary>
+		private void SpectatorModeSetup() {
+			colorsList = new Color[][] { colors, colorsRed, colorsYellow, colorsGreen, colorsBlue };
+			int labelIndex = 0;
+			foreach (TableLayoutPanel tlp in SpectateTableLayoutPanel.Controls) {
+				labelsSpectate[labelIndex] = (Label)tlp.Controls[0];
+				labelIndex++;
+			}
 		}
 
-		#region spectator tiles
-		private void spectateTile_Click(object sender, MouseEventArgs e) {
+		private void SpectateTile_Click(object sender, MouseEventArgs e) {
 			Label clickedLabel = sender as Label;
-			MouseSpectateTileClick(clickedLabel, e.Button == MouseButtons.Left);
+			ClickSpectateTile(clickedLabel);
+		}
+
+		private void ClickSpectateTile(Label clickedLabel) {
+			int clickedLabelIndex = Array.FindIndex(labelsSpectate, item => item == clickedLabel);
+			// reset currently selected label
+			if (_selectedLabelIndexSpectate != 25) {
+				EnlargeTile((TableLayoutPanel)labelsSpectate[_selectedLabelIndexSpectate].Parent, false);
+			}
+			// select new
+			_selectedLabelIndexSpectate = clickedLabelIndex;
+			EnlargeTile((TableLayoutPanel)labelsSpectate[_selectedLabelIndexSpectate].Parent, true);
+
+			if (_bingoActive) {
+				SpectateInfoTextField.Text = _currentBoard.Goals[_selectedLabelIndexSpectate].Description;
+			}
 		}
 
 		private void AssembleSpectateBoard() {
 			int labelIndex = 0;
-			foreach (Label label in tableLayoutPanelGreen.Controls) {
-				label.Text = labels[labelIndex].Text;
-				labelIndex++;
-			}
-			labelIndex = 0;
-			foreach (Label label in tableLayoutPanelYellow.Controls) {
-				label.Text = labels[labelIndex].Text;
-				labelIndex++;
-			}
-			labelIndex = 0;
-			foreach (Label label in tableLayoutPanelRed.Controls) {
-				label.Text = labels[labelIndex].Text;
-				labelIndex++;
-			}
-			labelIndex = 0;
-			foreach (Label label in tableLayoutPanelBlue.Controls) {
-				label.Text = labels[labelIndex].Text;
+			foreach (TableLayoutPanel tlp in SpectateTableLayoutPanel.Controls) {
+				foreach (Label label in tlp.Controls) {
+					label.BackColor = colors[0];
+					label.Text = icons[0];
+				}
+				tlp.Controls[0].Text = labels[labelIndex].Text;
 				labelIndex++;
 			}
 		}
-
-		private void MouseSpectateTileClick(Label clickedLabel, bool leftMouseButton) {
-			int clickedLabelIndex = 25;
-			Color[] colorsSpec;
-			switch (tabControl2.SelectedTab.Name) {
-				case "TabGreen":
-					clickedLabelIndex = Array.FindIndex(labelsGreen, item => item == clickedLabel);
-					colorsSpec = colorsGreen;
-					break;
-				case "TabYellow":
-					clickedLabelIndex = Array.FindIndex(labelsYellow, item => item == clickedLabel);
-					colorsSpec = colorsYellow;
-					break;
-				case "TabRed":
-					clickedLabelIndex = Array.FindIndex(labelsRed, item => item == clickedLabel);
-					colorsSpec = colorsRed;
-					break;
-				case "TabBlue":
-					clickedLabelIndex = Array.FindIndex(labelsBlue, item => item == clickedLabel);
-					colorsSpec = colorsBlue;
-					break;
-				default:
-					colorsSpec = colors;
-					break;
-			}
-
-			if (_selectedLabelIndexSpectate == clickedLabelIndex) {
-				if (leftMouseButton) {
-					int colorIndexR = Array.FindIndex(colorsSpec, item => item == clickedLabel.BackColor);
-					clickedLabel.BackColor = colorsSpec[(colorIndexR + 1) % colorsSpec.Length];
-				}
-				else {
-					int colorIndexL = Array.FindIndex(colorsSpec, item => item == clickedLabel.BackColor);
-					clickedLabel.BackColor = colorsSpec[(colorIndexL + colorsSpec.Length - 1) % colorsSpec.Length];
-				}
-			}
-			else {
-				if (_selectedLabelIndexSpectate != 25) {
-					Font fontToPutA = new Font(labelsGreen[_selectedLabelIndexSpectate].Font, FontStyle.Regular);
-					labelsGreen[_selectedLabelIndexSpectate].Font = fontToPutA;
-					labelsYellow[_selectedLabelIndexSpectate].Font = fontToPutA;
-					labelsRed[_selectedLabelIndexSpectate].Font = fontToPutA;
-					labelsBlue[_selectedLabelIndexSpectate].Font = fontToPutA;
-					Padding padToPutA = new Padding(labelsGreen[_selectedLabelIndexSpectate].Margin.All + 5);
-					labelsGreen[_selectedLabelIndexSpectate].Margin = padToPutA;
-					labelsYellow[_selectedLabelIndexSpectate].Margin = padToPutA;
-					labelsRed[_selectedLabelIndexSpectate].Margin = padToPutA;
-					labelsBlue[_selectedLabelIndexSpectate].Margin = padToPutA;
-				}
-				_selectedLabelIndexSpectate = clickedLabelIndex;
-				Font fontToPutB = new Font(labelsGreen[_selectedLabelIndexSpectate].Font, FontStyle.Bold);
-				labelsGreen[_selectedLabelIndexSpectate].Font = fontToPutB;
-				labelsYellow[_selectedLabelIndexSpectate].Font = fontToPutB;
-				labelsRed[_selectedLabelIndexSpectate].Font = fontToPutB;
-				labelsBlue[_selectedLabelIndexSpectate].Font = fontToPutB;
-				Padding padToPutB = new Padding(labelsGreen[_selectedLabelIndexSpectate].Margin.All - 5);
-				labelsGreen[_selectedLabelIndexSpectate].Margin = padToPutB;
-				labelsYellow[_selectedLabelIndexSpectate].Margin = padToPutB;
-				labelsRed[_selectedLabelIndexSpectate].Margin = padToPutB;
-				labelsBlue[_selectedLabelIndexSpectate].Margin = padToPutB;
-				if (_selectedLabelIndexSpectate <= theBingoBoard.Count) {
-					if (_bingoActive && theBingoBoard[_selectedLabelIndexSpectate].Attributes["description"] != null) {
-						goalInfoSpectateBox.Text = theBingoBoard[_selectedLabelIndexSpectate].Attributes["description"].InnerText;
-					}
-					else {
-						goalInfoSpectateBox.Text = "";
-					}
-				}
-			}
-
-
-
-		}
+		
 		#endregion
 
 		#region select/change bingo board tiles
+
 		/// <summary>
 		/// Changes label's color to the next item in colors array
 		/// </summary>
@@ -579,19 +497,38 @@ namespace Bongo {
 		/// Makes a tile larger and bold text, or resets it to normal if larger = false
 		/// </summary>
 		/// <param name="larger"></param>
-		private void EnlargeTile(bool larger) {
-			Label label = labels[_selectedLabelIndex];
+		private void EnlargeTile(Label tile, bool larger) {
 			if (larger) {
-				Font selectedFont = new Font(label.Font, FontStyle.Bold);
-				label.Font = selectedFont;
-				Padding selectedPadding = new Padding(label.Margin.All - 5);
-				label.Margin = selectedPadding;
+				Font selectedFont = new Font(tile.Font, FontStyle.Bold);
+				tile.Font = selectedFont;
+				Padding selectedPadding = new Padding(tile.Margin.All - 5);
+				tile.Margin = selectedPadding;
 			}
 			else {
-				Font regularFont = new Font(label.Font, FontStyle.Regular);
-				label.Font = regularFont;
-				Padding regularPadding = new Padding(label.Margin.All + 5);
-				label.Margin = regularPadding;
+				Font regularFont = new Font(tile.Font, FontStyle.Regular);
+				tile.Font = regularFont;
+				Padding regularPadding = new Padding(tile.Margin.All + 5);
+				tile.Margin = regularPadding;
+			}
+		}
+
+		/// <summary>
+		/// Makes a tile larger and bold text, or resets it to normal if larger = false
+		/// </summary>
+		/// <param name="larger"></param>
+		private void EnlargeTile(TableLayoutPanel container, bool larger) {
+			Label tile = (Label)container.Controls[0];
+			if (larger) {
+				Font selectedFont = new Font(tile.Font, FontStyle.Bold);
+				tile.Font = selectedFont;
+				Padding selectedPadding = new Padding(container.Margin.All - 5);
+				container.Margin = selectedPadding;
+			}
+			else {
+				Font regularFont = new Font(tile.Font, FontStyle.Regular);
+				tile.Font = regularFont;
+				Padding regularPadding = new Padding(container.Margin.All + 5);
+				container.Margin = regularPadding;
 			}
 		}
 
@@ -608,11 +545,11 @@ namespace Bongo {
 			else {
 				// reset currently selected label
 				if (_selectedLabelIndex != 25) {
-					EnlargeTile(false);
+					EnlargeTile(labels[_selectedLabelIndex], false);
 				}
 				// select new
 				_selectedLabelIndex = clickedLabelIndex;
-				EnlargeTile(true);
+				EnlargeTile(labels[_selectedLabelIndex], true);
 
 				if (_bingoActive) {
 					BoardInfoTextField.Text = _currentBoard.Goals[_selectedLabelIndex].Description;
@@ -626,13 +563,13 @@ namespace Bongo {
 		/// <param name="amount">The amount of tiles to move right</param>
 		private void SelectNextTile(int amount) {
 			if (_selectedLabelIndex != 25) {
-				EnlargeTile(false);
+				EnlargeTile(labels[_selectedLabelIndex], false);
 				_selectedLabelIndex = (_selectedLabelIndex + amount) % 25;
 			}
 			else {
 				_selectedLabelIndex = 0;
 			}
-			EnlargeTile(true);
+			EnlargeTile(labels[_selectedLabelIndex], true);
 			if (_bingoActive) {
 				BoardInfoTextField.Text = _currentBoard.Goals[_selectedLabelIndex].Description;
 			}
@@ -646,7 +583,7 @@ namespace Bongo {
 				label.BackColor = colors[(0)];
 			}
 			if (_selectedLabelIndex != 25) {
-				EnlargeTile(false);
+				EnlargeTile(labels[_selectedLabelIndex], false);
 			}
 			_selectedLabelIndex = 25;
 		}
@@ -758,6 +695,7 @@ namespace Bongo {
 		#endregion
 
 		#region form interactions
+
 		/// <summary>
 		/// Clicking on a bingo tile
 		/// </summary>
@@ -856,8 +794,17 @@ namespace Bongo {
 		/// <param name="e"></param>
 		void OnReceivedBingoBoard(object sender, BingoBoardEventArgs e) {
 			for (int i = 0; i < 25; i++) {
+				if (e.Player == 0) {
+					continue;
+				}
 				int colorIndex = e.Board[i];
 				labels[i].BackColor = colors[colorIndex];
+				Label tag = (Label)SpectateTableLayoutPanel.Controls[i].Controls[e.Player];
+				tag.BackColor = colorsList[e.Player][colorIndex];
+				tag.Text = icons[colorIndex];
+				//foreach (TableLayoutPanel tlp in SpectateTableLayoutPanel.Controls) {
+				//	((Label)tlp.Controls[e.Player]).BackColor = colorsList[e.Player][colorIndex];
+				//}
 			}
 		}
 

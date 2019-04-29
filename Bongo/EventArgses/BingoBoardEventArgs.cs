@@ -7,9 +7,11 @@ using System.Threading.Tasks;
 namespace Bongo {
 	class BingoBoardEventArgs {
 		public int[] Board;
+		public int Player;
 
-		public BingoBoardEventArgs(int[] board) {
+		public BingoBoardEventArgs(int[] board, int player) {
 			Board = board;
+			Player = player;
 		}
 	}
 }

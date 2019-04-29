@@ -57,149 +57,159 @@
 			this.label115 = new System.Windows.Forms.Label();
 			this.label114 = new System.Windows.Forms.Label();
 			this.TabSpectator = new System.Windows.Forms.TabPage();
-			this.unhideButtonSpectate = new System.Windows.Forms.Button();
-			this.goalInfoSpectateBox = new System.Windows.Forms.TextBox();
-			this.tabControl2 = new System.Windows.Forms.TabControl();
-			this.TabAll = new System.Windows.Forms.TabPage();
-			this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-			this.specAllTile1 = new System.Windows.Forms.Label();
-			this.specAllTile2 = new System.Windows.Forms.Label();
-			this.specAllTile3 = new System.Windows.Forms.Label();
-			this.specAllTile4 = new System.Windows.Forms.Label();
-			this.specAllTile5 = new System.Windows.Forms.Label();
-			this.specAllTile21 = new System.Windows.Forms.Label();
-			this.specAllTile22 = new System.Windows.Forms.Label();
-			this.specAllTile23 = new System.Windows.Forms.Label();
-			this.specAllTile24 = new System.Windows.Forms.Label();
-			this.specAllTile25 = new System.Windows.Forms.Label();
-			this.specAllTile20 = new System.Windows.Forms.Label();
-			this.specAllTile19 = new System.Windows.Forms.Label();
-			this.specAllTile17 = new System.Windows.Forms.Label();
-			this.specAllTile16 = new System.Windows.Forms.Label();
-			this.specAllTile15 = new System.Windows.Forms.Label();
-			this.specAllTile13 = new System.Windows.Forms.Label();
-			this.specAllTile12 = new System.Windows.Forms.Label();
-			this.specAllTile11 = new System.Windows.Forms.Label();
-			this.specAllTile10 = new System.Windows.Forms.Label();
-			this.specAllTile9 = new System.Windows.Forms.Label();
-			this.specAllTile8 = new System.Windows.Forms.Label();
-			this.specAllTile7 = new System.Windows.Forms.Label();
-			this.specAllTile6 = new System.Windows.Forms.Label();
-			this.specAllTile18 = new System.Windows.Forms.Label();
-			this.specAllTile14 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-			this.label4 = new System.Windows.Forms.Label();
-			this.label3 = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
-			this.label1 = new System.Windows.Forms.Label();
-			this.TabRed = new System.Windows.Forms.TabPage();
-			this.tableLayoutPanelRed = new System.Windows.Forms.TableLayoutPanel();
-			this.label89 = new System.Windows.Forms.Label();
-			this.label90 = new System.Windows.Forms.Label();
-			this.label91 = new System.Windows.Forms.Label();
-			this.label92 = new System.Windows.Forms.Label();
-			this.label93 = new System.Windows.Forms.Label();
-			this.label94 = new System.Windows.Forms.Label();
-			this.label95 = new System.Windows.Forms.Label();
-			this.label96 = new System.Windows.Forms.Label();
-			this.label97 = new System.Windows.Forms.Label();
-			this.label98 = new System.Windows.Forms.Label();
-			this.label99 = new System.Windows.Forms.Label();
-			this.label100 = new System.Windows.Forms.Label();
-			this.label101 = new System.Windows.Forms.Label();
-			this.label102 = new System.Windows.Forms.Label();
-			this.label103 = new System.Windows.Forms.Label();
-			this.label104 = new System.Windows.Forms.Label();
-			this.label105 = new System.Windows.Forms.Label();
-			this.label106 = new System.Windows.Forms.Label();
-			this.label107 = new System.Windows.Forms.Label();
-			this.label108 = new System.Windows.Forms.Label();
-			this.label109 = new System.Windows.Forms.Label();
-			this.label110 = new System.Windows.Forms.Label();
-			this.label111 = new System.Windows.Forms.Label();
-			this.label112 = new System.Windows.Forms.Label();
-			this.label113 = new System.Windows.Forms.Label();
-			this.TabYellow = new System.Windows.Forms.TabPage();
-			this.tableLayoutPanelYellow = new System.Windows.Forms.TableLayoutPanel();
-			this.label64 = new System.Windows.Forms.Label();
-			this.label65 = new System.Windows.Forms.Label();
-			this.label66 = new System.Windows.Forms.Label();
-			this.label67 = new System.Windows.Forms.Label();
-			this.label68 = new System.Windows.Forms.Label();
-			this.label69 = new System.Windows.Forms.Label();
-			this.label70 = new System.Windows.Forms.Label();
-			this.label71 = new System.Windows.Forms.Label();
-			this.label72 = new System.Windows.Forms.Label();
-			this.label73 = new System.Windows.Forms.Label();
-			this.label74 = new System.Windows.Forms.Label();
-			this.label75 = new System.Windows.Forms.Label();
-			this.label76 = new System.Windows.Forms.Label();
-			this.label77 = new System.Windows.Forms.Label();
-			this.label78 = new System.Windows.Forms.Label();
-			this.label79 = new System.Windows.Forms.Label();
-			this.label80 = new System.Windows.Forms.Label();
-			this.label81 = new System.Windows.Forms.Label();
-			this.label82 = new System.Windows.Forms.Label();
-			this.label83 = new System.Windows.Forms.Label();
-			this.label84 = new System.Windows.Forms.Label();
-			this.label85 = new System.Windows.Forms.Label();
-			this.label86 = new System.Windows.Forms.Label();
-			this.label87 = new System.Windows.Forms.Label();
-			this.label88 = new System.Windows.Forms.Label();
-			this.TabGreen = new System.Windows.Forms.TabPage();
-			this.tableLayoutPanelGreen = new System.Windows.Forms.TableLayoutPanel();
-			this.label39 = new System.Windows.Forms.Label();
-			this.label40 = new System.Windows.Forms.Label();
-			this.label41 = new System.Windows.Forms.Label();
-			this.label42 = new System.Windows.Forms.Label();
-			this.label43 = new System.Windows.Forms.Label();
-			this.label44 = new System.Windows.Forms.Label();
-			this.label45 = new System.Windows.Forms.Label();
-			this.label46 = new System.Windows.Forms.Label();
-			this.label47 = new System.Windows.Forms.Label();
-			this.label48 = new System.Windows.Forms.Label();
-			this.label49 = new System.Windows.Forms.Label();
-			this.label50 = new System.Windows.Forms.Label();
-			this.label51 = new System.Windows.Forms.Label();
-			this.label52 = new System.Windows.Forms.Label();
-			this.label53 = new System.Windows.Forms.Label();
-			this.label54 = new System.Windows.Forms.Label();
-			this.label55 = new System.Windows.Forms.Label();
-			this.label56 = new System.Windows.Forms.Label();
-			this.label57 = new System.Windows.Forms.Label();
-			this.label58 = new System.Windows.Forms.Label();
-			this.label59 = new System.Windows.Forms.Label();
-			this.label60 = new System.Windows.Forms.Label();
-			this.label61 = new System.Windows.Forms.Label();
-			this.label62 = new System.Windows.Forms.Label();
-			this.label63 = new System.Windows.Forms.Label();
-			this.TabBlue = new System.Windows.Forms.TabPage();
-			this.tableLayoutPanelBlue = new System.Windows.Forms.TableLayoutPanel();
-			this.label139 = new System.Windows.Forms.Label();
-			this.label140 = new System.Windows.Forms.Label();
-			this.label141 = new System.Windows.Forms.Label();
-			this.label142 = new System.Windows.Forms.Label();
-			this.label143 = new System.Windows.Forms.Label();
-			this.label144 = new System.Windows.Forms.Label();
-			this.label145 = new System.Windows.Forms.Label();
-			this.label146 = new System.Windows.Forms.Label();
-			this.label147 = new System.Windows.Forms.Label();
-			this.label148 = new System.Windows.Forms.Label();
-			this.label149 = new System.Windows.Forms.Label();
-			this.label150 = new System.Windows.Forms.Label();
-			this.label151 = new System.Windows.Forms.Label();
-			this.label152 = new System.Windows.Forms.Label();
-			this.label153 = new System.Windows.Forms.Label();
-			this.label154 = new System.Windows.Forms.Label();
-			this.label155 = new System.Windows.Forms.Label();
-			this.label156 = new System.Windows.Forms.Label();
-			this.label157 = new System.Windows.Forms.Label();
-			this.label158 = new System.Windows.Forms.Label();
-			this.label159 = new System.Windows.Forms.Label();
-			this.label160 = new System.Windows.Forms.Label();
-			this.label161 = new System.Windows.Forms.Label();
-			this.label162 = new System.Windows.Forms.Label();
-			this.label163 = new System.Windows.Forms.Label();
+			this.SpectateTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTagTable1 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile1 = new System.Windows.Forms.Label();
+			this.RedTag1 = new System.Windows.Forms.Label();
+			this.YellowTag1 = new System.Windows.Forms.Label();
+			this.GreenTag1 = new System.Windows.Forms.Label();
+			this.BlueTag1 = new System.Windows.Forms.Label();
+			this.SpectateTagTable2 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile2 = new System.Windows.Forms.Label();
+			this.RedTag2 = new System.Windows.Forms.Label();
+			this.YellowTag2 = new System.Windows.Forms.Label();
+			this.GreenTag2 = new System.Windows.Forms.Label();
+			this.BlueTag2 = new System.Windows.Forms.Label();
+			this.SpectateTagTable3 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile3 = new System.Windows.Forms.Label();
+			this.RedTag3 = new System.Windows.Forms.Label();
+			this.YellowTag3 = new System.Windows.Forms.Label();
+			this.GreenTag3 = new System.Windows.Forms.Label();
+			this.BlueTag3 = new System.Windows.Forms.Label();
+			this.SpectateTagTable4 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile4 = new System.Windows.Forms.Label();
+			this.RedTag4 = new System.Windows.Forms.Label();
+			this.YellowTag4 = new System.Windows.Forms.Label();
+			this.GreenTag4 = new System.Windows.Forms.Label();
+			this.BlueTag4 = new System.Windows.Forms.Label();
+			this.SpectateTagTable5 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile5 = new System.Windows.Forms.Label();
+			this.RedTag5 = new System.Windows.Forms.Label();
+			this.YellowTag5 = new System.Windows.Forms.Label();
+			this.GreenTag5 = new System.Windows.Forms.Label();
+			this.BlueTag5 = new System.Windows.Forms.Label();
+			this.SpectateTagTable6 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile6 = new System.Windows.Forms.Label();
+			this.RedTag6 = new System.Windows.Forms.Label();
+			this.YellowTag6 = new System.Windows.Forms.Label();
+			this.GreenTag6 = new System.Windows.Forms.Label();
+			this.BlueTag6 = new System.Windows.Forms.Label();
+			this.SpectateTagTable7 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile7 = new System.Windows.Forms.Label();
+			this.RedTag7 = new System.Windows.Forms.Label();
+			this.YellowTag7 = new System.Windows.Forms.Label();
+			this.GreenTag7 = new System.Windows.Forms.Label();
+			this.BlueTag7 = new System.Windows.Forms.Label();
+			this.SpectateTagTable8 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile8 = new System.Windows.Forms.Label();
+			this.RedTag8 = new System.Windows.Forms.Label();
+			this.YellowTag8 = new System.Windows.Forms.Label();
+			this.GreenTag8 = new System.Windows.Forms.Label();
+			this.BlueTag8 = new System.Windows.Forms.Label();
+			this.SpectateTagTable9 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile9 = new System.Windows.Forms.Label();
+			this.RedTag9 = new System.Windows.Forms.Label();
+			this.YellowTag9 = new System.Windows.Forms.Label();
+			this.GreenTag9 = new System.Windows.Forms.Label();
+			this.BlueTag9 = new System.Windows.Forms.Label();
+			this.SpectateTagTable10 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile10 = new System.Windows.Forms.Label();
+			this.RedTag10 = new System.Windows.Forms.Label();
+			this.YellowTag10 = new System.Windows.Forms.Label();
+			this.GreenTag10 = new System.Windows.Forms.Label();
+			this.BlueTag10 = new System.Windows.Forms.Label();
+			this.SpectateTagTable11 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile11 = new System.Windows.Forms.Label();
+			this.RedTag11 = new System.Windows.Forms.Label();
+			this.YellowTag11 = new System.Windows.Forms.Label();
+			this.GreenTag11 = new System.Windows.Forms.Label();
+			this.BlueTag11 = new System.Windows.Forms.Label();
+			this.SpectateTagTable12 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile12 = new System.Windows.Forms.Label();
+			this.RedTag12 = new System.Windows.Forms.Label();
+			this.YellowTag12 = new System.Windows.Forms.Label();
+			this.GreenTag12 = new System.Windows.Forms.Label();
+			this.BlueTag12 = new System.Windows.Forms.Label();
+			this.SpectateTagTable13 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile13 = new System.Windows.Forms.Label();
+			this.RedTag13 = new System.Windows.Forms.Label();
+			this.YellowTag13 = new System.Windows.Forms.Label();
+			this.GreenTag13 = new System.Windows.Forms.Label();
+			this.BlueTag13 = new System.Windows.Forms.Label();
+			this.SpectateTagTable14 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile14 = new System.Windows.Forms.Label();
+			this.RedTag14 = new System.Windows.Forms.Label();
+			this.YellowTag14 = new System.Windows.Forms.Label();
+			this.GreenTag14 = new System.Windows.Forms.Label();
+			this.BlueTag14 = new System.Windows.Forms.Label();
+			this.SpectateTagTable15 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile15 = new System.Windows.Forms.Label();
+			this.RedTag15 = new System.Windows.Forms.Label();
+			this.YellowTag15 = new System.Windows.Forms.Label();
+			this.GreenTag15 = new System.Windows.Forms.Label();
+			this.BlueTag15 = new System.Windows.Forms.Label();
+			this.SpectateTagTable16 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile16 = new System.Windows.Forms.Label();
+			this.RedTag16 = new System.Windows.Forms.Label();
+			this.YellowTag16 = new System.Windows.Forms.Label();
+			this.GreenTag16 = new System.Windows.Forms.Label();
+			this.BlueTag16 = new System.Windows.Forms.Label();
+			this.SpectateTagTable17 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile17 = new System.Windows.Forms.Label();
+			this.RedTag17 = new System.Windows.Forms.Label();
+			this.YellowTag17 = new System.Windows.Forms.Label();
+			this.GreenTag17 = new System.Windows.Forms.Label();
+			this.BlueTag17 = new System.Windows.Forms.Label();
+			this.SpectateTagTable18 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile18 = new System.Windows.Forms.Label();
+			this.RedTag18 = new System.Windows.Forms.Label();
+			this.YellowTag18 = new System.Windows.Forms.Label();
+			this.GreenTag18 = new System.Windows.Forms.Label();
+			this.BlueTag18 = new System.Windows.Forms.Label();
+			this.SpectateTagTable19 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile19 = new System.Windows.Forms.Label();
+			this.RedTag19 = new System.Windows.Forms.Label();
+			this.YellowTag19 = new System.Windows.Forms.Label();
+			this.GreenTag19 = new System.Windows.Forms.Label();
+			this.BlueTag19 = new System.Windows.Forms.Label();
+			this.SpectateTagTable20 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile20 = new System.Windows.Forms.Label();
+			this.RedTag20 = new System.Windows.Forms.Label();
+			this.YellowTag20 = new System.Windows.Forms.Label();
+			this.GreenTag20 = new System.Windows.Forms.Label();
+			this.BlueTag20 = new System.Windows.Forms.Label();
+			this.SpectateTagTable21 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile21 = new System.Windows.Forms.Label();
+			this.RedTag21 = new System.Windows.Forms.Label();
+			this.YellowTag21 = new System.Windows.Forms.Label();
+			this.GreenTag21 = new System.Windows.Forms.Label();
+			this.BlueTag21 = new System.Windows.Forms.Label();
+			this.SpectateTagTable22 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile22 = new System.Windows.Forms.Label();
+			this.RedTag22 = new System.Windows.Forms.Label();
+			this.YellowTag22 = new System.Windows.Forms.Label();
+			this.GreenTag22 = new System.Windows.Forms.Label();
+			this.BlueTag22 = new System.Windows.Forms.Label();
+			this.SpectateTagTable23 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile23 = new System.Windows.Forms.Label();
+			this.RedTag23 = new System.Windows.Forms.Label();
+			this.YellowTag23 = new System.Windows.Forms.Label();
+			this.GreenTag23 = new System.Windows.Forms.Label();
+			this.BlueTag23 = new System.Windows.Forms.Label();
+			this.SpectateTagTable24 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile24 = new System.Windows.Forms.Label();
+			this.RedTag24 = new System.Windows.Forms.Label();
+			this.YellowTag24 = new System.Windows.Forms.Label();
+			this.GreenTag24 = new System.Windows.Forms.Label();
+			this.BlueTag24 = new System.Windows.Forms.Label();
+			this.SpectateTagTable25 = new System.Windows.Forms.TableLayoutPanel();
+			this.SpectateTile25 = new System.Windows.Forms.Label();
+			this.RedTag25 = new System.Windows.Forms.Label();
+			this.YellowTag25 = new System.Windows.Forms.Label();
+			this.GreenTag25 = new System.Windows.Forms.Label();
+			this.BlueTag25 = new System.Windows.Forms.Label();
+			this.SpectateUnhideButton = new System.Windows.Forms.Button();
+			this.SpectateInfoTextField = new System.Windows.Forms.TextBox();
 			this.TabHelp = new System.Windows.Forms.TabPage();
 			this.groupBox13 = new System.Windows.Forms.GroupBox();
 			this.HelpVersionLabel = new System.Windows.Forms.Label();
@@ -291,7 +301,7 @@
 			this.BoardVersionDisplay = new System.Windows.Forms.Label();
 			this.BoardUnhideButton = new System.Windows.Forms.Button();
 			this.BoardInfoTextField = new System.Windows.Forms.TextBox();
-			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+			this.BoardTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
 			this.BingoTile1 = new System.Windows.Forms.Label();
 			this.BingoTile2 = new System.Windows.Forms.Label();
 			this.BingoTile3 = new System.Windows.Forms.Label();
@@ -343,139 +353,33 @@
 			this.label167 = new System.Windows.Forms.Label();
 			this.label166 = new System.Windows.Forms.Label();
 			this.backgroundWorkerReceive = new System.ComponentModel.BackgroundWorker();
-			this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-			this.label5 = new System.Windows.Forms.Label();
-			this.label6 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
-			this.label8 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-			this.label9 = new System.Windows.Forms.Label();
-			this.label10 = new System.Windows.Forms.Label();
-			this.label11 = new System.Windows.Forms.Label();
-			this.label12 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
-			this.label13 = new System.Windows.Forms.Label();
-			this.label14 = new System.Windows.Forms.Label();
-			this.label15 = new System.Windows.Forms.Label();
-			this.label16 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
-			this.label17 = new System.Windows.Forms.Label();
-			this.label18 = new System.Windows.Forms.Label();
-			this.label19 = new System.Windows.Forms.Label();
-			this.label20 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-			this.label21 = new System.Windows.Forms.Label();
-			this.label22 = new System.Windows.Forms.Label();
-			this.label23 = new System.Windows.Forms.Label();
-			this.label24 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-			this.label25 = new System.Windows.Forms.Label();
-			this.label171 = new System.Windows.Forms.Label();
-			this.label172 = new System.Windows.Forms.Label();
-			this.label174 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
-			this.label175 = new System.Windows.Forms.Label();
-			this.label176 = new System.Windows.Forms.Label();
-			this.label177 = new System.Windows.Forms.Label();
-			this.label178 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
-			this.label179 = new System.Windows.Forms.Label();
-			this.label180 = new System.Windows.Forms.Label();
-			this.label181 = new System.Windows.Forms.Label();
-			this.label182 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
-			this.label183 = new System.Windows.Forms.Label();
-			this.label184 = new System.Windows.Forms.Label();
-			this.label185 = new System.Windows.Forms.Label();
-			this.label186 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
-			this.label187 = new System.Windows.Forms.Label();
-			this.label188 = new System.Windows.Forms.Label();
-			this.label189 = new System.Windows.Forms.Label();
-			this.label190 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
-			this.label191 = new System.Windows.Forms.Label();
-			this.label192 = new System.Windows.Forms.Label();
-			this.label193 = new System.Windows.Forms.Label();
-			this.label194 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
-			this.label195 = new System.Windows.Forms.Label();
-			this.label196 = new System.Windows.Forms.Label();
-			this.label197 = new System.Windows.Forms.Label();
-			this.label198 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
-			this.label199 = new System.Windows.Forms.Label();
-			this.label200 = new System.Windows.Forms.Label();
-			this.label201 = new System.Windows.Forms.Label();
-			this.label202 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
-			this.label203 = new System.Windows.Forms.Label();
-			this.label204 = new System.Windows.Forms.Label();
-			this.label205 = new System.Windows.Forms.Label();
-			this.label206 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
-			this.label207 = new System.Windows.Forms.Label();
-			this.label208 = new System.Windows.Forms.Label();
-			this.label209 = new System.Windows.Forms.Label();
-			this.label210 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
-			this.label211 = new System.Windows.Forms.Label();
-			this.label212 = new System.Windows.Forms.Label();
-			this.label213 = new System.Windows.Forms.Label();
-			this.label214 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel20 = new System.Windows.Forms.TableLayoutPanel();
-			this.label215 = new System.Windows.Forms.Label();
-			this.label216 = new System.Windows.Forms.Label();
-			this.label217 = new System.Windows.Forms.Label();
-			this.label218 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
-			this.label219 = new System.Windows.Forms.Label();
-			this.label220 = new System.Windows.Forms.Label();
-			this.label221 = new System.Windows.Forms.Label();
-			this.label222 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel22 = new System.Windows.Forms.TableLayoutPanel();
-			this.label223 = new System.Windows.Forms.Label();
-			this.label224 = new System.Windows.Forms.Label();
-			this.label225 = new System.Windows.Forms.Label();
-			this.label226 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel23 = new System.Windows.Forms.TableLayoutPanel();
-			this.label227 = new System.Windows.Forms.Label();
-			this.label228 = new System.Windows.Forms.Label();
-			this.label229 = new System.Windows.Forms.Label();
-			this.label230 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel24 = new System.Windows.Forms.TableLayoutPanel();
-			this.label231 = new System.Windows.Forms.Label();
-			this.label232 = new System.Windows.Forms.Label();
-			this.label233 = new System.Windows.Forms.Label();
-			this.label234 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel25 = new System.Windows.Forms.TableLayoutPanel();
-			this.label235 = new System.Windows.Forms.Label();
-			this.label236 = new System.Windows.Forms.Label();
-			this.label237 = new System.Windows.Forms.Label();
-			this.label238 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel26 = new System.Windows.Forms.TableLayoutPanel();
-			this.label239 = new System.Windows.Forms.Label();
-			this.label240 = new System.Windows.Forms.Label();
-			this.label241 = new System.Windows.Forms.Label();
-			this.label242 = new System.Windows.Forms.Label();
-			this.tableLayoutPanel27 = new System.Windows.Forms.TableLayoutPanel();
-			this.label243 = new System.Windows.Forms.Label();
-			this.label244 = new System.Windows.Forms.Label();
-			this.label245 = new System.Windows.Forms.Label();
-			this.label246 = new System.Windows.Forms.Label();
 			this.TabSpectator.SuspendLayout();
-			this.tabControl2.SuspendLayout();
-			this.TabAll.SuspendLayout();
-			this.tableLayoutPanel2.SuspendLayout();
-			this.tableLayoutPanel3.SuspendLayout();
-			this.TabRed.SuspendLayout();
-			this.tableLayoutPanelRed.SuspendLayout();
-			this.TabYellow.SuspendLayout();
-			this.tableLayoutPanelYellow.SuspendLayout();
-			this.TabGreen.SuspendLayout();
-			this.tableLayoutPanelGreen.SuspendLayout();
-			this.TabBlue.SuspendLayout();
-			this.tableLayoutPanelBlue.SuspendLayout();
+			this.SpectateTableLayoutPanel.SuspendLayout();
+			this.SpectateTagTable1.SuspendLayout();
+			this.SpectateTagTable2.SuspendLayout();
+			this.SpectateTagTable3.SuspendLayout();
+			this.SpectateTagTable4.SuspendLayout();
+			this.SpectateTagTable5.SuspendLayout();
+			this.SpectateTagTable6.SuspendLayout();
+			this.SpectateTagTable7.SuspendLayout();
+			this.SpectateTagTable8.SuspendLayout();
+			this.SpectateTagTable9.SuspendLayout();
+			this.SpectateTagTable10.SuspendLayout();
+			this.SpectateTagTable11.SuspendLayout();
+			this.SpectateTagTable12.SuspendLayout();
+			this.SpectateTagTable13.SuspendLayout();
+			this.SpectateTagTable14.SuspendLayout();
+			this.SpectateTagTable15.SuspendLayout();
+			this.SpectateTagTable16.SuspendLayout();
+			this.SpectateTagTable17.SuspendLayout();
+			this.SpectateTagTable18.SuspendLayout();
+			this.SpectateTagTable19.SuspendLayout();
+			this.SpectateTagTable20.SuspendLayout();
+			this.SpectateTagTable21.SuspendLayout();
+			this.SpectateTagTable22.SuspendLayout();
+			this.SpectateTagTable23.SuspendLayout();
+			this.SpectateTagTable24.SuspendLayout();
+			this.SpectateTagTable25.SuspendLayout();
 			this.TabHelp.SuspendLayout();
 			this.groupBox13.SuspendLayout();
 			this.groupBox8.SuspendLayout();
@@ -493,37 +397,13 @@
 			((System.ComponentModel.ISupportInitialize)(this.CreateDifficultyBar)).BeginInit();
 			this.TabRules.SuspendLayout();
 			this.TabBoard.SuspendLayout();
-			this.tableLayoutPanel1.SuspendLayout();
+			this.BoardTableLayoutPanel.SuspendLayout();
 			this.TabControlMain.SuspendLayout();
 			this.TabOnline.SuspendLayout();
 			this.NetworkGameBox.SuspendLayout();
 			this.groupBox11.SuspendLayout();
 			this.NetworkConnectBox.SuspendLayout();
 			this.NetworkHostBox.SuspendLayout();
-			this.tableLayoutPanel4.SuspendLayout();
-			this.tableLayoutPanel5.SuspendLayout();
-			this.tableLayoutPanel6.SuspendLayout();
-			this.tableLayoutPanel7.SuspendLayout();
-			this.tableLayoutPanel8.SuspendLayout();
-			this.tableLayoutPanel9.SuspendLayout();
-			this.tableLayoutPanel10.SuspendLayout();
-			this.tableLayoutPanel11.SuspendLayout();
-			this.tableLayoutPanel12.SuspendLayout();
-			this.tableLayoutPanel13.SuspendLayout();
-			this.tableLayoutPanel14.SuspendLayout();
-			this.tableLayoutPanel15.SuspendLayout();
-			this.tableLayoutPanel16.SuspendLayout();
-			this.tableLayoutPanel17.SuspendLayout();
-			this.tableLayoutPanel18.SuspendLayout();
-			this.tableLayoutPanel19.SuspendLayout();
-			this.tableLayoutPanel20.SuspendLayout();
-			this.tableLayoutPanel21.SuspendLayout();
-			this.tableLayoutPanel22.SuspendLayout();
-			this.tableLayoutPanel23.SuspendLayout();
-			this.tableLayoutPanel24.SuspendLayout();
-			this.tableLayoutPanel25.SuspendLayout();
-			this.tableLayoutPanel26.SuspendLayout();
-			this.tableLayoutPanel27.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// goalsFileLabel
@@ -531,7 +411,7 @@
 			this.goalsFileLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.goalsFileLabel.AutoSize = true;
 			this.goalsFileLabel.ForeColor = System.Drawing.Color.White;
-			this.goalsFileLabel.Location = new System.Drawing.Point(391, 818);
+			this.goalsFileLabel.Location = new System.Drawing.Point(386, 813);
 			this.goalsFileLabel.Name = "goalsFileLabel";
 			this.goalsFileLabel.Size = new System.Drawing.Size(56, 13);
 			this.goalsFileLabel.TabIndex = 48;
@@ -541,7 +421,7 @@
 			// 
 			this.BottomFileBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.BottomFileBox.FormattingEnabled = true;
-			this.BottomFileBox.Location = new System.Drawing.Point(453, 815);
+			this.BottomFileBox.Location = new System.Drawing.Point(448, 810);
 			this.BottomFileBox.Name = "BottomFileBox";
 			this.BottomFileBox.Size = new System.Drawing.Size(121, 21);
 			this.BottomFileBox.TabIndex = 47;
@@ -551,7 +431,7 @@
 			this.seedIndicationLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.seedIndicationLabel.AutoSize = true;
 			this.seedIndicationLabel.ForeColor = System.Drawing.Color.White;
-			this.seedIndicationLabel.Location = new System.Drawing.Point(391, 775);
+			this.seedIndicationLabel.Location = new System.Drawing.Point(386, 770);
 			this.seedIndicationLabel.Name = "seedIndicationLabel";
 			this.seedIndicationLabel.Size = new System.Drawing.Size(52, 13);
 			this.seedIndicationLabel.TabIndex = 46;
@@ -562,7 +442,7 @@
 			// 
 			this.BottomUidBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.BottomUidBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.BottomUidBox.Location = new System.Drawing.Point(453, 775);
+			this.BottomUidBox.Location = new System.Drawing.Point(448, 770);
 			this.BottomUidBox.Name = "BottomUidBox";
 			this.BottomUidBox.ReadOnly = true;
 			this.BottomUidBox.Size = new System.Drawing.Size(121, 32);
@@ -576,9 +456,9 @@
 			this.BottomGenerateButton.BackColor = System.Drawing.Color.White;
 			this.BottomGenerateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BottomGenerateButton.ForeColor = System.Drawing.Color.Black;
-			this.BottomGenerateButton.Location = new System.Drawing.Point(5, 775);
+			this.BottomGenerateButton.Location = new System.Drawing.Point(5, 770);
 			this.BottomGenerateButton.Name = "BottomGenerateButton";
-			this.BottomGenerateButton.Size = new System.Drawing.Size(238, 61);
+			this.BottomGenerateButton.Size = new System.Drawing.Size(233, 61);
 			this.BottomGenerateButton.TabIndex = 44;
 			this.BottomGenerateButton.Text = "Generate New";
 			this.BottomGenerateButton.UseVisualStyleBackColor = false;
@@ -591,7 +471,7 @@
 			this.BottomHideBoardCheck.Checked = true;
 			this.BottomHideBoardCheck.CheckState = System.Windows.Forms.CheckState.Checked;
 			this.BottomHideBoardCheck.ForeColor = System.Drawing.Color.White;
-			this.BottomHideBoardCheck.Location = new System.Drawing.Point(249, 786);
+			this.BottomHideBoardCheck.Location = new System.Drawing.Point(244, 781);
 			this.BottomHideBoardCheck.Name = "BottomHideBoardCheck";
 			this.BottomHideBoardCheck.Size = new System.Drawing.Size(79, 17);
 			this.BottomHideBoardCheck.TabIndex = 49;
@@ -604,7 +484,7 @@
 			this.BottomHotkeyLabel.AutoSize = true;
 			this.BottomHotkeyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BottomHotkeyLabel.ForeColor = System.Drawing.Color.White;
-			this.BottomHotkeyLabel.Location = new System.Drawing.Point(279, 818);
+			this.BottomHotkeyLabel.Location = new System.Drawing.Point(274, 813);
 			this.BottomHotkeyLabel.Name = "BottomHotkeyLabel";
 			this.BottomHotkeyLabel.Size = new System.Drawing.Size(106, 13);
 			this.BottomHotkeyLabel.TabIndex = 50;
@@ -1013,2809 +893,2846 @@
 			// TabSpectator
 			// 
 			this.TabSpectator.BackColor = System.Drawing.Color.Black;
-			this.TabSpectator.Controls.Add(this.unhideButtonSpectate);
-			this.TabSpectator.Controls.Add(this.goalInfoSpectateBox);
-			this.TabSpectator.Controls.Add(this.tabControl2);
+			this.TabSpectator.Controls.Add(this.SpectateTableLayoutPanel);
+			this.TabSpectator.Controls.Add(this.SpectateUnhideButton);
+			this.TabSpectator.Controls.Add(this.SpectateInfoTextField);
 			this.TabSpectator.ForeColor = System.Drawing.Color.White;
 			this.TabSpectator.Location = new System.Drawing.Point(4, 22);
 			this.TabSpectator.Name = "TabSpectator";
-			this.TabSpectator.Size = new System.Drawing.Size(561, 736);
+			this.TabSpectator.Size = new System.Drawing.Size(556, 731);
 			this.TabSpectator.TabIndex = 6;
-			this.TabSpectator.Text = "Spectator Mode";
-			// 
-			// unhideButtonSpectate
-			// 
-			this.unhideButtonSpectate.Anchor = System.Windows.Forms.AnchorStyles.None;
-			this.unhideButtonSpectate.BackColor = System.Drawing.Color.White;
-			this.unhideButtonSpectate.ForeColor = System.Drawing.Color.Black;
-			this.unhideButtonSpectate.Location = new System.Drawing.Point(174, 626);
-			this.unhideButtonSpectate.Name = "unhideButtonSpectate";
-			this.unhideButtonSpectate.Size = new System.Drawing.Size(172, 59);
-			this.unhideButtonSpectate.TabIndex = 51;
-			this.unhideButtonSpectate.Text = "Board Hidden. Press to Show";
-			this.unhideButtonSpectate.UseVisualStyleBackColor = false;
-			this.unhideButtonSpectate.Visible = false;
-			this.unhideButtonSpectate.Click += new System.EventHandler(this.BottomHideButton_Click);
-			// 
-			// goalInfoSpectateBox
-			// 
-			this.goalInfoSpectateBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.goalInfoSpectateBox.BackColor = System.Drawing.Color.Black;
-			this.goalInfoSpectateBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.goalInfoSpectateBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.goalInfoSpectateBox.ForeColor = System.Drawing.Color.White;
-			this.goalInfoSpectateBox.Location = new System.Drawing.Point(3, 582);
-			this.goalInfoSpectateBox.Multiline = true;
-			this.goalInfoSpectateBox.Name = "goalInfoSpectateBox";
-			this.goalInfoSpectateBox.ReadOnly = true;
-			this.goalInfoSpectateBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-			this.goalInfoSpectateBox.Size = new System.Drawing.Size(554, 151);
-			this.goalInfoSpectateBox.TabIndex = 51;
-			this.goalInfoSpectateBox.Text = "Spectator Mode";
-			// 
-			// tabControl2
-			// 
-			this.tabControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tabControl2.Controls.Add(this.TabAll);
-			this.tabControl2.Controls.Add(this.TabRed);
-			this.tabControl2.Controls.Add(this.TabYellow);
-			this.tabControl2.Controls.Add(this.TabGreen);
-			this.tabControl2.Controls.Add(this.TabBlue);
-			this.tabControl2.Location = new System.Drawing.Point(3, 3);
-			this.tabControl2.Name = "tabControl2";
-			this.tabControl2.SelectedIndex = 0;
-			this.tabControl2.Size = new System.Drawing.Size(554, 573);
-			this.tabControl2.TabIndex = 0;
-			// 
-			// TabAll
-			// 
-			this.TabAll.BackColor = System.Drawing.Color.Black;
-			this.TabAll.Controls.Add(this.tableLayoutPanel2);
-			this.TabAll.ForeColor = System.Drawing.Color.White;
-			this.TabAll.Location = new System.Drawing.Point(4, 22);
-			this.TabAll.Name = "TabAll";
-			this.TabAll.Size = new System.Drawing.Size(546, 547);
-			this.TabAll.TabIndex = 4;
-			this.TabAll.Text = "All";
-			// 
-			// tableLayoutPanel2
-			// 
-			this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.tableLayoutPanel2.BackColor = System.Drawing.Color.Black;
-			this.tableLayoutPanel2.ColumnCount = 5;
-			this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel27, 4, 9);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel26, 3, 9);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel25, 2, 9);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel24, 1, 9);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel23, 0, 9);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel22, 4, 7);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel21, 3, 7);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel20, 2, 7);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel19, 1, 7);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel18, 0, 7);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel17, 4, 5);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel16, 3, 5);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel15, 2, 5);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel14, 1, 5);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel13, 0, 5);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel12, 4, 3);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel11, 3, 3);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel10, 2, 3);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel9, 1, 3);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel8, 0, 3);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel7, 4, 1);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel6, 3, 1);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel5, 2, 1);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel4, 1, 1);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile1, 0, 0);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile2, 1, 0);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile3, 2, 0);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile4, 3, 0);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile5, 4, 0);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile21, 0, 8);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile22, 1, 8);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile23, 2, 8);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile24, 3, 8);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile25, 4, 8);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile20, 4, 6);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile19, 3, 6);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile17, 1, 6);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile16, 0, 6);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile15, 4, 4);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile13, 2, 4);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile12, 1, 4);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile11, 0, 4);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile10, 4, 2);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile9, 3, 2);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile8, 2, 2);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile7, 1, 2);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile6, 0, 2);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile18, 3, 4);
-			this.tableLayoutPanel2.Controls.Add(this.specAllTile14, 2, 6);
-			this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 1);
-			this.tableLayoutPanel2.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
-			this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
-			this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
-			this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-			this.tableLayoutPanel2.RowCount = 10;
-			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
-			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
-			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
-			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
-			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
-			this.tableLayoutPanel2.Size = new System.Drawing.Size(540, 540);
-			this.tableLayoutPanel2.TabIndex = 55;
-			// 
-			// specAllTile1
-			// 
-			this.specAllTile1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile1.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile1.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile1.Location = new System.Drawing.Point(5, 5);
-			this.specAllTile1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile1.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile1.Name = "specAllTile1";
-			this.specAllTile1.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile1.TabIndex = 19;
-			this.specAllTile1.Text = "Bingo Tile 1";
-			this.specAllTile1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile2
-			// 
-			this.specAllTile2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile2.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile2.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile2.Location = new System.Drawing.Point(113, 5);
-			this.specAllTile2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile2.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile2.Name = "specAllTile2";
-			this.specAllTile2.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile2.TabIndex = 20;
-			this.specAllTile2.Text = "Bingo Tile 2";
-			this.specAllTile2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile3
-			// 
-			this.specAllTile3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile3.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile3.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile3.Location = new System.Drawing.Point(221, 5);
-			this.specAllTile3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile3.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile3.Name = "specAllTile3";
-			this.specAllTile3.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile3.TabIndex = 21;
-			this.specAllTile3.Text = "Bingo Tile 3";
-			this.specAllTile3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile4
-			// 
-			this.specAllTile4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile4.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile4.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile4.Location = new System.Drawing.Point(329, 5);
-			this.specAllTile4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile4.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile4.Name = "specAllTile4";
-			this.specAllTile4.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile4.TabIndex = 22;
-			this.specAllTile4.Text = "Bingo Tile 4";
-			this.specAllTile4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile5
-			// 
-			this.specAllTile5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile5.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile5.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile5.Location = new System.Drawing.Point(437, 5);
-			this.specAllTile5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile5.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile5.Name = "specAllTile5";
-			this.specAllTile5.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile5.TabIndex = 23;
-			this.specAllTile5.Text = "Bingo Tile 5";
-			this.specAllTile5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile21
-			// 
-			this.specAllTile21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile21.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile21.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile21.Location = new System.Drawing.Point(5, 437);
-			this.specAllTile21.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile21.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile21.Name = "specAllTile21";
-			this.specAllTile21.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile21.TabIndex = 39;
-			this.specAllTile21.Text = "Bingo Tile 21";
-			this.specAllTile21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile22
-			// 
-			this.specAllTile22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile22.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile22.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile22.Location = new System.Drawing.Point(113, 437);
-			this.specAllTile22.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile22.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile22.Name = "specAllTile22";
-			this.specAllTile22.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile22.TabIndex = 40;
-			this.specAllTile22.Text = "Bingo Tile 22";
-			this.specAllTile22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile23
-			// 
-			this.specAllTile23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile23.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile23.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile23.Location = new System.Drawing.Point(221, 437);
-			this.specAllTile23.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile23.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile23.Name = "specAllTile23";
-			this.specAllTile23.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile23.TabIndex = 41;
-			this.specAllTile23.Text = "Bingo Tile 23";
-			this.specAllTile23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile24
-			// 
-			this.specAllTile24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile24.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile24.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile24.Location = new System.Drawing.Point(329, 437);
-			this.specAllTile24.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile24.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile24.Name = "specAllTile24";
-			this.specAllTile24.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile24.TabIndex = 42;
-			this.specAllTile24.Text = "Bingo Tile 24";
-			this.specAllTile24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile25
-			// 
-			this.specAllTile25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile25.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile25.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile25.Location = new System.Drawing.Point(437, 437);
-			this.specAllTile25.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile25.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile25.Name = "specAllTile25";
-			this.specAllTile25.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile25.TabIndex = 43;
-			this.specAllTile25.Text = "Bingo Tile 25";
-			this.specAllTile25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile20
-			// 
-			this.specAllTile20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile20.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile20.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile20.Location = new System.Drawing.Point(437, 329);
-			this.specAllTile20.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile20.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile20.Name = "specAllTile20";
-			this.specAllTile20.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile20.TabIndex = 38;
-			this.specAllTile20.Text = "Bingo Tile 20";
-			this.specAllTile20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile19
-			// 
-			this.specAllTile19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile19.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile19.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile19.Location = new System.Drawing.Point(329, 329);
-			this.specAllTile19.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile19.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile19.Name = "specAllTile19";
-			this.specAllTile19.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile19.TabIndex = 37;
-			this.specAllTile19.Text = "Bingo Tile 19";
-			this.specAllTile19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile17
-			// 
-			this.specAllTile17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile17.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile17.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile17.Location = new System.Drawing.Point(113, 329);
-			this.specAllTile17.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile17.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile17.Name = "specAllTile17";
-			this.specAllTile17.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile17.TabIndex = 35;
-			this.specAllTile17.Text = "Bingo Tile 17";
-			this.specAllTile17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile16
-			// 
-			this.specAllTile16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile16.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile16.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile16.Location = new System.Drawing.Point(5, 329);
-			this.specAllTile16.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile16.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile16.Name = "specAllTile16";
-			this.specAllTile16.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile16.TabIndex = 34;
-			this.specAllTile16.Text = "Bingo Tile 16";
-			this.specAllTile16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile15
-			// 
-			this.specAllTile15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile15.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile15.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile15.Location = new System.Drawing.Point(437, 221);
-			this.specAllTile15.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile15.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile15.Name = "specAllTile15";
-			this.specAllTile15.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile15.TabIndex = 33;
-			this.specAllTile15.Text = "Bingo Tile 15";
-			this.specAllTile15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile13
-			// 
-			this.specAllTile13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile13.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile13.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile13.Location = new System.Drawing.Point(221, 221);
-			this.specAllTile13.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile13.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile13.Name = "specAllTile13";
-			this.specAllTile13.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile13.TabIndex = 31;
-			this.specAllTile13.Text = "Bingo Tile 13";
-			this.specAllTile13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile12
-			// 
-			this.specAllTile12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile12.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile12.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile12.Location = new System.Drawing.Point(113, 221);
-			this.specAllTile12.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile12.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile12.Name = "specAllTile12";
-			this.specAllTile12.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile12.TabIndex = 30;
-			this.specAllTile12.Text = "Bingo Tile 12";
-			this.specAllTile12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile11
-			// 
-			this.specAllTile11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile11.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile11.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile11.Location = new System.Drawing.Point(5, 221);
-			this.specAllTile11.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile11.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile11.Name = "specAllTile11";
-			this.specAllTile11.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile11.TabIndex = 29;
-			this.specAllTile11.Text = "Bingo Tile 11";
-			this.specAllTile11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile10
-			// 
-			this.specAllTile10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile10.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile10.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile10.Location = new System.Drawing.Point(437, 113);
-			this.specAllTile10.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile10.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile10.Name = "specAllTile10";
-			this.specAllTile10.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile10.TabIndex = 28;
-			this.specAllTile10.Text = "Bingo Tile 10";
-			this.specAllTile10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile9
-			// 
-			this.specAllTile9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile9.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile9.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile9.Location = new System.Drawing.Point(329, 113);
-			this.specAllTile9.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile9.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile9.Name = "specAllTile9";
-			this.specAllTile9.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile9.TabIndex = 27;
-			this.specAllTile9.Text = "Bingo Tile 9";
-			this.specAllTile9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile8
-			// 
-			this.specAllTile8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile8.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile8.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile8.Location = new System.Drawing.Point(221, 113);
-			this.specAllTile8.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile8.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile8.Name = "specAllTile8";
-			this.specAllTile8.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile8.TabIndex = 26;
-			this.specAllTile8.Text = "Bingo Tile 8";
-			this.specAllTile8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile7
-			// 
-			this.specAllTile7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile7.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile7.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile7.Location = new System.Drawing.Point(113, 113);
-			this.specAllTile7.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile7.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile7.Name = "specAllTile7";
-			this.specAllTile7.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile7.TabIndex = 25;
-			this.specAllTile7.Text = "Bingo Tile 7";
-			this.specAllTile7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile6
-			// 
-			this.specAllTile6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile6.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile6.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile6.Location = new System.Drawing.Point(5, 113);
-			this.specAllTile6.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile6.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile6.Name = "specAllTile6";
-			this.specAllTile6.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile6.TabIndex = 24;
-			this.specAllTile6.Text = "Bingo Tile 6";
-			this.specAllTile6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile18
-			// 
-			this.specAllTile18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile18.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile18.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile18.Location = new System.Drawing.Point(329, 221);
-			this.specAllTile18.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile18.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile18.Name = "specAllTile18";
-			this.specAllTile18.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile18.TabIndex = 36;
-			this.specAllTile18.Text = "Bingo Tile 18";
-			this.specAllTile18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// specAllTile14
-			// 
-			this.specAllTile14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.specAllTile14.BackColor = System.Drawing.Color.LightGray;
-			this.specAllTile14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.specAllTile14.ForeColor = System.Drawing.Color.Black;
-			this.specAllTile14.Location = new System.Drawing.Point(221, 329);
-			this.specAllTile14.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
-			this.specAllTile14.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.specAllTile14.Name = "specAllTile14";
-			this.specAllTile14.Size = new System.Drawing.Size(98, 76);
-			this.specAllTile14.TabIndex = 32;
-			this.specAllTile14.Text = "Bingo Tile 14";
-			this.specAllTile14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel3
-			// 
-			this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel3.ColumnCount = 4;
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel3.Controls.Add(this.label4, 3, 0);
-			this.tableLayoutPanel3.Controls.Add(this.label3, 2, 0);
-			this.tableLayoutPanel3.Controls.Add(this.label2, 1, 0);
-			this.tableLayoutPanel3.Controls.Add(this.label1, 0, 0);
-			this.tableLayoutPanel3.Location = new System.Drawing.Point(5, 81);
-			this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-			this.tableLayoutPanel3.RowCount = 1;
-			this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel3.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel3.TabIndex = 44;
-			// 
-			// label4
-			// 
-			this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label4.BackColor = System.Drawing.Color.LightGray;
-			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label4.ForeColor = System.Drawing.Color.Black;
-			this.label4.Location = new System.Drawing.Point(74, 0);
-			this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(22, 22);
-			this.label4.TabIndex = 3;
-			this.label4.Text = "O";
-			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label3
-			// 
-			this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label3.BackColor = System.Drawing.Color.LightGray;
-			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label3.ForeColor = System.Drawing.Color.Black;
-			this.label3.Location = new System.Drawing.Point(50, 0);
-			this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(20, 22);
-			this.label3.TabIndex = 2;
-			this.label3.Text = "O";
-			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label2
-			// 
-			this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label2.BackColor = System.Drawing.Color.LightGray;
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.ForeColor = System.Drawing.Color.Black;
-			this.label2.Location = new System.Drawing.Point(26, 0);
-			this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(20, 22);
-			this.label2.TabIndex = 1;
-			this.label2.Text = "O";
-			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label1
-			// 
-			this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label1.BackColor = System.Drawing.Color.LightGray;
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.ForeColor = System.Drawing.Color.Black;
-			this.label1.Location = new System.Drawing.Point(2, 0);
-			this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(20, 22);
-			this.label1.TabIndex = 0;
-			this.label1.Text = "O";
-			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// TabRed
-			// 
-			this.TabRed.BackColor = System.Drawing.Color.Maroon;
-			this.TabRed.Controls.Add(this.tableLayoutPanelRed);
-			this.TabRed.Location = new System.Drawing.Point(4, 22);
-			this.TabRed.Name = "TabRed";
-			this.TabRed.Padding = new System.Windows.Forms.Padding(3);
-			this.TabRed.Size = new System.Drawing.Size(546, 547);
-			this.TabRed.TabIndex = 2;
-			this.TabRed.Text = "Player Red";
-			// 
-			// tableLayoutPanelRed
-			// 
-			this.tableLayoutPanelRed.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanelRed.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.tableLayoutPanelRed.ColumnCount = 5;
-			this.tableLayoutPanelRed.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelRed.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelRed.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelRed.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelRed.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelRed.Controls.Add(this.label89, 0, 0);
-			this.tableLayoutPanelRed.Controls.Add(this.label90, 1, 0);
-			this.tableLayoutPanelRed.Controls.Add(this.label91, 2, 0);
-			this.tableLayoutPanelRed.Controls.Add(this.label92, 3, 0);
-			this.tableLayoutPanelRed.Controls.Add(this.label93, 4, 0);
-			this.tableLayoutPanelRed.Controls.Add(this.label94, 0, 1);
-			this.tableLayoutPanelRed.Controls.Add(this.label95, 1, 1);
-			this.tableLayoutPanelRed.Controls.Add(this.label96, 2, 1);
-			this.tableLayoutPanelRed.Controls.Add(this.label97, 3, 1);
-			this.tableLayoutPanelRed.Controls.Add(this.label98, 4, 1);
-			this.tableLayoutPanelRed.Controls.Add(this.label99, 0, 2);
-			this.tableLayoutPanelRed.Controls.Add(this.label100, 1, 2);
-			this.tableLayoutPanelRed.Controls.Add(this.label101, 2, 2);
-			this.tableLayoutPanelRed.Controls.Add(this.label102, 3, 2);
-			this.tableLayoutPanelRed.Controls.Add(this.label103, 4, 2);
-			this.tableLayoutPanelRed.Controls.Add(this.label104, 0, 3);
-			this.tableLayoutPanelRed.Controls.Add(this.label105, 1, 3);
-			this.tableLayoutPanelRed.Controls.Add(this.label106, 2, 3);
-			this.tableLayoutPanelRed.Controls.Add(this.label107, 3, 3);
-			this.tableLayoutPanelRed.Controls.Add(this.label108, 4, 3);
-			this.tableLayoutPanelRed.Controls.Add(this.label109, 0, 4);
-			this.tableLayoutPanelRed.Controls.Add(this.label110, 1, 4);
-			this.tableLayoutPanelRed.Controls.Add(this.label111, 2, 4);
-			this.tableLayoutPanelRed.Controls.Add(this.label112, 3, 4);
-			this.tableLayoutPanelRed.Controls.Add(this.label113, 4, 4);
-			this.tableLayoutPanelRed.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
-			this.tableLayoutPanelRed.Location = new System.Drawing.Point(3, 3);
-			this.tableLayoutPanelRed.Margin = new System.Windows.Forms.Padding(0);
-			this.tableLayoutPanelRed.Name = "tableLayoutPanelRed";
-			this.tableLayoutPanelRed.RowCount = 5;
-			this.tableLayoutPanelRed.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelRed.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelRed.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelRed.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelRed.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelRed.Size = new System.Drawing.Size(540, 540);
-			this.tableLayoutPanelRed.TabIndex = 54;
-			// 
-			// label89
-			// 
-			this.label89.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label89.BackColor = System.Drawing.Color.LightGray;
-			this.label89.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label89.ForeColor = System.Drawing.Color.Black;
-			this.label89.Location = new System.Drawing.Point(5, 5);
-			this.label89.Margin = new System.Windows.Forms.Padding(5);
-			this.label89.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label89.Name = "label89";
-			this.label89.Size = new System.Drawing.Size(98, 98);
-			this.label89.TabIndex = 19;
-			this.label89.Text = "Bingo Tile 1";
-			this.label89.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label89.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label89.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label90
-			// 
-			this.label90.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label90.BackColor = System.Drawing.Color.LightGray;
-			this.label90.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label90.ForeColor = System.Drawing.Color.Black;
-			this.label90.Location = new System.Drawing.Point(113, 5);
-			this.label90.Margin = new System.Windows.Forms.Padding(5);
-			this.label90.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label90.Name = "label90";
-			this.label90.Size = new System.Drawing.Size(98, 98);
-			this.label90.TabIndex = 20;
-			this.label90.Text = "Bingo Tile 2";
-			this.label90.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label90.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label90.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label91
-			// 
-			this.label91.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label91.BackColor = System.Drawing.Color.LightGray;
-			this.label91.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label91.ForeColor = System.Drawing.Color.Black;
-			this.label91.Location = new System.Drawing.Point(221, 5);
-			this.label91.Margin = new System.Windows.Forms.Padding(5);
-			this.label91.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label91.Name = "label91";
-			this.label91.Size = new System.Drawing.Size(98, 98);
-			this.label91.TabIndex = 21;
-			this.label91.Text = "Bingo Tile 3";
-			this.label91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label91.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label91.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label92
-			// 
-			this.label92.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label92.BackColor = System.Drawing.Color.LightGray;
-			this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label92.ForeColor = System.Drawing.Color.Black;
-			this.label92.Location = new System.Drawing.Point(329, 5);
-			this.label92.Margin = new System.Windows.Forms.Padding(5);
-			this.label92.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label92.Name = "label92";
-			this.label92.Size = new System.Drawing.Size(98, 98);
-			this.label92.TabIndex = 22;
-			this.label92.Text = "Bingo Tile 4";
-			this.label92.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label92.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label92.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label93
-			// 
-			this.label93.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label93.BackColor = System.Drawing.Color.LightGray;
-			this.label93.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label93.ForeColor = System.Drawing.Color.Black;
-			this.label93.Location = new System.Drawing.Point(437, 5);
-			this.label93.Margin = new System.Windows.Forms.Padding(5);
-			this.label93.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label93.Name = "label93";
-			this.label93.Size = new System.Drawing.Size(98, 98);
-			this.label93.TabIndex = 23;
-			this.label93.Text = "Bingo Tile 5";
-			this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label93.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label93.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label94
-			// 
-			this.label94.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label94.BackColor = System.Drawing.Color.LightGray;
-			this.label94.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label94.ForeColor = System.Drawing.Color.Black;
-			this.label94.Location = new System.Drawing.Point(5, 113);
-			this.label94.Margin = new System.Windows.Forms.Padding(5);
-			this.label94.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label94.Name = "label94";
-			this.label94.Size = new System.Drawing.Size(98, 98);
-			this.label94.TabIndex = 24;
-			this.label94.Text = "Bingo Tile 6";
-			this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label94.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label94.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label95
-			// 
-			this.label95.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label95.BackColor = System.Drawing.Color.LightGray;
-			this.label95.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label95.ForeColor = System.Drawing.Color.Black;
-			this.label95.Location = new System.Drawing.Point(113, 113);
-			this.label95.Margin = new System.Windows.Forms.Padding(5);
-			this.label95.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label95.Name = "label95";
-			this.label95.Size = new System.Drawing.Size(98, 98);
-			this.label95.TabIndex = 25;
-			this.label95.Text = "Bingo Tile 7";
-			this.label95.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label95.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label95.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label96
-			// 
-			this.label96.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label96.BackColor = System.Drawing.Color.LightGray;
-			this.label96.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label96.ForeColor = System.Drawing.Color.Black;
-			this.label96.Location = new System.Drawing.Point(221, 113);
-			this.label96.Margin = new System.Windows.Forms.Padding(5);
-			this.label96.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label96.Name = "label96";
-			this.label96.Size = new System.Drawing.Size(98, 98);
-			this.label96.TabIndex = 26;
-			this.label96.Text = "Bingo Tile 8";
-			this.label96.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label96.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label96.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label97
-			// 
-			this.label97.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label97.BackColor = System.Drawing.Color.LightGray;
-			this.label97.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label97.ForeColor = System.Drawing.Color.Black;
-			this.label97.Location = new System.Drawing.Point(329, 113);
-			this.label97.Margin = new System.Windows.Forms.Padding(5);
-			this.label97.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label97.Name = "label97";
-			this.label97.Size = new System.Drawing.Size(98, 98);
-			this.label97.TabIndex = 27;
-			this.label97.Text = "Bingo Tile 9";
-			this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label97.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label97.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label98
-			// 
-			this.label98.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label98.BackColor = System.Drawing.Color.LightGray;
-			this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label98.ForeColor = System.Drawing.Color.Black;
-			this.label98.Location = new System.Drawing.Point(437, 113);
-			this.label98.Margin = new System.Windows.Forms.Padding(5);
-			this.label98.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label98.Name = "label98";
-			this.label98.Size = new System.Drawing.Size(98, 98);
-			this.label98.TabIndex = 28;
-			this.label98.Text = "Bingo Tile 10";
-			this.label98.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label98.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label98.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label99
-			// 
-			this.label99.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label99.BackColor = System.Drawing.Color.LightGray;
-			this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label99.ForeColor = System.Drawing.Color.Black;
-			this.label99.Location = new System.Drawing.Point(5, 221);
-			this.label99.Margin = new System.Windows.Forms.Padding(5);
-			this.label99.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label99.Name = "label99";
-			this.label99.Size = new System.Drawing.Size(98, 98);
-			this.label99.TabIndex = 29;
-			this.label99.Text = "Bingo Tile 11";
-			this.label99.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label99.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label99.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label100
-			// 
-			this.label100.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label100.BackColor = System.Drawing.Color.LightGray;
-			this.label100.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label100.ForeColor = System.Drawing.Color.Black;
-			this.label100.Location = new System.Drawing.Point(113, 221);
-			this.label100.Margin = new System.Windows.Forms.Padding(5);
-			this.label100.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label100.Name = "label100";
-			this.label100.Size = new System.Drawing.Size(98, 98);
-			this.label100.TabIndex = 30;
-			this.label100.Text = "Bingo Tile 12";
-			this.label100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label100.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label100.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label101
-			// 
-			this.label101.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label101.BackColor = System.Drawing.Color.LightGray;
-			this.label101.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label101.ForeColor = System.Drawing.Color.Black;
-			this.label101.Location = new System.Drawing.Point(221, 221);
-			this.label101.Margin = new System.Windows.Forms.Padding(5);
-			this.label101.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label101.Name = "label101";
-			this.label101.Size = new System.Drawing.Size(98, 98);
-			this.label101.TabIndex = 31;
-			this.label101.Text = "Bingo Tile 13";
-			this.label101.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label101.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label101.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label102
-			// 
-			this.label102.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label102.BackColor = System.Drawing.Color.LightGray;
-			this.label102.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label102.ForeColor = System.Drawing.Color.Black;
-			this.label102.Location = new System.Drawing.Point(329, 221);
-			this.label102.Margin = new System.Windows.Forms.Padding(5);
-			this.label102.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label102.Name = "label102";
-			this.label102.Size = new System.Drawing.Size(98, 98);
-			this.label102.TabIndex = 32;
-			this.label102.Text = "Bingo Tile 14";
-			this.label102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label102.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label102.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label103
-			// 
-			this.label103.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label103.BackColor = System.Drawing.Color.LightGray;
-			this.label103.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label103.ForeColor = System.Drawing.Color.Black;
-			this.label103.Location = new System.Drawing.Point(437, 221);
-			this.label103.Margin = new System.Windows.Forms.Padding(5);
-			this.label103.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label103.Name = "label103";
-			this.label103.Size = new System.Drawing.Size(98, 98);
-			this.label103.TabIndex = 33;
-			this.label103.Text = "Bingo Tile 15";
-			this.label103.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label103.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label103.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label104
-			// 
-			this.label104.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label104.BackColor = System.Drawing.Color.LightGray;
-			this.label104.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label104.ForeColor = System.Drawing.Color.Black;
-			this.label104.Location = new System.Drawing.Point(5, 329);
-			this.label104.Margin = new System.Windows.Forms.Padding(5);
-			this.label104.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label104.Name = "label104";
-			this.label104.Size = new System.Drawing.Size(98, 98);
-			this.label104.TabIndex = 34;
-			this.label104.Text = "Bingo Tile 16";
-			this.label104.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label104.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label104.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label105
-			// 
-			this.label105.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label105.BackColor = System.Drawing.Color.LightGray;
-			this.label105.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label105.ForeColor = System.Drawing.Color.Black;
-			this.label105.Location = new System.Drawing.Point(113, 329);
-			this.label105.Margin = new System.Windows.Forms.Padding(5);
-			this.label105.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label105.Name = "label105";
-			this.label105.Size = new System.Drawing.Size(98, 98);
-			this.label105.TabIndex = 35;
-			this.label105.Text = "Bingo Tile 17";
-			this.label105.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label105.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label105.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label106
-			// 
-			this.label106.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label106.BackColor = System.Drawing.Color.LightGray;
-			this.label106.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label106.ForeColor = System.Drawing.Color.Black;
-			this.label106.Location = new System.Drawing.Point(221, 329);
-			this.label106.Margin = new System.Windows.Forms.Padding(5);
-			this.label106.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label106.Name = "label106";
-			this.label106.Size = new System.Drawing.Size(98, 98);
-			this.label106.TabIndex = 36;
-			this.label106.Text = "Bingo Tile 18";
-			this.label106.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label106.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label106.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label107
-			// 
-			this.label107.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label107.BackColor = System.Drawing.Color.LightGray;
-			this.label107.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label107.ForeColor = System.Drawing.Color.Black;
-			this.label107.Location = new System.Drawing.Point(329, 329);
-			this.label107.Margin = new System.Windows.Forms.Padding(5);
-			this.label107.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label107.Name = "label107";
-			this.label107.Size = new System.Drawing.Size(98, 98);
-			this.label107.TabIndex = 37;
-			this.label107.Text = "Bingo Tile 19";
-			this.label107.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label107.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label107.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label108
-			// 
-			this.label108.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label108.BackColor = System.Drawing.Color.LightGray;
-			this.label108.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label108.ForeColor = System.Drawing.Color.Black;
-			this.label108.Location = new System.Drawing.Point(437, 329);
-			this.label108.Margin = new System.Windows.Forms.Padding(5);
-			this.label108.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label108.Name = "label108";
-			this.label108.Size = new System.Drawing.Size(98, 98);
-			this.label108.TabIndex = 38;
-			this.label108.Text = "Bingo Tile 20";
-			this.label108.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label108.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label108.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label109
-			// 
-			this.label109.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label109.BackColor = System.Drawing.Color.LightGray;
-			this.label109.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label109.ForeColor = System.Drawing.Color.Black;
-			this.label109.Location = new System.Drawing.Point(5, 437);
-			this.label109.Margin = new System.Windows.Forms.Padding(5);
-			this.label109.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label109.Name = "label109";
-			this.label109.Size = new System.Drawing.Size(98, 98);
-			this.label109.TabIndex = 39;
-			this.label109.Text = "Bingo Tile 21";
-			this.label109.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label109.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label109.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label110
-			// 
-			this.label110.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label110.BackColor = System.Drawing.Color.LightGray;
-			this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label110.ForeColor = System.Drawing.Color.Black;
-			this.label110.Location = new System.Drawing.Point(113, 437);
-			this.label110.Margin = new System.Windows.Forms.Padding(5);
-			this.label110.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label110.Name = "label110";
-			this.label110.Size = new System.Drawing.Size(98, 98);
-			this.label110.TabIndex = 40;
-			this.label110.Text = "Bingo Tile 22";
-			this.label110.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label110.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label110.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label111
-			// 
-			this.label111.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label111.BackColor = System.Drawing.Color.LightGray;
-			this.label111.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label111.ForeColor = System.Drawing.Color.Black;
-			this.label111.Location = new System.Drawing.Point(221, 437);
-			this.label111.Margin = new System.Windows.Forms.Padding(5);
-			this.label111.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label111.Name = "label111";
-			this.label111.Size = new System.Drawing.Size(98, 98);
-			this.label111.TabIndex = 41;
-			this.label111.Text = "Bingo Tile 23";
-			this.label111.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label111.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label111.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label112
-			// 
-			this.label112.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label112.BackColor = System.Drawing.Color.LightGray;
-			this.label112.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label112.ForeColor = System.Drawing.Color.Black;
-			this.label112.Location = new System.Drawing.Point(329, 437);
-			this.label112.Margin = new System.Windows.Forms.Padding(5);
-			this.label112.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label112.Name = "label112";
-			this.label112.Size = new System.Drawing.Size(98, 98);
-			this.label112.TabIndex = 42;
-			this.label112.Text = "Bingo Tile 24";
-			this.label112.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label112.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label112.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label113
-			// 
-			this.label113.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label113.BackColor = System.Drawing.Color.LightGray;
-			this.label113.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label113.ForeColor = System.Drawing.Color.Black;
-			this.label113.Location = new System.Drawing.Point(437, 437);
-			this.label113.Margin = new System.Windows.Forms.Padding(5);
-			this.label113.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label113.Name = "label113";
-			this.label113.Size = new System.Drawing.Size(98, 98);
-			this.label113.TabIndex = 43;
-			this.label113.Text = "Bingo Tile 25";
-			this.label113.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label113.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label113.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// TabYellow
-			// 
-			this.TabYellow.BackColor = System.Drawing.Color.Khaki;
-			this.TabYellow.Controls.Add(this.tableLayoutPanelYellow);
-			this.TabYellow.Location = new System.Drawing.Point(4, 22);
-			this.TabYellow.Name = "TabYellow";
-			this.TabYellow.Padding = new System.Windows.Forms.Padding(3);
-			this.TabYellow.Size = new System.Drawing.Size(546, 547);
-			this.TabYellow.TabIndex = 1;
-			this.TabYellow.Text = "Player Yellow";
-			// 
-			// tableLayoutPanelYellow
-			// 
-			this.tableLayoutPanelYellow.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanelYellow.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.tableLayoutPanelYellow.ColumnCount = 5;
-			this.tableLayoutPanelYellow.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelYellow.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelYellow.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelYellow.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelYellow.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelYellow.Controls.Add(this.label64, 0, 0);
-			this.tableLayoutPanelYellow.Controls.Add(this.label65, 1, 0);
-			this.tableLayoutPanelYellow.Controls.Add(this.label66, 2, 0);
-			this.tableLayoutPanelYellow.Controls.Add(this.label67, 3, 0);
-			this.tableLayoutPanelYellow.Controls.Add(this.label68, 4, 0);
-			this.tableLayoutPanelYellow.Controls.Add(this.label69, 0, 1);
-			this.tableLayoutPanelYellow.Controls.Add(this.label70, 1, 1);
-			this.tableLayoutPanelYellow.Controls.Add(this.label71, 2, 1);
-			this.tableLayoutPanelYellow.Controls.Add(this.label72, 3, 1);
-			this.tableLayoutPanelYellow.Controls.Add(this.label73, 4, 1);
-			this.tableLayoutPanelYellow.Controls.Add(this.label74, 0, 2);
-			this.tableLayoutPanelYellow.Controls.Add(this.label75, 1, 2);
-			this.tableLayoutPanelYellow.Controls.Add(this.label76, 2, 2);
-			this.tableLayoutPanelYellow.Controls.Add(this.label77, 3, 2);
-			this.tableLayoutPanelYellow.Controls.Add(this.label78, 4, 2);
-			this.tableLayoutPanelYellow.Controls.Add(this.label79, 0, 3);
-			this.tableLayoutPanelYellow.Controls.Add(this.label80, 1, 3);
-			this.tableLayoutPanelYellow.Controls.Add(this.label81, 2, 3);
-			this.tableLayoutPanelYellow.Controls.Add(this.label82, 3, 3);
-			this.tableLayoutPanelYellow.Controls.Add(this.label83, 4, 3);
-			this.tableLayoutPanelYellow.Controls.Add(this.label84, 0, 4);
-			this.tableLayoutPanelYellow.Controls.Add(this.label85, 1, 4);
-			this.tableLayoutPanelYellow.Controls.Add(this.label86, 2, 4);
-			this.tableLayoutPanelYellow.Controls.Add(this.label87, 3, 4);
-			this.tableLayoutPanelYellow.Controls.Add(this.label88, 4, 4);
-			this.tableLayoutPanelYellow.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
-			this.tableLayoutPanelYellow.Location = new System.Drawing.Point(3, 3);
-			this.tableLayoutPanelYellow.Margin = new System.Windows.Forms.Padding(0);
-			this.tableLayoutPanelYellow.Name = "tableLayoutPanelYellow";
-			this.tableLayoutPanelYellow.RowCount = 5;
-			this.tableLayoutPanelYellow.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelYellow.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelYellow.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelYellow.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelYellow.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelYellow.Size = new System.Drawing.Size(540, 540);
-			this.tableLayoutPanelYellow.TabIndex = 53;
-			// 
-			// label64
-			// 
-			this.label64.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label64.BackColor = System.Drawing.Color.LightGray;
-			this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label64.ForeColor = System.Drawing.Color.Black;
-			this.label64.Location = new System.Drawing.Point(5, 5);
-			this.label64.Margin = new System.Windows.Forms.Padding(5);
-			this.label64.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label64.Name = "label64";
-			this.label64.Size = new System.Drawing.Size(98, 98);
-			this.label64.TabIndex = 19;
-			this.label64.Text = "Bingo Tile 1";
-			this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label64.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label64.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label65
-			// 
-			this.label65.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label65.BackColor = System.Drawing.Color.LightGray;
-			this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label65.ForeColor = System.Drawing.Color.Black;
-			this.label65.Location = new System.Drawing.Point(113, 5);
-			this.label65.Margin = new System.Windows.Forms.Padding(5);
-			this.label65.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label65.Name = "label65";
-			this.label65.Size = new System.Drawing.Size(98, 98);
-			this.label65.TabIndex = 20;
-			this.label65.Text = "Bingo Tile 2";
-			this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label65.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label65.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label66
-			// 
-			this.label66.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label66.BackColor = System.Drawing.Color.LightGray;
-			this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label66.ForeColor = System.Drawing.Color.Black;
-			this.label66.Location = new System.Drawing.Point(221, 5);
-			this.label66.Margin = new System.Windows.Forms.Padding(5);
-			this.label66.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label66.Name = "label66";
-			this.label66.Size = new System.Drawing.Size(98, 98);
-			this.label66.TabIndex = 21;
-			this.label66.Text = "Bingo Tile 3";
-			this.label66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label66.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label66.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label67
-			// 
-			this.label67.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label67.BackColor = System.Drawing.Color.LightGray;
-			this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label67.ForeColor = System.Drawing.Color.Black;
-			this.label67.Location = new System.Drawing.Point(329, 5);
-			this.label67.Margin = new System.Windows.Forms.Padding(5);
-			this.label67.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label67.Name = "label67";
-			this.label67.Size = new System.Drawing.Size(98, 98);
-			this.label67.TabIndex = 22;
-			this.label67.Text = "Bingo Tile 4";
-			this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label67.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label67.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label68
-			// 
-			this.label68.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label68.BackColor = System.Drawing.Color.LightGray;
-			this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label68.ForeColor = System.Drawing.Color.Black;
-			this.label68.Location = new System.Drawing.Point(437, 5);
-			this.label68.Margin = new System.Windows.Forms.Padding(5);
-			this.label68.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label68.Name = "label68";
-			this.label68.Size = new System.Drawing.Size(98, 98);
-			this.label68.TabIndex = 23;
-			this.label68.Text = "Bingo Tile 5";
-			this.label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label68.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label68.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label69
-			// 
-			this.label69.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label69.BackColor = System.Drawing.Color.LightGray;
-			this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label69.ForeColor = System.Drawing.Color.Black;
-			this.label69.Location = new System.Drawing.Point(5, 113);
-			this.label69.Margin = new System.Windows.Forms.Padding(5);
-			this.label69.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label69.Name = "label69";
-			this.label69.Size = new System.Drawing.Size(98, 98);
-			this.label69.TabIndex = 24;
-			this.label69.Text = "Bingo Tile 6";
-			this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label69.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label69.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label70
-			// 
-			this.label70.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label70.BackColor = System.Drawing.Color.LightGray;
-			this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label70.ForeColor = System.Drawing.Color.Black;
-			this.label70.Location = new System.Drawing.Point(113, 113);
-			this.label70.Margin = new System.Windows.Forms.Padding(5);
-			this.label70.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label70.Name = "label70";
-			this.label70.Size = new System.Drawing.Size(98, 98);
-			this.label70.TabIndex = 25;
-			this.label70.Text = "Bingo Tile 7";
-			this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label70.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label70.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label71
-			// 
-			this.label71.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label71.BackColor = System.Drawing.Color.LightGray;
-			this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label71.ForeColor = System.Drawing.Color.Black;
-			this.label71.Location = new System.Drawing.Point(221, 113);
-			this.label71.Margin = new System.Windows.Forms.Padding(5);
-			this.label71.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label71.Name = "label71";
-			this.label71.Size = new System.Drawing.Size(98, 98);
-			this.label71.TabIndex = 26;
-			this.label71.Text = "Bingo Tile 8";
-			this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label71.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label71.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label72
-			// 
-			this.label72.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label72.BackColor = System.Drawing.Color.LightGray;
-			this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label72.ForeColor = System.Drawing.Color.Black;
-			this.label72.Location = new System.Drawing.Point(329, 113);
-			this.label72.Margin = new System.Windows.Forms.Padding(5);
-			this.label72.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label72.Name = "label72";
-			this.label72.Size = new System.Drawing.Size(98, 98);
-			this.label72.TabIndex = 27;
-			this.label72.Text = "Bingo Tile 9";
-			this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label72.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label72.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label73
-			// 
-			this.label73.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label73.BackColor = System.Drawing.Color.LightGray;
-			this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label73.ForeColor = System.Drawing.Color.Black;
-			this.label73.Location = new System.Drawing.Point(437, 113);
-			this.label73.Margin = new System.Windows.Forms.Padding(5);
-			this.label73.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label73.Name = "label73";
-			this.label73.Size = new System.Drawing.Size(98, 98);
-			this.label73.TabIndex = 28;
-			this.label73.Text = "Bingo Tile 10";
-			this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label73.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label73.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label74
-			// 
-			this.label74.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label74.BackColor = System.Drawing.Color.LightGray;
-			this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label74.ForeColor = System.Drawing.Color.Black;
-			this.label74.Location = new System.Drawing.Point(5, 221);
-			this.label74.Margin = new System.Windows.Forms.Padding(5);
-			this.label74.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label74.Name = "label74";
-			this.label74.Size = new System.Drawing.Size(98, 98);
-			this.label74.TabIndex = 29;
-			this.label74.Text = "Bingo Tile 11";
-			this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label74.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label74.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label75
-			// 
-			this.label75.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label75.BackColor = System.Drawing.Color.LightGray;
-			this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label75.ForeColor = System.Drawing.Color.Black;
-			this.label75.Location = new System.Drawing.Point(113, 221);
-			this.label75.Margin = new System.Windows.Forms.Padding(5);
-			this.label75.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label75.Name = "label75";
-			this.label75.Size = new System.Drawing.Size(98, 98);
-			this.label75.TabIndex = 30;
-			this.label75.Text = "Bingo Tile 12";
-			this.label75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label75.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label75.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label76
-			// 
-			this.label76.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label76.BackColor = System.Drawing.Color.LightGray;
-			this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label76.ForeColor = System.Drawing.Color.Black;
-			this.label76.Location = new System.Drawing.Point(221, 221);
-			this.label76.Margin = new System.Windows.Forms.Padding(5);
-			this.label76.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label76.Name = "label76";
-			this.label76.Size = new System.Drawing.Size(98, 98);
-			this.label76.TabIndex = 31;
-			this.label76.Text = "Bingo Tile 13";
-			this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label76.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label76.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label77
-			// 
-			this.label77.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label77.BackColor = System.Drawing.Color.LightGray;
-			this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label77.ForeColor = System.Drawing.Color.Black;
-			this.label77.Location = new System.Drawing.Point(329, 221);
-			this.label77.Margin = new System.Windows.Forms.Padding(5);
-			this.label77.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label77.Name = "label77";
-			this.label77.Size = new System.Drawing.Size(98, 98);
-			this.label77.TabIndex = 32;
-			this.label77.Text = "Bingo Tile 14";
-			this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label77.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label77.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label78
-			// 
-			this.label78.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label78.BackColor = System.Drawing.Color.LightGray;
-			this.label78.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label78.ForeColor = System.Drawing.Color.Black;
-			this.label78.Location = new System.Drawing.Point(437, 221);
-			this.label78.Margin = new System.Windows.Forms.Padding(5);
-			this.label78.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label78.Name = "label78";
-			this.label78.Size = new System.Drawing.Size(98, 98);
-			this.label78.TabIndex = 33;
-			this.label78.Text = "Bingo Tile 15";
-			this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label78.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label78.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label79
-			// 
-			this.label79.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label79.BackColor = System.Drawing.Color.LightGray;
-			this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label79.ForeColor = System.Drawing.Color.Black;
-			this.label79.Location = new System.Drawing.Point(5, 329);
-			this.label79.Margin = new System.Windows.Forms.Padding(5);
-			this.label79.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label79.Name = "label79";
-			this.label79.Size = new System.Drawing.Size(98, 98);
-			this.label79.TabIndex = 34;
-			this.label79.Text = "Bingo Tile 16";
-			this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label79.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label79.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label80
-			// 
-			this.label80.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label80.BackColor = System.Drawing.Color.LightGray;
-			this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label80.ForeColor = System.Drawing.Color.Black;
-			this.label80.Location = new System.Drawing.Point(113, 329);
-			this.label80.Margin = new System.Windows.Forms.Padding(5);
-			this.label80.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label80.Name = "label80";
-			this.label80.Size = new System.Drawing.Size(98, 98);
-			this.label80.TabIndex = 35;
-			this.label80.Text = "Bingo Tile 17";
-			this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label80.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label80.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label81
-			// 
-			this.label81.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label81.BackColor = System.Drawing.Color.LightGray;
-			this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label81.ForeColor = System.Drawing.Color.Black;
-			this.label81.Location = new System.Drawing.Point(221, 329);
-			this.label81.Margin = new System.Windows.Forms.Padding(5);
-			this.label81.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label81.Name = "label81";
-			this.label81.Size = new System.Drawing.Size(98, 98);
-			this.label81.TabIndex = 36;
-			this.label81.Text = "Bingo Tile 18";
-			this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label81.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label81.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label82
-			// 
-			this.label82.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label82.BackColor = System.Drawing.Color.LightGray;
-			this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label82.ForeColor = System.Drawing.Color.Black;
-			this.label82.Location = new System.Drawing.Point(329, 329);
-			this.label82.Margin = new System.Windows.Forms.Padding(5);
-			this.label82.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label82.Name = "label82";
-			this.label82.Size = new System.Drawing.Size(98, 98);
-			this.label82.TabIndex = 37;
-			this.label82.Text = "Bingo Tile 19";
-			this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label82.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label82.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label83
-			// 
-			this.label83.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label83.BackColor = System.Drawing.Color.LightGray;
-			this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label83.ForeColor = System.Drawing.Color.Black;
-			this.label83.Location = new System.Drawing.Point(437, 329);
-			this.label83.Margin = new System.Windows.Forms.Padding(5);
-			this.label83.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label83.Name = "label83";
-			this.label83.Size = new System.Drawing.Size(98, 98);
-			this.label83.TabIndex = 38;
-			this.label83.Text = "Bingo Tile 20";
-			this.label83.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label83.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label83.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label84
-			// 
-			this.label84.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label84.BackColor = System.Drawing.Color.LightGray;
-			this.label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label84.ForeColor = System.Drawing.Color.Black;
-			this.label84.Location = new System.Drawing.Point(5, 437);
-			this.label84.Margin = new System.Windows.Forms.Padding(5);
-			this.label84.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label84.Name = "label84";
-			this.label84.Size = new System.Drawing.Size(98, 98);
-			this.label84.TabIndex = 39;
-			this.label84.Text = "Bingo Tile 21";
-			this.label84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label84.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label84.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label85
-			// 
-			this.label85.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label85.BackColor = System.Drawing.Color.LightGray;
-			this.label85.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label85.ForeColor = System.Drawing.Color.Black;
-			this.label85.Location = new System.Drawing.Point(113, 437);
-			this.label85.Margin = new System.Windows.Forms.Padding(5);
-			this.label85.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label85.Name = "label85";
-			this.label85.Size = new System.Drawing.Size(98, 98);
-			this.label85.TabIndex = 40;
-			this.label85.Text = "Bingo Tile 22";
-			this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label85.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label85.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label86
-			// 
-			this.label86.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label86.BackColor = System.Drawing.Color.LightGray;
-			this.label86.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label86.ForeColor = System.Drawing.Color.Black;
-			this.label86.Location = new System.Drawing.Point(221, 437);
-			this.label86.Margin = new System.Windows.Forms.Padding(5);
-			this.label86.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label86.Name = "label86";
-			this.label86.Size = new System.Drawing.Size(98, 98);
-			this.label86.TabIndex = 41;
-			this.label86.Text = "Bingo Tile 23";
-			this.label86.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label86.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label86.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label87
-			// 
-			this.label87.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label87.BackColor = System.Drawing.Color.LightGray;
-			this.label87.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label87.ForeColor = System.Drawing.Color.Black;
-			this.label87.Location = new System.Drawing.Point(329, 437);
-			this.label87.Margin = new System.Windows.Forms.Padding(5);
-			this.label87.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label87.Name = "label87";
-			this.label87.Size = new System.Drawing.Size(98, 98);
-			this.label87.TabIndex = 42;
-			this.label87.Text = "Bingo Tile 24";
-			this.label87.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label87.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label87.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label88
-			// 
-			this.label88.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label88.BackColor = System.Drawing.Color.LightGray;
-			this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label88.ForeColor = System.Drawing.Color.Black;
-			this.label88.Location = new System.Drawing.Point(437, 437);
-			this.label88.Margin = new System.Windows.Forms.Padding(5);
-			this.label88.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label88.Name = "label88";
-			this.label88.Size = new System.Drawing.Size(98, 98);
-			this.label88.TabIndex = 43;
-			this.label88.Text = "Bingo Tile 25";
-			this.label88.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label88.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label88.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// TabGreen
-			// 
-			this.TabGreen.BackColor = System.Drawing.Color.ForestGreen;
-			this.TabGreen.Controls.Add(this.tableLayoutPanelGreen);
-			this.TabGreen.Location = new System.Drawing.Point(4, 22);
-			this.TabGreen.Name = "TabGreen";
-			this.TabGreen.Padding = new System.Windows.Forms.Padding(3);
-			this.TabGreen.Size = new System.Drawing.Size(546, 547);
-			this.TabGreen.TabIndex = 0;
-			this.TabGreen.Text = "Player Green";
-			// 
-			// tableLayoutPanelGreen
-			// 
-			this.tableLayoutPanelGreen.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanelGreen.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.tableLayoutPanelGreen.ColumnCount = 5;
-			this.tableLayoutPanelGreen.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelGreen.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelGreen.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelGreen.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelGreen.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelGreen.Controls.Add(this.label39, 0, 0);
-			this.tableLayoutPanelGreen.Controls.Add(this.label40, 1, 0);
-			this.tableLayoutPanelGreen.Controls.Add(this.label41, 2, 0);
-			this.tableLayoutPanelGreen.Controls.Add(this.label42, 3, 0);
-			this.tableLayoutPanelGreen.Controls.Add(this.label43, 4, 0);
-			this.tableLayoutPanelGreen.Controls.Add(this.label44, 0, 1);
-			this.tableLayoutPanelGreen.Controls.Add(this.label45, 1, 1);
-			this.tableLayoutPanelGreen.Controls.Add(this.label46, 2, 1);
-			this.tableLayoutPanelGreen.Controls.Add(this.label47, 3, 1);
-			this.tableLayoutPanelGreen.Controls.Add(this.label48, 4, 1);
-			this.tableLayoutPanelGreen.Controls.Add(this.label49, 0, 2);
-			this.tableLayoutPanelGreen.Controls.Add(this.label50, 1, 2);
-			this.tableLayoutPanelGreen.Controls.Add(this.label51, 2, 2);
-			this.tableLayoutPanelGreen.Controls.Add(this.label52, 3, 2);
-			this.tableLayoutPanelGreen.Controls.Add(this.label53, 4, 2);
-			this.tableLayoutPanelGreen.Controls.Add(this.label54, 0, 3);
-			this.tableLayoutPanelGreen.Controls.Add(this.label55, 1, 3);
-			this.tableLayoutPanelGreen.Controls.Add(this.label56, 2, 3);
-			this.tableLayoutPanelGreen.Controls.Add(this.label57, 3, 3);
-			this.tableLayoutPanelGreen.Controls.Add(this.label58, 4, 3);
-			this.tableLayoutPanelGreen.Controls.Add(this.label59, 0, 4);
-			this.tableLayoutPanelGreen.Controls.Add(this.label60, 1, 4);
-			this.tableLayoutPanelGreen.Controls.Add(this.label61, 2, 4);
-			this.tableLayoutPanelGreen.Controls.Add(this.label62, 3, 4);
-			this.tableLayoutPanelGreen.Controls.Add(this.label63, 4, 4);
-			this.tableLayoutPanelGreen.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
-			this.tableLayoutPanelGreen.Location = new System.Drawing.Point(3, 3);
-			this.tableLayoutPanelGreen.Margin = new System.Windows.Forms.Padding(0);
-			this.tableLayoutPanelGreen.Name = "tableLayoutPanelGreen";
-			this.tableLayoutPanelGreen.RowCount = 5;
-			this.tableLayoutPanelGreen.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelGreen.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelGreen.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelGreen.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelGreen.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelGreen.Size = new System.Drawing.Size(540, 540);
-			this.tableLayoutPanelGreen.TabIndex = 52;
-			// 
-			// label39
-			// 
-			this.label39.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label39.BackColor = System.Drawing.Color.LightGray;
-			this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label39.ForeColor = System.Drawing.Color.Black;
-			this.label39.Location = new System.Drawing.Point(5, 5);
-			this.label39.Margin = new System.Windows.Forms.Padding(5);
-			this.label39.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label39.Name = "label39";
-			this.label39.Size = new System.Drawing.Size(98, 98);
-			this.label39.TabIndex = 19;
-			this.label39.Text = "Bingo Tile 1";
-			this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label39.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label39.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label40
-			// 
-			this.label40.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label40.BackColor = System.Drawing.Color.LightGray;
-			this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label40.ForeColor = System.Drawing.Color.Black;
-			this.label40.Location = new System.Drawing.Point(113, 5);
-			this.label40.Margin = new System.Windows.Forms.Padding(5);
-			this.label40.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label40.Name = "label40";
-			this.label40.Size = new System.Drawing.Size(98, 98);
-			this.label40.TabIndex = 20;
-			this.label40.Text = "Bingo Tile 2";
-			this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label40.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label40.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label41
-			// 
-			this.label41.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label41.BackColor = System.Drawing.Color.LightGray;
-			this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label41.ForeColor = System.Drawing.Color.Black;
-			this.label41.Location = new System.Drawing.Point(221, 5);
-			this.label41.Margin = new System.Windows.Forms.Padding(5);
-			this.label41.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label41.Name = "label41";
-			this.label41.Size = new System.Drawing.Size(98, 98);
-			this.label41.TabIndex = 21;
-			this.label41.Text = "Bingo Tile 3";
-			this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label41.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label41.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label42
-			// 
-			this.label42.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label42.BackColor = System.Drawing.Color.LightGray;
-			this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label42.ForeColor = System.Drawing.Color.Black;
-			this.label42.Location = new System.Drawing.Point(329, 5);
-			this.label42.Margin = new System.Windows.Forms.Padding(5);
-			this.label42.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label42.Name = "label42";
-			this.label42.Size = new System.Drawing.Size(98, 98);
-			this.label42.TabIndex = 22;
-			this.label42.Text = "Bingo Tile 4";
-			this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label42.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label42.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label43
-			// 
-			this.label43.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label43.BackColor = System.Drawing.Color.LightGray;
-			this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label43.ForeColor = System.Drawing.Color.Black;
-			this.label43.Location = new System.Drawing.Point(437, 5);
-			this.label43.Margin = new System.Windows.Forms.Padding(5);
-			this.label43.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label43.Name = "label43";
-			this.label43.Size = new System.Drawing.Size(98, 98);
-			this.label43.TabIndex = 23;
-			this.label43.Text = "Bingo Tile 5";
-			this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label43.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label43.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label44
-			// 
-			this.label44.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label44.BackColor = System.Drawing.Color.LightGray;
-			this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label44.ForeColor = System.Drawing.Color.Black;
-			this.label44.Location = new System.Drawing.Point(5, 113);
-			this.label44.Margin = new System.Windows.Forms.Padding(5);
-			this.label44.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label44.Name = "label44";
-			this.label44.Size = new System.Drawing.Size(98, 98);
-			this.label44.TabIndex = 24;
-			this.label44.Text = "Bingo Tile 6";
-			this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label44.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label44.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label45
-			// 
-			this.label45.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label45.BackColor = System.Drawing.Color.LightGray;
-			this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label45.ForeColor = System.Drawing.Color.Black;
-			this.label45.Location = new System.Drawing.Point(113, 113);
-			this.label45.Margin = new System.Windows.Forms.Padding(5);
-			this.label45.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label45.Name = "label45";
-			this.label45.Size = new System.Drawing.Size(98, 98);
-			this.label45.TabIndex = 25;
-			this.label45.Text = "Bingo Tile 7";
-			this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label45.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label45.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label46
-			// 
-			this.label46.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label46.BackColor = System.Drawing.Color.LightGray;
-			this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label46.ForeColor = System.Drawing.Color.Black;
-			this.label46.Location = new System.Drawing.Point(221, 113);
-			this.label46.Margin = new System.Windows.Forms.Padding(5);
-			this.label46.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label46.Name = "label46";
-			this.label46.Size = new System.Drawing.Size(98, 98);
-			this.label46.TabIndex = 26;
-			this.label46.Text = "Bingo Tile 8";
-			this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label46.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label46.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label47
-			// 
-			this.label47.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label47.BackColor = System.Drawing.Color.LightGray;
-			this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label47.ForeColor = System.Drawing.Color.Black;
-			this.label47.Location = new System.Drawing.Point(329, 113);
-			this.label47.Margin = new System.Windows.Forms.Padding(5);
-			this.label47.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label47.Name = "label47";
-			this.label47.Size = new System.Drawing.Size(98, 98);
-			this.label47.TabIndex = 27;
-			this.label47.Text = "Bingo Tile 9";
-			this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label47.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label47.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label48
-			// 
-			this.label48.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label48.BackColor = System.Drawing.Color.LightGray;
-			this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label48.ForeColor = System.Drawing.Color.Black;
-			this.label48.Location = new System.Drawing.Point(437, 113);
-			this.label48.Margin = new System.Windows.Forms.Padding(5);
-			this.label48.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label48.Name = "label48";
-			this.label48.Size = new System.Drawing.Size(98, 98);
-			this.label48.TabIndex = 28;
-			this.label48.Text = "Bingo Tile 10";
-			this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label48.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label48.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label49
-			// 
-			this.label49.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label49.BackColor = System.Drawing.Color.LightGray;
-			this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label49.ForeColor = System.Drawing.Color.Black;
-			this.label49.Location = new System.Drawing.Point(5, 221);
-			this.label49.Margin = new System.Windows.Forms.Padding(5);
-			this.label49.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label49.Name = "label49";
-			this.label49.Size = new System.Drawing.Size(98, 98);
-			this.label49.TabIndex = 29;
-			this.label49.Text = "Bingo Tile 11";
-			this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label49.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label49.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label50
-			// 
-			this.label50.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label50.BackColor = System.Drawing.Color.LightGray;
-			this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label50.ForeColor = System.Drawing.Color.Black;
-			this.label50.Location = new System.Drawing.Point(113, 221);
-			this.label50.Margin = new System.Windows.Forms.Padding(5);
-			this.label50.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label50.Name = "label50";
-			this.label50.Size = new System.Drawing.Size(98, 98);
-			this.label50.TabIndex = 30;
-			this.label50.Text = "Bingo Tile 12";
-			this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label50.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label50.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label51
-			// 
-			this.label51.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label51.BackColor = System.Drawing.Color.LightGray;
-			this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label51.ForeColor = System.Drawing.Color.Black;
-			this.label51.Location = new System.Drawing.Point(221, 221);
-			this.label51.Margin = new System.Windows.Forms.Padding(5);
-			this.label51.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label51.Name = "label51";
-			this.label51.Size = new System.Drawing.Size(98, 98);
-			this.label51.TabIndex = 31;
-			this.label51.Text = "Bingo Tile 13";
-			this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label51.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label51.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label52
-			// 
-			this.label52.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label52.BackColor = System.Drawing.Color.LightGray;
-			this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label52.ForeColor = System.Drawing.Color.Black;
-			this.label52.Location = new System.Drawing.Point(329, 221);
-			this.label52.Margin = new System.Windows.Forms.Padding(5);
-			this.label52.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label52.Name = "label52";
-			this.label52.Size = new System.Drawing.Size(98, 98);
-			this.label52.TabIndex = 32;
-			this.label52.Text = "Bingo Tile 14";
-			this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label52.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label52.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label53
-			// 
-			this.label53.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label53.BackColor = System.Drawing.Color.LightGray;
-			this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label53.ForeColor = System.Drawing.Color.Black;
-			this.label53.Location = new System.Drawing.Point(437, 221);
-			this.label53.Margin = new System.Windows.Forms.Padding(5);
-			this.label53.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label53.Name = "label53";
-			this.label53.Size = new System.Drawing.Size(98, 98);
-			this.label53.TabIndex = 33;
-			this.label53.Text = "Bingo Tile 15";
-			this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label53.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label53.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label54
-			// 
-			this.label54.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label54.BackColor = System.Drawing.Color.LightGray;
-			this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label54.ForeColor = System.Drawing.Color.Black;
-			this.label54.Location = new System.Drawing.Point(5, 329);
-			this.label54.Margin = new System.Windows.Forms.Padding(5);
-			this.label54.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label54.Name = "label54";
-			this.label54.Size = new System.Drawing.Size(98, 98);
-			this.label54.TabIndex = 34;
-			this.label54.Text = "Bingo Tile 16";
-			this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label54.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label54.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label55
-			// 
-			this.label55.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label55.BackColor = System.Drawing.Color.LightGray;
-			this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label55.ForeColor = System.Drawing.Color.Black;
-			this.label55.Location = new System.Drawing.Point(113, 329);
-			this.label55.Margin = new System.Windows.Forms.Padding(5);
-			this.label55.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label55.Name = "label55";
-			this.label55.Size = new System.Drawing.Size(98, 98);
-			this.label55.TabIndex = 35;
-			this.label55.Text = "Bingo Tile 17";
-			this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label55.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label55.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label56
-			// 
-			this.label56.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label56.BackColor = System.Drawing.Color.LightGray;
-			this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label56.ForeColor = System.Drawing.Color.Black;
-			this.label56.Location = new System.Drawing.Point(221, 329);
-			this.label56.Margin = new System.Windows.Forms.Padding(5);
-			this.label56.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label56.Name = "label56";
-			this.label56.Size = new System.Drawing.Size(98, 98);
-			this.label56.TabIndex = 36;
-			this.label56.Text = "Bingo Tile 18";
-			this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label56.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label56.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label57
-			// 
-			this.label57.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label57.BackColor = System.Drawing.Color.LightGray;
-			this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label57.ForeColor = System.Drawing.Color.Black;
-			this.label57.Location = new System.Drawing.Point(329, 329);
-			this.label57.Margin = new System.Windows.Forms.Padding(5);
-			this.label57.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label57.Name = "label57";
-			this.label57.Size = new System.Drawing.Size(98, 98);
-			this.label57.TabIndex = 37;
-			this.label57.Text = "Bingo Tile 19";
-			this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label57.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label57.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label58
-			// 
-			this.label58.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label58.BackColor = System.Drawing.Color.LightGray;
-			this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label58.ForeColor = System.Drawing.Color.Black;
-			this.label58.Location = new System.Drawing.Point(437, 329);
-			this.label58.Margin = new System.Windows.Forms.Padding(5);
-			this.label58.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label58.Name = "label58";
-			this.label58.Size = new System.Drawing.Size(98, 98);
-			this.label58.TabIndex = 38;
-			this.label58.Text = "Bingo Tile 20";
-			this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label58.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label58.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label59
-			// 
-			this.label59.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label59.BackColor = System.Drawing.Color.LightGray;
-			this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label59.ForeColor = System.Drawing.Color.Black;
-			this.label59.Location = new System.Drawing.Point(5, 437);
-			this.label59.Margin = new System.Windows.Forms.Padding(5);
-			this.label59.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label59.Name = "label59";
-			this.label59.Size = new System.Drawing.Size(98, 98);
-			this.label59.TabIndex = 39;
-			this.label59.Text = "Bingo Tile 21";
-			this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label59.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label59.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label60
-			// 
-			this.label60.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label60.BackColor = System.Drawing.Color.LightGray;
-			this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label60.ForeColor = System.Drawing.Color.Black;
-			this.label60.Location = new System.Drawing.Point(113, 437);
-			this.label60.Margin = new System.Windows.Forms.Padding(5);
-			this.label60.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label60.Name = "label60";
-			this.label60.Size = new System.Drawing.Size(98, 98);
-			this.label60.TabIndex = 40;
-			this.label60.Text = "Bingo Tile 22";
-			this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label60.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label60.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label61
-			// 
-			this.label61.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label61.BackColor = System.Drawing.Color.LightGray;
-			this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label61.ForeColor = System.Drawing.Color.Black;
-			this.label61.Location = new System.Drawing.Point(221, 437);
-			this.label61.Margin = new System.Windows.Forms.Padding(5);
-			this.label61.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label61.Name = "label61";
-			this.label61.Size = new System.Drawing.Size(98, 98);
-			this.label61.TabIndex = 41;
-			this.label61.Text = "Bingo Tile 23";
-			this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label61.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label61.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label62
-			// 
-			this.label62.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label62.BackColor = System.Drawing.Color.LightGray;
-			this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label62.ForeColor = System.Drawing.Color.Black;
-			this.label62.Location = new System.Drawing.Point(329, 437);
-			this.label62.Margin = new System.Windows.Forms.Padding(5);
-			this.label62.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label62.Name = "label62";
-			this.label62.Size = new System.Drawing.Size(98, 98);
-			this.label62.TabIndex = 42;
-			this.label62.Text = "Bingo Tile 24";
-			this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label62.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label62.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label63
-			// 
-			this.label63.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label63.BackColor = System.Drawing.Color.LightGray;
-			this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label63.ForeColor = System.Drawing.Color.Black;
-			this.label63.Location = new System.Drawing.Point(437, 437);
-			this.label63.Margin = new System.Windows.Forms.Padding(5);
-			this.label63.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label63.Name = "label63";
-			this.label63.Size = new System.Drawing.Size(98, 98);
-			this.label63.TabIndex = 43;
-			this.label63.Text = "Bingo Tile 25";
-			this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label63.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label63.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// TabBlue
-			// 
-			this.TabBlue.BackColor = System.Drawing.Color.RoyalBlue;
-			this.TabBlue.Controls.Add(this.tableLayoutPanelBlue);
-			this.TabBlue.Location = new System.Drawing.Point(4, 22);
-			this.TabBlue.Name = "TabBlue";
-			this.TabBlue.Size = new System.Drawing.Size(546, 547);
-			this.TabBlue.TabIndex = 3;
-			this.TabBlue.Text = "Player Blue";
-			// 
-			// tableLayoutPanelBlue
-			// 
-			this.tableLayoutPanelBlue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanelBlue.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.tableLayoutPanelBlue.ColumnCount = 5;
-			this.tableLayoutPanelBlue.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelBlue.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelBlue.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelBlue.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelBlue.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelBlue.Controls.Add(this.label139, 0, 0);
-			this.tableLayoutPanelBlue.Controls.Add(this.label140, 1, 0);
-			this.tableLayoutPanelBlue.Controls.Add(this.label141, 2, 0);
-			this.tableLayoutPanelBlue.Controls.Add(this.label142, 3, 0);
-			this.tableLayoutPanelBlue.Controls.Add(this.label143, 4, 0);
-			this.tableLayoutPanelBlue.Controls.Add(this.label144, 0, 1);
-			this.tableLayoutPanelBlue.Controls.Add(this.label145, 1, 1);
-			this.tableLayoutPanelBlue.Controls.Add(this.label146, 2, 1);
-			this.tableLayoutPanelBlue.Controls.Add(this.label147, 3, 1);
-			this.tableLayoutPanelBlue.Controls.Add(this.label148, 4, 1);
-			this.tableLayoutPanelBlue.Controls.Add(this.label149, 0, 2);
-			this.tableLayoutPanelBlue.Controls.Add(this.label150, 1, 2);
-			this.tableLayoutPanelBlue.Controls.Add(this.label151, 2, 2);
-			this.tableLayoutPanelBlue.Controls.Add(this.label152, 3, 2);
-			this.tableLayoutPanelBlue.Controls.Add(this.label153, 4, 2);
-			this.tableLayoutPanelBlue.Controls.Add(this.label154, 0, 3);
-			this.tableLayoutPanelBlue.Controls.Add(this.label155, 1, 3);
-			this.tableLayoutPanelBlue.Controls.Add(this.label156, 2, 3);
-			this.tableLayoutPanelBlue.Controls.Add(this.label157, 3, 3);
-			this.tableLayoutPanelBlue.Controls.Add(this.label158, 4, 3);
-			this.tableLayoutPanelBlue.Controls.Add(this.label159, 0, 4);
-			this.tableLayoutPanelBlue.Controls.Add(this.label160, 1, 4);
-			this.tableLayoutPanelBlue.Controls.Add(this.label161, 2, 4);
-			this.tableLayoutPanelBlue.Controls.Add(this.label162, 3, 4);
-			this.tableLayoutPanelBlue.Controls.Add(this.label163, 4, 4);
-			this.tableLayoutPanelBlue.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
-			this.tableLayoutPanelBlue.Location = new System.Drawing.Point(3, 3);
-			this.tableLayoutPanelBlue.Margin = new System.Windows.Forms.Padding(0);
-			this.tableLayoutPanelBlue.Name = "tableLayoutPanelBlue";
-			this.tableLayoutPanelBlue.RowCount = 5;
-			this.tableLayoutPanelBlue.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelBlue.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelBlue.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelBlue.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelBlue.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanelBlue.Size = new System.Drawing.Size(540, 540);
-			this.tableLayoutPanelBlue.TabIndex = 54;
-			// 
-			// label139
-			// 
-			this.label139.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label139.BackColor = System.Drawing.Color.LightGray;
-			this.label139.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label139.ForeColor = System.Drawing.Color.Black;
-			this.label139.Location = new System.Drawing.Point(5, 5);
-			this.label139.Margin = new System.Windows.Forms.Padding(5);
-			this.label139.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label139.Name = "label139";
-			this.label139.Size = new System.Drawing.Size(98, 98);
-			this.label139.TabIndex = 19;
-			this.label139.Text = "Bingo Tile 1";
-			this.label139.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label139.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label139.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label140
-			// 
-			this.label140.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label140.BackColor = System.Drawing.Color.LightGray;
-			this.label140.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label140.ForeColor = System.Drawing.Color.Black;
-			this.label140.Location = new System.Drawing.Point(113, 5);
-			this.label140.Margin = new System.Windows.Forms.Padding(5);
-			this.label140.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label140.Name = "label140";
-			this.label140.Size = new System.Drawing.Size(98, 98);
-			this.label140.TabIndex = 20;
-			this.label140.Text = "Bingo Tile 2";
-			this.label140.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label140.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label140.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label141
-			// 
-			this.label141.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label141.BackColor = System.Drawing.Color.LightGray;
-			this.label141.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label141.ForeColor = System.Drawing.Color.Black;
-			this.label141.Location = new System.Drawing.Point(221, 5);
-			this.label141.Margin = new System.Windows.Forms.Padding(5);
-			this.label141.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label141.Name = "label141";
-			this.label141.Size = new System.Drawing.Size(98, 98);
-			this.label141.TabIndex = 21;
-			this.label141.Text = "Bingo Tile 3";
-			this.label141.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label141.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label141.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label142
-			// 
-			this.label142.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label142.BackColor = System.Drawing.Color.LightGray;
-			this.label142.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label142.ForeColor = System.Drawing.Color.Black;
-			this.label142.Location = new System.Drawing.Point(329, 5);
-			this.label142.Margin = new System.Windows.Forms.Padding(5);
-			this.label142.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label142.Name = "label142";
-			this.label142.Size = new System.Drawing.Size(98, 98);
-			this.label142.TabIndex = 22;
-			this.label142.Text = "Bingo Tile 4";
-			this.label142.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label142.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label142.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label143
-			// 
-			this.label143.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label143.BackColor = System.Drawing.Color.LightGray;
-			this.label143.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label143.ForeColor = System.Drawing.Color.Black;
-			this.label143.Location = new System.Drawing.Point(437, 5);
-			this.label143.Margin = new System.Windows.Forms.Padding(5);
-			this.label143.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label143.Name = "label143";
-			this.label143.Size = new System.Drawing.Size(98, 98);
-			this.label143.TabIndex = 23;
-			this.label143.Text = "Bingo Tile 5";
-			this.label143.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label143.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label143.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label144
-			// 
-			this.label144.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label144.BackColor = System.Drawing.Color.LightGray;
-			this.label144.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label144.ForeColor = System.Drawing.Color.Black;
-			this.label144.Location = new System.Drawing.Point(5, 113);
-			this.label144.Margin = new System.Windows.Forms.Padding(5);
-			this.label144.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label144.Name = "label144";
-			this.label144.Size = new System.Drawing.Size(98, 98);
-			this.label144.TabIndex = 24;
-			this.label144.Text = "Bingo Tile 6";
-			this.label144.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label144.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label144.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label145
-			// 
-			this.label145.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label145.BackColor = System.Drawing.Color.LightGray;
-			this.label145.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label145.ForeColor = System.Drawing.Color.Black;
-			this.label145.Location = new System.Drawing.Point(113, 113);
-			this.label145.Margin = new System.Windows.Forms.Padding(5);
-			this.label145.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label145.Name = "label145";
-			this.label145.Size = new System.Drawing.Size(98, 98);
-			this.label145.TabIndex = 25;
-			this.label145.Text = "Bingo Tile 7";
-			this.label145.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label145.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label145.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label146
-			// 
-			this.label146.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label146.BackColor = System.Drawing.Color.LightGray;
-			this.label146.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label146.ForeColor = System.Drawing.Color.Black;
-			this.label146.Location = new System.Drawing.Point(221, 113);
-			this.label146.Margin = new System.Windows.Forms.Padding(5);
-			this.label146.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label146.Name = "label146";
-			this.label146.Size = new System.Drawing.Size(98, 98);
-			this.label146.TabIndex = 26;
-			this.label146.Text = "Bingo Tile 8";
-			this.label146.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label146.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label146.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label147
-			// 
-			this.label147.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label147.BackColor = System.Drawing.Color.LightGray;
-			this.label147.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label147.ForeColor = System.Drawing.Color.Black;
-			this.label147.Location = new System.Drawing.Point(329, 113);
-			this.label147.Margin = new System.Windows.Forms.Padding(5);
-			this.label147.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label147.Name = "label147";
-			this.label147.Size = new System.Drawing.Size(98, 98);
-			this.label147.TabIndex = 27;
-			this.label147.Text = "Bingo Tile 9";
-			this.label147.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label147.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label147.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label148
-			// 
-			this.label148.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label148.BackColor = System.Drawing.Color.LightGray;
-			this.label148.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label148.ForeColor = System.Drawing.Color.Black;
-			this.label148.Location = new System.Drawing.Point(437, 113);
-			this.label148.Margin = new System.Windows.Forms.Padding(5);
-			this.label148.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label148.Name = "label148";
-			this.label148.Size = new System.Drawing.Size(98, 98);
-			this.label148.TabIndex = 28;
-			this.label148.Text = "Bingo Tile 10";
-			this.label148.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label148.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label148.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label149
-			// 
-			this.label149.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label149.BackColor = System.Drawing.Color.LightGray;
-			this.label149.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label149.ForeColor = System.Drawing.Color.Black;
-			this.label149.Location = new System.Drawing.Point(5, 221);
-			this.label149.Margin = new System.Windows.Forms.Padding(5);
-			this.label149.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label149.Name = "label149";
-			this.label149.Size = new System.Drawing.Size(98, 98);
-			this.label149.TabIndex = 29;
-			this.label149.Text = "Bingo Tile 11";
-			this.label149.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label149.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label149.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label150
-			// 
-			this.label150.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label150.BackColor = System.Drawing.Color.LightGray;
-			this.label150.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label150.ForeColor = System.Drawing.Color.Black;
-			this.label150.Location = new System.Drawing.Point(113, 221);
-			this.label150.Margin = new System.Windows.Forms.Padding(5);
-			this.label150.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label150.Name = "label150";
-			this.label150.Size = new System.Drawing.Size(98, 98);
-			this.label150.TabIndex = 30;
-			this.label150.Text = "Bingo Tile 12";
-			this.label150.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label150.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label150.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label151
-			// 
-			this.label151.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label151.BackColor = System.Drawing.Color.LightGray;
-			this.label151.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label151.ForeColor = System.Drawing.Color.Black;
-			this.label151.Location = new System.Drawing.Point(221, 221);
-			this.label151.Margin = new System.Windows.Forms.Padding(5);
-			this.label151.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label151.Name = "label151";
-			this.label151.Size = new System.Drawing.Size(98, 98);
-			this.label151.TabIndex = 31;
-			this.label151.Text = "Bingo Tile 13";
-			this.label151.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label151.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label151.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label152
-			// 
-			this.label152.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label152.BackColor = System.Drawing.Color.LightGray;
-			this.label152.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label152.ForeColor = System.Drawing.Color.Black;
-			this.label152.Location = new System.Drawing.Point(329, 221);
-			this.label152.Margin = new System.Windows.Forms.Padding(5);
-			this.label152.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label152.Name = "label152";
-			this.label152.Size = new System.Drawing.Size(98, 98);
-			this.label152.TabIndex = 32;
-			this.label152.Text = "Bingo Tile 14";
-			this.label152.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label152.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label152.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label153
-			// 
-			this.label153.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label153.BackColor = System.Drawing.Color.LightGray;
-			this.label153.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label153.ForeColor = System.Drawing.Color.Black;
-			this.label153.Location = new System.Drawing.Point(437, 221);
-			this.label153.Margin = new System.Windows.Forms.Padding(5);
-			this.label153.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label153.Name = "label153";
-			this.label153.Size = new System.Drawing.Size(98, 98);
-			this.label153.TabIndex = 33;
-			this.label153.Text = "Bingo Tile 15";
-			this.label153.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label153.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label153.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label154
-			// 
-			this.label154.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label154.BackColor = System.Drawing.Color.LightGray;
-			this.label154.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label154.ForeColor = System.Drawing.Color.Black;
-			this.label154.Location = new System.Drawing.Point(5, 329);
-			this.label154.Margin = new System.Windows.Forms.Padding(5);
-			this.label154.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label154.Name = "label154";
-			this.label154.Size = new System.Drawing.Size(98, 98);
-			this.label154.TabIndex = 34;
-			this.label154.Text = "Bingo Tile 16";
-			this.label154.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label154.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label154.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label155
-			// 
-			this.label155.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label155.BackColor = System.Drawing.Color.LightGray;
-			this.label155.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label155.ForeColor = System.Drawing.Color.Black;
-			this.label155.Location = new System.Drawing.Point(113, 329);
-			this.label155.Margin = new System.Windows.Forms.Padding(5);
-			this.label155.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label155.Name = "label155";
-			this.label155.Size = new System.Drawing.Size(98, 98);
-			this.label155.TabIndex = 35;
-			this.label155.Text = "Bingo Tile 17";
-			this.label155.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label155.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label155.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label156
-			// 
-			this.label156.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label156.BackColor = System.Drawing.Color.LightGray;
-			this.label156.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label156.ForeColor = System.Drawing.Color.Black;
-			this.label156.Location = new System.Drawing.Point(221, 329);
-			this.label156.Margin = new System.Windows.Forms.Padding(5);
-			this.label156.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label156.Name = "label156";
-			this.label156.Size = new System.Drawing.Size(98, 98);
-			this.label156.TabIndex = 36;
-			this.label156.Text = "Bingo Tile 18";
-			this.label156.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label156.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label156.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label157
-			// 
-			this.label157.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label157.BackColor = System.Drawing.Color.LightGray;
-			this.label157.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label157.ForeColor = System.Drawing.Color.Black;
-			this.label157.Location = new System.Drawing.Point(329, 329);
-			this.label157.Margin = new System.Windows.Forms.Padding(5);
-			this.label157.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label157.Name = "label157";
-			this.label157.Size = new System.Drawing.Size(98, 98);
-			this.label157.TabIndex = 37;
-			this.label157.Text = "Bingo Tile 19";
-			this.label157.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label157.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label157.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label158
-			// 
-			this.label158.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label158.BackColor = System.Drawing.Color.LightGray;
-			this.label158.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label158.ForeColor = System.Drawing.Color.Black;
-			this.label158.Location = new System.Drawing.Point(437, 329);
-			this.label158.Margin = new System.Windows.Forms.Padding(5);
-			this.label158.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label158.Name = "label158";
-			this.label158.Size = new System.Drawing.Size(98, 98);
-			this.label158.TabIndex = 38;
-			this.label158.Text = "Bingo Tile 20";
-			this.label158.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label158.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label158.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label159
-			// 
-			this.label159.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label159.BackColor = System.Drawing.Color.LightGray;
-			this.label159.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label159.ForeColor = System.Drawing.Color.Black;
-			this.label159.Location = new System.Drawing.Point(5, 437);
-			this.label159.Margin = new System.Windows.Forms.Padding(5);
-			this.label159.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label159.Name = "label159";
-			this.label159.Size = new System.Drawing.Size(98, 98);
-			this.label159.TabIndex = 39;
-			this.label159.Text = "Bingo Tile 21";
-			this.label159.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label159.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label159.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label160
-			// 
-			this.label160.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label160.BackColor = System.Drawing.Color.LightGray;
-			this.label160.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label160.ForeColor = System.Drawing.Color.Black;
-			this.label160.Location = new System.Drawing.Point(113, 437);
-			this.label160.Margin = new System.Windows.Forms.Padding(5);
-			this.label160.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label160.Name = "label160";
-			this.label160.Size = new System.Drawing.Size(98, 98);
-			this.label160.TabIndex = 40;
-			this.label160.Text = "Bingo Tile 22";
-			this.label160.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label160.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label160.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label161
-			// 
-			this.label161.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label161.BackColor = System.Drawing.Color.LightGray;
-			this.label161.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label161.ForeColor = System.Drawing.Color.Black;
-			this.label161.Location = new System.Drawing.Point(221, 437);
-			this.label161.Margin = new System.Windows.Forms.Padding(5);
-			this.label161.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label161.Name = "label161";
-			this.label161.Size = new System.Drawing.Size(98, 98);
-			this.label161.TabIndex = 41;
-			this.label161.Text = "Bingo Tile 23";
-			this.label161.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label161.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label161.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label162
-			// 
-			this.label162.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label162.BackColor = System.Drawing.Color.LightGray;
-			this.label162.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label162.ForeColor = System.Drawing.Color.Black;
-			this.label162.Location = new System.Drawing.Point(329, 437);
-			this.label162.Margin = new System.Windows.Forms.Padding(5);
-			this.label162.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label162.Name = "label162";
-			this.label162.Size = new System.Drawing.Size(98, 98);
-			this.label162.TabIndex = 42;
-			this.label162.Text = "Bingo Tile 24";
-			this.label162.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label162.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label162.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			// 
-			// label163
-			// 
-			this.label163.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label163.BackColor = System.Drawing.Color.LightGray;
-			this.label163.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label163.ForeColor = System.Drawing.Color.Black;
-			this.label163.Location = new System.Drawing.Point(437, 437);
-			this.label163.Margin = new System.Windows.Forms.Padding(5);
-			this.label163.MaximumSize = new System.Drawing.Size(9999, 9999);
-			this.label163.Name = "label163";
-			this.label163.Size = new System.Drawing.Size(98, 98);
-			this.label163.TabIndex = 43;
-			this.label163.Text = "Bingo Tile 25";
-			this.label163.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.label163.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
-			this.label163.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.spectateTile_Click);
+			this.TabSpectator.Text = "Spec";
+			// 
+			// SpectateTableLayoutPanel
+			// 
+			this.SpectateTableLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTableLayoutPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.SpectateTableLayoutPanel.ColumnCount = 5;
+			this.SpectateTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.SpectateTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.SpectateTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.SpectateTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.SpectateTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable1, 0, 0);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable2, 1, 0);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable3, 2, 0);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable4, 3, 0);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable5, 4, 0);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable6, 0, 1);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable7, 1, 1);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable8, 2, 1);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable9, 3, 1);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable10, 4, 1);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable11, 0, 2);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable12, 1, 2);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable13, 2, 2);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable14, 3, 2);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable15, 4, 2);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable16, 0, 3);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable17, 1, 3);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable18, 2, 3);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable19, 3, 3);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable20, 4, 3);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable21, 0, 4);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable22, 1, 4);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable23, 2, 4);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable24, 3, 4);
+			this.SpectateTableLayoutPanel.Controls.Add(this.SpectateTagTable25, 4, 4);
+			this.SpectateTableLayoutPanel.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
+			this.SpectateTableLayoutPanel.Location = new System.Drawing.Point(3, 0);
+			this.SpectateTableLayoutPanel.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTableLayoutPanel.Name = "SpectateTableLayoutPanel";
+			this.SpectateTableLayoutPanel.RowCount = 5;
+			this.SpectateTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.SpectateTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.SpectateTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.SpectateTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.SpectateTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.SpectateTableLayoutPanel.Size = new System.Drawing.Size(550, 550);
+			this.SpectateTableLayoutPanel.TabIndex = 53;
+			// 
+			// SpectateTagTable1
+			// 
+			this.SpectateTagTable1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable1.ColumnCount = 4;
+			this.SpectateTagTable1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable1.Controls.Add(this.SpectateTile1, 0, 0);
+			this.SpectateTagTable1.Controls.Add(this.RedTag1, 0, 1);
+			this.SpectateTagTable1.Controls.Add(this.YellowTag1, 1, 1);
+			this.SpectateTagTable1.Controls.Add(this.GreenTag1, 2, 1);
+			this.SpectateTagTable1.Controls.Add(this.BlueTag1, 3, 1);
+			this.SpectateTagTable1.Location = new System.Drawing.Point(5, 5);
+			this.SpectateTagTable1.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable1.Name = "SpectateTagTable1";
+			this.SpectateTagTable1.RowCount = 2;
+			this.SpectateTagTable1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable1.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable1.TabIndex = 46;
+			// 
+			// SpectateTile1
+			// 
+			this.SpectateTile1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile1.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable1.SetColumnSpan(this.SpectateTile1, 4);
+			this.SpectateTile1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile1.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile1.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile1.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile1.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile1.Name = "SpectateTile1";
+			this.SpectateTile1.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile1.TabIndex = 20;
+			this.SpectateTile1.Text = "Bingo Tile";
+			this.SpectateTile1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag1
+			// 
+			this.RedTag1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag1.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag1.ForeColor = System.Drawing.Color.Black;
+			this.RedTag1.Location = new System.Drawing.Point(2, 79);
+			this.RedTag1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag1.Name = "RedTag1";
+			this.RedTag1.Size = new System.Drawing.Size(21, 21);
+			this.RedTag1.TabIndex = 0;
+			this.RedTag1.Text = "O";
+			this.RedTag1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag1
+			// 
+			this.YellowTag1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag1.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag1.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag1.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag1.Name = "YellowTag1";
+			this.YellowTag1.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag1.TabIndex = 1;
+			this.YellowTag1.Text = "O";
+			this.YellowTag1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag1
+			// 
+			this.GreenTag1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag1.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag1.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag1.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag1.Name = "GreenTag1";
+			this.GreenTag1.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag1.TabIndex = 2;
+			this.GreenTag1.Text = "O";
+			this.GreenTag1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag1
+			// 
+			this.BlueTag1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag1.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag1.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag1.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag1.Name = "BlueTag1";
+			this.BlueTag1.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag1.TabIndex = 3;
+			this.BlueTag1.Text = "O";
+			this.BlueTag1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable2
+			// 
+			this.SpectateTagTable2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable2.ColumnCount = 4;
+			this.SpectateTagTable2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable2.Controls.Add(this.SpectateTile2, 0, 0);
+			this.SpectateTagTable2.Controls.Add(this.RedTag2, 0, 1);
+			this.SpectateTagTable2.Controls.Add(this.YellowTag2, 1, 1);
+			this.SpectateTagTable2.Controls.Add(this.GreenTag2, 2, 1);
+			this.SpectateTagTable2.Controls.Add(this.BlueTag2, 3, 1);
+			this.SpectateTagTable2.Location = new System.Drawing.Point(115, 5);
+			this.SpectateTagTable2.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable2.Name = "SpectateTagTable2";
+			this.SpectateTagTable2.RowCount = 2;
+			this.SpectateTagTable2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable2.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable2.TabIndex = 47;
+			// 
+			// SpectateTile2
+			// 
+			this.SpectateTile2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile2.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable2.SetColumnSpan(this.SpectateTile2, 4);
+			this.SpectateTile2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile2.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile2.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile2.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile2.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile2.Name = "SpectateTile2";
+			this.SpectateTile2.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile2.TabIndex = 20;
+			this.SpectateTile2.Text = "Bingo Tile";
+			this.SpectateTile2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag2
+			// 
+			this.RedTag2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag2.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag2.ForeColor = System.Drawing.Color.Black;
+			this.RedTag2.Location = new System.Drawing.Point(2, 79);
+			this.RedTag2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag2.Name = "RedTag2";
+			this.RedTag2.Size = new System.Drawing.Size(21, 21);
+			this.RedTag2.TabIndex = 0;
+			this.RedTag2.Text = "O";
+			this.RedTag2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag2
+			// 
+			this.YellowTag2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag2.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag2.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag2.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag2.Name = "YellowTag2";
+			this.YellowTag2.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag2.TabIndex = 1;
+			this.YellowTag2.Text = "O";
+			this.YellowTag2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag2
+			// 
+			this.GreenTag2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag2.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag2.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag2.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag2.Name = "GreenTag2";
+			this.GreenTag2.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag2.TabIndex = 2;
+			this.GreenTag2.Text = "O";
+			this.GreenTag2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag2
+			// 
+			this.BlueTag2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag2.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag2.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag2.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag2.Name = "BlueTag2";
+			this.BlueTag2.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag2.TabIndex = 3;
+			this.BlueTag2.Text = "O";
+			this.BlueTag2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable3
+			// 
+			this.SpectateTagTable3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable3.ColumnCount = 4;
+			this.SpectateTagTable3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable3.Controls.Add(this.SpectateTile3, 0, 0);
+			this.SpectateTagTable3.Controls.Add(this.RedTag3, 0, 1);
+			this.SpectateTagTable3.Controls.Add(this.YellowTag3, 1, 1);
+			this.SpectateTagTable3.Controls.Add(this.GreenTag3, 2, 1);
+			this.SpectateTagTable3.Controls.Add(this.BlueTag3, 3, 1);
+			this.SpectateTagTable3.Location = new System.Drawing.Point(225, 5);
+			this.SpectateTagTable3.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable3.Name = "SpectateTagTable3";
+			this.SpectateTagTable3.RowCount = 2;
+			this.SpectateTagTable3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable3.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable3.TabIndex = 48;
+			// 
+			// SpectateTile3
+			// 
+			this.SpectateTile3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile3.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable3.SetColumnSpan(this.SpectateTile3, 4);
+			this.SpectateTile3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile3.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile3.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile3.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile3.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile3.Name = "SpectateTile3";
+			this.SpectateTile3.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile3.TabIndex = 20;
+			this.SpectateTile3.Text = "Bingo Tile";
+			this.SpectateTile3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag3
+			// 
+			this.RedTag3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag3.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag3.ForeColor = System.Drawing.Color.Black;
+			this.RedTag3.Location = new System.Drawing.Point(2, 79);
+			this.RedTag3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag3.Name = "RedTag3";
+			this.RedTag3.Size = new System.Drawing.Size(21, 21);
+			this.RedTag3.TabIndex = 0;
+			this.RedTag3.Text = "O";
+			this.RedTag3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag3
+			// 
+			this.YellowTag3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag3.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag3.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag3.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag3.Name = "YellowTag3";
+			this.YellowTag3.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag3.TabIndex = 1;
+			this.YellowTag3.Text = "O";
+			this.YellowTag3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag3
+			// 
+			this.GreenTag3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag3.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag3.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag3.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag3.Name = "GreenTag3";
+			this.GreenTag3.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag3.TabIndex = 2;
+			this.GreenTag3.Text = "O";
+			this.GreenTag3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag3
+			// 
+			this.BlueTag3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag3.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag3.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag3.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag3.Name = "BlueTag3";
+			this.BlueTag3.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag3.TabIndex = 3;
+			this.BlueTag3.Text = "O";
+			this.BlueTag3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable4
+			// 
+			this.SpectateTagTable4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable4.ColumnCount = 4;
+			this.SpectateTagTable4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable4.Controls.Add(this.SpectateTile4, 0, 0);
+			this.SpectateTagTable4.Controls.Add(this.RedTag4, 0, 1);
+			this.SpectateTagTable4.Controls.Add(this.YellowTag4, 1, 1);
+			this.SpectateTagTable4.Controls.Add(this.GreenTag4, 2, 1);
+			this.SpectateTagTable4.Controls.Add(this.BlueTag4, 3, 1);
+			this.SpectateTagTable4.Location = new System.Drawing.Point(335, 5);
+			this.SpectateTagTable4.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable4.Name = "SpectateTagTable4";
+			this.SpectateTagTable4.RowCount = 2;
+			this.SpectateTagTable4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable4.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable4.TabIndex = 49;
+			// 
+			// SpectateTile4
+			// 
+			this.SpectateTile4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile4.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable4.SetColumnSpan(this.SpectateTile4, 4);
+			this.SpectateTile4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile4.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile4.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile4.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile4.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile4.Name = "SpectateTile4";
+			this.SpectateTile4.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile4.TabIndex = 20;
+			this.SpectateTile4.Text = "Bingo Tile";
+			this.SpectateTile4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag4
+			// 
+			this.RedTag4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag4.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag4.ForeColor = System.Drawing.Color.Black;
+			this.RedTag4.Location = new System.Drawing.Point(2, 79);
+			this.RedTag4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag4.Name = "RedTag4";
+			this.RedTag4.Size = new System.Drawing.Size(21, 21);
+			this.RedTag4.TabIndex = 0;
+			this.RedTag4.Text = "O";
+			this.RedTag4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag4
+			// 
+			this.YellowTag4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag4.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag4.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag4.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag4.Name = "YellowTag4";
+			this.YellowTag4.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag4.TabIndex = 1;
+			this.YellowTag4.Text = "O";
+			this.YellowTag4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag4
+			// 
+			this.GreenTag4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag4.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag4.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag4.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag4.Name = "GreenTag4";
+			this.GreenTag4.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag4.TabIndex = 2;
+			this.GreenTag4.Text = "O";
+			this.GreenTag4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag4
+			// 
+			this.BlueTag4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag4.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag4.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag4.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag4.Name = "BlueTag4";
+			this.BlueTag4.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag4.TabIndex = 3;
+			this.BlueTag4.Text = "O";
+			this.BlueTag4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable5
+			// 
+			this.SpectateTagTable5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable5.ColumnCount = 4;
+			this.SpectateTagTable5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable5.Controls.Add(this.SpectateTile5, 0, 0);
+			this.SpectateTagTable5.Controls.Add(this.RedTag5, 0, 1);
+			this.SpectateTagTable5.Controls.Add(this.YellowTag5, 1, 1);
+			this.SpectateTagTable5.Controls.Add(this.GreenTag5, 2, 1);
+			this.SpectateTagTable5.Controls.Add(this.BlueTag5, 3, 1);
+			this.SpectateTagTable5.Location = new System.Drawing.Point(445, 5);
+			this.SpectateTagTable5.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable5.Name = "SpectateTagTable5";
+			this.SpectateTagTable5.RowCount = 2;
+			this.SpectateTagTable5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable5.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable5.TabIndex = 50;
+			// 
+			// SpectateTile5
+			// 
+			this.SpectateTile5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile5.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable5.SetColumnSpan(this.SpectateTile5, 4);
+			this.SpectateTile5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile5.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile5.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile5.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile5.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile5.Name = "SpectateTile5";
+			this.SpectateTile5.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile5.TabIndex = 20;
+			this.SpectateTile5.Text = "Bingo Tile";
+			this.SpectateTile5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag5
+			// 
+			this.RedTag5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag5.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag5.ForeColor = System.Drawing.Color.Black;
+			this.RedTag5.Location = new System.Drawing.Point(2, 79);
+			this.RedTag5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag5.Name = "RedTag5";
+			this.RedTag5.Size = new System.Drawing.Size(21, 21);
+			this.RedTag5.TabIndex = 0;
+			this.RedTag5.Text = "O";
+			this.RedTag5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag5
+			// 
+			this.YellowTag5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag5.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag5.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag5.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag5.Name = "YellowTag5";
+			this.YellowTag5.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag5.TabIndex = 1;
+			this.YellowTag5.Text = "O";
+			this.YellowTag5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag5
+			// 
+			this.GreenTag5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag5.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag5.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag5.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag5.Name = "GreenTag5";
+			this.GreenTag5.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag5.TabIndex = 2;
+			this.GreenTag5.Text = "O";
+			this.GreenTag5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag5
+			// 
+			this.BlueTag5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag5.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag5.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag5.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag5.Name = "BlueTag5";
+			this.BlueTag5.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag5.TabIndex = 3;
+			this.BlueTag5.Text = "O";
+			this.BlueTag5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable6
+			// 
+			this.SpectateTagTable6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable6.ColumnCount = 4;
+			this.SpectateTagTable6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable6.Controls.Add(this.SpectateTile6, 0, 0);
+			this.SpectateTagTable6.Controls.Add(this.RedTag6, 0, 1);
+			this.SpectateTagTable6.Controls.Add(this.YellowTag6, 1, 1);
+			this.SpectateTagTable6.Controls.Add(this.GreenTag6, 2, 1);
+			this.SpectateTagTable6.Controls.Add(this.BlueTag6, 3, 1);
+			this.SpectateTagTable6.Location = new System.Drawing.Point(5, 115);
+			this.SpectateTagTable6.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable6.Name = "SpectateTagTable6";
+			this.SpectateTagTable6.RowCount = 2;
+			this.SpectateTagTable6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable6.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable6.TabIndex = 51;
+			// 
+			// SpectateTile6
+			// 
+			this.SpectateTile6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile6.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable6.SetColumnSpan(this.SpectateTile6, 4);
+			this.SpectateTile6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile6.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile6.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile6.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile6.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile6.Name = "SpectateTile6";
+			this.SpectateTile6.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile6.TabIndex = 20;
+			this.SpectateTile6.Text = "Bingo Tile";
+			this.SpectateTile6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag6
+			// 
+			this.RedTag6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag6.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag6.ForeColor = System.Drawing.Color.Black;
+			this.RedTag6.Location = new System.Drawing.Point(2, 79);
+			this.RedTag6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag6.Name = "RedTag6";
+			this.RedTag6.Size = new System.Drawing.Size(21, 21);
+			this.RedTag6.TabIndex = 0;
+			this.RedTag6.Text = "O";
+			this.RedTag6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag6
+			// 
+			this.YellowTag6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag6.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag6.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag6.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag6.Name = "YellowTag6";
+			this.YellowTag6.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag6.TabIndex = 1;
+			this.YellowTag6.Text = "O";
+			this.YellowTag6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag6
+			// 
+			this.GreenTag6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag6.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag6.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag6.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag6.Name = "GreenTag6";
+			this.GreenTag6.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag6.TabIndex = 2;
+			this.GreenTag6.Text = "O";
+			this.GreenTag6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag6
+			// 
+			this.BlueTag6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag6.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag6.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag6.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag6.Name = "BlueTag6";
+			this.BlueTag6.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag6.TabIndex = 3;
+			this.BlueTag6.Text = "O";
+			this.BlueTag6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable7
+			// 
+			this.SpectateTagTable7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable7.ColumnCount = 4;
+			this.SpectateTagTable7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable7.Controls.Add(this.SpectateTile7, 0, 0);
+			this.SpectateTagTable7.Controls.Add(this.RedTag7, 0, 1);
+			this.SpectateTagTable7.Controls.Add(this.YellowTag7, 1, 1);
+			this.SpectateTagTable7.Controls.Add(this.GreenTag7, 2, 1);
+			this.SpectateTagTable7.Controls.Add(this.BlueTag7, 3, 1);
+			this.SpectateTagTable7.Location = new System.Drawing.Point(115, 115);
+			this.SpectateTagTable7.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable7.Name = "SpectateTagTable7";
+			this.SpectateTagTable7.RowCount = 2;
+			this.SpectateTagTable7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable7.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable7.TabIndex = 52;
+			// 
+			// SpectateTile7
+			// 
+			this.SpectateTile7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile7.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable7.SetColumnSpan(this.SpectateTile7, 4);
+			this.SpectateTile7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile7.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile7.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile7.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile7.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile7.Name = "SpectateTile7";
+			this.SpectateTile7.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile7.TabIndex = 20;
+			this.SpectateTile7.Text = "Bingo Tile";
+			this.SpectateTile7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag7
+			// 
+			this.RedTag7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag7.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag7.ForeColor = System.Drawing.Color.Black;
+			this.RedTag7.Location = new System.Drawing.Point(2, 79);
+			this.RedTag7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag7.Name = "RedTag7";
+			this.RedTag7.Size = new System.Drawing.Size(21, 21);
+			this.RedTag7.TabIndex = 0;
+			this.RedTag7.Text = "O";
+			this.RedTag7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag7
+			// 
+			this.YellowTag7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag7.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag7.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag7.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag7.Name = "YellowTag7";
+			this.YellowTag7.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag7.TabIndex = 1;
+			this.YellowTag7.Text = "O";
+			this.YellowTag7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag7
+			// 
+			this.GreenTag7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag7.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag7.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag7.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag7.Name = "GreenTag7";
+			this.GreenTag7.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag7.TabIndex = 2;
+			this.GreenTag7.Text = "O";
+			this.GreenTag7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag7
+			// 
+			this.BlueTag7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag7.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag7.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag7.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag7.Name = "BlueTag7";
+			this.BlueTag7.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag7.TabIndex = 3;
+			this.BlueTag7.Text = "O";
+			this.BlueTag7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable8
+			// 
+			this.SpectateTagTable8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable8.ColumnCount = 4;
+			this.SpectateTagTable8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable8.Controls.Add(this.SpectateTile8, 0, 0);
+			this.SpectateTagTable8.Controls.Add(this.RedTag8, 0, 1);
+			this.SpectateTagTable8.Controls.Add(this.YellowTag8, 1, 1);
+			this.SpectateTagTable8.Controls.Add(this.GreenTag8, 2, 1);
+			this.SpectateTagTable8.Controls.Add(this.BlueTag8, 3, 1);
+			this.SpectateTagTable8.Location = new System.Drawing.Point(225, 115);
+			this.SpectateTagTable8.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable8.Name = "SpectateTagTable8";
+			this.SpectateTagTable8.RowCount = 2;
+			this.SpectateTagTable8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable8.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable8.TabIndex = 53;
+			// 
+			// SpectateTile8
+			// 
+			this.SpectateTile8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile8.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable8.SetColumnSpan(this.SpectateTile8, 4);
+			this.SpectateTile8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile8.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile8.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile8.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile8.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile8.Name = "SpectateTile8";
+			this.SpectateTile8.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile8.TabIndex = 20;
+			this.SpectateTile8.Text = "Bingo Tile";
+			this.SpectateTile8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag8
+			// 
+			this.RedTag8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag8.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag8.ForeColor = System.Drawing.Color.Black;
+			this.RedTag8.Location = new System.Drawing.Point(2, 79);
+			this.RedTag8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag8.Name = "RedTag8";
+			this.RedTag8.Size = new System.Drawing.Size(21, 21);
+			this.RedTag8.TabIndex = 0;
+			this.RedTag8.Text = "O";
+			this.RedTag8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag8
+			// 
+			this.YellowTag8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag8.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag8.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag8.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag8.Name = "YellowTag8";
+			this.YellowTag8.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag8.TabIndex = 1;
+			this.YellowTag8.Text = "O";
+			this.YellowTag8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag8
+			// 
+			this.GreenTag8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag8.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag8.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag8.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag8.Name = "GreenTag8";
+			this.GreenTag8.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag8.TabIndex = 2;
+			this.GreenTag8.Text = "O";
+			this.GreenTag8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag8
+			// 
+			this.BlueTag8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag8.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag8.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag8.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag8.Name = "BlueTag8";
+			this.BlueTag8.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag8.TabIndex = 3;
+			this.BlueTag8.Text = "O";
+			this.BlueTag8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable9
+			// 
+			this.SpectateTagTable9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable9.ColumnCount = 4;
+			this.SpectateTagTable9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable9.Controls.Add(this.SpectateTile9, 0, 0);
+			this.SpectateTagTable9.Controls.Add(this.RedTag9, 0, 1);
+			this.SpectateTagTable9.Controls.Add(this.YellowTag9, 1, 1);
+			this.SpectateTagTable9.Controls.Add(this.GreenTag9, 2, 1);
+			this.SpectateTagTable9.Controls.Add(this.BlueTag9, 3, 1);
+			this.SpectateTagTable9.Location = new System.Drawing.Point(335, 115);
+			this.SpectateTagTable9.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable9.Name = "SpectateTagTable9";
+			this.SpectateTagTable9.RowCount = 2;
+			this.SpectateTagTable9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable9.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable9.TabIndex = 54;
+			// 
+			// SpectateTile9
+			// 
+			this.SpectateTile9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile9.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable9.SetColumnSpan(this.SpectateTile9, 4);
+			this.SpectateTile9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile9.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile9.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile9.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile9.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile9.Name = "SpectateTile9";
+			this.SpectateTile9.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile9.TabIndex = 20;
+			this.SpectateTile9.Text = "Bingo Tile";
+			this.SpectateTile9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag9
+			// 
+			this.RedTag9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag9.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag9.ForeColor = System.Drawing.Color.Black;
+			this.RedTag9.Location = new System.Drawing.Point(2, 79);
+			this.RedTag9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag9.Name = "RedTag9";
+			this.RedTag9.Size = new System.Drawing.Size(21, 21);
+			this.RedTag9.TabIndex = 0;
+			this.RedTag9.Text = "O";
+			this.RedTag9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag9
+			// 
+			this.YellowTag9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag9.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag9.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag9.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag9.Name = "YellowTag9";
+			this.YellowTag9.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag9.TabIndex = 1;
+			this.YellowTag9.Text = "O";
+			this.YellowTag9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag9
+			// 
+			this.GreenTag9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag9.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag9.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag9.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag9.Name = "GreenTag9";
+			this.GreenTag9.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag9.TabIndex = 2;
+			this.GreenTag9.Text = "O";
+			this.GreenTag9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag9
+			// 
+			this.BlueTag9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag9.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag9.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag9.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag9.Name = "BlueTag9";
+			this.BlueTag9.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag9.TabIndex = 3;
+			this.BlueTag9.Text = "O";
+			this.BlueTag9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable10
+			// 
+			this.SpectateTagTable10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable10.ColumnCount = 4;
+			this.SpectateTagTable10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable10.Controls.Add(this.SpectateTile10, 0, 0);
+			this.SpectateTagTable10.Controls.Add(this.RedTag10, 0, 1);
+			this.SpectateTagTable10.Controls.Add(this.YellowTag10, 1, 1);
+			this.SpectateTagTable10.Controls.Add(this.GreenTag10, 2, 1);
+			this.SpectateTagTable10.Controls.Add(this.BlueTag10, 3, 1);
+			this.SpectateTagTable10.Location = new System.Drawing.Point(445, 115);
+			this.SpectateTagTable10.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable10.Name = "SpectateTagTable10";
+			this.SpectateTagTable10.RowCount = 2;
+			this.SpectateTagTable10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable10.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable10.TabIndex = 55;
+			// 
+			// SpectateTile10
+			// 
+			this.SpectateTile10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile10.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable10.SetColumnSpan(this.SpectateTile10, 4);
+			this.SpectateTile10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile10.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile10.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile10.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile10.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile10.Name = "SpectateTile10";
+			this.SpectateTile10.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile10.TabIndex = 20;
+			this.SpectateTile10.Text = "Bingo Tile";
+			this.SpectateTile10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag10
+			// 
+			this.RedTag10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag10.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag10.ForeColor = System.Drawing.Color.Black;
+			this.RedTag10.Location = new System.Drawing.Point(2, 79);
+			this.RedTag10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag10.Name = "RedTag10";
+			this.RedTag10.Size = new System.Drawing.Size(21, 21);
+			this.RedTag10.TabIndex = 0;
+			this.RedTag10.Text = "O";
+			this.RedTag10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag10
+			// 
+			this.YellowTag10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag10.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag10.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag10.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag10.Name = "YellowTag10";
+			this.YellowTag10.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag10.TabIndex = 1;
+			this.YellowTag10.Text = "O";
+			this.YellowTag10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag10
+			// 
+			this.GreenTag10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag10.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag10.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag10.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag10.Name = "GreenTag10";
+			this.GreenTag10.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag10.TabIndex = 2;
+			this.GreenTag10.Text = "O";
+			this.GreenTag10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag10
+			// 
+			this.BlueTag10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag10.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag10.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag10.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag10.Name = "BlueTag10";
+			this.BlueTag10.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag10.TabIndex = 3;
+			this.BlueTag10.Text = "O";
+			this.BlueTag10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable11
+			// 
+			this.SpectateTagTable11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable11.ColumnCount = 4;
+			this.SpectateTagTable11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable11.Controls.Add(this.SpectateTile11, 0, 0);
+			this.SpectateTagTable11.Controls.Add(this.RedTag11, 0, 1);
+			this.SpectateTagTable11.Controls.Add(this.YellowTag11, 1, 1);
+			this.SpectateTagTable11.Controls.Add(this.GreenTag11, 2, 1);
+			this.SpectateTagTable11.Controls.Add(this.BlueTag11, 3, 1);
+			this.SpectateTagTable11.Location = new System.Drawing.Point(5, 225);
+			this.SpectateTagTable11.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable11.Name = "SpectateTagTable11";
+			this.SpectateTagTable11.RowCount = 2;
+			this.SpectateTagTable11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable11.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable11.TabIndex = 56;
+			// 
+			// SpectateTile11
+			// 
+			this.SpectateTile11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile11.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable11.SetColumnSpan(this.SpectateTile11, 4);
+			this.SpectateTile11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile11.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile11.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile11.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile11.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile11.Name = "SpectateTile11";
+			this.SpectateTile11.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile11.TabIndex = 20;
+			this.SpectateTile11.Text = "Bingo Tile";
+			this.SpectateTile11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag11
+			// 
+			this.RedTag11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag11.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag11.ForeColor = System.Drawing.Color.Black;
+			this.RedTag11.Location = new System.Drawing.Point(2, 79);
+			this.RedTag11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag11.Name = "RedTag11";
+			this.RedTag11.Size = new System.Drawing.Size(21, 21);
+			this.RedTag11.TabIndex = 0;
+			this.RedTag11.Text = "O";
+			this.RedTag11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag11
+			// 
+			this.YellowTag11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag11.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag11.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag11.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag11.Name = "YellowTag11";
+			this.YellowTag11.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag11.TabIndex = 1;
+			this.YellowTag11.Text = "O";
+			this.YellowTag11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag11
+			// 
+			this.GreenTag11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag11.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag11.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag11.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag11.Name = "GreenTag11";
+			this.GreenTag11.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag11.TabIndex = 2;
+			this.GreenTag11.Text = "O";
+			this.GreenTag11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag11
+			// 
+			this.BlueTag11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag11.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag11.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag11.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag11.Name = "BlueTag11";
+			this.BlueTag11.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag11.TabIndex = 3;
+			this.BlueTag11.Text = "O";
+			this.BlueTag11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable12
+			// 
+			this.SpectateTagTable12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable12.ColumnCount = 4;
+			this.SpectateTagTable12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable12.Controls.Add(this.SpectateTile12, 0, 0);
+			this.SpectateTagTable12.Controls.Add(this.RedTag12, 0, 1);
+			this.SpectateTagTable12.Controls.Add(this.YellowTag12, 1, 1);
+			this.SpectateTagTable12.Controls.Add(this.GreenTag12, 2, 1);
+			this.SpectateTagTable12.Controls.Add(this.BlueTag12, 3, 1);
+			this.SpectateTagTable12.Location = new System.Drawing.Point(115, 225);
+			this.SpectateTagTable12.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable12.Name = "SpectateTagTable12";
+			this.SpectateTagTable12.RowCount = 2;
+			this.SpectateTagTable12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable12.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable12.TabIndex = 57;
+			// 
+			// SpectateTile12
+			// 
+			this.SpectateTile12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile12.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable12.SetColumnSpan(this.SpectateTile12, 4);
+			this.SpectateTile12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile12.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile12.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile12.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile12.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile12.Name = "SpectateTile12";
+			this.SpectateTile12.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile12.TabIndex = 20;
+			this.SpectateTile12.Text = "Bingo Tile";
+			this.SpectateTile12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag12
+			// 
+			this.RedTag12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag12.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag12.ForeColor = System.Drawing.Color.Black;
+			this.RedTag12.Location = new System.Drawing.Point(2, 79);
+			this.RedTag12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag12.Name = "RedTag12";
+			this.RedTag12.Size = new System.Drawing.Size(21, 21);
+			this.RedTag12.TabIndex = 0;
+			this.RedTag12.Text = "O";
+			this.RedTag12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag12
+			// 
+			this.YellowTag12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag12.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag12.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag12.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag12.Name = "YellowTag12";
+			this.YellowTag12.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag12.TabIndex = 1;
+			this.YellowTag12.Text = "O";
+			this.YellowTag12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag12
+			// 
+			this.GreenTag12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag12.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag12.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag12.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag12.Name = "GreenTag12";
+			this.GreenTag12.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag12.TabIndex = 2;
+			this.GreenTag12.Text = "O";
+			this.GreenTag12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag12
+			// 
+			this.BlueTag12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag12.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag12.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag12.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag12.Name = "BlueTag12";
+			this.BlueTag12.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag12.TabIndex = 3;
+			this.BlueTag12.Text = "O";
+			this.BlueTag12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable13
+			// 
+			this.SpectateTagTable13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable13.ColumnCount = 4;
+			this.SpectateTagTable13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable13.Controls.Add(this.SpectateTile13, 0, 0);
+			this.SpectateTagTable13.Controls.Add(this.RedTag13, 0, 1);
+			this.SpectateTagTable13.Controls.Add(this.YellowTag13, 1, 1);
+			this.SpectateTagTable13.Controls.Add(this.GreenTag13, 2, 1);
+			this.SpectateTagTable13.Controls.Add(this.BlueTag13, 3, 1);
+			this.SpectateTagTable13.Location = new System.Drawing.Point(225, 225);
+			this.SpectateTagTable13.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable13.Name = "SpectateTagTable13";
+			this.SpectateTagTable13.RowCount = 2;
+			this.SpectateTagTable13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable13.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable13.TabIndex = 58;
+			// 
+			// SpectateTile13
+			// 
+			this.SpectateTile13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile13.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable13.SetColumnSpan(this.SpectateTile13, 4);
+			this.SpectateTile13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile13.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile13.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile13.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile13.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile13.Name = "SpectateTile13";
+			this.SpectateTile13.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile13.TabIndex = 20;
+			this.SpectateTile13.Text = "Bingo Tile";
+			this.SpectateTile13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag13
+			// 
+			this.RedTag13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag13.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag13.ForeColor = System.Drawing.Color.Black;
+			this.RedTag13.Location = new System.Drawing.Point(2, 79);
+			this.RedTag13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag13.Name = "RedTag13";
+			this.RedTag13.Size = new System.Drawing.Size(21, 21);
+			this.RedTag13.TabIndex = 0;
+			this.RedTag13.Text = "O";
+			this.RedTag13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag13
+			// 
+			this.YellowTag13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag13.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag13.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag13.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag13.Name = "YellowTag13";
+			this.YellowTag13.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag13.TabIndex = 1;
+			this.YellowTag13.Text = "O";
+			this.YellowTag13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag13
+			// 
+			this.GreenTag13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag13.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag13.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag13.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag13.Name = "GreenTag13";
+			this.GreenTag13.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag13.TabIndex = 2;
+			this.GreenTag13.Text = "O";
+			this.GreenTag13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag13
+			// 
+			this.BlueTag13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag13.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag13.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag13.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag13.Name = "BlueTag13";
+			this.BlueTag13.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag13.TabIndex = 3;
+			this.BlueTag13.Text = "O";
+			this.BlueTag13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable14
+			// 
+			this.SpectateTagTable14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable14.ColumnCount = 4;
+			this.SpectateTagTable14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable14.Controls.Add(this.SpectateTile14, 0, 0);
+			this.SpectateTagTable14.Controls.Add(this.RedTag14, 0, 1);
+			this.SpectateTagTable14.Controls.Add(this.YellowTag14, 1, 1);
+			this.SpectateTagTable14.Controls.Add(this.GreenTag14, 2, 1);
+			this.SpectateTagTable14.Controls.Add(this.BlueTag14, 3, 1);
+			this.SpectateTagTable14.Location = new System.Drawing.Point(335, 225);
+			this.SpectateTagTable14.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable14.Name = "SpectateTagTable14";
+			this.SpectateTagTable14.RowCount = 2;
+			this.SpectateTagTable14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable14.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable14.TabIndex = 59;
+			// 
+			// SpectateTile14
+			// 
+			this.SpectateTile14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile14.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable14.SetColumnSpan(this.SpectateTile14, 4);
+			this.SpectateTile14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile14.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile14.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile14.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile14.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile14.Name = "SpectateTile14";
+			this.SpectateTile14.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile14.TabIndex = 20;
+			this.SpectateTile14.Text = "Bingo Tile";
+			this.SpectateTile14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag14
+			// 
+			this.RedTag14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag14.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag14.ForeColor = System.Drawing.Color.Black;
+			this.RedTag14.Location = new System.Drawing.Point(2, 79);
+			this.RedTag14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag14.Name = "RedTag14";
+			this.RedTag14.Size = new System.Drawing.Size(21, 21);
+			this.RedTag14.TabIndex = 0;
+			this.RedTag14.Text = "O";
+			this.RedTag14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag14
+			// 
+			this.YellowTag14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag14.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag14.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag14.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag14.Name = "YellowTag14";
+			this.YellowTag14.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag14.TabIndex = 1;
+			this.YellowTag14.Text = "O";
+			this.YellowTag14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag14
+			// 
+			this.GreenTag14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag14.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag14.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag14.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag14.Name = "GreenTag14";
+			this.GreenTag14.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag14.TabIndex = 2;
+			this.GreenTag14.Text = "O";
+			this.GreenTag14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag14
+			// 
+			this.BlueTag14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag14.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag14.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag14.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag14.Name = "BlueTag14";
+			this.BlueTag14.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag14.TabIndex = 3;
+			this.BlueTag14.Text = "O";
+			this.BlueTag14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable15
+			// 
+			this.SpectateTagTable15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable15.ColumnCount = 4;
+			this.SpectateTagTable15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable15.Controls.Add(this.SpectateTile15, 0, 0);
+			this.SpectateTagTable15.Controls.Add(this.RedTag15, 0, 1);
+			this.SpectateTagTable15.Controls.Add(this.YellowTag15, 1, 1);
+			this.SpectateTagTable15.Controls.Add(this.GreenTag15, 2, 1);
+			this.SpectateTagTable15.Controls.Add(this.BlueTag15, 3, 1);
+			this.SpectateTagTable15.Location = new System.Drawing.Point(445, 225);
+			this.SpectateTagTable15.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable15.Name = "SpectateTagTable15";
+			this.SpectateTagTable15.RowCount = 2;
+			this.SpectateTagTable15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable15.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable15.TabIndex = 60;
+			// 
+			// SpectateTile15
+			// 
+			this.SpectateTile15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile15.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable15.SetColumnSpan(this.SpectateTile15, 4);
+			this.SpectateTile15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile15.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile15.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile15.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile15.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile15.Name = "SpectateTile15";
+			this.SpectateTile15.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile15.TabIndex = 20;
+			this.SpectateTile15.Text = "Bingo Tile";
+			this.SpectateTile15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag15
+			// 
+			this.RedTag15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag15.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag15.ForeColor = System.Drawing.Color.Black;
+			this.RedTag15.Location = new System.Drawing.Point(2, 79);
+			this.RedTag15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag15.Name = "RedTag15";
+			this.RedTag15.Size = new System.Drawing.Size(21, 21);
+			this.RedTag15.TabIndex = 0;
+			this.RedTag15.Text = "O";
+			this.RedTag15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag15
+			// 
+			this.YellowTag15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag15.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag15.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag15.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag15.Name = "YellowTag15";
+			this.YellowTag15.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag15.TabIndex = 1;
+			this.YellowTag15.Text = "O";
+			this.YellowTag15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag15
+			// 
+			this.GreenTag15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag15.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag15.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag15.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag15.Name = "GreenTag15";
+			this.GreenTag15.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag15.TabIndex = 2;
+			this.GreenTag15.Text = "O";
+			this.GreenTag15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag15
+			// 
+			this.BlueTag15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag15.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag15.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag15.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag15.Name = "BlueTag15";
+			this.BlueTag15.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag15.TabIndex = 3;
+			this.BlueTag15.Text = "O";
+			this.BlueTag15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable16
+			// 
+			this.SpectateTagTable16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable16.ColumnCount = 4;
+			this.SpectateTagTable16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable16.Controls.Add(this.SpectateTile16, 0, 0);
+			this.SpectateTagTable16.Controls.Add(this.RedTag16, 0, 1);
+			this.SpectateTagTable16.Controls.Add(this.YellowTag16, 1, 1);
+			this.SpectateTagTable16.Controls.Add(this.GreenTag16, 2, 1);
+			this.SpectateTagTable16.Controls.Add(this.BlueTag16, 3, 1);
+			this.SpectateTagTable16.Location = new System.Drawing.Point(5, 335);
+			this.SpectateTagTable16.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable16.Name = "SpectateTagTable16";
+			this.SpectateTagTable16.RowCount = 2;
+			this.SpectateTagTable16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable16.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable16.TabIndex = 61;
+			// 
+			// SpectateTile16
+			// 
+			this.SpectateTile16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile16.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable16.SetColumnSpan(this.SpectateTile16, 4);
+			this.SpectateTile16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile16.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile16.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile16.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile16.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile16.Name = "SpectateTile16";
+			this.SpectateTile16.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile16.TabIndex = 20;
+			this.SpectateTile16.Text = "Bingo Tile";
+			this.SpectateTile16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag16
+			// 
+			this.RedTag16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag16.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag16.ForeColor = System.Drawing.Color.Black;
+			this.RedTag16.Location = new System.Drawing.Point(2, 79);
+			this.RedTag16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag16.Name = "RedTag16";
+			this.RedTag16.Size = new System.Drawing.Size(21, 21);
+			this.RedTag16.TabIndex = 0;
+			this.RedTag16.Text = "O";
+			this.RedTag16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag16
+			// 
+			this.YellowTag16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag16.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag16.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag16.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag16.Name = "YellowTag16";
+			this.YellowTag16.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag16.TabIndex = 1;
+			this.YellowTag16.Text = "O";
+			this.YellowTag16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag16
+			// 
+			this.GreenTag16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag16.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag16.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag16.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag16.Name = "GreenTag16";
+			this.GreenTag16.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag16.TabIndex = 2;
+			this.GreenTag16.Text = "O";
+			this.GreenTag16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag16
+			// 
+			this.BlueTag16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag16.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag16.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag16.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag16.Name = "BlueTag16";
+			this.BlueTag16.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag16.TabIndex = 3;
+			this.BlueTag16.Text = "O";
+			this.BlueTag16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable17
+			// 
+			this.SpectateTagTable17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable17.ColumnCount = 4;
+			this.SpectateTagTable17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable17.Controls.Add(this.SpectateTile17, 0, 0);
+			this.SpectateTagTable17.Controls.Add(this.RedTag17, 0, 1);
+			this.SpectateTagTable17.Controls.Add(this.YellowTag17, 1, 1);
+			this.SpectateTagTable17.Controls.Add(this.GreenTag17, 2, 1);
+			this.SpectateTagTable17.Controls.Add(this.BlueTag17, 3, 1);
+			this.SpectateTagTable17.Location = new System.Drawing.Point(115, 335);
+			this.SpectateTagTable17.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable17.Name = "SpectateTagTable17";
+			this.SpectateTagTable17.RowCount = 2;
+			this.SpectateTagTable17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable17.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable17.TabIndex = 62;
+			// 
+			// SpectateTile17
+			// 
+			this.SpectateTile17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile17.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable17.SetColumnSpan(this.SpectateTile17, 4);
+			this.SpectateTile17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile17.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile17.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile17.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile17.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile17.Name = "SpectateTile17";
+			this.SpectateTile17.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile17.TabIndex = 20;
+			this.SpectateTile17.Text = "Bingo Tile";
+			this.SpectateTile17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag17
+			// 
+			this.RedTag17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag17.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag17.ForeColor = System.Drawing.Color.Black;
+			this.RedTag17.Location = new System.Drawing.Point(2, 79);
+			this.RedTag17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag17.Name = "RedTag17";
+			this.RedTag17.Size = new System.Drawing.Size(21, 21);
+			this.RedTag17.TabIndex = 0;
+			this.RedTag17.Text = "O";
+			this.RedTag17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag17
+			// 
+			this.YellowTag17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag17.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag17.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag17.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag17.Name = "YellowTag17";
+			this.YellowTag17.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag17.TabIndex = 1;
+			this.YellowTag17.Text = "O";
+			this.YellowTag17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag17
+			// 
+			this.GreenTag17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag17.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag17.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag17.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag17.Name = "GreenTag17";
+			this.GreenTag17.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag17.TabIndex = 2;
+			this.GreenTag17.Text = "O";
+			this.GreenTag17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag17
+			// 
+			this.BlueTag17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag17.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag17.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag17.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag17.Name = "BlueTag17";
+			this.BlueTag17.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag17.TabIndex = 3;
+			this.BlueTag17.Text = "O";
+			this.BlueTag17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable18
+			// 
+			this.SpectateTagTable18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable18.ColumnCount = 4;
+			this.SpectateTagTable18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable18.Controls.Add(this.SpectateTile18, 0, 0);
+			this.SpectateTagTable18.Controls.Add(this.RedTag18, 0, 1);
+			this.SpectateTagTable18.Controls.Add(this.YellowTag18, 1, 1);
+			this.SpectateTagTable18.Controls.Add(this.GreenTag18, 2, 1);
+			this.SpectateTagTable18.Controls.Add(this.BlueTag18, 3, 1);
+			this.SpectateTagTable18.Location = new System.Drawing.Point(225, 335);
+			this.SpectateTagTable18.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable18.Name = "SpectateTagTable18";
+			this.SpectateTagTable18.RowCount = 2;
+			this.SpectateTagTable18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable18.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable18.TabIndex = 63;
+			// 
+			// SpectateTile18
+			// 
+			this.SpectateTile18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile18.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable18.SetColumnSpan(this.SpectateTile18, 4);
+			this.SpectateTile18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile18.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile18.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile18.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile18.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile18.Name = "SpectateTile18";
+			this.SpectateTile18.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile18.TabIndex = 20;
+			this.SpectateTile18.Text = "Bingo Tile";
+			this.SpectateTile18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag18
+			// 
+			this.RedTag18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag18.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag18.ForeColor = System.Drawing.Color.Black;
+			this.RedTag18.Location = new System.Drawing.Point(2, 79);
+			this.RedTag18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag18.Name = "RedTag18";
+			this.RedTag18.Size = new System.Drawing.Size(21, 21);
+			this.RedTag18.TabIndex = 0;
+			this.RedTag18.Text = "O";
+			this.RedTag18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag18
+			// 
+			this.YellowTag18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag18.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag18.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag18.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag18.Name = "YellowTag18";
+			this.YellowTag18.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag18.TabIndex = 1;
+			this.YellowTag18.Text = "O";
+			this.YellowTag18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag18
+			// 
+			this.GreenTag18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag18.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag18.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag18.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag18.Name = "GreenTag18";
+			this.GreenTag18.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag18.TabIndex = 2;
+			this.GreenTag18.Text = "O";
+			this.GreenTag18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag18
+			// 
+			this.BlueTag18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag18.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag18.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag18.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag18.Name = "BlueTag18";
+			this.BlueTag18.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag18.TabIndex = 3;
+			this.BlueTag18.Text = "O";
+			this.BlueTag18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable19
+			// 
+			this.SpectateTagTable19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable19.ColumnCount = 4;
+			this.SpectateTagTable19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable19.Controls.Add(this.SpectateTile19, 0, 0);
+			this.SpectateTagTable19.Controls.Add(this.RedTag19, 0, 1);
+			this.SpectateTagTable19.Controls.Add(this.YellowTag19, 1, 1);
+			this.SpectateTagTable19.Controls.Add(this.GreenTag19, 2, 1);
+			this.SpectateTagTable19.Controls.Add(this.BlueTag19, 3, 1);
+			this.SpectateTagTable19.Location = new System.Drawing.Point(335, 335);
+			this.SpectateTagTable19.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable19.Name = "SpectateTagTable19";
+			this.SpectateTagTable19.RowCount = 2;
+			this.SpectateTagTable19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable19.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable19.TabIndex = 64;
+			// 
+			// SpectateTile19
+			// 
+			this.SpectateTile19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile19.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable19.SetColumnSpan(this.SpectateTile19, 4);
+			this.SpectateTile19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile19.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile19.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile19.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile19.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile19.Name = "SpectateTile19";
+			this.SpectateTile19.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile19.TabIndex = 20;
+			this.SpectateTile19.Text = "Bingo Tile";
+			this.SpectateTile19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag19
+			// 
+			this.RedTag19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag19.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag19.ForeColor = System.Drawing.Color.Black;
+			this.RedTag19.Location = new System.Drawing.Point(2, 79);
+			this.RedTag19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag19.Name = "RedTag19";
+			this.RedTag19.Size = new System.Drawing.Size(21, 21);
+			this.RedTag19.TabIndex = 0;
+			this.RedTag19.Text = "O";
+			this.RedTag19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag19
+			// 
+			this.YellowTag19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag19.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag19.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag19.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag19.Name = "YellowTag19";
+			this.YellowTag19.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag19.TabIndex = 1;
+			this.YellowTag19.Text = "O";
+			this.YellowTag19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag19
+			// 
+			this.GreenTag19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag19.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag19.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag19.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag19.Name = "GreenTag19";
+			this.GreenTag19.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag19.TabIndex = 2;
+			this.GreenTag19.Text = "O";
+			this.GreenTag19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag19
+			// 
+			this.BlueTag19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag19.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag19.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag19.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag19.Name = "BlueTag19";
+			this.BlueTag19.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag19.TabIndex = 3;
+			this.BlueTag19.Text = "O";
+			this.BlueTag19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable20
+			// 
+			this.SpectateTagTable20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable20.ColumnCount = 4;
+			this.SpectateTagTable20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable20.Controls.Add(this.SpectateTile20, 0, 0);
+			this.SpectateTagTable20.Controls.Add(this.RedTag20, 0, 1);
+			this.SpectateTagTable20.Controls.Add(this.YellowTag20, 1, 1);
+			this.SpectateTagTable20.Controls.Add(this.GreenTag20, 2, 1);
+			this.SpectateTagTable20.Controls.Add(this.BlueTag20, 3, 1);
+			this.SpectateTagTable20.Location = new System.Drawing.Point(445, 335);
+			this.SpectateTagTable20.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable20.Name = "SpectateTagTable20";
+			this.SpectateTagTable20.RowCount = 2;
+			this.SpectateTagTable20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable20.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable20.TabIndex = 65;
+			// 
+			// SpectateTile20
+			// 
+			this.SpectateTile20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile20.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable20.SetColumnSpan(this.SpectateTile20, 4);
+			this.SpectateTile20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile20.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile20.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile20.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile20.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile20.Name = "SpectateTile20";
+			this.SpectateTile20.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile20.TabIndex = 20;
+			this.SpectateTile20.Text = "Bingo Tile";
+			this.SpectateTile20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag20
+			// 
+			this.RedTag20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag20.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag20.ForeColor = System.Drawing.Color.Black;
+			this.RedTag20.Location = new System.Drawing.Point(2, 79);
+			this.RedTag20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag20.Name = "RedTag20";
+			this.RedTag20.Size = new System.Drawing.Size(21, 21);
+			this.RedTag20.TabIndex = 0;
+			this.RedTag20.Text = "O";
+			this.RedTag20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag20
+			// 
+			this.YellowTag20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag20.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag20.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag20.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag20.Name = "YellowTag20";
+			this.YellowTag20.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag20.TabIndex = 1;
+			this.YellowTag20.Text = "O";
+			this.YellowTag20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag20
+			// 
+			this.GreenTag20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag20.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag20.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag20.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag20.Name = "GreenTag20";
+			this.GreenTag20.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag20.TabIndex = 2;
+			this.GreenTag20.Text = "O";
+			this.GreenTag20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag20
+			// 
+			this.BlueTag20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag20.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag20.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag20.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag20.Name = "BlueTag20";
+			this.BlueTag20.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag20.TabIndex = 3;
+			this.BlueTag20.Text = "O";
+			this.BlueTag20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable21
+			// 
+			this.SpectateTagTable21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable21.ColumnCount = 4;
+			this.SpectateTagTable21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable21.Controls.Add(this.SpectateTile21, 0, 0);
+			this.SpectateTagTable21.Controls.Add(this.RedTag21, 0, 1);
+			this.SpectateTagTable21.Controls.Add(this.YellowTag21, 1, 1);
+			this.SpectateTagTable21.Controls.Add(this.GreenTag21, 2, 1);
+			this.SpectateTagTable21.Controls.Add(this.BlueTag21, 3, 1);
+			this.SpectateTagTable21.Location = new System.Drawing.Point(5, 445);
+			this.SpectateTagTable21.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable21.Name = "SpectateTagTable21";
+			this.SpectateTagTable21.RowCount = 2;
+			this.SpectateTagTable21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable21.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable21.TabIndex = 66;
+			// 
+			// SpectateTile21
+			// 
+			this.SpectateTile21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile21.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable21.SetColumnSpan(this.SpectateTile21, 4);
+			this.SpectateTile21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile21.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile21.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile21.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile21.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile21.Name = "SpectateTile21";
+			this.SpectateTile21.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile21.TabIndex = 20;
+			this.SpectateTile21.Text = "Bingo Tile";
+			this.SpectateTile21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag21
+			// 
+			this.RedTag21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag21.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag21.ForeColor = System.Drawing.Color.Black;
+			this.RedTag21.Location = new System.Drawing.Point(2, 79);
+			this.RedTag21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag21.Name = "RedTag21";
+			this.RedTag21.Size = new System.Drawing.Size(21, 21);
+			this.RedTag21.TabIndex = 0;
+			this.RedTag21.Text = "O";
+			this.RedTag21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag21
+			// 
+			this.YellowTag21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag21.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag21.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag21.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag21.Name = "YellowTag21";
+			this.YellowTag21.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag21.TabIndex = 1;
+			this.YellowTag21.Text = "O";
+			this.YellowTag21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag21
+			// 
+			this.GreenTag21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag21.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag21.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag21.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag21.Name = "GreenTag21";
+			this.GreenTag21.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag21.TabIndex = 2;
+			this.GreenTag21.Text = "O";
+			this.GreenTag21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag21
+			// 
+			this.BlueTag21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag21.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag21.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag21.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag21.Name = "BlueTag21";
+			this.BlueTag21.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag21.TabIndex = 3;
+			this.BlueTag21.Text = "O";
+			this.BlueTag21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable22
+			// 
+			this.SpectateTagTable22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable22.ColumnCount = 4;
+			this.SpectateTagTable22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable22.Controls.Add(this.SpectateTile22, 0, 0);
+			this.SpectateTagTable22.Controls.Add(this.RedTag22, 0, 1);
+			this.SpectateTagTable22.Controls.Add(this.YellowTag22, 1, 1);
+			this.SpectateTagTable22.Controls.Add(this.GreenTag22, 2, 1);
+			this.SpectateTagTable22.Controls.Add(this.BlueTag22, 3, 1);
+			this.SpectateTagTable22.Location = new System.Drawing.Point(115, 445);
+			this.SpectateTagTable22.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable22.Name = "SpectateTagTable22";
+			this.SpectateTagTable22.RowCount = 2;
+			this.SpectateTagTable22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable22.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable22.TabIndex = 67;
+			// 
+			// SpectateTile22
+			// 
+			this.SpectateTile22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile22.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable22.SetColumnSpan(this.SpectateTile22, 4);
+			this.SpectateTile22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile22.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile22.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile22.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile22.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile22.Name = "SpectateTile22";
+			this.SpectateTile22.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile22.TabIndex = 20;
+			this.SpectateTile22.Text = "Bingo Tile";
+			this.SpectateTile22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag22
+			// 
+			this.RedTag22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag22.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag22.ForeColor = System.Drawing.Color.Black;
+			this.RedTag22.Location = new System.Drawing.Point(2, 79);
+			this.RedTag22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag22.Name = "RedTag22";
+			this.RedTag22.Size = new System.Drawing.Size(21, 21);
+			this.RedTag22.TabIndex = 0;
+			this.RedTag22.Text = "O";
+			this.RedTag22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag22
+			// 
+			this.YellowTag22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag22.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag22.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag22.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag22.Name = "YellowTag22";
+			this.YellowTag22.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag22.TabIndex = 1;
+			this.YellowTag22.Text = "O";
+			this.YellowTag22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag22
+			// 
+			this.GreenTag22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag22.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag22.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag22.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag22.Name = "GreenTag22";
+			this.GreenTag22.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag22.TabIndex = 2;
+			this.GreenTag22.Text = "O";
+			this.GreenTag22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag22
+			// 
+			this.BlueTag22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag22.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag22.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag22.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag22.Name = "BlueTag22";
+			this.BlueTag22.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag22.TabIndex = 3;
+			this.BlueTag22.Text = "O";
+			this.BlueTag22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable23
+			// 
+			this.SpectateTagTable23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable23.ColumnCount = 4;
+			this.SpectateTagTable23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable23.Controls.Add(this.SpectateTile23, 0, 0);
+			this.SpectateTagTable23.Controls.Add(this.RedTag23, 0, 1);
+			this.SpectateTagTable23.Controls.Add(this.YellowTag23, 1, 1);
+			this.SpectateTagTable23.Controls.Add(this.GreenTag23, 2, 1);
+			this.SpectateTagTable23.Controls.Add(this.BlueTag23, 3, 1);
+			this.SpectateTagTable23.Location = new System.Drawing.Point(225, 445);
+			this.SpectateTagTable23.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable23.Name = "SpectateTagTable23";
+			this.SpectateTagTable23.RowCount = 2;
+			this.SpectateTagTable23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable23.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable23.TabIndex = 68;
+			// 
+			// SpectateTile23
+			// 
+			this.SpectateTile23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile23.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable23.SetColumnSpan(this.SpectateTile23, 4);
+			this.SpectateTile23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile23.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile23.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile23.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile23.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile23.Name = "SpectateTile23";
+			this.SpectateTile23.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile23.TabIndex = 20;
+			this.SpectateTile23.Text = "Bingo Tile";
+			this.SpectateTile23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag23
+			// 
+			this.RedTag23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag23.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag23.ForeColor = System.Drawing.Color.Black;
+			this.RedTag23.Location = new System.Drawing.Point(2, 79);
+			this.RedTag23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag23.Name = "RedTag23";
+			this.RedTag23.Size = new System.Drawing.Size(21, 21);
+			this.RedTag23.TabIndex = 0;
+			this.RedTag23.Text = "O";
+			this.RedTag23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag23
+			// 
+			this.YellowTag23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag23.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag23.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag23.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag23.Name = "YellowTag23";
+			this.YellowTag23.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag23.TabIndex = 1;
+			this.YellowTag23.Text = "O";
+			this.YellowTag23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag23
+			// 
+			this.GreenTag23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag23.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag23.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag23.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag23.Name = "GreenTag23";
+			this.GreenTag23.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag23.TabIndex = 2;
+			this.GreenTag23.Text = "O";
+			this.GreenTag23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag23
+			// 
+			this.BlueTag23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag23.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag23.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag23.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag23.Name = "BlueTag23";
+			this.BlueTag23.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag23.TabIndex = 3;
+			this.BlueTag23.Text = "O";
+			this.BlueTag23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable24
+			// 
+			this.SpectateTagTable24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable24.ColumnCount = 4;
+			this.SpectateTagTable24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable24.Controls.Add(this.SpectateTile24, 0, 0);
+			this.SpectateTagTable24.Controls.Add(this.RedTag24, 0, 1);
+			this.SpectateTagTable24.Controls.Add(this.YellowTag24, 1, 1);
+			this.SpectateTagTable24.Controls.Add(this.GreenTag24, 2, 1);
+			this.SpectateTagTable24.Controls.Add(this.BlueTag24, 3, 1);
+			this.SpectateTagTable24.Location = new System.Drawing.Point(335, 445);
+			this.SpectateTagTable24.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable24.Name = "SpectateTagTable24";
+			this.SpectateTagTable24.RowCount = 2;
+			this.SpectateTagTable24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable24.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable24.TabIndex = 69;
+			// 
+			// SpectateTile24
+			// 
+			this.SpectateTile24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile24.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable24.SetColumnSpan(this.SpectateTile24, 4);
+			this.SpectateTile24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile24.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile24.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile24.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile24.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile24.Name = "SpectateTile24";
+			this.SpectateTile24.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile24.TabIndex = 20;
+			this.SpectateTile24.Text = "Bingo Tile";
+			this.SpectateTile24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile24.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile24.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag24
+			// 
+			this.RedTag24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag24.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag24.ForeColor = System.Drawing.Color.Black;
+			this.RedTag24.Location = new System.Drawing.Point(2, 79);
+			this.RedTag24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag24.Name = "RedTag24";
+			this.RedTag24.Size = new System.Drawing.Size(21, 21);
+			this.RedTag24.TabIndex = 0;
+			this.RedTag24.Text = "O";
+			this.RedTag24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag24
+			// 
+			this.YellowTag24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag24.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag24.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag24.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag24.Name = "YellowTag24";
+			this.YellowTag24.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag24.TabIndex = 1;
+			this.YellowTag24.Text = "O";
+			this.YellowTag24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag24
+			// 
+			this.GreenTag24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag24.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag24.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag24.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag24.Name = "GreenTag24";
+			this.GreenTag24.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag24.TabIndex = 2;
+			this.GreenTag24.Text = "O";
+			this.GreenTag24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag24
+			// 
+			this.BlueTag24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag24.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag24.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag24.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag24.Name = "BlueTag24";
+			this.BlueTag24.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag24.TabIndex = 3;
+			this.BlueTag24.Text = "O";
+			this.BlueTag24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateTagTable25
+			// 
+			this.SpectateTagTable25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTagTable25.ColumnCount = 4;
+			this.SpectateTagTable25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+			this.SpectateTagTable25.Controls.Add(this.SpectateTile25, 0, 0);
+			this.SpectateTagTable25.Controls.Add(this.RedTag25, 0, 1);
+			this.SpectateTagTable25.Controls.Add(this.YellowTag25, 1, 1);
+			this.SpectateTagTable25.Controls.Add(this.GreenTag25, 2, 1);
+			this.SpectateTagTable25.Controls.Add(this.BlueTag25, 3, 1);
+			this.SpectateTagTable25.Location = new System.Drawing.Point(445, 445);
+			this.SpectateTagTable25.Margin = new System.Windows.Forms.Padding(5);
+			this.SpectateTagTable25.Name = "SpectateTagTable25";
+			this.SpectateTagTable25.RowCount = 2;
+			this.SpectateTagTable25.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79F));
+			this.SpectateTagTable25.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21F));
+			this.SpectateTagTable25.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable25.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+			this.SpectateTagTable25.Size = new System.Drawing.Size(100, 100);
+			this.SpectateTagTable25.TabIndex = 70;
+			// 
+			// SpectateTile25
+			// 
+			this.SpectateTile25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateTile25.BackColor = System.Drawing.Color.LightGray;
+			this.SpectateTagTable25.SetColumnSpan(this.SpectateTile25, 4);
+			this.SpectateTile25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateTile25.ForeColor = System.Drawing.Color.Black;
+			this.SpectateTile25.Location = new System.Drawing.Point(0, 0);
+			this.SpectateTile25.Margin = new System.Windows.Forms.Padding(0);
+			this.SpectateTile25.MaximumSize = new System.Drawing.Size(9999, 9999);
+			this.SpectateTile25.Name = "SpectateTile25";
+			this.SpectateTile25.Size = new System.Drawing.Size(100, 79);
+			this.SpectateTile25.TabIndex = 20;
+			this.SpectateTile25.Text = "Bingo Tile";
+			this.SpectateTile25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.SpectateTile25.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			this.SpectateTile25.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTile_Click);
+			// 
+			// RedTag25
+			// 
+			this.RedTag25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.RedTag25.BackColor = System.Drawing.Color.LightGray;
+			this.RedTag25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.RedTag25.ForeColor = System.Drawing.Color.Black;
+			this.RedTag25.Location = new System.Drawing.Point(2, 79);
+			this.RedTag25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.RedTag25.Name = "RedTag25";
+			this.RedTag25.Size = new System.Drawing.Size(21, 21);
+			this.RedTag25.TabIndex = 0;
+			this.RedTag25.Text = "O";
+			this.RedTag25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// YellowTag25
+			// 
+			this.YellowTag25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.YellowTag25.BackColor = System.Drawing.Color.LightGray;
+			this.YellowTag25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.YellowTag25.ForeColor = System.Drawing.Color.Black;
+			this.YellowTag25.Location = new System.Drawing.Point(27, 79);
+			this.YellowTag25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.YellowTag25.Name = "YellowTag25";
+			this.YellowTag25.Size = new System.Drawing.Size(21, 21);
+			this.YellowTag25.TabIndex = 1;
+			this.YellowTag25.Text = "O";
+			this.YellowTag25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// GreenTag25
+			// 
+			this.GreenTag25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.GreenTag25.BackColor = System.Drawing.Color.LightGray;
+			this.GreenTag25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GreenTag25.ForeColor = System.Drawing.Color.Black;
+			this.GreenTag25.Location = new System.Drawing.Point(52, 79);
+			this.GreenTag25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.GreenTag25.Name = "GreenTag25";
+			this.GreenTag25.Size = new System.Drawing.Size(21, 21);
+			this.GreenTag25.TabIndex = 2;
+			this.GreenTag25.Text = "O";
+			this.GreenTag25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// BlueTag25
+			// 
+			this.BlueTag25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.BlueTag25.BackColor = System.Drawing.Color.LightGray;
+			this.BlueTag25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BlueTag25.ForeColor = System.Drawing.Color.Black;
+			this.BlueTag25.Location = new System.Drawing.Point(77, 79);
+			this.BlueTag25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.BlueTag25.Name = "BlueTag25";
+			this.BlueTag25.Size = new System.Drawing.Size(21, 21);
+			this.BlueTag25.TabIndex = 3;
+			this.BlueTag25.Text = "O";
+			this.BlueTag25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// SpectateUnhideButton
+			// 
+			this.SpectateUnhideButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.SpectateUnhideButton.BackColor = System.Drawing.Color.White;
+			this.SpectateUnhideButton.ForeColor = System.Drawing.Color.Black;
+			this.SpectateUnhideButton.Location = new System.Drawing.Point(174, 626);
+			this.SpectateUnhideButton.Name = "SpectateUnhideButton";
+			this.SpectateUnhideButton.Size = new System.Drawing.Size(172, 59);
+			this.SpectateUnhideButton.TabIndex = 51;
+			this.SpectateUnhideButton.Text = "Board Hidden. Press to Show";
+			this.SpectateUnhideButton.UseVisualStyleBackColor = false;
+			this.SpectateUnhideButton.Visible = false;
+			this.SpectateUnhideButton.Click += new System.EventHandler(this.BottomHideButton_Click);
+			// 
+			// SpectateInfoTextField
+			// 
+			this.SpectateInfoTextField.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.SpectateInfoTextField.BackColor = System.Drawing.Color.Black;
+			this.SpectateInfoTextField.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.SpectateInfoTextField.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.SpectateInfoTextField.ForeColor = System.Drawing.Color.White;
+			this.SpectateInfoTextField.Location = new System.Drawing.Point(9, 553);
+			this.SpectateInfoTextField.Multiline = true;
+			this.SpectateInfoTextField.Name = "SpectateInfoTextField";
+			this.SpectateInfoTextField.ReadOnly = true;
+			this.SpectateInfoTextField.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+			this.SpectateInfoTextField.Size = new System.Drawing.Size(539, 173);
+			this.SpectateInfoTextField.TabIndex = 51;
+			this.SpectateInfoTextField.Text = "Spectator Mode";
 			// 
 			// TabHelp
 			// 
@@ -3826,7 +3743,7 @@
 			this.TabHelp.ForeColor = System.Drawing.Color.White;
 			this.TabHelp.Location = new System.Drawing.Point(4, 22);
 			this.TabHelp.Name = "TabHelp";
-			this.TabHelp.Size = new System.Drawing.Size(561, 736);
+			this.TabHelp.Size = new System.Drawing.Size(556, 731);
 			this.TabHelp.TabIndex = 5;
 			this.TabHelp.Text = "Help & Info";
 			// 
@@ -3837,9 +3754,9 @@
 			this.groupBox13.BackColor = System.Drawing.Color.Transparent;
 			this.groupBox13.Controls.Add(this.HelpVersionLabel);
 			this.groupBox13.ForeColor = System.Drawing.Color.White;
-			this.groupBox13.Location = new System.Drawing.Point(8, 370);
+			this.groupBox13.Location = new System.Drawing.Point(8, 549);
 			this.groupBox13.Name = "groupBox13";
-			this.groupBox13.Size = new System.Drawing.Size(549, 57);
+			this.groupBox13.Size = new System.Drawing.Size(543, 57);
 			this.groupBox13.TabIndex = 12;
 			this.groupBox13.TabStop = false;
 			this.groupBox13.Text = "Version";
@@ -3852,9 +3769,9 @@
 			this.HelpVersionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.HelpVersionLabel.Location = new System.Drawing.Point(8, 16);
 			this.HelpVersionLabel.Name = "HelpVersionLabel";
-			this.HelpVersionLabel.Size = new System.Drawing.Size(535, 38);
+			this.HelpVersionLabel.Size = new System.Drawing.Size(529, 38);
 			this.HelpVersionLabel.TabIndex = 0;
-			this.HelpVersionLabel.Text = "V0.2.0 Beta 4";
+			this.HelpVersionLabel.Text = "V0.2.0 Beta 5";
 			// 
 			// groupBox8
 			// 
@@ -3865,7 +3782,7 @@
 			this.groupBox8.ForeColor = System.Drawing.Color.White;
 			this.groupBox8.Location = new System.Drawing.Point(8, 191);
 			this.groupBox8.Name = "groupBox8";
-			this.groupBox8.Size = new System.Drawing.Size(549, 173);
+			this.groupBox8.Size = new System.Drawing.Size(543, 352);
 			this.groupBox8.TabIndex = 11;
 			this.groupBox8.TabStop = false;
 			this.groupBox8.Text = "Credits";
@@ -3878,10 +3795,10 @@
 			this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label38.Location = new System.Drawing.Point(8, 16);
 			this.label38.Name = "label38";
-			this.label38.Size = new System.Drawing.Size(535, 154);
+			this.label38.Size = new System.Drawing.Size(529, 333);
 			this.label38.TabIndex = 0;
-			this.label38.Text = "S.: Design, Code\r\n\r\nJoshimuz: Stole some of his code (with his permission.)\r\n\r\nOa" +
-    "siz: Advice and inspiration";
+			this.label38.Text = "Design, Code: \r\nS. (twitch.tv/lotsofs)\r\n\r\nInspiration: \r\nJoshimuz, Tduva, Oasiz\r\n" +
+    "\r\nSpecial Thanks: \r\nEthanH59 (ehgames.com)";
 			// 
 			// groupBox7
 			// 
@@ -3892,7 +3809,7 @@
 			this.groupBox7.ForeColor = System.Drawing.Color.White;
 			this.groupBox7.Location = new System.Drawing.Point(8, 3);
 			this.groupBox7.Name = "groupBox7";
-			this.groupBox7.Size = new System.Drawing.Size(549, 182);
+			this.groupBox7.Size = new System.Drawing.Size(543, 182);
 			this.groupBox7.TabIndex = 10;
 			this.groupBox7.TabStop = false;
 			this.groupBox7.Text = "Instructions";
@@ -3904,7 +3821,7 @@
 			this.label165.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label165.Location = new System.Drawing.Point(9, 31);
 			this.label165.Name = "label165";
-			this.label165.Size = new System.Drawing.Size(534, 148);
+			this.label165.Size = new System.Drawing.Size(528, 148);
 			this.label165.TabIndex = 47;
 			this.label165.Text = resources.GetString("label165.Text");
 			// 
@@ -3915,7 +3832,7 @@
 			this.TabSettings.ForeColor = System.Drawing.Color.White;
 			this.TabSettings.Location = new System.Drawing.Point(4, 22);
 			this.TabSettings.Name = "TabSettings";
-			this.TabSettings.Size = new System.Drawing.Size(561, 736);
+			this.TabSettings.Size = new System.Drawing.Size(556, 731);
 			this.TabSettings.TabIndex = 4;
 			this.TabSettings.Text = "Program Settings";
 			// 
@@ -4517,7 +4434,7 @@
 			this.TabLoad.ForeColor = System.Drawing.Color.White;
 			this.TabLoad.Location = new System.Drawing.Point(4, 22);
 			this.TabLoad.Name = "TabLoad";
-			this.TabLoad.Size = new System.Drawing.Size(561, 736);
+			this.TabLoad.Size = new System.Drawing.Size(556, 731);
 			this.TabLoad.TabIndex = 2;
 			this.TabLoad.Text = "Load Board";
 			// 
@@ -4595,7 +4512,7 @@
 			this.TabCreate.Location = new System.Drawing.Point(4, 22);
 			this.TabCreate.Name = "TabCreate";
 			this.TabCreate.Padding = new System.Windows.Forms.Padding(3);
-			this.TabCreate.Size = new System.Drawing.Size(561, 736);
+			this.TabCreate.Size = new System.Drawing.Size(556, 731);
 			this.TabCreate.TabIndex = 1;
 			this.TabCreate.Text = "Create New Board";
 			// 
@@ -4814,7 +4731,7 @@
 			this.TabRules.ForeColor = System.Drawing.Color.White;
 			this.TabRules.Location = new System.Drawing.Point(4, 22);
 			this.TabRules.Name = "TabRules";
-			this.TabRules.Size = new System.Drawing.Size(561, 736);
+			this.TabRules.Size = new System.Drawing.Size(556, 731);
 			this.TabRules.TabIndex = 3;
 			this.TabRules.Text = "Rules & Info";
 			// 
@@ -4842,13 +4759,13 @@
 			this.TabBoard.Controls.Add(this.BoardVersionDisplay);
 			this.TabBoard.Controls.Add(this.BoardUnhideButton);
 			this.TabBoard.Controls.Add(this.BoardInfoTextField);
-			this.TabBoard.Controls.Add(this.tableLayoutPanel1);
+			this.TabBoard.Controls.Add(this.BoardTableLayoutPanel);
 			this.TabBoard.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.TabBoard.ForeColor = System.Drawing.Color.White;
 			this.TabBoard.Location = new System.Drawing.Point(4, 22);
 			this.TabBoard.Name = "TabBoard";
 			this.TabBoard.Padding = new System.Windows.Forms.Padding(3);
-			this.TabBoard.Size = new System.Drawing.Size(561, 736);
+			this.TabBoard.Size = new System.Drawing.Size(556, 731);
 			this.TabBoard.TabIndex = 0;
 			this.TabBoard.Text = "Board";
 			// 
@@ -4857,7 +4774,7 @@
 			this.BoardVersionDisplay.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.BoardVersionDisplay.AutoSize = true;
 			this.BoardVersionDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.BoardVersionDisplay.Location = new System.Drawing.Point(42, 155);
+			this.BoardVersionDisplay.Location = new System.Drawing.Point(40, 152);
 			this.BoardVersionDisplay.Name = "BoardVersionDisplay";
 			this.BoardVersionDisplay.Size = new System.Drawing.Size(305, 132);
 			this.BoardVersionDisplay.TabIndex = 52;
@@ -4869,7 +4786,7 @@
 			this.BoardUnhideButton.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.BoardUnhideButton.BackColor = System.Drawing.Color.White;
 			this.BoardUnhideButton.ForeColor = System.Drawing.Color.Black;
-			this.BoardUnhideButton.Location = new System.Drawing.Point(188, 296);
+			this.BoardUnhideButton.Location = new System.Drawing.Point(186, 293);
 			this.BoardUnhideButton.Name = "BoardUnhideButton";
 			this.BoardUnhideButton.Size = new System.Drawing.Size(172, 59);
 			this.BoardUnhideButton.TabIndex = 50;
@@ -4886,64 +4803,64 @@
 			this.BoardInfoTextField.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.BoardInfoTextField.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BoardInfoTextField.ForeColor = System.Drawing.Color.White;
-			this.BoardInfoTextField.Location = new System.Drawing.Point(9, 558);
+			this.BoardInfoTextField.Location = new System.Drawing.Point(9, 553);
 			this.BoardInfoTextField.Multiline = true;
 			this.BoardInfoTextField.Name = "BoardInfoTextField";
 			this.BoardInfoTextField.ReadOnly = true;
 			this.BoardInfoTextField.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-			this.BoardInfoTextField.Size = new System.Drawing.Size(544, 173);
+			this.BoardInfoTextField.Size = new System.Drawing.Size(539, 173);
 			this.BoardInfoTextField.TabIndex = 50;
 			this.BoardInfoTextField.Text = "No goals have been loaded. Please load goals";
 			// 
-			// tableLayoutPanel1
+			// BoardTableLayoutPanel
 			// 
-			this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.BoardTableLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.tableLayoutPanel1.ColumnCount = 5;
-			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile1, 0, 0);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile2, 1, 0);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile3, 2, 0);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile4, 3, 0);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile5, 4, 0);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile6, 0, 1);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile7, 1, 1);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile8, 2, 1);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile9, 3, 1);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile10, 4, 1);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile11, 0, 2);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile12, 1, 2);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile13, 2, 2);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile14, 3, 2);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile15, 4, 2);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile16, 0, 3);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile17, 1, 3);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile18, 2, 3);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile19, 3, 3);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile20, 4, 3);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile21, 0, 4);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile22, 1, 4);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile23, 2, 4);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile24, 3, 4);
-			this.tableLayoutPanel1.Controls.Add(this.BingoTile25, 4, 4);
-			this.tableLayoutPanel1.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
-			this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 0);
-			this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
-			this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-			this.tableLayoutPanel1.RowCount = 5;
-			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-			this.tableLayoutPanel1.Size = new System.Drawing.Size(555, 555);
-			this.tableLayoutPanel1.TabIndex = 51;
+			this.BoardTableLayoutPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.BoardTableLayoutPanel.ColumnCount = 5;
+			this.BoardTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.BoardTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.BoardTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.BoardTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.BoardTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile1, 0, 0);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile2, 1, 0);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile3, 2, 0);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile4, 3, 0);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile5, 4, 0);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile6, 0, 1);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile7, 1, 1);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile8, 2, 1);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile9, 3, 1);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile10, 4, 1);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile11, 0, 2);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile12, 1, 2);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile13, 2, 2);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile14, 3, 2);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile15, 4, 2);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile16, 0, 3);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile17, 1, 3);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile18, 2, 3);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile19, 3, 3);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile20, 4, 3);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile21, 0, 4);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile22, 1, 4);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile23, 2, 4);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile24, 3, 4);
+			this.BoardTableLayoutPanel.Controls.Add(this.BingoTile25, 4, 4);
+			this.BoardTableLayoutPanel.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
+			this.BoardTableLayoutPanel.Location = new System.Drawing.Point(3, 0);
+			this.BoardTableLayoutPanel.Margin = new System.Windows.Forms.Padding(0);
+			this.BoardTableLayoutPanel.Name = "BoardTableLayoutPanel";
+			this.BoardTableLayoutPanel.RowCount = 5;
+			this.BoardTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.BoardTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.BoardTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.BoardTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.BoardTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+			this.BoardTableLayoutPanel.Size = new System.Drawing.Size(550, 550);
+			this.BoardTableLayoutPanel.TabIndex = 51;
 			// 
 			// BingoTile1
 			// 
@@ -4957,7 +4874,7 @@
 			this.BingoTile1.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile1.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile1.Name = "BingoTile1";
-			this.BingoTile1.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile1.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile1.TabIndex = 19;
 			this.BingoTile1.Text = "Bingo Tile 1";
 			this.BingoTile1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4972,11 +4889,11 @@
 			this.BingoTile2.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile2.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile2.Location = new System.Drawing.Point(116, 5);
+			this.BingoTile2.Location = new System.Drawing.Point(115, 5);
 			this.BingoTile2.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile2.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile2.Name = "BingoTile2";
-			this.BingoTile2.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile2.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile2.TabIndex = 20;
 			this.BingoTile2.Text = "Bingo Tile 2";
 			this.BingoTile2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4991,11 +4908,11 @@
 			this.BingoTile3.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile3.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile3.Location = new System.Drawing.Point(227, 5);
+			this.BingoTile3.Location = new System.Drawing.Point(225, 5);
 			this.BingoTile3.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile3.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile3.Name = "BingoTile3";
-			this.BingoTile3.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile3.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile3.TabIndex = 21;
 			this.BingoTile3.Text = "Bingo Tile 3";
 			this.BingoTile3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5010,11 +4927,11 @@
 			this.BingoTile4.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile4.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile4.Location = new System.Drawing.Point(338, 5);
+			this.BingoTile4.Location = new System.Drawing.Point(335, 5);
 			this.BingoTile4.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile4.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile4.Name = "BingoTile4";
-			this.BingoTile4.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile4.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile4.TabIndex = 22;
 			this.BingoTile4.Text = "Bingo Tile 4";
 			this.BingoTile4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5029,11 +4946,11 @@
 			this.BingoTile5.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile5.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile5.Location = new System.Drawing.Point(449, 5);
+			this.BingoTile5.Location = new System.Drawing.Point(445, 5);
 			this.BingoTile5.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile5.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile5.Name = "BingoTile5";
-			this.BingoTile5.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile5.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile5.TabIndex = 23;
 			this.BingoTile5.Text = "Bingo Tile 5";
 			this.BingoTile5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5048,11 +4965,11 @@
 			this.BingoTile6.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile6.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile6.Location = new System.Drawing.Point(5, 116);
+			this.BingoTile6.Location = new System.Drawing.Point(5, 115);
 			this.BingoTile6.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile6.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile6.Name = "BingoTile6";
-			this.BingoTile6.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile6.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile6.TabIndex = 24;
 			this.BingoTile6.Text = "Bingo Tile 6";
 			this.BingoTile6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5067,11 +4984,11 @@
 			this.BingoTile7.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile7.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile7.Location = new System.Drawing.Point(116, 116);
+			this.BingoTile7.Location = new System.Drawing.Point(115, 115);
 			this.BingoTile7.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile7.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile7.Name = "BingoTile7";
-			this.BingoTile7.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile7.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile7.TabIndex = 25;
 			this.BingoTile7.Text = "Bingo Tile 7";
 			this.BingoTile7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5086,11 +5003,11 @@
 			this.BingoTile8.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile8.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile8.Location = new System.Drawing.Point(227, 116);
+			this.BingoTile8.Location = new System.Drawing.Point(225, 115);
 			this.BingoTile8.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile8.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile8.Name = "BingoTile8";
-			this.BingoTile8.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile8.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile8.TabIndex = 26;
 			this.BingoTile8.Text = "Bingo Tile 8";
 			this.BingoTile8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5105,11 +5022,11 @@
 			this.BingoTile9.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile9.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile9.Location = new System.Drawing.Point(338, 116);
+			this.BingoTile9.Location = new System.Drawing.Point(335, 115);
 			this.BingoTile9.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile9.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile9.Name = "BingoTile9";
-			this.BingoTile9.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile9.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile9.TabIndex = 27;
 			this.BingoTile9.Text = "Bingo Tile 9";
 			this.BingoTile9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5124,11 +5041,11 @@
 			this.BingoTile10.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile10.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile10.Location = new System.Drawing.Point(449, 116);
+			this.BingoTile10.Location = new System.Drawing.Point(445, 115);
 			this.BingoTile10.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile10.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile10.Name = "BingoTile10";
-			this.BingoTile10.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile10.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile10.TabIndex = 28;
 			this.BingoTile10.Text = "Bingo Tile 10";
 			this.BingoTile10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5143,11 +5060,11 @@
 			this.BingoTile11.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile11.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile11.Location = new System.Drawing.Point(5, 227);
+			this.BingoTile11.Location = new System.Drawing.Point(5, 225);
 			this.BingoTile11.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile11.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile11.Name = "BingoTile11";
-			this.BingoTile11.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile11.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile11.TabIndex = 29;
 			this.BingoTile11.Text = "Bingo Tile 11";
 			this.BingoTile11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5162,11 +5079,11 @@
 			this.BingoTile12.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile12.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile12.Location = new System.Drawing.Point(116, 227);
+			this.BingoTile12.Location = new System.Drawing.Point(115, 225);
 			this.BingoTile12.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile12.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile12.Name = "BingoTile12";
-			this.BingoTile12.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile12.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile12.TabIndex = 30;
 			this.BingoTile12.Text = "Bingo Tile 12";
 			this.BingoTile12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5181,11 +5098,11 @@
 			this.BingoTile13.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile13.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile13.Location = new System.Drawing.Point(227, 227);
+			this.BingoTile13.Location = new System.Drawing.Point(225, 225);
 			this.BingoTile13.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile13.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile13.Name = "BingoTile13";
-			this.BingoTile13.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile13.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile13.TabIndex = 31;
 			this.BingoTile13.Text = "Bingo Tile 13";
 			this.BingoTile13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5200,11 +5117,11 @@
 			this.BingoTile14.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile14.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile14.Location = new System.Drawing.Point(338, 227);
+			this.BingoTile14.Location = new System.Drawing.Point(335, 225);
 			this.BingoTile14.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile14.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile14.Name = "BingoTile14";
-			this.BingoTile14.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile14.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile14.TabIndex = 32;
 			this.BingoTile14.Text = "Bingo Tile 14";
 			this.BingoTile14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5219,11 +5136,11 @@
 			this.BingoTile15.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile15.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile15.Location = new System.Drawing.Point(449, 227);
+			this.BingoTile15.Location = new System.Drawing.Point(445, 225);
 			this.BingoTile15.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile15.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile15.Name = "BingoTile15";
-			this.BingoTile15.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile15.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile15.TabIndex = 33;
 			this.BingoTile15.Text = "Bingo Tile 15";
 			this.BingoTile15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5238,11 +5155,11 @@
 			this.BingoTile16.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile16.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile16.Location = new System.Drawing.Point(5, 338);
+			this.BingoTile16.Location = new System.Drawing.Point(5, 335);
 			this.BingoTile16.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile16.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile16.Name = "BingoTile16";
-			this.BingoTile16.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile16.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile16.TabIndex = 34;
 			this.BingoTile16.Text = "Bingo Tile 16";
 			this.BingoTile16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5257,11 +5174,11 @@
 			this.BingoTile17.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile17.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile17.Location = new System.Drawing.Point(116, 338);
+			this.BingoTile17.Location = new System.Drawing.Point(115, 335);
 			this.BingoTile17.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile17.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile17.Name = "BingoTile17";
-			this.BingoTile17.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile17.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile17.TabIndex = 35;
 			this.BingoTile17.Text = "Bingo Tile 17";
 			this.BingoTile17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5276,11 +5193,11 @@
 			this.BingoTile18.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile18.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile18.Location = new System.Drawing.Point(227, 338);
+			this.BingoTile18.Location = new System.Drawing.Point(225, 335);
 			this.BingoTile18.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile18.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile18.Name = "BingoTile18";
-			this.BingoTile18.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile18.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile18.TabIndex = 36;
 			this.BingoTile18.Text = "Bingo Tile 18";
 			this.BingoTile18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5295,11 +5212,11 @@
 			this.BingoTile19.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile19.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile19.Location = new System.Drawing.Point(338, 338);
+			this.BingoTile19.Location = new System.Drawing.Point(335, 335);
 			this.BingoTile19.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile19.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile19.Name = "BingoTile19";
-			this.BingoTile19.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile19.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile19.TabIndex = 37;
 			this.BingoTile19.Text = "Bingo Tile 19";
 			this.BingoTile19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5314,11 +5231,11 @@
 			this.BingoTile20.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile20.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile20.Location = new System.Drawing.Point(449, 338);
+			this.BingoTile20.Location = new System.Drawing.Point(445, 335);
 			this.BingoTile20.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile20.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile20.Name = "BingoTile20";
-			this.BingoTile20.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile20.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile20.TabIndex = 38;
 			this.BingoTile20.Text = "Bingo Tile 20";
 			this.BingoTile20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5333,11 +5250,11 @@
 			this.BingoTile21.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile21.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile21.Location = new System.Drawing.Point(5, 449);
+			this.BingoTile21.Location = new System.Drawing.Point(5, 445);
 			this.BingoTile21.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile21.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile21.Name = "BingoTile21";
-			this.BingoTile21.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile21.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile21.TabIndex = 39;
 			this.BingoTile21.Text = "Bingo Tile 21";
 			this.BingoTile21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5352,11 +5269,11 @@
 			this.BingoTile22.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile22.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile22.Location = new System.Drawing.Point(116, 449);
+			this.BingoTile22.Location = new System.Drawing.Point(115, 445);
 			this.BingoTile22.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile22.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile22.Name = "BingoTile22";
-			this.BingoTile22.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile22.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile22.TabIndex = 40;
 			this.BingoTile22.Text = "Bingo Tile 22";
 			this.BingoTile22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5371,11 +5288,11 @@
 			this.BingoTile23.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile23.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile23.Location = new System.Drawing.Point(227, 449);
+			this.BingoTile23.Location = new System.Drawing.Point(225, 445);
 			this.BingoTile23.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile23.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile23.Name = "BingoTile23";
-			this.BingoTile23.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile23.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile23.TabIndex = 41;
 			this.BingoTile23.Text = "Bingo Tile 23";
 			this.BingoTile23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5390,11 +5307,11 @@
 			this.BingoTile24.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile24.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile24.Location = new System.Drawing.Point(338, 449);
+			this.BingoTile24.Location = new System.Drawing.Point(335, 445);
 			this.BingoTile24.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile24.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile24.Name = "BingoTile24";
-			this.BingoTile24.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile24.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile24.TabIndex = 42;
 			this.BingoTile24.Text = "Bingo Tile 24";
 			this.BingoTile24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5409,11 +5326,11 @@
 			this.BingoTile25.BackColor = System.Drawing.Color.LightGray;
 			this.BingoTile25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.BingoTile25.ForeColor = System.Drawing.Color.Black;
-			this.BingoTile25.Location = new System.Drawing.Point(449, 449);
+			this.BingoTile25.Location = new System.Drawing.Point(445, 445);
 			this.BingoTile25.Margin = new System.Windows.Forms.Padding(5);
 			this.BingoTile25.MaximumSize = new System.Drawing.Size(9999, 9999);
 			this.BingoTile25.Name = "BingoTile25";
-			this.BingoTile25.Size = new System.Drawing.Size(101, 101);
+			this.BingoTile25.Size = new System.Drawing.Size(100, 100);
 			this.BingoTile25.TabIndex = 43;
 			this.BingoTile25.Text = "Bingo Tile 25";
 			this.BingoTile25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5437,7 +5354,7 @@
 			this.TabControlMain.Multiline = true;
 			this.TabControlMain.Name = "TabControlMain";
 			this.TabControlMain.SelectedIndex = 0;
-			this.TabControlMain.Size = new System.Drawing.Size(569, 762);
+			this.TabControlMain.Size = new System.Drawing.Size(564, 757);
 			this.TabControlMain.TabIndex = 44;
 			// 
 			// TabOnline
@@ -5451,7 +5368,7 @@
 			this.TabOnline.Location = new System.Drawing.Point(4, 22);
 			this.TabOnline.Name = "TabOnline";
 			this.TabOnline.Padding = new System.Windows.Forms.Padding(3);
-			this.TabOnline.Size = new System.Drawing.Size(561, 736);
+			this.TabOnline.Size = new System.Drawing.Size(556, 731);
 			this.TabOnline.TabIndex = 7;
 			this.TabOnline.Text = "Online";
 			// 
@@ -5727,2100 +5644,12 @@
 			// 
 			this.backgroundWorkerReceive.DoWork += new System.ComponentModel.DoWorkEventHandler(this.BackgroundWorkerReceive_DoWork);
 			// 
-			// tableLayoutPanel4
-			// 
-			this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel4.ColumnCount = 4;
-			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel4.Controls.Add(this.label5, 3, 0);
-			this.tableLayoutPanel4.Controls.Add(this.label6, 2, 0);
-			this.tableLayoutPanel4.Controls.Add(this.label7, 1, 0);
-			this.tableLayoutPanel4.Controls.Add(this.label8, 0, 0);
-			this.tableLayoutPanel4.Location = new System.Drawing.Point(113, 81);
-			this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-			this.tableLayoutPanel4.RowCount = 1;
-			this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel4.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel4.TabIndex = 45;
-			// 
-			// label5
-			// 
-			this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label5.BackColor = System.Drawing.Color.LightGray;
-			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label5.ForeColor = System.Drawing.Color.Black;
-			this.label5.Location = new System.Drawing.Point(74, 0);
-			this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(22, 22);
-			this.label5.TabIndex = 3;
-			this.label5.Text = "O";
-			this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label6
-			// 
-			this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label6.BackColor = System.Drawing.Color.LightGray;
-			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label6.ForeColor = System.Drawing.Color.Black;
-			this.label6.Location = new System.Drawing.Point(50, 0);
-			this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(20, 22);
-			this.label6.TabIndex = 2;
-			this.label6.Text = "O";
-			this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label7
-			// 
-			this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label7.BackColor = System.Drawing.Color.LightGray;
-			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label7.ForeColor = System.Drawing.Color.Black;
-			this.label7.Location = new System.Drawing.Point(26, 0);
-			this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(20, 22);
-			this.label7.TabIndex = 1;
-			this.label7.Text = "O";
-			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label8
-			// 
-			this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label8.BackColor = System.Drawing.Color.LightGray;
-			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label8.ForeColor = System.Drawing.Color.Black;
-			this.label8.Location = new System.Drawing.Point(2, 0);
-			this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(20, 22);
-			this.label8.TabIndex = 0;
-			this.label8.Text = "O";
-			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel5
-			// 
-			this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel5.ColumnCount = 4;
-			this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel5.Controls.Add(this.label9, 3, 0);
-			this.tableLayoutPanel5.Controls.Add(this.label10, 2, 0);
-			this.tableLayoutPanel5.Controls.Add(this.label11, 1, 0);
-			this.tableLayoutPanel5.Controls.Add(this.label12, 0, 0);
-			this.tableLayoutPanel5.Location = new System.Drawing.Point(221, 81);
-			this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-			this.tableLayoutPanel5.RowCount = 1;
-			this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel5.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel5.TabIndex = 46;
-			// 
-			// label9
-			// 
-			this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label9.BackColor = System.Drawing.Color.LightGray;
-			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label9.ForeColor = System.Drawing.Color.Black;
-			this.label9.Location = new System.Drawing.Point(74, 0);
-			this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(22, 22);
-			this.label9.TabIndex = 3;
-			this.label9.Text = "O";
-			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label10
-			// 
-			this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label10.BackColor = System.Drawing.Color.LightGray;
-			this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label10.ForeColor = System.Drawing.Color.Black;
-			this.label10.Location = new System.Drawing.Point(50, 0);
-			this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(20, 22);
-			this.label10.TabIndex = 2;
-			this.label10.Text = "O";
-			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label11
-			// 
-			this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label11.BackColor = System.Drawing.Color.LightGray;
-			this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label11.ForeColor = System.Drawing.Color.Black;
-			this.label11.Location = new System.Drawing.Point(26, 0);
-			this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(20, 22);
-			this.label11.TabIndex = 1;
-			this.label11.Text = "O";
-			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label12
-			// 
-			this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label12.BackColor = System.Drawing.Color.LightGray;
-			this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label12.ForeColor = System.Drawing.Color.Black;
-			this.label12.Location = new System.Drawing.Point(2, 0);
-			this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(20, 22);
-			this.label12.TabIndex = 0;
-			this.label12.Text = "O";
-			this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel6
-			// 
-			this.tableLayoutPanel6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel6.ColumnCount = 4;
-			this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel6.Controls.Add(this.label13, 3, 0);
-			this.tableLayoutPanel6.Controls.Add(this.label14, 2, 0);
-			this.tableLayoutPanel6.Controls.Add(this.label15, 1, 0);
-			this.tableLayoutPanel6.Controls.Add(this.label16, 0, 0);
-			this.tableLayoutPanel6.Location = new System.Drawing.Point(329, 81);
-			this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel6.Name = "tableLayoutPanel6";
-			this.tableLayoutPanel6.RowCount = 1;
-			this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel6.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel6.TabIndex = 47;
-			// 
-			// label13
-			// 
-			this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label13.BackColor = System.Drawing.Color.LightGray;
-			this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label13.ForeColor = System.Drawing.Color.Black;
-			this.label13.Location = new System.Drawing.Point(74, 0);
-			this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label13.Name = "label13";
-			this.label13.Size = new System.Drawing.Size(22, 22);
-			this.label13.TabIndex = 3;
-			this.label13.Text = "O";
-			this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label14
-			// 
-			this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label14.BackColor = System.Drawing.Color.LightGray;
-			this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label14.ForeColor = System.Drawing.Color.Black;
-			this.label14.Location = new System.Drawing.Point(50, 0);
-			this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(20, 22);
-			this.label14.TabIndex = 2;
-			this.label14.Text = "O";
-			this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label15
-			// 
-			this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label15.BackColor = System.Drawing.Color.LightGray;
-			this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label15.ForeColor = System.Drawing.Color.Black;
-			this.label15.Location = new System.Drawing.Point(26, 0);
-			this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(20, 22);
-			this.label15.TabIndex = 1;
-			this.label15.Text = "O";
-			this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label16
-			// 
-			this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label16.BackColor = System.Drawing.Color.LightGray;
-			this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label16.ForeColor = System.Drawing.Color.Black;
-			this.label16.Location = new System.Drawing.Point(2, 0);
-			this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label16.Name = "label16";
-			this.label16.Size = new System.Drawing.Size(20, 22);
-			this.label16.TabIndex = 0;
-			this.label16.Text = "O";
-			this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel7
-			// 
-			this.tableLayoutPanel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel7.ColumnCount = 4;
-			this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel7.Controls.Add(this.label17, 3, 0);
-			this.tableLayoutPanel7.Controls.Add(this.label18, 2, 0);
-			this.tableLayoutPanel7.Controls.Add(this.label19, 1, 0);
-			this.tableLayoutPanel7.Controls.Add(this.label20, 0, 0);
-			this.tableLayoutPanel7.Location = new System.Drawing.Point(437, 81);
-			this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel7.Name = "tableLayoutPanel7";
-			this.tableLayoutPanel7.RowCount = 1;
-			this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel7.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel7.TabIndex = 48;
-			// 
-			// label17
-			// 
-			this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label17.BackColor = System.Drawing.Color.LightGray;
-			this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label17.ForeColor = System.Drawing.Color.Black;
-			this.label17.Location = new System.Drawing.Point(74, 0);
-			this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label17.Name = "label17";
-			this.label17.Size = new System.Drawing.Size(22, 22);
-			this.label17.TabIndex = 3;
-			this.label17.Text = "O";
-			this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label18
-			// 
-			this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label18.BackColor = System.Drawing.Color.LightGray;
-			this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label18.ForeColor = System.Drawing.Color.Black;
-			this.label18.Location = new System.Drawing.Point(50, 0);
-			this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label18.Name = "label18";
-			this.label18.Size = new System.Drawing.Size(20, 22);
-			this.label18.TabIndex = 2;
-			this.label18.Text = "O";
-			this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label19
-			// 
-			this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label19.BackColor = System.Drawing.Color.LightGray;
-			this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label19.ForeColor = System.Drawing.Color.Black;
-			this.label19.Location = new System.Drawing.Point(26, 0);
-			this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label19.Name = "label19";
-			this.label19.Size = new System.Drawing.Size(20, 22);
-			this.label19.TabIndex = 1;
-			this.label19.Text = "O";
-			this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label20
-			// 
-			this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label20.BackColor = System.Drawing.Color.LightGray;
-			this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label20.ForeColor = System.Drawing.Color.Black;
-			this.label20.Location = new System.Drawing.Point(2, 0);
-			this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label20.Name = "label20";
-			this.label20.Size = new System.Drawing.Size(20, 22);
-			this.label20.TabIndex = 0;
-			this.label20.Text = "O";
-			this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel8
-			// 
-			this.tableLayoutPanel8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel8.ColumnCount = 4;
-			this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel8.Controls.Add(this.label21, 3, 0);
-			this.tableLayoutPanel8.Controls.Add(this.label22, 2, 0);
-			this.tableLayoutPanel8.Controls.Add(this.label23, 1, 0);
-			this.tableLayoutPanel8.Controls.Add(this.label24, 0, 0);
-			this.tableLayoutPanel8.Location = new System.Drawing.Point(5, 189);
-			this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel8.Name = "tableLayoutPanel8";
-			this.tableLayoutPanel8.RowCount = 1;
-			this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel8.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel8.TabIndex = 49;
-			// 
-			// label21
-			// 
-			this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label21.BackColor = System.Drawing.Color.LightGray;
-			this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label21.ForeColor = System.Drawing.Color.Black;
-			this.label21.Location = new System.Drawing.Point(74, 0);
-			this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label21.Name = "label21";
-			this.label21.Size = new System.Drawing.Size(22, 22);
-			this.label21.TabIndex = 3;
-			this.label21.Text = "O";
-			this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label22
-			// 
-			this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label22.BackColor = System.Drawing.Color.LightGray;
-			this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label22.ForeColor = System.Drawing.Color.Black;
-			this.label22.Location = new System.Drawing.Point(50, 0);
-			this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label22.Name = "label22";
-			this.label22.Size = new System.Drawing.Size(20, 22);
-			this.label22.TabIndex = 2;
-			this.label22.Text = "O";
-			this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label23
-			// 
-			this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label23.BackColor = System.Drawing.Color.LightGray;
-			this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label23.ForeColor = System.Drawing.Color.Black;
-			this.label23.Location = new System.Drawing.Point(26, 0);
-			this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label23.Name = "label23";
-			this.label23.Size = new System.Drawing.Size(20, 22);
-			this.label23.TabIndex = 1;
-			this.label23.Text = "O";
-			this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label24
-			// 
-			this.label24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label24.BackColor = System.Drawing.Color.LightGray;
-			this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label24.ForeColor = System.Drawing.Color.Black;
-			this.label24.Location = new System.Drawing.Point(2, 0);
-			this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label24.Name = "label24";
-			this.label24.Size = new System.Drawing.Size(20, 22);
-			this.label24.TabIndex = 0;
-			this.label24.Text = "O";
-			this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel9
-			// 
-			this.tableLayoutPanel9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel9.ColumnCount = 4;
-			this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel9.Controls.Add(this.label25, 3, 0);
-			this.tableLayoutPanel9.Controls.Add(this.label171, 2, 0);
-			this.tableLayoutPanel9.Controls.Add(this.label172, 1, 0);
-			this.tableLayoutPanel9.Controls.Add(this.label174, 0, 0);
-			this.tableLayoutPanel9.Location = new System.Drawing.Point(113, 189);
-			this.tableLayoutPanel9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-			this.tableLayoutPanel9.RowCount = 1;
-			this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel9.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel9.TabIndex = 50;
-			// 
-			// label25
-			// 
-			this.label25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label25.BackColor = System.Drawing.Color.LightGray;
-			this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label25.ForeColor = System.Drawing.Color.Black;
-			this.label25.Location = new System.Drawing.Point(74, 0);
-			this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label25.Name = "label25";
-			this.label25.Size = new System.Drawing.Size(22, 22);
-			this.label25.TabIndex = 3;
-			this.label25.Text = "O";
-			this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label171
-			// 
-			this.label171.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label171.BackColor = System.Drawing.Color.LightGray;
-			this.label171.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label171.ForeColor = System.Drawing.Color.Black;
-			this.label171.Location = new System.Drawing.Point(50, 0);
-			this.label171.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label171.Name = "label171";
-			this.label171.Size = new System.Drawing.Size(20, 22);
-			this.label171.TabIndex = 2;
-			this.label171.Text = "O";
-			this.label171.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label172
-			// 
-			this.label172.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label172.BackColor = System.Drawing.Color.LightGray;
-			this.label172.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label172.ForeColor = System.Drawing.Color.Black;
-			this.label172.Location = new System.Drawing.Point(26, 0);
-			this.label172.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label172.Name = "label172";
-			this.label172.Size = new System.Drawing.Size(20, 22);
-			this.label172.TabIndex = 1;
-			this.label172.Text = "O";
-			this.label172.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label174
-			// 
-			this.label174.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label174.BackColor = System.Drawing.Color.LightGray;
-			this.label174.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label174.ForeColor = System.Drawing.Color.Black;
-			this.label174.Location = new System.Drawing.Point(2, 0);
-			this.label174.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label174.Name = "label174";
-			this.label174.Size = new System.Drawing.Size(20, 22);
-			this.label174.TabIndex = 0;
-			this.label174.Text = "O";
-			this.label174.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel10
-			// 
-			this.tableLayoutPanel10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel10.ColumnCount = 4;
-			this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel10.Controls.Add(this.label175, 3, 0);
-			this.tableLayoutPanel10.Controls.Add(this.label176, 2, 0);
-			this.tableLayoutPanel10.Controls.Add(this.label177, 1, 0);
-			this.tableLayoutPanel10.Controls.Add(this.label178, 0, 0);
-			this.tableLayoutPanel10.Location = new System.Drawing.Point(221, 189);
-			this.tableLayoutPanel10.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel10.Name = "tableLayoutPanel10";
-			this.tableLayoutPanel10.RowCount = 1;
-			this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel10.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel10.TabIndex = 51;
-			// 
-			// label175
-			// 
-			this.label175.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label175.BackColor = System.Drawing.Color.LightGray;
-			this.label175.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label175.ForeColor = System.Drawing.Color.Black;
-			this.label175.Location = new System.Drawing.Point(74, 0);
-			this.label175.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label175.Name = "label175";
-			this.label175.Size = new System.Drawing.Size(22, 22);
-			this.label175.TabIndex = 3;
-			this.label175.Text = "O";
-			this.label175.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label176
-			// 
-			this.label176.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label176.BackColor = System.Drawing.Color.LightGray;
-			this.label176.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label176.ForeColor = System.Drawing.Color.Black;
-			this.label176.Location = new System.Drawing.Point(50, 0);
-			this.label176.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label176.Name = "label176";
-			this.label176.Size = new System.Drawing.Size(20, 22);
-			this.label176.TabIndex = 2;
-			this.label176.Text = "O";
-			this.label176.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label177
-			// 
-			this.label177.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label177.BackColor = System.Drawing.Color.LightGray;
-			this.label177.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label177.ForeColor = System.Drawing.Color.Black;
-			this.label177.Location = new System.Drawing.Point(26, 0);
-			this.label177.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label177.Name = "label177";
-			this.label177.Size = new System.Drawing.Size(20, 22);
-			this.label177.TabIndex = 1;
-			this.label177.Text = "O";
-			this.label177.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label178
-			// 
-			this.label178.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label178.BackColor = System.Drawing.Color.LightGray;
-			this.label178.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label178.ForeColor = System.Drawing.Color.Black;
-			this.label178.Location = new System.Drawing.Point(2, 0);
-			this.label178.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label178.Name = "label178";
-			this.label178.Size = new System.Drawing.Size(20, 22);
-			this.label178.TabIndex = 0;
-			this.label178.Text = "O";
-			this.label178.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel11
-			// 
-			this.tableLayoutPanel11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel11.ColumnCount = 4;
-			this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel11.Controls.Add(this.label179, 3, 0);
-			this.tableLayoutPanel11.Controls.Add(this.label180, 2, 0);
-			this.tableLayoutPanel11.Controls.Add(this.label181, 1, 0);
-			this.tableLayoutPanel11.Controls.Add(this.label182, 0, 0);
-			this.tableLayoutPanel11.Location = new System.Drawing.Point(329, 189);
-			this.tableLayoutPanel11.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel11.Name = "tableLayoutPanel11";
-			this.tableLayoutPanel11.RowCount = 1;
-			this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel11.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel11.TabIndex = 52;
-			// 
-			// label179
-			// 
-			this.label179.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label179.BackColor = System.Drawing.Color.LightGray;
-			this.label179.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label179.ForeColor = System.Drawing.Color.Black;
-			this.label179.Location = new System.Drawing.Point(74, 0);
-			this.label179.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label179.Name = "label179";
-			this.label179.Size = new System.Drawing.Size(22, 22);
-			this.label179.TabIndex = 3;
-			this.label179.Text = "O";
-			this.label179.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label180
-			// 
-			this.label180.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label180.BackColor = System.Drawing.Color.LightGray;
-			this.label180.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label180.ForeColor = System.Drawing.Color.Black;
-			this.label180.Location = new System.Drawing.Point(50, 0);
-			this.label180.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label180.Name = "label180";
-			this.label180.Size = new System.Drawing.Size(20, 22);
-			this.label180.TabIndex = 2;
-			this.label180.Text = "O";
-			this.label180.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label181
-			// 
-			this.label181.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label181.BackColor = System.Drawing.Color.LightGray;
-			this.label181.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label181.ForeColor = System.Drawing.Color.Black;
-			this.label181.Location = new System.Drawing.Point(26, 0);
-			this.label181.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label181.Name = "label181";
-			this.label181.Size = new System.Drawing.Size(20, 22);
-			this.label181.TabIndex = 1;
-			this.label181.Text = "O";
-			this.label181.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label182
-			// 
-			this.label182.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label182.BackColor = System.Drawing.Color.LightGray;
-			this.label182.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label182.ForeColor = System.Drawing.Color.Black;
-			this.label182.Location = new System.Drawing.Point(2, 0);
-			this.label182.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label182.Name = "label182";
-			this.label182.Size = new System.Drawing.Size(20, 22);
-			this.label182.TabIndex = 0;
-			this.label182.Text = "O";
-			this.label182.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel12
-			// 
-			this.tableLayoutPanel12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel12.ColumnCount = 4;
-			this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel12.Controls.Add(this.label183, 3, 0);
-			this.tableLayoutPanel12.Controls.Add(this.label184, 2, 0);
-			this.tableLayoutPanel12.Controls.Add(this.label185, 1, 0);
-			this.tableLayoutPanel12.Controls.Add(this.label186, 0, 0);
-			this.tableLayoutPanel12.Location = new System.Drawing.Point(437, 189);
-			this.tableLayoutPanel12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel12.Name = "tableLayoutPanel12";
-			this.tableLayoutPanel12.RowCount = 1;
-			this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel12.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel12.TabIndex = 53;
-			// 
-			// label183
-			// 
-			this.label183.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label183.BackColor = System.Drawing.Color.LightGray;
-			this.label183.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label183.ForeColor = System.Drawing.Color.Black;
-			this.label183.Location = new System.Drawing.Point(74, 0);
-			this.label183.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label183.Name = "label183";
-			this.label183.Size = new System.Drawing.Size(22, 22);
-			this.label183.TabIndex = 3;
-			this.label183.Text = "O";
-			this.label183.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label184
-			// 
-			this.label184.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label184.BackColor = System.Drawing.Color.LightGray;
-			this.label184.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label184.ForeColor = System.Drawing.Color.Black;
-			this.label184.Location = new System.Drawing.Point(50, 0);
-			this.label184.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label184.Name = "label184";
-			this.label184.Size = new System.Drawing.Size(20, 22);
-			this.label184.TabIndex = 2;
-			this.label184.Text = "O";
-			this.label184.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label185
-			// 
-			this.label185.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label185.BackColor = System.Drawing.Color.LightGray;
-			this.label185.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label185.ForeColor = System.Drawing.Color.Black;
-			this.label185.Location = new System.Drawing.Point(26, 0);
-			this.label185.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label185.Name = "label185";
-			this.label185.Size = new System.Drawing.Size(20, 22);
-			this.label185.TabIndex = 1;
-			this.label185.Text = "O";
-			this.label185.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label186
-			// 
-			this.label186.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label186.BackColor = System.Drawing.Color.LightGray;
-			this.label186.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label186.ForeColor = System.Drawing.Color.Black;
-			this.label186.Location = new System.Drawing.Point(2, 0);
-			this.label186.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label186.Name = "label186";
-			this.label186.Size = new System.Drawing.Size(20, 22);
-			this.label186.TabIndex = 0;
-			this.label186.Text = "O";
-			this.label186.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel13
-			// 
-			this.tableLayoutPanel13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel13.ColumnCount = 4;
-			this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel13.Controls.Add(this.label187, 3, 0);
-			this.tableLayoutPanel13.Controls.Add(this.label188, 2, 0);
-			this.tableLayoutPanel13.Controls.Add(this.label189, 1, 0);
-			this.tableLayoutPanel13.Controls.Add(this.label190, 0, 0);
-			this.tableLayoutPanel13.Location = new System.Drawing.Point(5, 297);
-			this.tableLayoutPanel13.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel13.Name = "tableLayoutPanel13";
-			this.tableLayoutPanel13.RowCount = 1;
-			this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel13.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel13.TabIndex = 54;
-			// 
-			// label187
-			// 
-			this.label187.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label187.BackColor = System.Drawing.Color.LightGray;
-			this.label187.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label187.ForeColor = System.Drawing.Color.Black;
-			this.label187.Location = new System.Drawing.Point(74, 0);
-			this.label187.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label187.Name = "label187";
-			this.label187.Size = new System.Drawing.Size(22, 22);
-			this.label187.TabIndex = 3;
-			this.label187.Text = "O";
-			this.label187.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label188
-			// 
-			this.label188.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label188.BackColor = System.Drawing.Color.LightGray;
-			this.label188.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label188.ForeColor = System.Drawing.Color.Black;
-			this.label188.Location = new System.Drawing.Point(50, 0);
-			this.label188.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label188.Name = "label188";
-			this.label188.Size = new System.Drawing.Size(20, 22);
-			this.label188.TabIndex = 2;
-			this.label188.Text = "O";
-			this.label188.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label189
-			// 
-			this.label189.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label189.BackColor = System.Drawing.Color.LightGray;
-			this.label189.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label189.ForeColor = System.Drawing.Color.Black;
-			this.label189.Location = new System.Drawing.Point(26, 0);
-			this.label189.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label189.Name = "label189";
-			this.label189.Size = new System.Drawing.Size(20, 22);
-			this.label189.TabIndex = 1;
-			this.label189.Text = "O";
-			this.label189.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label190
-			// 
-			this.label190.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label190.BackColor = System.Drawing.Color.LightGray;
-			this.label190.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label190.ForeColor = System.Drawing.Color.Black;
-			this.label190.Location = new System.Drawing.Point(2, 0);
-			this.label190.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label190.Name = "label190";
-			this.label190.Size = new System.Drawing.Size(20, 22);
-			this.label190.TabIndex = 0;
-			this.label190.Text = "O";
-			this.label190.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel14
-			// 
-			this.tableLayoutPanel14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel14.ColumnCount = 4;
-			this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel14.Controls.Add(this.label191, 3, 0);
-			this.tableLayoutPanel14.Controls.Add(this.label192, 2, 0);
-			this.tableLayoutPanel14.Controls.Add(this.label193, 1, 0);
-			this.tableLayoutPanel14.Controls.Add(this.label194, 0, 0);
-			this.tableLayoutPanel14.Location = new System.Drawing.Point(113, 297);
-			this.tableLayoutPanel14.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel14.Name = "tableLayoutPanel14";
-			this.tableLayoutPanel14.RowCount = 1;
-			this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel14.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel14.TabIndex = 55;
-			// 
-			// label191
-			// 
-			this.label191.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label191.BackColor = System.Drawing.Color.LightGray;
-			this.label191.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label191.ForeColor = System.Drawing.Color.Black;
-			this.label191.Location = new System.Drawing.Point(74, 0);
-			this.label191.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label191.Name = "label191";
-			this.label191.Size = new System.Drawing.Size(22, 22);
-			this.label191.TabIndex = 3;
-			this.label191.Text = "O";
-			this.label191.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label192
-			// 
-			this.label192.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label192.BackColor = System.Drawing.Color.LightGray;
-			this.label192.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label192.ForeColor = System.Drawing.Color.Black;
-			this.label192.Location = new System.Drawing.Point(50, 0);
-			this.label192.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label192.Name = "label192";
-			this.label192.Size = new System.Drawing.Size(20, 22);
-			this.label192.TabIndex = 2;
-			this.label192.Text = "O";
-			this.label192.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label193
-			// 
-			this.label193.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label193.BackColor = System.Drawing.Color.LightGray;
-			this.label193.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label193.ForeColor = System.Drawing.Color.Black;
-			this.label193.Location = new System.Drawing.Point(26, 0);
-			this.label193.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label193.Name = "label193";
-			this.label193.Size = new System.Drawing.Size(20, 22);
-			this.label193.TabIndex = 1;
-			this.label193.Text = "O";
-			this.label193.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label194
-			// 
-			this.label194.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label194.BackColor = System.Drawing.Color.LightGray;
-			this.label194.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label194.ForeColor = System.Drawing.Color.Black;
-			this.label194.Location = new System.Drawing.Point(2, 0);
-			this.label194.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label194.Name = "label194";
-			this.label194.Size = new System.Drawing.Size(20, 22);
-			this.label194.TabIndex = 0;
-			this.label194.Text = "O";
-			this.label194.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel15
-			// 
-			this.tableLayoutPanel15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel15.ColumnCount = 4;
-			this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel15.Controls.Add(this.label195, 3, 0);
-			this.tableLayoutPanel15.Controls.Add(this.label196, 2, 0);
-			this.tableLayoutPanel15.Controls.Add(this.label197, 1, 0);
-			this.tableLayoutPanel15.Controls.Add(this.label198, 0, 0);
-			this.tableLayoutPanel15.Location = new System.Drawing.Point(221, 297);
-			this.tableLayoutPanel15.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel15.Name = "tableLayoutPanel15";
-			this.tableLayoutPanel15.RowCount = 1;
-			this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel15.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel15.TabIndex = 56;
-			// 
-			// label195
-			// 
-			this.label195.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label195.BackColor = System.Drawing.Color.LightGray;
-			this.label195.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label195.ForeColor = System.Drawing.Color.Black;
-			this.label195.Location = new System.Drawing.Point(74, 0);
-			this.label195.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label195.Name = "label195";
-			this.label195.Size = new System.Drawing.Size(22, 22);
-			this.label195.TabIndex = 3;
-			this.label195.Text = "O";
-			this.label195.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label196
-			// 
-			this.label196.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label196.BackColor = System.Drawing.Color.LightGray;
-			this.label196.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label196.ForeColor = System.Drawing.Color.Black;
-			this.label196.Location = new System.Drawing.Point(50, 0);
-			this.label196.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label196.Name = "label196";
-			this.label196.Size = new System.Drawing.Size(20, 22);
-			this.label196.TabIndex = 2;
-			this.label196.Text = "O";
-			this.label196.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label197
-			// 
-			this.label197.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label197.BackColor = System.Drawing.Color.LightGray;
-			this.label197.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label197.ForeColor = System.Drawing.Color.Black;
-			this.label197.Location = new System.Drawing.Point(26, 0);
-			this.label197.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label197.Name = "label197";
-			this.label197.Size = new System.Drawing.Size(20, 22);
-			this.label197.TabIndex = 1;
-			this.label197.Text = "O";
-			this.label197.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label198
-			// 
-			this.label198.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label198.BackColor = System.Drawing.Color.LightGray;
-			this.label198.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label198.ForeColor = System.Drawing.Color.Black;
-			this.label198.Location = new System.Drawing.Point(2, 0);
-			this.label198.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label198.Name = "label198";
-			this.label198.Size = new System.Drawing.Size(20, 22);
-			this.label198.TabIndex = 0;
-			this.label198.Text = "O";
-			this.label198.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel16
-			// 
-			this.tableLayoutPanel16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel16.ColumnCount = 4;
-			this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel16.Controls.Add(this.label199, 3, 0);
-			this.tableLayoutPanel16.Controls.Add(this.label200, 2, 0);
-			this.tableLayoutPanel16.Controls.Add(this.label201, 1, 0);
-			this.tableLayoutPanel16.Controls.Add(this.label202, 0, 0);
-			this.tableLayoutPanel16.Location = new System.Drawing.Point(329, 297);
-			this.tableLayoutPanel16.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel16.Name = "tableLayoutPanel16";
-			this.tableLayoutPanel16.RowCount = 1;
-			this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel16.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel16.TabIndex = 57;
-			// 
-			// label199
-			// 
-			this.label199.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label199.BackColor = System.Drawing.Color.LightGray;
-			this.label199.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label199.ForeColor = System.Drawing.Color.Black;
-			this.label199.Location = new System.Drawing.Point(74, 0);
-			this.label199.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label199.Name = "label199";
-			this.label199.Size = new System.Drawing.Size(22, 22);
-			this.label199.TabIndex = 3;
-			this.label199.Text = "O";
-			this.label199.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label200
-			// 
-			this.label200.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label200.BackColor = System.Drawing.Color.LightGray;
-			this.label200.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label200.ForeColor = System.Drawing.Color.Black;
-			this.label200.Location = new System.Drawing.Point(50, 0);
-			this.label200.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label200.Name = "label200";
-			this.label200.Size = new System.Drawing.Size(20, 22);
-			this.label200.TabIndex = 2;
-			this.label200.Text = "O";
-			this.label200.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label201
-			// 
-			this.label201.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label201.BackColor = System.Drawing.Color.LightGray;
-			this.label201.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label201.ForeColor = System.Drawing.Color.Black;
-			this.label201.Location = new System.Drawing.Point(26, 0);
-			this.label201.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label201.Name = "label201";
-			this.label201.Size = new System.Drawing.Size(20, 22);
-			this.label201.TabIndex = 1;
-			this.label201.Text = "O";
-			this.label201.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label202
-			// 
-			this.label202.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label202.BackColor = System.Drawing.Color.LightGray;
-			this.label202.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label202.ForeColor = System.Drawing.Color.Black;
-			this.label202.Location = new System.Drawing.Point(2, 0);
-			this.label202.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label202.Name = "label202";
-			this.label202.Size = new System.Drawing.Size(20, 22);
-			this.label202.TabIndex = 0;
-			this.label202.Text = "O";
-			this.label202.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel17
-			// 
-			this.tableLayoutPanel17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel17.ColumnCount = 4;
-			this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel17.Controls.Add(this.label203, 3, 0);
-			this.tableLayoutPanel17.Controls.Add(this.label204, 2, 0);
-			this.tableLayoutPanel17.Controls.Add(this.label205, 1, 0);
-			this.tableLayoutPanel17.Controls.Add(this.label206, 0, 0);
-			this.tableLayoutPanel17.Location = new System.Drawing.Point(437, 297);
-			this.tableLayoutPanel17.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel17.Name = "tableLayoutPanel17";
-			this.tableLayoutPanel17.RowCount = 1;
-			this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel17.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel17.TabIndex = 58;
-			// 
-			// label203
-			// 
-			this.label203.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label203.BackColor = System.Drawing.Color.LightGray;
-			this.label203.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label203.ForeColor = System.Drawing.Color.Black;
-			this.label203.Location = new System.Drawing.Point(74, 0);
-			this.label203.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label203.Name = "label203";
-			this.label203.Size = new System.Drawing.Size(22, 22);
-			this.label203.TabIndex = 3;
-			this.label203.Text = "O";
-			this.label203.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label204
-			// 
-			this.label204.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label204.BackColor = System.Drawing.Color.LightGray;
-			this.label204.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label204.ForeColor = System.Drawing.Color.Black;
-			this.label204.Location = new System.Drawing.Point(50, 0);
-			this.label204.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label204.Name = "label204";
-			this.label204.Size = new System.Drawing.Size(20, 22);
-			this.label204.TabIndex = 2;
-			this.label204.Text = "O";
-			this.label204.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label205
-			// 
-			this.label205.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label205.BackColor = System.Drawing.Color.LightGray;
-			this.label205.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label205.ForeColor = System.Drawing.Color.Black;
-			this.label205.Location = new System.Drawing.Point(26, 0);
-			this.label205.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label205.Name = "label205";
-			this.label205.Size = new System.Drawing.Size(20, 22);
-			this.label205.TabIndex = 1;
-			this.label205.Text = "O";
-			this.label205.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label206
-			// 
-			this.label206.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label206.BackColor = System.Drawing.Color.LightGray;
-			this.label206.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label206.ForeColor = System.Drawing.Color.Black;
-			this.label206.Location = new System.Drawing.Point(2, 0);
-			this.label206.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label206.Name = "label206";
-			this.label206.Size = new System.Drawing.Size(20, 22);
-			this.label206.TabIndex = 0;
-			this.label206.Text = "O";
-			this.label206.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel18
-			// 
-			this.tableLayoutPanel18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel18.ColumnCount = 4;
-			this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel18.Controls.Add(this.label207, 3, 0);
-			this.tableLayoutPanel18.Controls.Add(this.label208, 2, 0);
-			this.tableLayoutPanel18.Controls.Add(this.label209, 1, 0);
-			this.tableLayoutPanel18.Controls.Add(this.label210, 0, 0);
-			this.tableLayoutPanel18.Location = new System.Drawing.Point(5, 405);
-			this.tableLayoutPanel18.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel18.Name = "tableLayoutPanel18";
-			this.tableLayoutPanel18.RowCount = 1;
-			this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel18.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel18.TabIndex = 59;
-			// 
-			// label207
-			// 
-			this.label207.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label207.BackColor = System.Drawing.Color.LightGray;
-			this.label207.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label207.ForeColor = System.Drawing.Color.Black;
-			this.label207.Location = new System.Drawing.Point(74, 0);
-			this.label207.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label207.Name = "label207";
-			this.label207.Size = new System.Drawing.Size(22, 22);
-			this.label207.TabIndex = 3;
-			this.label207.Text = "O";
-			this.label207.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label208
-			// 
-			this.label208.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label208.BackColor = System.Drawing.Color.LightGray;
-			this.label208.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label208.ForeColor = System.Drawing.Color.Black;
-			this.label208.Location = new System.Drawing.Point(50, 0);
-			this.label208.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label208.Name = "label208";
-			this.label208.Size = new System.Drawing.Size(20, 22);
-			this.label208.TabIndex = 2;
-			this.label208.Text = "O";
-			this.label208.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label209
-			// 
-			this.label209.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label209.BackColor = System.Drawing.Color.LightGray;
-			this.label209.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label209.ForeColor = System.Drawing.Color.Black;
-			this.label209.Location = new System.Drawing.Point(26, 0);
-			this.label209.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label209.Name = "label209";
-			this.label209.Size = new System.Drawing.Size(20, 22);
-			this.label209.TabIndex = 1;
-			this.label209.Text = "O";
-			this.label209.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label210
-			// 
-			this.label210.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label210.BackColor = System.Drawing.Color.LightGray;
-			this.label210.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label210.ForeColor = System.Drawing.Color.Black;
-			this.label210.Location = new System.Drawing.Point(2, 0);
-			this.label210.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label210.Name = "label210";
-			this.label210.Size = new System.Drawing.Size(20, 22);
-			this.label210.TabIndex = 0;
-			this.label210.Text = "O";
-			this.label210.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel19
-			// 
-			this.tableLayoutPanel19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel19.ColumnCount = 4;
-			this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel19.Controls.Add(this.label211, 3, 0);
-			this.tableLayoutPanel19.Controls.Add(this.label212, 2, 0);
-			this.tableLayoutPanel19.Controls.Add(this.label213, 1, 0);
-			this.tableLayoutPanel19.Controls.Add(this.label214, 0, 0);
-			this.tableLayoutPanel19.Location = new System.Drawing.Point(113, 405);
-			this.tableLayoutPanel19.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel19.Name = "tableLayoutPanel19";
-			this.tableLayoutPanel19.RowCount = 1;
-			this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel19.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel19.TabIndex = 60;
-			// 
-			// label211
-			// 
-			this.label211.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label211.BackColor = System.Drawing.Color.LightGray;
-			this.label211.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label211.ForeColor = System.Drawing.Color.Black;
-			this.label211.Location = new System.Drawing.Point(74, 0);
-			this.label211.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label211.Name = "label211";
-			this.label211.Size = new System.Drawing.Size(22, 22);
-			this.label211.TabIndex = 3;
-			this.label211.Text = "O";
-			this.label211.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label212
-			// 
-			this.label212.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label212.BackColor = System.Drawing.Color.LightGray;
-			this.label212.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label212.ForeColor = System.Drawing.Color.Black;
-			this.label212.Location = new System.Drawing.Point(50, 0);
-			this.label212.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label212.Name = "label212";
-			this.label212.Size = new System.Drawing.Size(20, 22);
-			this.label212.TabIndex = 2;
-			this.label212.Text = "O";
-			this.label212.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label213
-			// 
-			this.label213.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label213.BackColor = System.Drawing.Color.LightGray;
-			this.label213.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label213.ForeColor = System.Drawing.Color.Black;
-			this.label213.Location = new System.Drawing.Point(26, 0);
-			this.label213.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label213.Name = "label213";
-			this.label213.Size = new System.Drawing.Size(20, 22);
-			this.label213.TabIndex = 1;
-			this.label213.Text = "O";
-			this.label213.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label214
-			// 
-			this.label214.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label214.BackColor = System.Drawing.Color.LightGray;
-			this.label214.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label214.ForeColor = System.Drawing.Color.Black;
-			this.label214.Location = new System.Drawing.Point(2, 0);
-			this.label214.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label214.Name = "label214";
-			this.label214.Size = new System.Drawing.Size(20, 22);
-			this.label214.TabIndex = 0;
-			this.label214.Text = "O";
-			this.label214.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel20
-			// 
-			this.tableLayoutPanel20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel20.ColumnCount = 4;
-			this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel20.Controls.Add(this.label215, 3, 0);
-			this.tableLayoutPanel20.Controls.Add(this.label216, 2, 0);
-			this.tableLayoutPanel20.Controls.Add(this.label217, 1, 0);
-			this.tableLayoutPanel20.Controls.Add(this.label218, 0, 0);
-			this.tableLayoutPanel20.Location = new System.Drawing.Point(221, 405);
-			this.tableLayoutPanel20.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel20.Name = "tableLayoutPanel20";
-			this.tableLayoutPanel20.RowCount = 1;
-			this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel20.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel20.TabIndex = 61;
-			// 
-			// label215
-			// 
-			this.label215.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label215.BackColor = System.Drawing.Color.LightGray;
-			this.label215.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label215.ForeColor = System.Drawing.Color.Black;
-			this.label215.Location = new System.Drawing.Point(74, 0);
-			this.label215.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label215.Name = "label215";
-			this.label215.Size = new System.Drawing.Size(22, 22);
-			this.label215.TabIndex = 3;
-			this.label215.Text = "O";
-			this.label215.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label216
-			// 
-			this.label216.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label216.BackColor = System.Drawing.Color.LightGray;
-			this.label216.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label216.ForeColor = System.Drawing.Color.Black;
-			this.label216.Location = new System.Drawing.Point(50, 0);
-			this.label216.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label216.Name = "label216";
-			this.label216.Size = new System.Drawing.Size(20, 22);
-			this.label216.TabIndex = 2;
-			this.label216.Text = "O";
-			this.label216.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label217
-			// 
-			this.label217.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label217.BackColor = System.Drawing.Color.LightGray;
-			this.label217.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label217.ForeColor = System.Drawing.Color.Black;
-			this.label217.Location = new System.Drawing.Point(26, 0);
-			this.label217.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label217.Name = "label217";
-			this.label217.Size = new System.Drawing.Size(20, 22);
-			this.label217.TabIndex = 1;
-			this.label217.Text = "O";
-			this.label217.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label218
-			// 
-			this.label218.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label218.BackColor = System.Drawing.Color.LightGray;
-			this.label218.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label218.ForeColor = System.Drawing.Color.Black;
-			this.label218.Location = new System.Drawing.Point(2, 0);
-			this.label218.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label218.Name = "label218";
-			this.label218.Size = new System.Drawing.Size(20, 22);
-			this.label218.TabIndex = 0;
-			this.label218.Text = "O";
-			this.label218.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel21
-			// 
-			this.tableLayoutPanel21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel21.ColumnCount = 4;
-			this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel21.Controls.Add(this.label219, 3, 0);
-			this.tableLayoutPanel21.Controls.Add(this.label220, 2, 0);
-			this.tableLayoutPanel21.Controls.Add(this.label221, 1, 0);
-			this.tableLayoutPanel21.Controls.Add(this.label222, 0, 0);
-			this.tableLayoutPanel21.Location = new System.Drawing.Point(329, 405);
-			this.tableLayoutPanel21.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel21.Name = "tableLayoutPanel21";
-			this.tableLayoutPanel21.RowCount = 1;
-			this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel21.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel21.TabIndex = 62;
-			// 
-			// label219
-			// 
-			this.label219.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label219.BackColor = System.Drawing.Color.LightGray;
-			this.label219.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label219.ForeColor = System.Drawing.Color.Black;
-			this.label219.Location = new System.Drawing.Point(74, 0);
-			this.label219.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label219.Name = "label219";
-			this.label219.Size = new System.Drawing.Size(22, 22);
-			this.label219.TabIndex = 3;
-			this.label219.Text = "O";
-			this.label219.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label220
-			// 
-			this.label220.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label220.BackColor = System.Drawing.Color.LightGray;
-			this.label220.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label220.ForeColor = System.Drawing.Color.Black;
-			this.label220.Location = new System.Drawing.Point(50, 0);
-			this.label220.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label220.Name = "label220";
-			this.label220.Size = new System.Drawing.Size(20, 22);
-			this.label220.TabIndex = 2;
-			this.label220.Text = "O";
-			this.label220.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label221
-			// 
-			this.label221.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label221.BackColor = System.Drawing.Color.LightGray;
-			this.label221.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label221.ForeColor = System.Drawing.Color.Black;
-			this.label221.Location = new System.Drawing.Point(26, 0);
-			this.label221.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label221.Name = "label221";
-			this.label221.Size = new System.Drawing.Size(20, 22);
-			this.label221.TabIndex = 1;
-			this.label221.Text = "O";
-			this.label221.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label222
-			// 
-			this.label222.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label222.BackColor = System.Drawing.Color.LightGray;
-			this.label222.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label222.ForeColor = System.Drawing.Color.Black;
-			this.label222.Location = new System.Drawing.Point(2, 0);
-			this.label222.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label222.Name = "label222";
-			this.label222.Size = new System.Drawing.Size(20, 22);
-			this.label222.TabIndex = 0;
-			this.label222.Text = "O";
-			this.label222.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel22
-			// 
-			this.tableLayoutPanel22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel22.ColumnCount = 4;
-			this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel22.Controls.Add(this.label223, 3, 0);
-			this.tableLayoutPanel22.Controls.Add(this.label224, 2, 0);
-			this.tableLayoutPanel22.Controls.Add(this.label225, 1, 0);
-			this.tableLayoutPanel22.Controls.Add(this.label226, 0, 0);
-			this.tableLayoutPanel22.Location = new System.Drawing.Point(437, 405);
-			this.tableLayoutPanel22.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel22.Name = "tableLayoutPanel22";
-			this.tableLayoutPanel22.RowCount = 1;
-			this.tableLayoutPanel22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel22.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel22.TabIndex = 63;
-			// 
-			// label223
-			// 
-			this.label223.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label223.BackColor = System.Drawing.Color.LightGray;
-			this.label223.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label223.ForeColor = System.Drawing.Color.Black;
-			this.label223.Location = new System.Drawing.Point(74, 0);
-			this.label223.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label223.Name = "label223";
-			this.label223.Size = new System.Drawing.Size(22, 22);
-			this.label223.TabIndex = 3;
-			this.label223.Text = "O";
-			this.label223.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label224
-			// 
-			this.label224.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label224.BackColor = System.Drawing.Color.LightGray;
-			this.label224.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label224.ForeColor = System.Drawing.Color.Black;
-			this.label224.Location = new System.Drawing.Point(50, 0);
-			this.label224.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label224.Name = "label224";
-			this.label224.Size = new System.Drawing.Size(20, 22);
-			this.label224.TabIndex = 2;
-			this.label224.Text = "O";
-			this.label224.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label225
-			// 
-			this.label225.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label225.BackColor = System.Drawing.Color.LightGray;
-			this.label225.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label225.ForeColor = System.Drawing.Color.Black;
-			this.label225.Location = new System.Drawing.Point(26, 0);
-			this.label225.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label225.Name = "label225";
-			this.label225.Size = new System.Drawing.Size(20, 22);
-			this.label225.TabIndex = 1;
-			this.label225.Text = "O";
-			this.label225.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label226
-			// 
-			this.label226.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label226.BackColor = System.Drawing.Color.LightGray;
-			this.label226.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label226.ForeColor = System.Drawing.Color.Black;
-			this.label226.Location = new System.Drawing.Point(2, 0);
-			this.label226.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label226.Name = "label226";
-			this.label226.Size = new System.Drawing.Size(20, 22);
-			this.label226.TabIndex = 0;
-			this.label226.Text = "O";
-			this.label226.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel23
-			// 
-			this.tableLayoutPanel23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel23.ColumnCount = 4;
-			this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel23.Controls.Add(this.label227, 3, 0);
-			this.tableLayoutPanel23.Controls.Add(this.label228, 2, 0);
-			this.tableLayoutPanel23.Controls.Add(this.label229, 1, 0);
-			this.tableLayoutPanel23.Controls.Add(this.label230, 0, 0);
-			this.tableLayoutPanel23.Location = new System.Drawing.Point(5, 513);
-			this.tableLayoutPanel23.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel23.Name = "tableLayoutPanel23";
-			this.tableLayoutPanel23.RowCount = 1;
-			this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel23.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel23.TabIndex = 64;
-			// 
-			// label227
-			// 
-			this.label227.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label227.BackColor = System.Drawing.Color.LightGray;
-			this.label227.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label227.ForeColor = System.Drawing.Color.Black;
-			this.label227.Location = new System.Drawing.Point(74, 0);
-			this.label227.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label227.Name = "label227";
-			this.label227.Size = new System.Drawing.Size(22, 22);
-			this.label227.TabIndex = 3;
-			this.label227.Text = "O";
-			this.label227.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label228
-			// 
-			this.label228.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label228.BackColor = System.Drawing.Color.LightGray;
-			this.label228.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label228.ForeColor = System.Drawing.Color.Black;
-			this.label228.Location = new System.Drawing.Point(50, 0);
-			this.label228.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label228.Name = "label228";
-			this.label228.Size = new System.Drawing.Size(20, 22);
-			this.label228.TabIndex = 2;
-			this.label228.Text = "O";
-			this.label228.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label229
-			// 
-			this.label229.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label229.BackColor = System.Drawing.Color.LightGray;
-			this.label229.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label229.ForeColor = System.Drawing.Color.Black;
-			this.label229.Location = new System.Drawing.Point(26, 0);
-			this.label229.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label229.Name = "label229";
-			this.label229.Size = new System.Drawing.Size(20, 22);
-			this.label229.TabIndex = 1;
-			this.label229.Text = "O";
-			this.label229.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label230
-			// 
-			this.label230.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label230.BackColor = System.Drawing.Color.LightGray;
-			this.label230.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label230.ForeColor = System.Drawing.Color.Black;
-			this.label230.Location = new System.Drawing.Point(2, 0);
-			this.label230.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label230.Name = "label230";
-			this.label230.Size = new System.Drawing.Size(20, 22);
-			this.label230.TabIndex = 0;
-			this.label230.Text = "O";
-			this.label230.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel24
-			// 
-			this.tableLayoutPanel24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel24.ColumnCount = 4;
-			this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel24.Controls.Add(this.label231, 3, 0);
-			this.tableLayoutPanel24.Controls.Add(this.label232, 2, 0);
-			this.tableLayoutPanel24.Controls.Add(this.label233, 1, 0);
-			this.tableLayoutPanel24.Controls.Add(this.label234, 0, 0);
-			this.tableLayoutPanel24.Location = new System.Drawing.Point(113, 513);
-			this.tableLayoutPanel24.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel24.Name = "tableLayoutPanel24";
-			this.tableLayoutPanel24.RowCount = 1;
-			this.tableLayoutPanel24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel24.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel24.TabIndex = 65;
-			// 
-			// label231
-			// 
-			this.label231.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label231.BackColor = System.Drawing.Color.LightGray;
-			this.label231.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label231.ForeColor = System.Drawing.Color.Black;
-			this.label231.Location = new System.Drawing.Point(74, 0);
-			this.label231.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label231.Name = "label231";
-			this.label231.Size = new System.Drawing.Size(22, 22);
-			this.label231.TabIndex = 3;
-			this.label231.Text = "O";
-			this.label231.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label232
-			// 
-			this.label232.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label232.BackColor = System.Drawing.Color.LightGray;
-			this.label232.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label232.ForeColor = System.Drawing.Color.Black;
-			this.label232.Location = new System.Drawing.Point(50, 0);
-			this.label232.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label232.Name = "label232";
-			this.label232.Size = new System.Drawing.Size(20, 22);
-			this.label232.TabIndex = 2;
-			this.label232.Text = "O";
-			this.label232.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label233
-			// 
-			this.label233.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label233.BackColor = System.Drawing.Color.LightGray;
-			this.label233.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label233.ForeColor = System.Drawing.Color.Black;
-			this.label233.Location = new System.Drawing.Point(26, 0);
-			this.label233.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label233.Name = "label233";
-			this.label233.Size = new System.Drawing.Size(20, 22);
-			this.label233.TabIndex = 1;
-			this.label233.Text = "O";
-			this.label233.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label234
-			// 
-			this.label234.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label234.BackColor = System.Drawing.Color.LightGray;
-			this.label234.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label234.ForeColor = System.Drawing.Color.Black;
-			this.label234.Location = new System.Drawing.Point(2, 0);
-			this.label234.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label234.Name = "label234";
-			this.label234.Size = new System.Drawing.Size(20, 22);
-			this.label234.TabIndex = 0;
-			this.label234.Text = "O";
-			this.label234.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel25
-			// 
-			this.tableLayoutPanel25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel25.ColumnCount = 4;
-			this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel25.Controls.Add(this.label235, 3, 0);
-			this.tableLayoutPanel25.Controls.Add(this.label236, 2, 0);
-			this.tableLayoutPanel25.Controls.Add(this.label237, 1, 0);
-			this.tableLayoutPanel25.Controls.Add(this.label238, 0, 0);
-			this.tableLayoutPanel25.Location = new System.Drawing.Point(221, 513);
-			this.tableLayoutPanel25.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel25.Name = "tableLayoutPanel25";
-			this.tableLayoutPanel25.RowCount = 1;
-			this.tableLayoutPanel25.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel25.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel25.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel25.TabIndex = 66;
-			// 
-			// label235
-			// 
-			this.label235.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label235.BackColor = System.Drawing.Color.LightGray;
-			this.label235.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label235.ForeColor = System.Drawing.Color.Black;
-			this.label235.Location = new System.Drawing.Point(74, 0);
-			this.label235.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label235.Name = "label235";
-			this.label235.Size = new System.Drawing.Size(22, 22);
-			this.label235.TabIndex = 3;
-			this.label235.Text = "O";
-			this.label235.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label236
-			// 
-			this.label236.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label236.BackColor = System.Drawing.Color.LightGray;
-			this.label236.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label236.ForeColor = System.Drawing.Color.Black;
-			this.label236.Location = new System.Drawing.Point(50, 0);
-			this.label236.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label236.Name = "label236";
-			this.label236.Size = new System.Drawing.Size(20, 22);
-			this.label236.TabIndex = 2;
-			this.label236.Text = "O";
-			this.label236.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label237
-			// 
-			this.label237.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label237.BackColor = System.Drawing.Color.LightGray;
-			this.label237.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label237.ForeColor = System.Drawing.Color.Black;
-			this.label237.Location = new System.Drawing.Point(26, 0);
-			this.label237.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label237.Name = "label237";
-			this.label237.Size = new System.Drawing.Size(20, 22);
-			this.label237.TabIndex = 1;
-			this.label237.Text = "O";
-			this.label237.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label238
-			// 
-			this.label238.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label238.BackColor = System.Drawing.Color.LightGray;
-			this.label238.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label238.ForeColor = System.Drawing.Color.Black;
-			this.label238.Location = new System.Drawing.Point(2, 0);
-			this.label238.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label238.Name = "label238";
-			this.label238.Size = new System.Drawing.Size(20, 22);
-			this.label238.TabIndex = 0;
-			this.label238.Text = "O";
-			this.label238.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel26
-			// 
-			this.tableLayoutPanel26.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel26.ColumnCount = 4;
-			this.tableLayoutPanel26.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel26.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel26.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel26.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel26.Controls.Add(this.label239, 3, 0);
-			this.tableLayoutPanel26.Controls.Add(this.label240, 2, 0);
-			this.tableLayoutPanel26.Controls.Add(this.label241, 1, 0);
-			this.tableLayoutPanel26.Controls.Add(this.label242, 0, 0);
-			this.tableLayoutPanel26.Location = new System.Drawing.Point(329, 513);
-			this.tableLayoutPanel26.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel26.Name = "tableLayoutPanel26";
-			this.tableLayoutPanel26.RowCount = 1;
-			this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel26.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel26.TabIndex = 67;
-			// 
-			// label239
-			// 
-			this.label239.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label239.BackColor = System.Drawing.Color.LightGray;
-			this.label239.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label239.ForeColor = System.Drawing.Color.Black;
-			this.label239.Location = new System.Drawing.Point(74, 0);
-			this.label239.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label239.Name = "label239";
-			this.label239.Size = new System.Drawing.Size(22, 22);
-			this.label239.TabIndex = 3;
-			this.label239.Text = "O";
-			this.label239.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label240
-			// 
-			this.label240.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label240.BackColor = System.Drawing.Color.LightGray;
-			this.label240.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label240.ForeColor = System.Drawing.Color.Black;
-			this.label240.Location = new System.Drawing.Point(50, 0);
-			this.label240.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label240.Name = "label240";
-			this.label240.Size = new System.Drawing.Size(20, 22);
-			this.label240.TabIndex = 2;
-			this.label240.Text = "O";
-			this.label240.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label241
-			// 
-			this.label241.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label241.BackColor = System.Drawing.Color.LightGray;
-			this.label241.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label241.ForeColor = System.Drawing.Color.Black;
-			this.label241.Location = new System.Drawing.Point(26, 0);
-			this.label241.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label241.Name = "label241";
-			this.label241.Size = new System.Drawing.Size(20, 22);
-			this.label241.TabIndex = 1;
-			this.label241.Text = "O";
-			this.label241.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label242
-			// 
-			this.label242.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label242.BackColor = System.Drawing.Color.LightGray;
-			this.label242.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label242.ForeColor = System.Drawing.Color.Black;
-			this.label242.Location = new System.Drawing.Point(2, 0);
-			this.label242.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label242.Name = "label242";
-			this.label242.Size = new System.Drawing.Size(20, 22);
-			this.label242.TabIndex = 0;
-			this.label242.Text = "O";
-			this.label242.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// tableLayoutPanel27
-			// 
-			this.tableLayoutPanel27.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tableLayoutPanel27.ColumnCount = 4;
-			this.tableLayoutPanel27.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel27.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel27.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel27.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-			this.tableLayoutPanel27.Controls.Add(this.label243, 3, 0);
-			this.tableLayoutPanel27.Controls.Add(this.label244, 2, 0);
-			this.tableLayoutPanel27.Controls.Add(this.label245, 1, 0);
-			this.tableLayoutPanel27.Controls.Add(this.label246, 0, 0);
-			this.tableLayoutPanel27.Location = new System.Drawing.Point(437, 513);
-			this.tableLayoutPanel27.Margin = new System.Windows.Forms.Padding(5, 0, 5, 5);
-			this.tableLayoutPanel27.Name = "tableLayoutPanel27";
-			this.tableLayoutPanel27.RowCount = 1;
-			this.tableLayoutPanel27.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel27.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel27.Size = new System.Drawing.Size(98, 22);
-			this.tableLayoutPanel27.TabIndex = 68;
-			// 
-			// label243
-			// 
-			this.label243.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label243.BackColor = System.Drawing.Color.LightGray;
-			this.label243.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label243.ForeColor = System.Drawing.Color.Black;
-			this.label243.Location = new System.Drawing.Point(74, 0);
-			this.label243.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label243.Name = "label243";
-			this.label243.Size = new System.Drawing.Size(22, 22);
-			this.label243.TabIndex = 3;
-			this.label243.Text = "O";
-			this.label243.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label244
-			// 
-			this.label244.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label244.BackColor = System.Drawing.Color.LightGray;
-			this.label244.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label244.ForeColor = System.Drawing.Color.Black;
-			this.label244.Location = new System.Drawing.Point(50, 0);
-			this.label244.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label244.Name = "label244";
-			this.label244.Size = new System.Drawing.Size(20, 22);
-			this.label244.TabIndex = 2;
-			this.label244.Text = "O";
-			this.label244.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label245
-			// 
-			this.label245.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label245.BackColor = System.Drawing.Color.LightGray;
-			this.label245.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label245.ForeColor = System.Drawing.Color.Black;
-			this.label245.Location = new System.Drawing.Point(26, 0);
-			this.label245.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label245.Name = "label245";
-			this.label245.Size = new System.Drawing.Size(20, 22);
-			this.label245.TabIndex = 1;
-			this.label245.Text = "O";
-			this.label245.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label246
-			// 
-			this.label246.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label246.BackColor = System.Drawing.Color.LightGray;
-			this.label246.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label246.ForeColor = System.Drawing.Color.Black;
-			this.label246.Location = new System.Drawing.Point(2, 0);
-			this.label246.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-			this.label246.Name = "label246";
-			this.label246.Size = new System.Drawing.Size(20, 22);
-			this.label246.TabIndex = 0;
-			this.label246.Text = "O";
-			this.label246.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
 			// BongoForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.Black;
-			this.ClientSize = new System.Drawing.Size(578, 846);
+			this.ClientSize = new System.Drawing.Size(573, 841);
 			this.Controls.Add(this.BottomHotkeyLabel);
 			this.Controls.Add(this.BottomHideBoardCheck);
 			this.Controls.Add(this.TabControlMain);
@@ -7837,18 +5666,32 @@
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.TabSpectator.ResumeLayout(false);
 			this.TabSpectator.PerformLayout();
-			this.tabControl2.ResumeLayout(false);
-			this.TabAll.ResumeLayout(false);
-			this.tableLayoutPanel2.ResumeLayout(false);
-			this.tableLayoutPanel3.ResumeLayout(false);
-			this.TabRed.ResumeLayout(false);
-			this.tableLayoutPanelRed.ResumeLayout(false);
-			this.TabYellow.ResumeLayout(false);
-			this.tableLayoutPanelYellow.ResumeLayout(false);
-			this.TabGreen.ResumeLayout(false);
-			this.tableLayoutPanelGreen.ResumeLayout(false);
-			this.TabBlue.ResumeLayout(false);
-			this.tableLayoutPanelBlue.ResumeLayout(false);
+			this.SpectateTableLayoutPanel.ResumeLayout(false);
+			this.SpectateTagTable1.ResumeLayout(false);
+			this.SpectateTagTable2.ResumeLayout(false);
+			this.SpectateTagTable3.ResumeLayout(false);
+			this.SpectateTagTable4.ResumeLayout(false);
+			this.SpectateTagTable5.ResumeLayout(false);
+			this.SpectateTagTable6.ResumeLayout(false);
+			this.SpectateTagTable7.ResumeLayout(false);
+			this.SpectateTagTable8.ResumeLayout(false);
+			this.SpectateTagTable9.ResumeLayout(false);
+			this.SpectateTagTable10.ResumeLayout(false);
+			this.SpectateTagTable11.ResumeLayout(false);
+			this.SpectateTagTable12.ResumeLayout(false);
+			this.SpectateTagTable13.ResumeLayout(false);
+			this.SpectateTagTable14.ResumeLayout(false);
+			this.SpectateTagTable15.ResumeLayout(false);
+			this.SpectateTagTable16.ResumeLayout(false);
+			this.SpectateTagTable17.ResumeLayout(false);
+			this.SpectateTagTable18.ResumeLayout(false);
+			this.SpectateTagTable19.ResumeLayout(false);
+			this.SpectateTagTable20.ResumeLayout(false);
+			this.SpectateTagTable21.ResumeLayout(false);
+			this.SpectateTagTable22.ResumeLayout(false);
+			this.SpectateTagTable23.ResumeLayout(false);
+			this.SpectateTagTable24.ResumeLayout(false);
+			this.SpectateTagTable25.ResumeLayout(false);
 			this.TabHelp.ResumeLayout(false);
 			this.groupBox13.ResumeLayout(false);
 			this.groupBox8.ResumeLayout(false);
@@ -7873,7 +5716,7 @@
 			this.TabRules.PerformLayout();
 			this.TabBoard.ResumeLayout(false);
 			this.TabBoard.PerformLayout();
-			this.tableLayoutPanel1.ResumeLayout(false);
+			this.BoardTableLayoutPanel.ResumeLayout(false);
 			this.TabControlMain.ResumeLayout(false);
 			this.TabOnline.ResumeLayout(false);
 			this.NetworkGameBox.ResumeLayout(false);
@@ -7884,30 +5727,6 @@
 			this.NetworkConnectBox.PerformLayout();
 			this.NetworkHostBox.ResumeLayout(false);
 			this.NetworkHostBox.PerformLayout();
-			this.tableLayoutPanel4.ResumeLayout(false);
-			this.tableLayoutPanel5.ResumeLayout(false);
-			this.tableLayoutPanel6.ResumeLayout(false);
-			this.tableLayoutPanel7.ResumeLayout(false);
-			this.tableLayoutPanel8.ResumeLayout(false);
-			this.tableLayoutPanel9.ResumeLayout(false);
-			this.tableLayoutPanel10.ResumeLayout(false);
-			this.tableLayoutPanel11.ResumeLayout(false);
-			this.tableLayoutPanel12.ResumeLayout(false);
-			this.tableLayoutPanel13.ResumeLayout(false);
-			this.tableLayoutPanel14.ResumeLayout(false);
-			this.tableLayoutPanel15.ResumeLayout(false);
-			this.tableLayoutPanel16.ResumeLayout(false);
-			this.tableLayoutPanel17.ResumeLayout(false);
-			this.tableLayoutPanel18.ResumeLayout(false);
-			this.tableLayoutPanel19.ResumeLayout(false);
-			this.tableLayoutPanel20.ResumeLayout(false);
-			this.tableLayoutPanel21.ResumeLayout(false);
-			this.tableLayoutPanel22.ResumeLayout(false);
-			this.tableLayoutPanel23.ResumeLayout(false);
-			this.tableLayoutPanel24.ResumeLayout(false);
-			this.tableLayoutPanel25.ResumeLayout(false);
-			this.tableLayoutPanel26.ResumeLayout(false);
-			this.tableLayoutPanel27.ResumeLayout(false);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -7947,116 +5766,7 @@
 		private System.Windows.Forms.Label label115;
 		private System.Windows.Forms.Label label114;
 		private System.Windows.Forms.TabPage TabSpectator;
-		private System.Windows.Forms.TextBox goalInfoSpectateBox;
-		private System.Windows.Forms.TabControl tabControl2;
-		private System.Windows.Forms.TabPage TabGreen;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanelGreen;
-		private System.Windows.Forms.Label label39;
-		private System.Windows.Forms.Label label40;
-		private System.Windows.Forms.Label label41;
-		private System.Windows.Forms.Label label42;
-		private System.Windows.Forms.Label label43;
-		private System.Windows.Forms.Label label44;
-		private System.Windows.Forms.Label label45;
-		private System.Windows.Forms.Label label46;
-		private System.Windows.Forms.Label label47;
-		private System.Windows.Forms.Label label48;
-		private System.Windows.Forms.Label label49;
-		private System.Windows.Forms.Label label50;
-		private System.Windows.Forms.Label label51;
-		private System.Windows.Forms.Label label52;
-		private System.Windows.Forms.Label label53;
-		private System.Windows.Forms.Label label54;
-		private System.Windows.Forms.Label label55;
-		private System.Windows.Forms.Label label56;
-		private System.Windows.Forms.Label label57;
-		private System.Windows.Forms.Label label58;
-		private System.Windows.Forms.Label label59;
-		private System.Windows.Forms.Label label60;
-		private System.Windows.Forms.Label label61;
-		private System.Windows.Forms.Label label62;
-		private System.Windows.Forms.Label label63;
-		private System.Windows.Forms.TabPage TabYellow;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanelYellow;
-		private System.Windows.Forms.Label label64;
-		private System.Windows.Forms.Label label65;
-		private System.Windows.Forms.Label label66;
-		private System.Windows.Forms.Label label67;
-		private System.Windows.Forms.Label label68;
-		private System.Windows.Forms.Label label69;
-		private System.Windows.Forms.Label label70;
-		private System.Windows.Forms.Label label71;
-		private System.Windows.Forms.Label label72;
-		private System.Windows.Forms.Label label73;
-		private System.Windows.Forms.Label label74;
-		private System.Windows.Forms.Label label75;
-		private System.Windows.Forms.Label label76;
-		private System.Windows.Forms.Label label77;
-		private System.Windows.Forms.Label label78;
-		private System.Windows.Forms.Label label79;
-		private System.Windows.Forms.Label label80;
-		private System.Windows.Forms.Label label81;
-		private System.Windows.Forms.Label label82;
-		private System.Windows.Forms.Label label83;
-		private System.Windows.Forms.Label label84;
-		private System.Windows.Forms.Label label85;
-		private System.Windows.Forms.Label label86;
-		private System.Windows.Forms.Label label87;
-		private System.Windows.Forms.Label label88;
-		private System.Windows.Forms.TabPage TabRed;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanelRed;
-		private System.Windows.Forms.Label label89;
-		private System.Windows.Forms.Label label90;
-		private System.Windows.Forms.Label label91;
-		private System.Windows.Forms.Label label92;
-		private System.Windows.Forms.Label label93;
-		private System.Windows.Forms.Label label94;
-		private System.Windows.Forms.Label label95;
-		private System.Windows.Forms.Label label96;
-		private System.Windows.Forms.Label label97;
-		private System.Windows.Forms.Label label98;
-		private System.Windows.Forms.Label label99;
-		private System.Windows.Forms.Label label100;
-		private System.Windows.Forms.Label label101;
-		private System.Windows.Forms.Label label102;
-		private System.Windows.Forms.Label label103;
-		private System.Windows.Forms.Label label104;
-		private System.Windows.Forms.Label label105;
-		private System.Windows.Forms.Label label106;
-		private System.Windows.Forms.Label label107;
-		private System.Windows.Forms.Label label108;
-		private System.Windows.Forms.Label label109;
-		private System.Windows.Forms.Label label110;
-		private System.Windows.Forms.Label label111;
-		private System.Windows.Forms.Label label112;
-		private System.Windows.Forms.Label label113;
-		private System.Windows.Forms.TabPage TabBlue;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanelBlue;
-		private System.Windows.Forms.Label label139;
-		private System.Windows.Forms.Label label140;
-		private System.Windows.Forms.Label label141;
-		private System.Windows.Forms.Label label142;
-		private System.Windows.Forms.Label label143;
-		private System.Windows.Forms.Label label144;
-		private System.Windows.Forms.Label label145;
-		private System.Windows.Forms.Label label146;
-		private System.Windows.Forms.Label label147;
-		private System.Windows.Forms.Label label148;
-		private System.Windows.Forms.Label label149;
-		private System.Windows.Forms.Label label150;
-		private System.Windows.Forms.Label label151;
-		private System.Windows.Forms.Label label152;
-		private System.Windows.Forms.Label label153;
-		private System.Windows.Forms.Label label154;
-		private System.Windows.Forms.Label label155;
-		private System.Windows.Forms.Label label156;
-		private System.Windows.Forms.Label label157;
-		private System.Windows.Forms.Label label158;
-		private System.Windows.Forms.Label label159;
-		private System.Windows.Forms.Label label160;
-		private System.Windows.Forms.Label label161;
-		private System.Windows.Forms.Label label162;
-		private System.Windows.Forms.Label label163;
+		private System.Windows.Forms.TextBox SpectateInfoTextField;
 		private System.Windows.Forms.TabPage TabHelp;
 		private System.Windows.Forms.GroupBox groupBox8;
 		private System.Windows.Forms.Label label38;
@@ -8145,7 +5855,7 @@
 		private System.Windows.Forms.TabPage TabBoard;
 		private System.Windows.Forms.Button BoardUnhideButton;
 		private System.Windows.Forms.TextBox BoardInfoTextField;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+		private System.Windows.Forms.TableLayoutPanel BoardTableLayoutPanel;
 		private System.Windows.Forms.Label BingoTile1;
 		private System.Windows.Forms.Label BingoTile2;
 		private System.Windows.Forms.Label BingoTile3;
@@ -8172,7 +5882,7 @@
 		private System.Windows.Forms.Label BingoTile24;
 		private System.Windows.Forms.Label BingoTile25;
 		private System.Windows.Forms.TabControl TabControlMain;
-		private System.Windows.Forms.Button unhideButtonSpectate;
+		private System.Windows.Forms.Button SpectateUnhideButton;
 		private System.Windows.Forms.Label BoardVersionDisplay;
 		private System.Windows.Forms.TabPage TabOnline;
 		private System.Windows.Forms.GroupBox groupBox11;
@@ -8201,158 +5911,157 @@
 		private System.Windows.Forms.Label HelpVersionLabel;
 		private System.Windows.Forms.Label NetworkPlayerInfoText;
 		private System.Windows.Forms.Button NetworkGameDisconnectButton;
-		private System.Windows.Forms.TabPage TabAll;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-		private System.Windows.Forms.Label specAllTile1;
-		private System.Windows.Forms.Label specAllTile2;
-		private System.Windows.Forms.Label specAllTile3;
-		private System.Windows.Forms.Label specAllTile4;
-		private System.Windows.Forms.Label specAllTile5;
-		private System.Windows.Forms.Label specAllTile6;
-		private System.Windows.Forms.Label specAllTile7;
-		private System.Windows.Forms.Label specAllTile8;
-		private System.Windows.Forms.Label specAllTile9;
-		private System.Windows.Forms.Label specAllTile10;
-		private System.Windows.Forms.Label specAllTile11;
-		private System.Windows.Forms.Label specAllTile12;
-		private System.Windows.Forms.Label specAllTile13;
-		private System.Windows.Forms.Label specAllTile14;
-		private System.Windows.Forms.Label specAllTile15;
-		private System.Windows.Forms.Label specAllTile16;
-		private System.Windows.Forms.Label specAllTile17;
-		private System.Windows.Forms.Label specAllTile18;
-		private System.Windows.Forms.Label specAllTile19;
-		private System.Windows.Forms.Label specAllTile20;
-		private System.Windows.Forms.Label specAllTile21;
-		private System.Windows.Forms.Label specAllTile22;
-		private System.Windows.Forms.Label specAllTile23;
-		private System.Windows.Forms.Label specAllTile24;
-		private System.Windows.Forms.Label specAllTile25;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel27;
-		private System.Windows.Forms.Label label243;
-		private System.Windows.Forms.Label label244;
-		private System.Windows.Forms.Label label245;
-		private System.Windows.Forms.Label label246;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel26;
-		private System.Windows.Forms.Label label239;
-		private System.Windows.Forms.Label label240;
-		private System.Windows.Forms.Label label241;
-		private System.Windows.Forms.Label label242;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel25;
-		private System.Windows.Forms.Label label235;
-		private System.Windows.Forms.Label label236;
-		private System.Windows.Forms.Label label237;
-		private System.Windows.Forms.Label label238;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel24;
-		private System.Windows.Forms.Label label231;
-		private System.Windows.Forms.Label label232;
-		private System.Windows.Forms.Label label233;
-		private System.Windows.Forms.Label label234;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel23;
-		private System.Windows.Forms.Label label227;
-		private System.Windows.Forms.Label label228;
-		private System.Windows.Forms.Label label229;
-		private System.Windows.Forms.Label label230;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel22;
-		private System.Windows.Forms.Label label223;
-		private System.Windows.Forms.Label label224;
-		private System.Windows.Forms.Label label225;
-		private System.Windows.Forms.Label label226;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel21;
-		private System.Windows.Forms.Label label219;
-		private System.Windows.Forms.Label label220;
-		private System.Windows.Forms.Label label221;
-		private System.Windows.Forms.Label label222;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel20;
-		private System.Windows.Forms.Label label215;
-		private System.Windows.Forms.Label label216;
-		private System.Windows.Forms.Label label217;
-		private System.Windows.Forms.Label label218;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel19;
-		private System.Windows.Forms.Label label211;
-		private System.Windows.Forms.Label label212;
-		private System.Windows.Forms.Label label213;
-		private System.Windows.Forms.Label label214;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel18;
-		private System.Windows.Forms.Label label207;
-		private System.Windows.Forms.Label label208;
-		private System.Windows.Forms.Label label209;
-		private System.Windows.Forms.Label label210;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel17;
-		private System.Windows.Forms.Label label203;
-		private System.Windows.Forms.Label label204;
-		private System.Windows.Forms.Label label205;
-		private System.Windows.Forms.Label label206;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel16;
-		private System.Windows.Forms.Label label199;
-		private System.Windows.Forms.Label label200;
-		private System.Windows.Forms.Label label201;
-		private System.Windows.Forms.Label label202;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel15;
-		private System.Windows.Forms.Label label195;
-		private System.Windows.Forms.Label label196;
-		private System.Windows.Forms.Label label197;
-		private System.Windows.Forms.Label label198;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel14;
-		private System.Windows.Forms.Label label191;
-		private System.Windows.Forms.Label label192;
-		private System.Windows.Forms.Label label193;
-		private System.Windows.Forms.Label label194;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel13;
-		private System.Windows.Forms.Label label187;
-		private System.Windows.Forms.Label label188;
-		private System.Windows.Forms.Label label189;
-		private System.Windows.Forms.Label label190;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
-		private System.Windows.Forms.Label label183;
-		private System.Windows.Forms.Label label184;
-		private System.Windows.Forms.Label label185;
-		private System.Windows.Forms.Label label186;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel11;
-		private System.Windows.Forms.Label label179;
-		private System.Windows.Forms.Label label180;
-		private System.Windows.Forms.Label label181;
-		private System.Windows.Forms.Label label182;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
-		private System.Windows.Forms.Label label175;
-		private System.Windows.Forms.Label label176;
-		private System.Windows.Forms.Label label177;
-		private System.Windows.Forms.Label label178;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
-		private System.Windows.Forms.Label label25;
-		private System.Windows.Forms.Label label171;
-		private System.Windows.Forms.Label label172;
-		private System.Windows.Forms.Label label174;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
-		private System.Windows.Forms.Label label21;
-		private System.Windows.Forms.Label label22;
-		private System.Windows.Forms.Label label23;
-		private System.Windows.Forms.Label label24;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
-		private System.Windows.Forms.Label label17;
-		private System.Windows.Forms.Label label18;
-		private System.Windows.Forms.Label label19;
-		private System.Windows.Forms.Label label20;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
-		private System.Windows.Forms.Label label13;
-		private System.Windows.Forms.Label label14;
-		private System.Windows.Forms.Label label15;
-		private System.Windows.Forms.Label label16;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
-		private System.Windows.Forms.Label label9;
-		private System.Windows.Forms.Label label10;
-		private System.Windows.Forms.Label label11;
-		private System.Windows.Forms.Label label12;
-		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.Label label7;
-		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.TableLayoutPanel SpectateTableLayoutPanel;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable25;
+		private System.Windows.Forms.Label SpectateTile25;
+		private System.Windows.Forms.Label BlueTag25;
+		private System.Windows.Forms.Label GreenTag25;
+		private System.Windows.Forms.Label YellowTag25;
+		private System.Windows.Forms.Label RedTag25;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable24;
+		private System.Windows.Forms.Label SpectateTile24;
+		private System.Windows.Forms.Label BlueTag24;
+		private System.Windows.Forms.Label GreenTag24;
+		private System.Windows.Forms.Label YellowTag24;
+		private System.Windows.Forms.Label RedTag24;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable23;
+		private System.Windows.Forms.Label SpectateTile23;
+		private System.Windows.Forms.Label BlueTag23;
+		private System.Windows.Forms.Label GreenTag23;
+		private System.Windows.Forms.Label YellowTag23;
+		private System.Windows.Forms.Label RedTag23;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable22;
+		private System.Windows.Forms.Label SpectateTile22;
+		private System.Windows.Forms.Label BlueTag22;
+		private System.Windows.Forms.Label GreenTag22;
+		private System.Windows.Forms.Label YellowTag22;
+		private System.Windows.Forms.Label RedTag22;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable21;
+		private System.Windows.Forms.Label SpectateTile21;
+		private System.Windows.Forms.Label BlueTag21;
+		private System.Windows.Forms.Label GreenTag21;
+		private System.Windows.Forms.Label YellowTag21;
+		private System.Windows.Forms.Label RedTag21;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable20;
+		private System.Windows.Forms.Label SpectateTile20;
+		private System.Windows.Forms.Label BlueTag20;
+		private System.Windows.Forms.Label GreenTag20;
+		private System.Windows.Forms.Label YellowTag20;
+		private System.Windows.Forms.Label RedTag20;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable19;
+		private System.Windows.Forms.Label SpectateTile19;
+		private System.Windows.Forms.Label BlueTag19;
+		private System.Windows.Forms.Label GreenTag19;
+		private System.Windows.Forms.Label YellowTag19;
+		private System.Windows.Forms.Label RedTag19;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable18;
+		private System.Windows.Forms.Label SpectateTile18;
+		private System.Windows.Forms.Label BlueTag18;
+		private System.Windows.Forms.Label GreenTag18;
+		private System.Windows.Forms.Label YellowTag18;
+		private System.Windows.Forms.Label RedTag18;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable17;
+		private System.Windows.Forms.Label SpectateTile17;
+		private System.Windows.Forms.Label BlueTag17;
+		private System.Windows.Forms.Label GreenTag17;
+		private System.Windows.Forms.Label YellowTag17;
+		private System.Windows.Forms.Label RedTag17;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable16;
+		private System.Windows.Forms.Label SpectateTile16;
+		private System.Windows.Forms.Label BlueTag16;
+		private System.Windows.Forms.Label GreenTag16;
+		private System.Windows.Forms.Label YellowTag16;
+		private System.Windows.Forms.Label RedTag16;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable15;
+		private System.Windows.Forms.Label SpectateTile15;
+		private System.Windows.Forms.Label BlueTag15;
+		private System.Windows.Forms.Label GreenTag15;
+		private System.Windows.Forms.Label YellowTag15;
+		private System.Windows.Forms.Label RedTag15;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable14;
+		private System.Windows.Forms.Label SpectateTile14;
+		private System.Windows.Forms.Label BlueTag14;
+		private System.Windows.Forms.Label GreenTag14;
+		private System.Windows.Forms.Label YellowTag14;
+		private System.Windows.Forms.Label RedTag14;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable13;
+		private System.Windows.Forms.Label SpectateTile13;
+		private System.Windows.Forms.Label BlueTag13;
+		private System.Windows.Forms.Label GreenTag13;
+		private System.Windows.Forms.Label YellowTag13;
+		private System.Windows.Forms.Label RedTag13;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable12;
+		private System.Windows.Forms.Label SpectateTile12;
+		private System.Windows.Forms.Label BlueTag12;
+		private System.Windows.Forms.Label GreenTag12;
+		private System.Windows.Forms.Label YellowTag12;
+		private System.Windows.Forms.Label RedTag12;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable11;
+		private System.Windows.Forms.Label SpectateTile11;
+		private System.Windows.Forms.Label BlueTag11;
+		private System.Windows.Forms.Label GreenTag11;
+		private System.Windows.Forms.Label YellowTag11;
+		private System.Windows.Forms.Label RedTag11;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable10;
+		private System.Windows.Forms.Label SpectateTile10;
+		private System.Windows.Forms.Label BlueTag10;
+		private System.Windows.Forms.Label GreenTag10;
+		private System.Windows.Forms.Label YellowTag10;
+		private System.Windows.Forms.Label RedTag10;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable9;
+		private System.Windows.Forms.Label SpectateTile9;
+		private System.Windows.Forms.Label BlueTag9;
+		private System.Windows.Forms.Label GreenTag9;
+		private System.Windows.Forms.Label YellowTag9;
+		private System.Windows.Forms.Label RedTag9;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable8;
+		private System.Windows.Forms.Label SpectateTile8;
+		private System.Windows.Forms.Label BlueTag8;
+		private System.Windows.Forms.Label GreenTag8;
+		private System.Windows.Forms.Label YellowTag8;
+		private System.Windows.Forms.Label RedTag8;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable7;
+		private System.Windows.Forms.Label SpectateTile7;
+		private System.Windows.Forms.Label BlueTag7;
+		private System.Windows.Forms.Label GreenTag7;
+		private System.Windows.Forms.Label YellowTag7;
+		private System.Windows.Forms.Label RedTag7;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable6;
+		private System.Windows.Forms.Label SpectateTile6;
+		private System.Windows.Forms.Label BlueTag6;
+		private System.Windows.Forms.Label GreenTag6;
+		private System.Windows.Forms.Label YellowTag6;
+		private System.Windows.Forms.Label RedTag6;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable5;
+		private System.Windows.Forms.Label SpectateTile5;
+		private System.Windows.Forms.Label BlueTag5;
+		private System.Windows.Forms.Label GreenTag5;
+		private System.Windows.Forms.Label YellowTag5;
+		private System.Windows.Forms.Label RedTag5;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable4;
+		private System.Windows.Forms.Label SpectateTile4;
+		private System.Windows.Forms.Label BlueTag4;
+		private System.Windows.Forms.Label GreenTag4;
+		private System.Windows.Forms.Label YellowTag4;
+		private System.Windows.Forms.Label RedTag4;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable3;
+		private System.Windows.Forms.Label SpectateTile3;
+		private System.Windows.Forms.Label BlueTag3;
+		private System.Windows.Forms.Label GreenTag3;
+		private System.Windows.Forms.Label YellowTag3;
+		private System.Windows.Forms.Label RedTag3;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable2;
+		private System.Windows.Forms.Label SpectateTile2;
+		private System.Windows.Forms.Label BlueTag2;
+		private System.Windows.Forms.Label GreenTag2;
+		private System.Windows.Forms.Label YellowTag2;
+		private System.Windows.Forms.Label RedTag2;
+		private System.Windows.Forms.TableLayoutPanel SpectateTagTable1;
+		private System.Windows.Forms.Label SpectateTile1;
+		private System.Windows.Forms.Label BlueTag1;
+		private System.Windows.Forms.Label GreenTag1;
+		private System.Windows.Forms.Label YellowTag1;
+		private System.Windows.Forms.Label RedTag1;
 	}
 }
 
