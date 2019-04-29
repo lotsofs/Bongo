@@ -787,22 +787,29 @@ namespace Bongo {
 			backgroundWorkerReceive.RunWorkerAsync();
 		}
 
+		void OnJoinedLobby(object sender, EventArgs e) {
+			Invoke((MethodInvoker)delegate {
+				NetworkPlayerNameBox.Text = "Player";
+				NetworkPlayerColor.SelectedIndex = 0;
+			});
+		}
+
 		/// <summary>
 		/// Received bingo board colors, set the appropriate bingo board
 		/// </summary>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
-		void OnReceivedBingoBoard(object sender, BingoBoardEventArgs e) {
+			void OnReceivedBingoBoard(object sender, BingoBoardEventArgs e) {
 			for (int i = 0; i < 25; i++) {
 				if (e.Player == 0) {
 					continue;
 				}
 				int colorIndex = e.Board[i];
-				labels[i].BackColor = colors[colorIndex];
-				Label tag = (Label)SpectateTableLayoutPanel.Controls[i].Controls[e.Player];
-				tag.BackColor = colorsList[e.Player][colorIndex];
-				tag.Text = icons[colorIndex];
-				//foreach (TableLayoutPanel tlp in SpectateTableLayoutPanel.Controls) {
+				Invoke((MethodInvoker)delegate {
+					Label tag = (Label)SpectateTableLayoutPanel.Controls[i].Controls[e.Player];
+					tag.BackColor = colorsList[e.Player][colorIndex];
+					tag.Text = icons[colorIndex];
+				});//foreach (TableLayoutPanel tlp in SpectateTableLayoutPanel.Controls) {
 				//	((Label)tlp.Controls[e.Player]).BackColor = colorsList[e.Player][colorIndex];
 				//}
 			}
@@ -821,11 +828,13 @@ namespace Bongo {
 		}
 
 		void OnServerShutdown(object sender, EventArgs e) {
-			NetworkGameBox.Enabled = false;
-			NetworkHostBox.Enabled = true;
-			NetworkConnectBox.Enabled = true;
-		}
-
+			Invoke((MethodInvoker)delegate {
+				NetworkGameBox.Enabled = false;
+				NetworkHostBox.Enabled = true;
+				NetworkConnectBox.Enabled = true;
+				NetworkLogBox.Enabled = false;
+			});
+			}
 		#endregion
 
 		#region sending data
@@ -858,6 +867,7 @@ namespace Bongo {
 			_network.OnReceivedBingoBoard += OnReceivedBingoBoard;
 			_network.OnPlayerListUpdated += OnPlayerListUpdated;
 			_network.OnServerShutdown += OnServerShutdown;
+			_network.OnJoinedLobby += OnJoinedLobby;
 		}
 
 		/// <summary>
@@ -871,6 +881,7 @@ namespace Bongo {
 			NetworkGameBox.Enabled = true;
 			NetworkHostBox.Enabled = false;
 			NetworkConnectBox.Enabled = false;
+			NetworkLogBox.Enabled = true;
 		}
 
 		/// <summary>
@@ -885,6 +896,7 @@ namespace Bongo {
 			NetworkGameBox.Enabled = true;
 			NetworkHostBox.Enabled = false;
 			NetworkConnectBox.Enabled = false;
+			NetworkLogBox.Enabled = true;
 		}
 
 		/// <summary>

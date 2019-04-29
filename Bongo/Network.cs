@@ -7,6 +7,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Bongo {
 	class Network {
@@ -31,6 +32,7 @@ namespace Bongo {
 		public event EventHandler<SystemMessageEventArgs> OnSystemMessage;
 		public event EventHandler OnConnectedToServer;
 		public event EventHandler OnServerShutdown;
+		public event EventHandler OnJoinedLobby;
 		public event EventHandler<BingoBoardEventArgs> OnReceivedBingoBoard;
 		public event EventHandler<PlayerListEventArgs> OnPlayerListUpdated;
 
@@ -83,7 +85,10 @@ namespace Bongo {
 			_clientSocket.Close();
 			_players = new List<Player>();
 			OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Disconnected"));
+			OnSystemMessage.Invoke(this, new SystemMessageEventArgs("--------------------------------"));
 			OnServerShutdown.Invoke(this, new EventArgs());
+			_nextPlayer = 2;
+			_playerId = 1;
 		}
 
 		#endregion
@@ -95,17 +100,18 @@ namespace Bongo {
 		/// </summary>
 		/// <param name="port"></param>
 		public void StartServer(int port) {
-			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(ServerStarting));
+			OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Starting server..."));
 			_serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 			_serverSocket.Bind(new IPEndPoint(IPAddress.Any, port));
 			_serverSocket.Listen(0);
 			_serverSocket.BeginAccept(AcceptCallBack, null);
-			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(ServerStarted));
+			OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Server started"));
 			_serverRunning = true;
 
 			Player serverPlayer = new Player();
 			serverPlayer.Id = _playerId;
 			_players.Add(serverPlayer);
+			OnJoinedLobby.Invoke(this, new EventArgs());
 			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
 		}
 
@@ -116,14 +122,17 @@ namespace Bongo {
 		private void CloseAllSockets() {
 			SendPlayerLeft(_playerId);
 			for (int i = _players.Count - 1; i > 0; i--) {
-				_players[i].Socket.Shutdown(SocketShutdown.Both);
-				_players[i].Socket.Close();
+				SocketSaveShutdown(_players[i].Socket);
 			}
 			_players = new List<Player>();
 			//_serverSocket.Shutdown(SocketShutdown.Both);
 			_serverSocket.Close();
 			_serverRunning = false;
+			OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Server stopped"));
+			OnSystemMessage.Invoke(this, new SystemMessageEventArgs("--------------------------------"));
+			OnServerShutdown.Invoke(this, new EventArgs());
 			_nextPlayer = 2;
+			_playerId = 1;
 		}
 
 		/// <summary>
@@ -138,7 +147,7 @@ namespace Bongo {
 				received = current.EndReceive(IA);
 			}
 			catch (SocketException) {
-				OnSystemMessage.Invoke(this, new SystemMessageEventArgs(ClientDisconnectForce));
+				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Client disconnected forcefully"));
 				current.Close();
 				Player player = _players.Find(p => p.Socket == current);
 				SendPlayerLeft(player.Id);
@@ -146,12 +155,11 @@ namespace Bongo {
 				return;
 			}
 			catch (ObjectDisposedException) {
-				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("ObjectDisposedException"));
+				// received for certain clients when server is stopped
 				return;
 			}
-
 			if (received == 0) {
-				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Received 0"));
+				// received once for each client when server is stopped appropriately
 				return;
 			}
 			ReceiveBuffer(_buffer, received);
@@ -162,12 +170,7 @@ namespace Bongo {
 				Array.Copy(_buffer, receivedBuffer, received);
 				ServerSendToEveryone(receivedBuffer);
 			}
-			try {
-				current.BeginReceive(_buffer, 0, BufferSize, SocketFlags.None, ReceiveCallBack, current);
-			}
-			catch (ObjectDisposedException) {
-				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("ObjectDisposedException"));
-			}
+			SocketSaveBeginReceive(current);
 		}
 
 		/// <summary>
@@ -175,27 +178,64 @@ namespace Bongo {
 		/// </summary>
 		/// <param name="IA"></param>
 		private void AcceptCallBack(IAsyncResult IA) {
-			Socket socket;
-
-			try {
-				socket = _serverSocket.EndAccept(IA);
-			}
-			catch (ObjectDisposedException) {
-				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("ObjectDisposedException"));
+			if (!SocketSaveEndAccept(_serverSocket, IA, out Socket connectionSocket)) {
 				return;
 			}
 
-			socket.BeginReceive(_buffer, 0, BufferSize, SocketFlags.None, ReceiveCallBack, socket);
-			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(ClientConnected));
+			if (!SocketSaveBeginReceive(connectionSocket)) {
+				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Error 0179"));
+			}
+			//OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Client connected"));
 			_serverSocket.BeginAccept(AcceptCallBack, null);
 
-
 			Player player = new Player();
-			player.Socket = socket;
+			player.Socket = connectionSocket;
 			AssignPlayerId(player);
 			_players.Add(player);
 			SendPlayerJoined(player.Id);
 			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
+		}
+
+		#endregion
+
+		#region socket save stuff (TODO: Make this a class inheriting from Socket)
+
+		bool SocketSaveBeginReceive(Socket socket) {
+			try {
+				socket.BeginReceive(_buffer, 0, BufferSize, SocketFlags.None, ReceiveCallBack, socket);
+				return true;
+			}
+			catch (ObjectDisposedException) {
+				// received every time a player disconnects from the server
+				return false;
+			}
+		}
+
+		bool SocketSaveEndAccept(Socket socket, IAsyncResult IA, out Socket connectionSocket) {
+			try {
+				connectionSocket = socket.EndAccept(IA);
+				return true;
+			}
+			catch (ObjectDisposedException) {
+				connectionSocket = null;
+				// received every time the server is stopped
+				return false;
+			}
+		}
+
+		// if i have socket information (ie im the host), close socket
+		bool SocketSaveShutdown(Socket socket) {
+			if (socket == null) {
+				return false;
+			}
+			try {
+				socket.Shutdown(SocketShutdown.Both);
+				socket.Close();
+				return true;
+			}
+			catch (ObjectDisposedException) {
+				return false;
+			}
 		}
 
 		#endregion
@@ -242,7 +282,7 @@ namespace Bongo {
 			return content;
 		}
 
-		#endregion
+		#endregion // TODO: Move to separate script
 
 		#region client
 
@@ -250,18 +290,23 @@ namespace Bongo {
 		/// Client receive bytes
 		/// </summary>
 		public void ReceiveResponse() {
+			byte[] buffer = new byte[2048];
+			int received;
 			try {
-				byte[] buffer = new byte[2048];
-				int received = _clientSocket.Receive(buffer, SocketFlags.None);     // TODO: Socketexception if host stops
-				if (received == 0) {
-					OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Received 0"));
-					return;
-				}
-				ReceiveBuffer(buffer, received);
+				received = _clientSocket.Receive(buffer, SocketFlags.None);
 			}
-			catch (SocketException) {
-				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("SocketException"));
+			catch (SocketException) { 
+				// received when disconnecting from the server, or the server shuts down
+				Disconnect();
+				return;
 			}
+			if (received == 0) {	// received empty buffer
+				// received when server force shuts down
+				Disconnect();
+				return;
+			}
+			// do stuff if something useful was received
+			ReceiveBuffer(buffer, received);
 		}
 
 		/// <summary>
@@ -276,19 +321,20 @@ namespace Bongo {
 			while (!_clientSocket.Connected) {
 				try {
 					attempts++;
-					OnSystemMessage.Invoke(this, new SystemMessageEventArgs(string.Format(ConnectionAttempt, attempts)));
-					_clientSocket.Connect(address, port);
-					if (attempts > 10) {
+					OnSystemMessage.Invoke(this, new SystemMessageEventArgs(string.Format("Connection attempt {0}", attempts)));
+					_clientSocket.Connect(address, port);		// TODO: Can this even fail?
+					if (attempts >= 10) {		
 						OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Failed to connect"));
 						OnServerShutdown.Invoke(this, new EventArgs());
 						return;
 					}
 				}
 				catch (SocketException) {
-					OnSystemMessage.Invoke(this, new SystemMessageEventArgs("SocketException"));
+					OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Error 0305"));
 				}
 			}
-			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(ConnectedToServer));
+			OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Connected to server"));
+			OnJoinedLobby.Invoke(this, new EventArgs());
 			OnConnectedToServer.Invoke(this, new EventArgs());
 		}
 
@@ -336,7 +382,7 @@ namespace Bongo {
 		private void ReceiveBuffer(byte[] buffer, int received) {
 			int newBufferStartIndex = 0;
 			for (int i = 1; i < received - 1; i++) {
-				if (buffer[i] != 0 || buffer[i + 1] != 0 || buffer[i + 2] == 0) {
+				if (buffer[i] != byte.MaxValue || buffer[i + 1] != byte.MaxValue) { //  || buffer[i + 2] == 0
 					continue;
 				}
 				byte[] bufferW = new byte[i];
@@ -355,8 +401,8 @@ namespace Bongo {
 
 		byte[] MakeByteArray(BufferPrefixes prefix, byte[] content) {
 			byte[] buffer = new byte[content.Length + ContentStartIndex];
-			buffer[0] = 0;
-			buffer[1] = 0;
+			buffer[0] = byte.MaxValue;
+			buffer[1] = byte.MaxValue;
 			buffer[PrefixIndex] = (byte)prefix;
 			buffer[PlayerIdIndex] = _playerId;
 			Array.Copy(content, 0, buffer, ContentStartIndex, content.Length);
@@ -364,7 +410,7 @@ namespace Bongo {
 		}
 
 		void SendToEveryone(byte[] buffer) {
-			// send the bytes
+			// send the bytes to server if client
 			if (_clientSocket.Connected) {
 				_clientSocket.Send(buffer, 0, buffer.Length, SocketFlags.None);
 			}
@@ -376,15 +422,21 @@ namespace Bongo {
 
 		public void ServerSendToEveryone(byte[] buffer) {
 			foreach (Player player in _players) {
-				if (player.Id > _playerId) {
-					try {
-						player.Socket.Send(buffer);
-					}
-					catch (ObjectDisposedException) {
-						OnSystemMessage.Invoke(this, new SystemMessageEventArgs("ObjectDisposedException"));
-						continue;
-					}
-				}
+				ServerSendToOne(player.Socket, buffer);
+			}
+		}
+
+		private bool ServerSendToOne(Socket socket, byte[] buffer) {
+			if (socket == null) {
+				return false;
+			}
+			try {
+				socket.Send(buffer);
+				return true;
+			}
+			catch (ObjectDisposedException) {
+				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Fatal Error 0424"));
+				return false;
 			}
 		}
 
@@ -399,7 +451,9 @@ namespace Bongo {
 		public void SendChat(string message) {
 			//// convert the typed text to bytes, and add a byte in front of it to denote it is text
 			byte[] buffer = MakeByteArray(BufferPrefixes.Chat, Encoding.ASCII.GetBytes(message));
-			ReceiveChat(GetPlayer(_playerId), message);
+			if (_serverRunning) {
+				ReceiveChat(GetPlayer(_playerId), message);
+			}
 			SendToEveryone(buffer);
 		}
 
@@ -446,8 +500,7 @@ namespace Bongo {
 		/// <param name="id"></param>
 		private void SendConnectionId(Socket socket, byte id) {
 			byte[] buffer = MakeByteArray(BufferPrefixes.ConnectionId, new byte[] { id });
-			socket.Send(buffer);
-			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(string.Format(ClientIdSent, id)));
+			ServerSendToOne(socket, buffer);
 		}
 
 		private void ReceiveConnectionId(byte[] content) {
@@ -458,7 +511,6 @@ namespace Bongo {
 
 		// --------------------------------------------------------------------------------------------------------------------------
 
-		// Todo: Also include names and colors in this
 		private void SendPlayerList(Player to) {
 			byte[] buffersPlayerList = new byte[_players.Count];
 			List<byte> PlayersListList = new List<byte>();
@@ -467,17 +519,17 @@ namespace Bongo {
 				PlayersListList.Add(player.Color);
 				byte[] name = Encoding.ASCII.GetBytes(player.Name);
 				PlayersListList.AddRange(name);
-				PlayersListList.Add(byte.MaxValue);
+				PlayersListList.Add(byte.MaxValue - 1);
 			}
 			buffersPlayerList = PlayersListList.ToArray();
 			byte[] buffer = MakeByteArray(BufferPrefixes.PlayerList, buffersPlayerList);
-			to.Socket.Send(buffer);
+			ServerSendToOne(to.Socket, buffer);
 		}
 
 		private void ReceivePlayerList(byte[] content) {
 			int currentPlayerStartingIndex = 0;
 			for (int i = 0; i < content.Length; i++) {
-				if (content[i] != byte.MaxValue) {
+				if (content[i] != byte.MaxValue - 1) {
 					continue;
 				}
 				Player player = GetPlayer(content[currentPlayerStartingIndex]);
@@ -498,11 +550,13 @@ namespace Bongo {
 
 		private void ReceivePlayerJoined(byte[] content) {
 			GetPlayer(content[0]);
+			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(string.Format("Player {0} joined", content[0])));
 			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
 		}
 
 		private void ReceivePlayerJoined(byte id) {
 			GetPlayer(id);
+			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(string.Format("Player {0} joined", id)));
 			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
 		}
 
@@ -522,14 +576,12 @@ namespace Bongo {
 		private void ReceivePlayerLeft(byte[] content) {
 			Player player = GetPlayer(content[0]);
 			if (player == _players[0] && _clientSocket.Connected == true) {
-				ClientDisconnect();
+				Disconnect();
 				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Host shut down the server"));
 			}
-			// if i have socket information (ie im the host), close sockets
-			if (player.Socket != null) {
-				player.Socket.Shutdown(SocketShutdown.Both);
-				player.Socket.Close();
-			}
+
+			SocketSaveShutdown(player.Socket);
+			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(string.Format("Player {0} left", player.Id)));
 			_players.Remove(player);
 			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
 		}
@@ -538,18 +590,14 @@ namespace Bongo {
 			Player player = GetPlayer(id);
 			// if player left is the host, disconnect
 			if (player == _players[0] && _clientSocket.Connected == true) {
-				ClientDisconnect();
+				Disconnect();
 				OnSystemMessage.Invoke(this, new SystemMessageEventArgs("Host shut down the server"));
 			}
-			// if i have socket information (ie im the host), close sockets
-			if (player.Socket != null) {
-				player.Socket.Shutdown(SocketShutdown.Both);
-				player.Socket.Close();
-			}
+			SocketSaveShutdown(player.Socket);
+			OnSystemMessage.Invoke(this, new SystemMessageEventArgs(string.Format("Player {0} left", id)));
 			_players.Remove(player);
 			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
 		}
-
 
 		// --------------------------------------------------------------------------------------------------------------------------
 
