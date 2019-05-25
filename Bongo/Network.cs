@@ -59,6 +59,7 @@ namespace Bongo {
 			Color,
 			PlayerList,
 			Confirm,
+			Version,
 		}
 
 		public bool Connected {
@@ -374,6 +375,9 @@ namespace Bongo {
 				case (byte)BufferPrefixes.Confirm:
 					ReceiveConfirm(player);
 					break;
+				case (byte)BufferPrefixes.Version:
+					ReceiveVersion(player, content);
+					break;
 				default:
 					break;
 			}
@@ -654,6 +658,27 @@ namespace Bongo {
 			}
 		}
 
+		// --------------------------------------------------------------------------------------------------------------------------
+
+		public void SendVersion(string toolVersion, string goalsName, string goalsVersion, string seed) {
+			string data = string.Format("- {1} {2}: {3} ({0})", toolVersion, goalsName, goalsVersion, seed);
+			byte[] buffer = MakeByteArray(BufferPrefixes.Version, Encoding.ASCII.GetBytes(data));
+			ReceiveVersion(GetPlayer(_playerId), data);
+			SendToEveryone(buffer);
+		}
+
+		private void ReceiveVersion(Player player, byte[] content) {
+			string data = Encoding.ASCII.GetString(content);
+			player.Version = string.Empty;
+			player.Version = data;
+			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
+		}
+
+		private void ReceiveVersion(Player player, string data) {
+			player.Version = string.Empty;
+			player.Version = data;
+			OnPlayerListUpdated.Invoke(this, new PlayerListEventArgs(_players));
+		}
 		#endregion
 	}
 }

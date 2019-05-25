@@ -738,6 +738,7 @@ namespace Bongo {
 			SaveLastGameData();
 			GenerateBoard();
 			TabControlMain.SelectedTab = TabBoard;
+			SendVersionData();
 		}
 
 		private void BottomHideButton_Click(object sender, EventArgs e) {
@@ -854,7 +855,7 @@ namespace Bongo {
 		void OnPlayerListUpdated(object sender, PlayerListEventArgs e) {
 			string list = string.Empty;
 			foreach (Player p in e.PlayerList) {
-				list += string.Format("{0}: {1} ({2})\n", p.Id, p.Name, NetworkPlayerColor.Items[p.Color]);
+				list += string.Format("{0}: {1} ({2}) {3}\n", p.Id, p.Name, NetworkPlayerColor.Items[p.Color], p.Version);
 			}
 			list = list.Replace("\n", Environment.NewLine);
 			this.BeginInvoke(new MethodInvoker(() => {
@@ -888,6 +889,13 @@ namespace Bongo {
 			//	colorsInt[i] = Array.FindIndex(colors, item => item == labels[i].BackColor);
 			//}
 			//_network.SendBingoBoard(colorsInt);
+		}
+
+		private void SendVersionData() {
+			if (!_network.Connected) {
+				return;
+			}
+			_network.SendVersion(HelpVersionLabel.Text, _currentBoard.Title, _currentBoard.Version, BottomUidBox.Text);
 		}
 
 		#endregion
@@ -966,9 +974,17 @@ namespace Bongo {
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		private void NetworkButtonSend_Click(object sender, EventArgs e) {
-			if (textBoxSend.Text != string.Empty) {
-				_network.SendChat(textBoxSend.Text);
-				textBoxSend.Text = string.Empty;
+			if (TextBoxSend.Text != string.Empty) {
+				_network.SendChat(TextBoxSend.Text);
+				TextBoxSend.Text = string.Empty;
+			}
+		}
+
+		private void TextBoxSend_KeyDown(object sender, KeyEventArgs e) {
+			if (e.KeyCode == Keys.Enter) {
+				NetworkButtonSend.PerformClick();
+				e.Handled = true;
+				e.SuppressKeyPress = true;
 			}
 		}
 
@@ -986,10 +1002,9 @@ namespace Bongo {
 			_network.SendColor((byte)NetworkPlayerColor.SelectedIndex);
 		}
 
-		#endregion
 
 		#endregion
 
-
+		#endregion
 	}
 }

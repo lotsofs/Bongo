@@ -9,6 +9,7 @@ namespace Bongo {
 	public class Player {
 		public Socket Socket;
 		public string Name = "Player";
+		public string Version = "?";
 		public byte Color;
 		public byte Id;
 	}

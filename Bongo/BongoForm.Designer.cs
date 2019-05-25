@@ -338,7 +338,7 @@
 			this.label173 = new System.Windows.Forms.Label();
 			this.NetworkLogBox = new System.Windows.Forms.GroupBox();
 			this.NetworkButtonSend = new System.Windows.Forms.Button();
-			this.textBoxSend = new System.Windows.Forms.TextBox();
+			this.TextBoxSend = new System.Windows.Forms.TextBox();
 			this.NetworkMessagebox = new System.Windows.Forms.TextBox();
 			this.NetworkConnectBox = new System.Windows.Forms.GroupBox();
 			this.NetworkClientIpBox = new System.Windows.Forms.TextBox();
@@ -5509,10 +5509,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.NetworkPlayerInfoText.Location = new System.Drawing.Point(9, 43);
 			this.NetworkPlayerInfoText.Name = "NetworkPlayerInfoText";
-			this.NetworkPlayerInfoText.Size = new System.Drawing.Size(295, 125);
+			this.NetworkPlayerInfoText.Size = new System.Drawing.Size(407, 125);
 			this.NetworkPlayerInfoText.TabIndex = 65;
-			this.NetworkPlayerInfoText.Text = "1: Name - Color\r\n2: Name - Color\r\n3: Name - Color\r\n4: Name - Color\r\n5: Name - Col" +
-    "or\r\n6: Name - Color";
+			this.NetworkPlayerInfoText.Text = "---";
 			// 
 			// NetworkPlayerColor
 			// 
@@ -5523,7 +5522,7 @@
             "Red",
             "Yellow",
             "Green",
-            "Blue"});
+            "Cyan"});
 			this.NetworkPlayerColor.Location = new System.Drawing.Point(140, 19);
 			this.NetworkPlayerColor.Name = "NetworkPlayerColor";
 			this.NetworkPlayerColor.Size = new System.Drawing.Size(88, 21);
@@ -5554,9 +5553,9 @@
 			// 
 			this.label173.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label173.Location = new System.Drawing.Point(343, 62);
+			this.label173.Location = new System.Drawing.Point(422, 62);
 			this.label173.Name = "label173";
-			this.label173.Size = new System.Drawing.Size(200, 86);
+			this.label173.Size = new System.Drawing.Size(121, 86);
 			this.label173.TabIndex = 47;
 			this.label173.Text = "Beta: ";
 			// 
@@ -5566,7 +5565,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.NetworkLogBox.BackColor = System.Drawing.Color.Transparent;
 			this.NetworkLogBox.Controls.Add(this.NetworkButtonSend);
-			this.NetworkLogBox.Controls.Add(this.textBoxSend);
+			this.NetworkLogBox.Controls.Add(this.TextBoxSend);
 			this.NetworkLogBox.Controls.Add(this.NetworkMessagebox);
 			this.NetworkLogBox.ForeColor = System.Drawing.Color.White;
 			this.NetworkLogBox.Location = new System.Drawing.Point(6, 421);
@@ -5589,14 +5588,15 @@
 			this.NetworkButtonSend.UseVisualStyleBackColor = true;
 			this.NetworkButtonSend.Click += new System.EventHandler(this.NetworkButtonSend_Click);
 			// 
-			// textBoxSend
+			// TextBoxSend
 			// 
-			this.textBoxSend.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+			this.TextBoxSend.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBoxSend.Location = new System.Drawing.Point(7, 265);
-			this.textBoxSend.Name = "textBoxSend";
-			this.textBoxSend.Size = new System.Drawing.Size(425, 20);
-			this.textBoxSend.TabIndex = 1;
+			this.TextBoxSend.Location = new System.Drawing.Point(7, 265);
+			this.TextBoxSend.Name = "TextBoxSend";
+			this.TextBoxSend.Size = new System.Drawing.Size(425, 20);
+			this.TextBoxSend.TabIndex = 1;
+			this.TextBoxSend.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBoxSend_KeyDown);
 			// 
 			// NetworkMessagebox
 			// 
@@ -5683,7 +5683,7 @@
 			this.label169.Size = new System.Drawing.Size(534, 43);
 			this.label169.TabIndex = 47;
 			this.label169.Text = "Beta: Make sure the IP Address and Port are correct, the tool crashes if they are" +
-    "n\'t (because beta). ";
+    "n\'t.";
 			// 
 			// NetworkHostBox
 			// 
@@ -5988,7 +5988,7 @@
 		private System.Windows.Forms.TabPage TabOnline;
 		private System.Windows.Forms.GroupBox NetworkLogBox;
 		private System.Windows.Forms.Button NetworkButtonSend;
-		private System.Windows.Forms.TextBox textBoxSend;
+		private System.Windows.Forms.TextBox TextBoxSend;
 		private System.Windows.Forms.TextBox NetworkMessagebox;
 		private System.Windows.Forms.GroupBox NetworkConnectBox;
 		private System.Windows.Forms.TextBox NetworkClientIpBox;
