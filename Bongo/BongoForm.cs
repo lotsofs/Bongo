@@ -27,17 +27,21 @@ namespace Bongo {
 		int _selectedLabelIndexSpectate = 25;
 		bool _bingoActive = false;
 
+		Team defaultTeam = new Team();
+		Team redTeam = new Team(Color.Red);
+		Team yellowTeam = new Team(Color.Yellow);
+		Team greenTeam = new Team(Color.Lime);
+		Team cyanTeam = new Team(Color.Cyan);
+
+		Team[] teams;
+
 		// TODO: Make separate color script
-		Color[] colors = new Color[] { Color.LightGray, Color.DodgerBlue, Color.LimeGreen, Color.Red };
-		string[] icons = new string[] { "", "", ":)", "X" };
-		Color[] colorsExtended = new Color[] { Color.LightGray, Color.DodgerBlue, Color.LimeGreen, Color.Red, Color.DarkOrchid, Color.Goldenrod };
+		//Color[] colors = new Color[] { Color.LightGray, Color.DodgerBlue, Color.LimeGreen, Color.Red };
+		//string[] icons = new string[] { "", "", ":)", "X" };
+		//Color[] colorsExtended = new Color[] { Color.LightGray, Color.DodgerBlue, Color.LimeGreen, Color.Red, Color.DarkOrchid, Color.Goldenrod };
 
-		Color[] colorsRed = new Color[] { Color.LightGray, Color.FromArgb(255, 0, 0), Color.FromArgb(255, 0 , 0), Color.FromArgb(255, 0, 0) };
-		Color[] colorsYellow = new Color[] { Color.LightGray, Color.FromArgb(255, 255, 0), Color.FromArgb(255, 255, 0), Color.FromArgb(255, 255, 0) };
-		Color[] colorsGreen = new Color[] { Color.LightGray, Color.FromArgb(0, 255, 0), Color.FromArgb(0, 255, 0), Color.FromArgb(0, 255, 0) };
-		Color[] colorsBlue = new Color[] { Color.LightGray, Color.FromArgb(0, 255, 255), Color.FromArgb(0, 255, 255), Color.FromArgb(0, 255, 255) };
-		Color[][] colorsList;
-
+		//Color[][] colorsList;
+		//Color[] playerColors = new Color[] { Color.LightGray, Color.Red, Color.Yellow, Color.Lime, Color.Cyan };
 
 		// TODO: Move all of this to hotkeys.cs?
 		private Hotkeys hotkeys;
@@ -225,6 +229,7 @@ namespace Bongo {
 				labels[labelIndex] = label;
 				labelIndex++;
 			}
+			teams = new Team[] { defaultTeam, redTeam, yellowTeam, greenTeam, cyanTeam };
 			SpectatorModeSetup();
 		}
 
@@ -432,7 +437,7 @@ namespace Bongo {
 		/// Puts all 25 spectate board tiles into an array
 		/// </summary>
 		private void SpectatorModeSetup() {
-			colorsList = new Color[][] { colors, colorsRed, colorsYellow, colorsGreen, colorsBlue };
+			//colorsList = new Color[][] { colors, colorsRed, colorsYellow, colorsGreen, colorsBlue };
 			int labelIndex = 0;
 			foreach (TableLayoutPanel tlp in SpectateTableLayoutPanel.Controls) {
 				labelsSpectate[labelIndex] = (Label)tlp.Controls[0];
@@ -447,6 +452,9 @@ namespace Bongo {
 
 		private void ClickSpectateTile(Label clickedLabel) {
 			int clickedLabelIndex = Array.FindIndex(labelsSpectate, item => item == clickedLabel);
+			if (_selectedLabelIndexSpectate == clickedLabelIndex) {
+				return;
+			}
 			// reset currently selected label
 			if (_selectedLabelIndexSpectate != 25) {
 				EnlargeTile((TableLayoutPanel)labelsSpectate[_selectedLabelIndexSpectate].Parent, false);
@@ -460,12 +468,28 @@ namespace Bongo {
 			}
 		}
 
+		private void SpectateTag_Click(object sender, MouseEventArgs e) {
+			Label clickedTag = sender as Label;
+			Control tlp = clickedTag.Parent as TableLayoutPanel;
+			Control[] controls = new Control[tlp.Controls.Count];
+			tlp.Controls.CopyTo(controls, 0);
+			int clickedLabelindex = Array.FindIndex(labelsSpectate, item => item == tlp.Controls[0]);
+			int clickedTeamIndex = Array.FindIndex(controls, item => item == sender);
+			int nextColor = teams[clickedTeamIndex].ChangeTileOverrideColor(clickedLabelindex, e.Button == MouseButtons.Left);
+			if (nextColor == 0) {
+				nextColor = teams[clickedTeamIndex].BoardStatus[clickedLabelindex];
+			}
+			clickedTag.BackColor = teams[clickedTeamIndex].Colors[nextColor];
+			clickedTag.Text = teams[clickedTeamIndex].Icons[nextColor];
+		}
+
 		private void AssembleSpectateBoard() {
 			int labelIndex = 0;
+			// todo: Figure out what these are
 			foreach (TableLayoutPanel tlp in SpectateTableLayoutPanel.Controls) {
 				foreach (Label label in tlp.Controls) {
-					label.BackColor = colors[0];
-					label.Text = icons[0];
+					label.BackColor = teams[0].Colors[0];
+					label.Text = teams[0].Icons[0];
 				}
 				tlp.Controls[0].Text = labels[labelIndex].Text;
 				labelIndex++;
@@ -483,14 +507,17 @@ namespace Bongo {
 		/// <param name="forward">whether to set it to the next or previous color in colors array</param>
 		private void ChangeTileColor(bool forward) {
 			Label label = labels[_selectedLabelIndex];
-			int colorIndex = Array.FindIndex(colors, item => item == label.BackColor);
-			if (forward) {
-				label.BackColor = colors[(colorIndex + 1) % colors.Length];
-			}
-			else {
-				label.BackColor = colors[(colorIndex + colors.Length - 1) % colors.Length];
-			}
+			int colorIndex = teams[0].ChangeTileColor(_selectedLabelIndex, forward);
+			label.BackColor = teams[0].Colors[colorIndex];
 			SendBingoBoard();
+			//int colorIndex = Array.FindIndex(colors, item => item == label.BackColor);
+			//if (forward) {
+			//	label.BackColor = colors[(colorIndex + 1) % colors.Length];
+			//}
+			//else {
+			//	label.BackColor = colors[(colorIndex + colors.Length - 1) % colors.Length];
+			//}
+			//SendBingoBoard();
 		}
 
 		/// <summary>
@@ -580,7 +607,7 @@ namespace Bongo {
 		/// </summary>
 		private void ResetBoardColors() {
 			foreach (Label label in labels) {
-				label.BackColor = colors[(0)];
+				label.BackColor = teams[0].Colors[0];
 			}
 			if (_selectedLabelIndex != 25) {
 				EnlargeTile(labels[_selectedLabelIndex], false);
@@ -795,21 +822,29 @@ namespace Bongo {
 		}
 
 		/// <summary>
-		/// Received bingo board colors, set the appropriate bingo board
+		/// Received bingo board colors, set the appropriate bingo boards to match
 		/// </summary>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
-			void OnReceivedBingoBoard(object sender, BingoBoardEventArgs e) {
+		void OnReceivedBingoBoard(object sender, BingoBoardEventArgs e) {
 			for (int i = 0; i < 25; i++) {
 				if (e.Player == 0) {
 					continue;
 				}
 				int colorIndex = e.Board[i];
+				teams[e.Player].BoardStatus[i] = colorIndex;
 				Invoke((MethodInvoker)delegate {
-					Label tag = (Label)SpectateTableLayoutPanel.Controls[i].Controls[e.Player];
-					tag.BackColor = colorsList[e.Player][colorIndex];
-					tag.Text = icons[colorIndex];
-				});//foreach (TableLayoutPanel tlp in SpectateTableLayoutPanel.Controls) {
+					if (teams[e.Player].BoardStatusSpectateOverride[i] == 0) {
+						Label tag = (Label)SpectateTableLayoutPanel.Controls[i].Controls[e.Player];
+						tag.BackColor = teams[e.Player].Colors[colorIndex];
+						tag.Text = teams[e.Player].Icons[colorIndex];
+						if (e.SameTeam) {
+							Label tile = (Label)BoardTableLayoutPanel.Controls[i];
+							tile.BackColor = teams[0].Colors[colorIndex];
+						}
+					}
+				});
+				//foreach (TableLayoutPanel tlp in SpectateTableLayoutPanel.Controls) {
 				//	((Label)tlp.Controls[e.Player]).BackColor = colorsList[e.Player][colorIndex];
 				//}
 			}
@@ -834,7 +869,7 @@ namespace Bongo {
 				NetworkConnectBox.Enabled = true;
 				NetworkLogBox.Enabled = false;
 			});
-			}
+		}
 		#endregion
 
 		#region sending data
@@ -847,11 +882,12 @@ namespace Bongo {
 				return;
 			}
 			// take the colors of the bingo board
-			int[] colorsInt = new int[25];
-			for (int i = 0; i < 25; i++) {
-				colorsInt[i] = Array.FindIndex(colors, item => item == labels[i].BackColor);
-			}
-			_network.SendBingoBoard(colorsInt);
+			_network.SendBingoBoard(teams[0].BoardStatus);
+			//int[] colorsInt = new int[25];
+			//for (int i = 0; i < 25; i++) {
+			//	colorsInt[i] = Array.FindIndex(colors, item => item == labels[i].BackColor);
+			//}
+			//_network.SendBingoBoard(colorsInt);
 		}
 
 		#endregion
@@ -953,5 +989,7 @@ namespace Bongo {
 		#endregion
 
 		#endregion
+
+
 	}
 }

@@ -97,6 +97,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EventArgses\SystemMessageEventArgs.cs" />
+    <Compile Include="Team.cs" />
     <EmbeddedResource Include="BongoForm.resx">
       <DependentUpon>BongoForm.cs</DependentUpon>
     </EmbeddedResource>

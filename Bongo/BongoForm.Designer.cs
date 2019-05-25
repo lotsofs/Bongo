@@ -1012,8 +1012,9 @@
 			this.RedTag1.Name = "RedTag1";
 			this.RedTag1.Size = new System.Drawing.Size(21, 21);
 			this.RedTag1.TabIndex = 0;
-			this.RedTag1.Text = "O";
 			this.RedTag1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag1
 			// 
@@ -1028,8 +1029,9 @@
 			this.YellowTag1.Name = "YellowTag1";
 			this.YellowTag1.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag1.TabIndex = 1;
-			this.YellowTag1.Text = "O";
 			this.YellowTag1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag1
 			// 
@@ -1044,8 +1046,9 @@
 			this.GreenTag1.Name = "GreenTag1";
 			this.GreenTag1.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag1.TabIndex = 2;
-			this.GreenTag1.Text = "O";
 			this.GreenTag1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag1
 			// 
@@ -1060,8 +1063,9 @@
 			this.BlueTag1.Name = "BlueTag1";
 			this.BlueTag1.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag1.TabIndex = 3;
-			this.BlueTag1.Text = "O";
 			this.BlueTag1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable2
 			// 
@@ -1122,8 +1126,9 @@
 			this.RedTag2.Name = "RedTag2";
 			this.RedTag2.Size = new System.Drawing.Size(21, 21);
 			this.RedTag2.TabIndex = 0;
-			this.RedTag2.Text = "O";
 			this.RedTag2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag2
 			// 
@@ -1138,8 +1143,9 @@
 			this.YellowTag2.Name = "YellowTag2";
 			this.YellowTag2.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag2.TabIndex = 1;
-			this.YellowTag2.Text = "O";
 			this.YellowTag2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag2
 			// 
@@ -1154,8 +1160,9 @@
 			this.GreenTag2.Name = "GreenTag2";
 			this.GreenTag2.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag2.TabIndex = 2;
-			this.GreenTag2.Text = "O";
 			this.GreenTag2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag2
 			// 
@@ -1170,8 +1177,9 @@
 			this.BlueTag2.Name = "BlueTag2";
 			this.BlueTag2.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag2.TabIndex = 3;
-			this.BlueTag2.Text = "O";
 			this.BlueTag2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable3
 			// 
@@ -1232,8 +1240,9 @@
 			this.RedTag3.Name = "RedTag3";
 			this.RedTag3.Size = new System.Drawing.Size(21, 21);
 			this.RedTag3.TabIndex = 0;
-			this.RedTag3.Text = "O";
 			this.RedTag3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag3
 			// 
@@ -1248,8 +1257,9 @@
 			this.YellowTag3.Name = "YellowTag3";
 			this.YellowTag3.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag3.TabIndex = 1;
-			this.YellowTag3.Text = "O";
 			this.YellowTag3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag3
 			// 
@@ -1264,8 +1274,9 @@
 			this.GreenTag3.Name = "GreenTag3";
 			this.GreenTag3.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag3.TabIndex = 2;
-			this.GreenTag3.Text = "O";
 			this.GreenTag3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag3
 			// 
@@ -1280,8 +1291,9 @@
 			this.BlueTag3.Name = "BlueTag3";
 			this.BlueTag3.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag3.TabIndex = 3;
-			this.BlueTag3.Text = "O";
 			this.BlueTag3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable4
 			// 
@@ -1342,8 +1354,9 @@
 			this.RedTag4.Name = "RedTag4";
 			this.RedTag4.Size = new System.Drawing.Size(21, 21);
 			this.RedTag4.TabIndex = 0;
-			this.RedTag4.Text = "O";
 			this.RedTag4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag4
 			// 
@@ -1358,8 +1371,9 @@
 			this.YellowTag4.Name = "YellowTag4";
 			this.YellowTag4.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag4.TabIndex = 1;
-			this.YellowTag4.Text = "O";
 			this.YellowTag4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag4
 			// 
@@ -1374,8 +1388,9 @@
 			this.GreenTag4.Name = "GreenTag4";
 			this.GreenTag4.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag4.TabIndex = 2;
-			this.GreenTag4.Text = "O";
 			this.GreenTag4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag4
 			// 
@@ -1390,8 +1405,9 @@
 			this.BlueTag4.Name = "BlueTag4";
 			this.BlueTag4.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag4.TabIndex = 3;
-			this.BlueTag4.Text = "O";
 			this.BlueTag4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable5
 			// 
@@ -1452,8 +1468,9 @@
 			this.RedTag5.Name = "RedTag5";
 			this.RedTag5.Size = new System.Drawing.Size(21, 21);
 			this.RedTag5.TabIndex = 0;
-			this.RedTag5.Text = "O";
 			this.RedTag5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag5
 			// 
@@ -1468,8 +1485,9 @@
 			this.YellowTag5.Name = "YellowTag5";
 			this.YellowTag5.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag5.TabIndex = 1;
-			this.YellowTag5.Text = "O";
 			this.YellowTag5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag5
 			// 
@@ -1484,8 +1502,9 @@
 			this.GreenTag5.Name = "GreenTag5";
 			this.GreenTag5.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag5.TabIndex = 2;
-			this.GreenTag5.Text = "O";
 			this.GreenTag5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag5
 			// 
@@ -1500,8 +1519,9 @@
 			this.BlueTag5.Name = "BlueTag5";
 			this.BlueTag5.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag5.TabIndex = 3;
-			this.BlueTag5.Text = "O";
 			this.BlueTag5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable6
 			// 
@@ -1562,8 +1582,9 @@
 			this.RedTag6.Name = "RedTag6";
 			this.RedTag6.Size = new System.Drawing.Size(21, 21);
 			this.RedTag6.TabIndex = 0;
-			this.RedTag6.Text = "O";
 			this.RedTag6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag6
 			// 
@@ -1578,8 +1599,9 @@
 			this.YellowTag6.Name = "YellowTag6";
 			this.YellowTag6.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag6.TabIndex = 1;
-			this.YellowTag6.Text = "O";
 			this.YellowTag6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag6
 			// 
@@ -1594,8 +1616,9 @@
 			this.GreenTag6.Name = "GreenTag6";
 			this.GreenTag6.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag6.TabIndex = 2;
-			this.GreenTag6.Text = "O";
 			this.GreenTag6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag6
 			// 
@@ -1610,8 +1633,9 @@
 			this.BlueTag6.Name = "BlueTag6";
 			this.BlueTag6.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag6.TabIndex = 3;
-			this.BlueTag6.Text = "O";
 			this.BlueTag6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable7
 			// 
@@ -1672,8 +1696,9 @@
 			this.RedTag7.Name = "RedTag7";
 			this.RedTag7.Size = new System.Drawing.Size(21, 21);
 			this.RedTag7.TabIndex = 0;
-			this.RedTag7.Text = "O";
 			this.RedTag7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag7
 			// 
@@ -1688,8 +1713,9 @@
 			this.YellowTag7.Name = "YellowTag7";
 			this.YellowTag7.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag7.TabIndex = 1;
-			this.YellowTag7.Text = "O";
 			this.YellowTag7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag7
 			// 
@@ -1704,8 +1730,9 @@
 			this.GreenTag7.Name = "GreenTag7";
 			this.GreenTag7.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag7.TabIndex = 2;
-			this.GreenTag7.Text = "O";
 			this.GreenTag7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag7
 			// 
@@ -1720,8 +1747,9 @@
 			this.BlueTag7.Name = "BlueTag7";
 			this.BlueTag7.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag7.TabIndex = 3;
-			this.BlueTag7.Text = "O";
 			this.BlueTag7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable8
 			// 
@@ -1782,8 +1810,9 @@
 			this.RedTag8.Name = "RedTag8";
 			this.RedTag8.Size = new System.Drawing.Size(21, 21);
 			this.RedTag8.TabIndex = 0;
-			this.RedTag8.Text = "O";
 			this.RedTag8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag8
 			// 
@@ -1798,8 +1827,9 @@
 			this.YellowTag8.Name = "YellowTag8";
 			this.YellowTag8.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag8.TabIndex = 1;
-			this.YellowTag8.Text = "O";
 			this.YellowTag8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag8
 			// 
@@ -1814,8 +1844,9 @@
 			this.GreenTag8.Name = "GreenTag8";
 			this.GreenTag8.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag8.TabIndex = 2;
-			this.GreenTag8.Text = "O";
 			this.GreenTag8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag8
 			// 
@@ -1830,8 +1861,9 @@
 			this.BlueTag8.Name = "BlueTag8";
 			this.BlueTag8.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag8.TabIndex = 3;
-			this.BlueTag8.Text = "O";
 			this.BlueTag8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable9
 			// 
@@ -1892,8 +1924,9 @@
 			this.RedTag9.Name = "RedTag9";
 			this.RedTag9.Size = new System.Drawing.Size(21, 21);
 			this.RedTag9.TabIndex = 0;
-			this.RedTag9.Text = "O";
 			this.RedTag9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag9
 			// 
@@ -1908,8 +1941,9 @@
 			this.YellowTag9.Name = "YellowTag9";
 			this.YellowTag9.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag9.TabIndex = 1;
-			this.YellowTag9.Text = "O";
 			this.YellowTag9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag9
 			// 
@@ -1924,8 +1958,9 @@
 			this.GreenTag9.Name = "GreenTag9";
 			this.GreenTag9.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag9.TabIndex = 2;
-			this.GreenTag9.Text = "O";
 			this.GreenTag9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag9
 			// 
@@ -1940,8 +1975,9 @@
 			this.BlueTag9.Name = "BlueTag9";
 			this.BlueTag9.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag9.TabIndex = 3;
-			this.BlueTag9.Text = "O";
 			this.BlueTag9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable10
 			// 
@@ -2002,8 +2038,9 @@
 			this.RedTag10.Name = "RedTag10";
 			this.RedTag10.Size = new System.Drawing.Size(21, 21);
 			this.RedTag10.TabIndex = 0;
-			this.RedTag10.Text = "O";
 			this.RedTag10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag10
 			// 
@@ -2018,8 +2055,9 @@
 			this.YellowTag10.Name = "YellowTag10";
 			this.YellowTag10.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag10.TabIndex = 1;
-			this.YellowTag10.Text = "O";
 			this.YellowTag10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag10
 			// 
@@ -2034,8 +2072,9 @@
 			this.GreenTag10.Name = "GreenTag10";
 			this.GreenTag10.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag10.TabIndex = 2;
-			this.GreenTag10.Text = "O";
 			this.GreenTag10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag10
 			// 
@@ -2050,8 +2089,9 @@
 			this.BlueTag10.Name = "BlueTag10";
 			this.BlueTag10.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag10.TabIndex = 3;
-			this.BlueTag10.Text = "O";
 			this.BlueTag10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable11
 			// 
@@ -2112,8 +2152,9 @@
 			this.RedTag11.Name = "RedTag11";
 			this.RedTag11.Size = new System.Drawing.Size(21, 21);
 			this.RedTag11.TabIndex = 0;
-			this.RedTag11.Text = "O";
 			this.RedTag11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag11
 			// 
@@ -2128,8 +2169,9 @@
 			this.YellowTag11.Name = "YellowTag11";
 			this.YellowTag11.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag11.TabIndex = 1;
-			this.YellowTag11.Text = "O";
 			this.YellowTag11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag11
 			// 
@@ -2144,8 +2186,9 @@
 			this.GreenTag11.Name = "GreenTag11";
 			this.GreenTag11.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag11.TabIndex = 2;
-			this.GreenTag11.Text = "O";
 			this.GreenTag11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag11
 			// 
@@ -2160,8 +2203,9 @@
 			this.BlueTag11.Name = "BlueTag11";
 			this.BlueTag11.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag11.TabIndex = 3;
-			this.BlueTag11.Text = "O";
 			this.BlueTag11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable12
 			// 
@@ -2222,8 +2266,9 @@
 			this.RedTag12.Name = "RedTag12";
 			this.RedTag12.Size = new System.Drawing.Size(21, 21);
 			this.RedTag12.TabIndex = 0;
-			this.RedTag12.Text = "O";
 			this.RedTag12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag12
 			// 
@@ -2238,8 +2283,9 @@
 			this.YellowTag12.Name = "YellowTag12";
 			this.YellowTag12.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag12.TabIndex = 1;
-			this.YellowTag12.Text = "O";
 			this.YellowTag12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag12
 			// 
@@ -2254,8 +2300,9 @@
 			this.GreenTag12.Name = "GreenTag12";
 			this.GreenTag12.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag12.TabIndex = 2;
-			this.GreenTag12.Text = "O";
 			this.GreenTag12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag12
 			// 
@@ -2270,8 +2317,9 @@
 			this.BlueTag12.Name = "BlueTag12";
 			this.BlueTag12.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag12.TabIndex = 3;
-			this.BlueTag12.Text = "O";
 			this.BlueTag12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable13
 			// 
@@ -2332,8 +2380,9 @@
 			this.RedTag13.Name = "RedTag13";
 			this.RedTag13.Size = new System.Drawing.Size(21, 21);
 			this.RedTag13.TabIndex = 0;
-			this.RedTag13.Text = "O";
 			this.RedTag13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag13
 			// 
@@ -2348,8 +2397,9 @@
 			this.YellowTag13.Name = "YellowTag13";
 			this.YellowTag13.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag13.TabIndex = 1;
-			this.YellowTag13.Text = "O";
 			this.YellowTag13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag13
 			// 
@@ -2364,8 +2414,9 @@
 			this.GreenTag13.Name = "GreenTag13";
 			this.GreenTag13.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag13.TabIndex = 2;
-			this.GreenTag13.Text = "O";
 			this.GreenTag13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag13
 			// 
@@ -2380,8 +2431,9 @@
 			this.BlueTag13.Name = "BlueTag13";
 			this.BlueTag13.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag13.TabIndex = 3;
-			this.BlueTag13.Text = "O";
 			this.BlueTag13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable14
 			// 
@@ -2442,8 +2494,9 @@
 			this.RedTag14.Name = "RedTag14";
 			this.RedTag14.Size = new System.Drawing.Size(21, 21);
 			this.RedTag14.TabIndex = 0;
-			this.RedTag14.Text = "O";
 			this.RedTag14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag14
 			// 
@@ -2458,8 +2511,9 @@
 			this.YellowTag14.Name = "YellowTag14";
 			this.YellowTag14.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag14.TabIndex = 1;
-			this.YellowTag14.Text = "O";
 			this.YellowTag14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag14
 			// 
@@ -2474,8 +2528,9 @@
 			this.GreenTag14.Name = "GreenTag14";
 			this.GreenTag14.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag14.TabIndex = 2;
-			this.GreenTag14.Text = "O";
 			this.GreenTag14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag14
 			// 
@@ -2490,8 +2545,9 @@
 			this.BlueTag14.Name = "BlueTag14";
 			this.BlueTag14.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag14.TabIndex = 3;
-			this.BlueTag14.Text = "O";
 			this.BlueTag14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable15
 			// 
@@ -2552,8 +2608,9 @@
 			this.RedTag15.Name = "RedTag15";
 			this.RedTag15.Size = new System.Drawing.Size(21, 21);
 			this.RedTag15.TabIndex = 0;
-			this.RedTag15.Text = "O";
 			this.RedTag15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag15
 			// 
@@ -2568,8 +2625,9 @@
 			this.YellowTag15.Name = "YellowTag15";
 			this.YellowTag15.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag15.TabIndex = 1;
-			this.YellowTag15.Text = "O";
 			this.YellowTag15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag15
 			// 
@@ -2584,8 +2642,9 @@
 			this.GreenTag15.Name = "GreenTag15";
 			this.GreenTag15.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag15.TabIndex = 2;
-			this.GreenTag15.Text = "O";
 			this.GreenTag15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag15
 			// 
@@ -2600,8 +2659,9 @@
 			this.BlueTag15.Name = "BlueTag15";
 			this.BlueTag15.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag15.TabIndex = 3;
-			this.BlueTag15.Text = "O";
 			this.BlueTag15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable16
 			// 
@@ -2662,8 +2722,9 @@
 			this.RedTag16.Name = "RedTag16";
 			this.RedTag16.Size = new System.Drawing.Size(21, 21);
 			this.RedTag16.TabIndex = 0;
-			this.RedTag16.Text = "O";
 			this.RedTag16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag16
 			// 
@@ -2678,8 +2739,9 @@
 			this.YellowTag16.Name = "YellowTag16";
 			this.YellowTag16.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag16.TabIndex = 1;
-			this.YellowTag16.Text = "O";
 			this.YellowTag16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag16
 			// 
@@ -2694,8 +2756,9 @@
 			this.GreenTag16.Name = "GreenTag16";
 			this.GreenTag16.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag16.TabIndex = 2;
-			this.GreenTag16.Text = "O";
 			this.GreenTag16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag16
 			// 
@@ -2710,8 +2773,9 @@
 			this.BlueTag16.Name = "BlueTag16";
 			this.BlueTag16.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag16.TabIndex = 3;
-			this.BlueTag16.Text = "O";
 			this.BlueTag16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable17
 			// 
@@ -2772,8 +2836,9 @@
 			this.RedTag17.Name = "RedTag17";
 			this.RedTag17.Size = new System.Drawing.Size(21, 21);
 			this.RedTag17.TabIndex = 0;
-			this.RedTag17.Text = "O";
 			this.RedTag17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag17
 			// 
@@ -2788,8 +2853,9 @@
 			this.YellowTag17.Name = "YellowTag17";
 			this.YellowTag17.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag17.TabIndex = 1;
-			this.YellowTag17.Text = "O";
 			this.YellowTag17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag17
 			// 
@@ -2804,8 +2870,9 @@
 			this.GreenTag17.Name = "GreenTag17";
 			this.GreenTag17.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag17.TabIndex = 2;
-			this.GreenTag17.Text = "O";
 			this.GreenTag17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag17
 			// 
@@ -2820,8 +2887,9 @@
 			this.BlueTag17.Name = "BlueTag17";
 			this.BlueTag17.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag17.TabIndex = 3;
-			this.BlueTag17.Text = "O";
 			this.BlueTag17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable18
 			// 
@@ -2882,8 +2950,9 @@
 			this.RedTag18.Name = "RedTag18";
 			this.RedTag18.Size = new System.Drawing.Size(21, 21);
 			this.RedTag18.TabIndex = 0;
-			this.RedTag18.Text = "O";
 			this.RedTag18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag18
 			// 
@@ -2898,8 +2967,9 @@
 			this.YellowTag18.Name = "YellowTag18";
 			this.YellowTag18.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag18.TabIndex = 1;
-			this.YellowTag18.Text = "O";
 			this.YellowTag18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag18
 			// 
@@ -2914,8 +2984,9 @@
 			this.GreenTag18.Name = "GreenTag18";
 			this.GreenTag18.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag18.TabIndex = 2;
-			this.GreenTag18.Text = "O";
 			this.GreenTag18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag18
 			// 
@@ -2930,8 +3001,9 @@
 			this.BlueTag18.Name = "BlueTag18";
 			this.BlueTag18.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag18.TabIndex = 3;
-			this.BlueTag18.Text = "O";
 			this.BlueTag18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable19
 			// 
@@ -2992,8 +3064,9 @@
 			this.RedTag19.Name = "RedTag19";
 			this.RedTag19.Size = new System.Drawing.Size(21, 21);
 			this.RedTag19.TabIndex = 0;
-			this.RedTag19.Text = "O";
 			this.RedTag19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag19
 			// 
@@ -3008,8 +3081,9 @@
 			this.YellowTag19.Name = "YellowTag19";
 			this.YellowTag19.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag19.TabIndex = 1;
-			this.YellowTag19.Text = "O";
 			this.YellowTag19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag19
 			// 
@@ -3024,8 +3098,9 @@
 			this.GreenTag19.Name = "GreenTag19";
 			this.GreenTag19.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag19.TabIndex = 2;
-			this.GreenTag19.Text = "O";
 			this.GreenTag19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag19
 			// 
@@ -3040,8 +3115,9 @@
 			this.BlueTag19.Name = "BlueTag19";
 			this.BlueTag19.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag19.TabIndex = 3;
-			this.BlueTag19.Text = "O";
 			this.BlueTag19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable20
 			// 
@@ -3102,8 +3178,9 @@
 			this.RedTag20.Name = "RedTag20";
 			this.RedTag20.Size = new System.Drawing.Size(21, 21);
 			this.RedTag20.TabIndex = 0;
-			this.RedTag20.Text = "O";
 			this.RedTag20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag20
 			// 
@@ -3118,8 +3195,9 @@
 			this.YellowTag20.Name = "YellowTag20";
 			this.YellowTag20.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag20.TabIndex = 1;
-			this.YellowTag20.Text = "O";
 			this.YellowTag20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag20
 			// 
@@ -3134,8 +3212,9 @@
 			this.GreenTag20.Name = "GreenTag20";
 			this.GreenTag20.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag20.TabIndex = 2;
-			this.GreenTag20.Text = "O";
 			this.GreenTag20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag20
 			// 
@@ -3150,8 +3229,9 @@
 			this.BlueTag20.Name = "BlueTag20";
 			this.BlueTag20.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag20.TabIndex = 3;
-			this.BlueTag20.Text = "O";
 			this.BlueTag20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable21
 			// 
@@ -3212,8 +3292,9 @@
 			this.RedTag21.Name = "RedTag21";
 			this.RedTag21.Size = new System.Drawing.Size(21, 21);
 			this.RedTag21.TabIndex = 0;
-			this.RedTag21.Text = "O";
 			this.RedTag21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag21
 			// 
@@ -3228,8 +3309,9 @@
 			this.YellowTag21.Name = "YellowTag21";
 			this.YellowTag21.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag21.TabIndex = 1;
-			this.YellowTag21.Text = "O";
 			this.YellowTag21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag21
 			// 
@@ -3244,8 +3326,9 @@
 			this.GreenTag21.Name = "GreenTag21";
 			this.GreenTag21.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag21.TabIndex = 2;
-			this.GreenTag21.Text = "O";
 			this.GreenTag21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag21
 			// 
@@ -3260,8 +3343,9 @@
 			this.BlueTag21.Name = "BlueTag21";
 			this.BlueTag21.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag21.TabIndex = 3;
-			this.BlueTag21.Text = "O";
 			this.BlueTag21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable22
 			// 
@@ -3322,8 +3406,9 @@
 			this.RedTag22.Name = "RedTag22";
 			this.RedTag22.Size = new System.Drawing.Size(21, 21);
 			this.RedTag22.TabIndex = 0;
-			this.RedTag22.Text = "O";
 			this.RedTag22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag22
 			// 
@@ -3338,8 +3423,9 @@
 			this.YellowTag22.Name = "YellowTag22";
 			this.YellowTag22.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag22.TabIndex = 1;
-			this.YellowTag22.Text = "O";
 			this.YellowTag22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag22
 			// 
@@ -3354,8 +3440,9 @@
 			this.GreenTag22.Name = "GreenTag22";
 			this.GreenTag22.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag22.TabIndex = 2;
-			this.GreenTag22.Text = "O";
 			this.GreenTag22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag22
 			// 
@@ -3370,8 +3457,9 @@
 			this.BlueTag22.Name = "BlueTag22";
 			this.BlueTag22.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag22.TabIndex = 3;
-			this.BlueTag22.Text = "O";
 			this.BlueTag22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable23
 			// 
@@ -3432,8 +3520,9 @@
 			this.RedTag23.Name = "RedTag23";
 			this.RedTag23.Size = new System.Drawing.Size(21, 21);
 			this.RedTag23.TabIndex = 0;
-			this.RedTag23.Text = "O";
 			this.RedTag23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag23
 			// 
@@ -3448,8 +3537,9 @@
 			this.YellowTag23.Name = "YellowTag23";
 			this.YellowTag23.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag23.TabIndex = 1;
-			this.YellowTag23.Text = "O";
 			this.YellowTag23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag23
 			// 
@@ -3464,8 +3554,9 @@
 			this.GreenTag23.Name = "GreenTag23";
 			this.GreenTag23.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag23.TabIndex = 2;
-			this.GreenTag23.Text = "O";
 			this.GreenTag23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag23
 			// 
@@ -3480,8 +3571,9 @@
 			this.BlueTag23.Name = "BlueTag23";
 			this.BlueTag23.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag23.TabIndex = 3;
-			this.BlueTag23.Text = "O";
 			this.BlueTag23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable24
 			// 
@@ -3542,8 +3634,9 @@
 			this.RedTag24.Name = "RedTag24";
 			this.RedTag24.Size = new System.Drawing.Size(21, 21);
 			this.RedTag24.TabIndex = 0;
-			this.RedTag24.Text = "O";
 			this.RedTag24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag24.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag24.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag24
 			// 
@@ -3558,8 +3651,9 @@
 			this.YellowTag24.Name = "YellowTag24";
 			this.YellowTag24.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag24.TabIndex = 1;
-			this.YellowTag24.Text = "O";
 			this.YellowTag24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag24.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag24.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag24
 			// 
@@ -3574,8 +3668,9 @@
 			this.GreenTag24.Name = "GreenTag24";
 			this.GreenTag24.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag24.TabIndex = 2;
-			this.GreenTag24.Text = "O";
 			this.GreenTag24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag24.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag24.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag24
 			// 
@@ -3590,8 +3685,9 @@
 			this.BlueTag24.Name = "BlueTag24";
 			this.BlueTag24.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag24.TabIndex = 3;
-			this.BlueTag24.Text = "O";
 			this.BlueTag24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag24.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag24.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateTagTable25
 			// 
@@ -3652,8 +3748,9 @@
 			this.RedTag25.Name = "RedTag25";
 			this.RedTag25.Size = new System.Drawing.Size(21, 21);
 			this.RedTag25.TabIndex = 0;
-			this.RedTag25.Text = "O";
 			this.RedTag25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.RedTag25.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.RedTag25.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// YellowTag25
 			// 
@@ -3668,8 +3765,9 @@
 			this.YellowTag25.Name = "YellowTag25";
 			this.YellowTag25.Size = new System.Drawing.Size(21, 21);
 			this.YellowTag25.TabIndex = 1;
-			this.YellowTag25.Text = "O";
 			this.YellowTag25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.YellowTag25.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.YellowTag25.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// GreenTag25
 			// 
@@ -3684,8 +3782,9 @@
 			this.GreenTag25.Name = "GreenTag25";
 			this.GreenTag25.Size = new System.Drawing.Size(21, 21);
 			this.GreenTag25.TabIndex = 2;
-			this.GreenTag25.Text = "O";
 			this.GreenTag25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.GreenTag25.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.GreenTag25.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// BlueTag25
 			// 
@@ -3700,8 +3799,9 @@
 			this.BlueTag25.Name = "BlueTag25";
 			this.BlueTag25.Size = new System.Drawing.Size(21, 21);
 			this.BlueTag25.TabIndex = 3;
-			this.BlueTag25.Text = "O";
 			this.BlueTag25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.BlueTag25.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
+			this.BlueTag25.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.SpectateTag_Click);
 			// 
 			// SpectateUnhideButton
 			// 

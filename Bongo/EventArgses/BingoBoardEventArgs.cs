@@ -8,8 +8,10 @@ namespace Bongo {
 	class BingoBoardEventArgs {
 		public int[] Board;
 		public int Player;
+		public bool SameTeam;
 
-		public BingoBoardEventArgs(int[] board, int player) {
+		public BingoBoardEventArgs(int[] board, int player, bool sameTeam) {
+			SameTeam = sameTeam;
 			Board = board;
 			Player = player;
 		}

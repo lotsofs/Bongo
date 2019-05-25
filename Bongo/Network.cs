@@ -488,7 +488,8 @@ namespace Bongo {
 			for (int i = 0; i < 25; i++) {
 				colorsInt[i] = BitConverter.ToInt32(content, i * 4);
 			}
-			OnReceivedBingoBoard(this, new BingoBoardEventArgs(colorsInt, player.Color));
+			bool sameTeam = GetPlayer(_playerId).Color == player.Color;
+			OnReceivedBingoBoard(this, new BingoBoardEventArgs(colorsInt, player.Color, sameTeam));
 		}
 
 		// --------------------------------------------------------------------------------------------------------------------------
